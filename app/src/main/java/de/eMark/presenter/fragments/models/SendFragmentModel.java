@@ -1,4 +1,4 @@
-package io.digibyte.presenter.fragments.models;
+package de.eMark.presenter.fragments.models;
 
 import android.databinding.BaseObservable;
 import android.databinding.Bindable;
@@ -9,14 +9,14 @@ import android.text.TextUtils;
 
 import java.math.BigDecimal;
 
-import io.digibyte.BR;
-import io.digibyte.DigiByte;
-import io.digibyte.R;
-import io.digibyte.presenter.activities.util.ActivityUTILS;
-import io.digibyte.tools.manager.BRSharedPrefs;
-import io.digibyte.tools.util.BRCurrency;
-import io.digibyte.tools.util.BRExchange;
-import io.digibyte.wallet.BRWalletManager;
+import de.eMark.BR;
+import de.eMark.DigiByte;
+import de.eMark.R;
+import de.eMark.presenter.activities.util.ActivityUTILS;
+import de.eMark.tools.manager.BRSharedPrefs;
+import de.eMark.tools.util.BRCurrency;
+import de.eMark.tools.util.BRExchange;
+import de.eMark.wallet.BRWalletManager;
 
 public class SendFragmentModel extends BaseObservable implements Parcelable {
 

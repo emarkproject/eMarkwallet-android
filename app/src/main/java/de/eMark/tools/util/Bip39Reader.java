@@ -1,9 +1,9 @@
-package io.digibyte.tools.util;
+package de.eMark.tools.util;
 
 import android.content.Context;
 import android.content.res.AssetManager;
 
-import io.digibyte.tools.manager.BRReportsManager;
+import de.eMark.tools.manager.BRReportsManager;
 
 import java.io.BufferedReader;
 import java.io.IOException;

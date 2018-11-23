@@ -1,4 +1,4 @@
-package io.digibyte.presenter.activities.util;
+package de.eMark.presenter.activities.util;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -31,16 +31,16 @@ import com.scottyab.rootbeer.RootBeer;
 import java.io.InputStream;
 import java.util.concurrent.CopyOnWriteArrayList;
 
-import io.digibyte.R;
-import io.digibyte.presenter.activities.BreadActivity;
-import io.digibyte.presenter.fragments.interfaces.OnBackPressListener;
-import io.digibyte.presenter.interfaces.BRAuthCompletion;
-import io.digibyte.tools.animation.BRAnimator;
-import io.digibyte.tools.security.AuthManager;
-import io.digibyte.tools.security.BitcoinUrlHandler;
-import io.digibyte.tools.security.PostAuth;
-import io.digibyte.tools.threads.BRExecutor;
-import io.digibyte.tools.util.BRConstants;
+import de.eMark.R;
+import de.eMark.presenter.activities.BreadActivity;
+import de.eMark.presenter.fragments.interfaces.OnBackPressListener;
+import de.eMark.presenter.interfaces.BRAuthCompletion;
+import de.eMark.tools.animation.BRAnimator;
+import de.eMark.tools.security.AuthManager;
+import de.eMark.tools.security.BitcoinUrlHandler;
+import de.eMark.tools.security.PostAuth;
+import de.eMark.tools.threads.BRExecutor;
+import de.eMark.tools.util.BRConstants;
 import spencerstudios.com.bungeelib.Bungee;
 
 /**

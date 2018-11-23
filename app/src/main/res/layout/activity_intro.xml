@@ -2,11 +2,11 @@
 <layout>
     <data>
 
-        <variable name="callback" type="io.digibyte.presenter.activities.callbacks.IntroActivityCallback"/>
+        <variable name="callback" type="de.eMark.presenter.activities.callbacks.IntroActivityCallback"/>
 
     </data>
 
-    <io.digibyte.presenter.customviews.BRRelativeLayout
+    <de.eMark.presenter.customviews.BRRelativeLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/intro_layout"
@@ -69,6 +69,6 @@
             android:scaleType="fitXY"
             app:srcCompat="@drawable/intro_dgb"/>
 
-    </io.digibyte.presenter.customviews.BRRelativeLayout>
+    </de.eMark.presenter.customviews.BRRelativeLayout>
 
 </layout>

@@ -1,4 +1,4 @@
-package io.digibyte.tools.manager;
+package de.eMark.tools.manager;
 
 import android.os.Handler;
 import android.os.Looper;
@@ -9,9 +9,9 @@ import java.util.ArrayList;
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 
-import io.digibyte.DigiByte;
-import io.digibyte.wallet.BRPeerManager;
-import io.digibyte.wallet.BRWalletManager;
+import de.eMark.DigiByte;
+import de.eMark.wallet.BRPeerManager;
+import de.eMark.wallet.BRWalletManager;
 
 /**
  * BreadWallet

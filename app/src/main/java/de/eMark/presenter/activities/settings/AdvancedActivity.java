@@ -1,4 +1,4 @@
-package io.digibyte.presenter.activities.settings;
+package de.eMark.presenter.activities.settings;
 
 import android.app.Activity;
 import android.content.Context;
@@ -14,17 +14,17 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import io.digibyte.R;
-import io.digibyte.presenter.activities.util.ActivityUTILS;
-import io.digibyte.presenter.activities.util.BRActivity;
-import io.digibyte.presenter.entities.BRSettingsItem;
+import de.eMark.R;
+import de.eMark.presenter.activities.util.ActivityUTILS;
+import de.eMark.presenter.activities.util.BRActivity;
+import de.eMark.presenter.entities.BRSettingsItem;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-import static io.digibyte.R.layout.settings_list_item;
-import static io.digibyte.R.layout.settings_list_section;
+import static de.eMark.R.layout.settings_list_item;
+import static de.eMark.R.layout.settings_list_section;
 
 public class AdvancedActivity extends BRActivity {
     private static final String TAG = AdvancedActivity.class.getName();

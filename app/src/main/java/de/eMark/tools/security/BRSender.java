@@ -1,4 +1,4 @@
-package io.digibyte.tools.security;
+package de.eMark.tools.security;
 
 import android.app.Activity;
 import android.content.Context;
@@ -12,18 +12,18 @@ import com.crashlytics.android.Crashlytics;
 import java.math.BigDecimal;
 import java.util.Locale;
 
-import io.digibyte.R;
-import io.digibyte.presenter.entities.PaymentItem;
-import io.digibyte.presenter.interfaces.BRAuthCompletion;
-import io.digibyte.tools.animation.BRDialog;
-import io.digibyte.tools.manager.BRApiManager;
-import io.digibyte.tools.manager.BRReportsManager;
-import io.digibyte.tools.manager.BRSharedPrefs;
-import io.digibyte.tools.threads.BRExecutor;
-import io.digibyte.tools.util.BRConstants;
-import io.digibyte.tools.util.BRCurrency;
-import io.digibyte.tools.util.BRExchange;
-import io.digibyte.wallet.BRWalletManager;
+import de.eMark.R;
+import de.eMark.presenter.entities.PaymentItem;
+import de.eMark.presenter.interfaces.BRAuthCompletion;
+import de.eMark.tools.animation.BRDialog;
+import de.eMark.tools.manager.BRApiManager;
+import de.eMark.tools.manager.BRReportsManager;
+import de.eMark.tools.manager.BRSharedPrefs;
+import de.eMark.tools.threads.BRExecutor;
+import de.eMark.tools.util.BRConstants;
+import de.eMark.tools.util.BRCurrency;
+import de.eMark.tools.util.BRExchange;
+import de.eMark.wallet.BRWalletManager;
 
 /**
  * BreadWallet

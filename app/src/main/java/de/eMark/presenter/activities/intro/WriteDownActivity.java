@@ -1,4 +1,4 @@
-package io.digibyte.presenter.activities.intro;
+package de.eMark.presenter.activities.intro;
 
 import android.content.Intent;
 import android.databinding.DataBindingUtil;
@@ -6,13 +6,13 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 
-import io.digibyte.R;
-import io.digibyte.databinding.ActivityWriteDownBinding;
-import io.digibyte.presenter.activities.callbacks.ActivityWriteDownCallback;
-import io.digibyte.presenter.activities.util.BRActivity;
-import io.digibyte.tools.animation.BRAnimator;
-import io.digibyte.tools.security.AuthManager;
-import io.digibyte.tools.security.PostAuth;
+import de.eMark.R;
+import de.eMark.databinding.ActivityWriteDownBinding;
+import de.eMark.presenter.activities.callbacks.ActivityWriteDownCallback;
+import de.eMark.presenter.activities.util.BRActivity;
+import de.eMark.tools.animation.BRAnimator;
+import de.eMark.tools.security.AuthManager;
+import de.eMark.tools.security.PostAuth;
 
 public class WriteDownActivity extends BRActivity {
 

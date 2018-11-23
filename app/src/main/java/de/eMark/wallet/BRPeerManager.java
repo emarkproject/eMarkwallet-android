@@ -1,4 +1,4 @@
-package io.digibyte.wallet;
+package de.eMark.wallet;
 
 import android.content.Context;
 import android.util.Log;
@@ -6,15 +6,15 @@ import android.util.Log;
 import java.util.ArrayList;
 import java.util.List;
 
-import io.digibyte.DigiByte;
-import io.digibyte.presenter.entities.BlockEntity;
-import io.digibyte.presenter.entities.PeerEntity;
-import io.digibyte.tools.manager.BRSharedPrefs;
-import io.digibyte.tools.manager.SyncManager;
-import io.digibyte.tools.sqlite.MerkleBlockDataSource;
-import io.digibyte.tools.sqlite.PeerDataSource;
-import io.digibyte.tools.threads.BRExecutor;
-import io.digibyte.tools.util.TrustedNode;
+import de.eMark.DigiByte;
+import de.eMark.presenter.entities.BlockEntity;
+import de.eMark.presenter.entities.PeerEntity;
+import de.eMark.tools.manager.BRSharedPrefs;
+import de.eMark.tools.manager.SyncManager;
+import de.eMark.tools.sqlite.MerkleBlockDataSource;
+import de.eMark.tools.sqlite.PeerDataSource;
+import de.eMark.tools.threads.BRExecutor;
+import de.eMark.tools.util.TrustedNode;
 
 /**
  * BreadWallet

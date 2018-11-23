@@ -1,4 +1,4 @@
-package io.digibyte.presenter.fragments;
+package de.eMark.presenter.fragments;
 
 import android.animation.Animator;
 import android.animation.AnimatorInflater;
@@ -25,16 +25,16 @@ import android.view.ViewGroup;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.TextView;
 
-import io.digibyte.DigiByte;
-import io.digibyte.R;
-import io.digibyte.databinding.FragmentBreadPinBinding;
-import io.digibyte.presenter.fragments.interfaces.OnBackPressListener;
-import io.digibyte.presenter.fragments.interfaces.PinFragmentCallback;
-import io.digibyte.presenter.fragments.models.PinFragmentViewModel;
-import io.digibyte.presenter.interfaces.BRAuthCompletion;
-import io.digibyte.tools.animation.BRAnimator;
-import io.digibyte.tools.animation.SpringAnimator;
-import io.digibyte.tools.security.AuthManager;
+import de.eMark.DigiByte;
+import de.eMark.R;
+import de.eMark.databinding.FragmentBreadPinBinding;
+import de.eMark.presenter.fragments.interfaces.OnBackPressListener;
+import de.eMark.presenter.fragments.interfaces.PinFragmentCallback;
+import de.eMark.presenter.fragments.models.PinFragmentViewModel;
+import de.eMark.presenter.interfaces.BRAuthCompletion;
+import de.eMark.tools.animation.BRAnimator;
+import de.eMark.tools.animation.SpringAnimator;
+import de.eMark.tools.security.AuthManager;
 
 /**
  * BreadWallet

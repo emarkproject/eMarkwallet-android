@@ -1,4 +1,4 @@
-package io.digibyte.presenter.activities.settings;
+package de.eMark.presenter.activities.settings;
 
 import android.app.Activity;
 import android.content.Context;
@@ -18,15 +18,15 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-import io.digibyte.R;
-import io.digibyte.databinding.ActivitySecurityCenterBinding;
-import io.digibyte.presenter.activities.UpdatePinActivity;
-import io.digibyte.presenter.activities.intro.WriteDownActivity;
-import io.digibyte.presenter.activities.util.BRActivity;
-import io.digibyte.presenter.entities.BRSecurityCenterItem;
-import io.digibyte.tools.manager.BRSharedPrefs;
-import io.digibyte.tools.security.BRKeyStore;
-import io.digibyte.tools.util.Utils;
+import de.eMark.R;
+import de.eMark.databinding.ActivitySecurityCenterBinding;
+import de.eMark.presenter.activities.UpdatePinActivity;
+import de.eMark.presenter.activities.intro.WriteDownActivity;
+import de.eMark.presenter.activities.util.BRActivity;
+import de.eMark.presenter.entities.BRSecurityCenterItem;
+import de.eMark.tools.manager.BRSharedPrefs;
+import de.eMark.tools.security.BRKeyStore;
+import de.eMark.tools.util.Utils;
 
 public class SecurityCenterActivity extends BRActivity {
 

@@ -1,4 +1,4 @@
-package io.digibyte.presenter.fragments;
+package de.eMark.presenter.fragments;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import io.digibyte.R;
+import de.eMark.R;
 
 
 /**

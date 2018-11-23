@@ -1,4 +1,4 @@
-package io.digibyte.presenter.customviews;
+package de.eMark.presenter.customviews;
 
 import android.app.Activity;
 import android.content.Context;
@@ -10,8 +10,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import io.digibyte.DigiByte;
-import io.digibyte.R;
+import de.eMark.DigiByte;
+import de.eMark.R;
 
 /**
  * BreadWallet

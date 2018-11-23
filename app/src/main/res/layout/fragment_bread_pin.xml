@@ -7,11 +7,11 @@
         <import type="android.text.TextUtils"/>
         <import type="android.view.View"/>
         <variable name="callback"
-                  type="io.digibyte.presenter.fragments.interfaces.PinFragmentCallback"/>
-        <variable name="data" type="io.digibyte.presenter.fragments.models.PinFragmentViewModel"/>
+                  type="de.eMark.presenter.fragments.interfaces.PinFragmentCallback"/>
+        <variable name="data" type="de.eMark.presenter.fragments.models.PinFragmentViewModel"/>
     </data>
 
-    <io.digibyte.presenter.customviews.BRLinearLayout
+    <de.eMark.presenter.customviews.BRLinearLayout
         android:id="@+id/mainLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -127,7 +127,7 @@
 
         </LinearLayout>
 
-        <io.digibyte.presenter.customviews.BRKeyboard
+        <de.eMark.presenter.customviews.BRKeyboard
             android:id="@+id/brkeyboard"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -138,6 +138,6 @@
             app:setBRButtonTextColor="@{data.keyboardTextColor}"
             app:setShowDot="@{false}"/>
 
-    </io.digibyte.presenter.customviews.BRLinearLayout>
+    </de.eMark.presenter.customviews.BRLinearLayout>
 
 </layout>

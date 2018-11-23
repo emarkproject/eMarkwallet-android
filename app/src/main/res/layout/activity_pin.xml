@@ -5,15 +5,15 @@
 
         <variable
             name="callback"
-            type="io.digibyte.presenter.activities.callbacks.LoginActivityCallback"/>
+            type="de.eMark.presenter.activities.callbacks.LoginActivityCallback"/>
 
         <variable
             name="data"
-            type="io.digibyte.presenter.activities.models.PinActivityModel"/>
+            type="de.eMark.presenter.activities.models.PinActivityModel"/>
 
     </data>
 
-    <io.digibyte.presenter.customviews.BRLinearLayout
+    <de.eMark.presenter.customviews.BRLinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
@@ -24,7 +24,7 @@
         android:gravity="center_horizontal"
         android:orientation="vertical"
         android:textDirection="locale"
-        tools:context="io.digibyte.presenter.activities.LoginActivity">
+        tools:context="de.eMark.presenter.activities.LoginActivity">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -106,12 +106,12 @@
 
         </LinearLayout>
 
-        <io.digibyte.presenter.customviews.BRKeyboard
+        <de.eMark.presenter.customviews.BRKeyboard
             android:id="@+id/brkeyboard"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:setBRButtonTextColor="@{data.keyboardTextColor}"/>
 
 
-    </io.digibyte.presenter.customviews.BRLinearLayout>
+    </de.eMark.presenter.customviews.BRLinearLayout>
 </layout>

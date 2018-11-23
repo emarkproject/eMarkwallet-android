@@ -2,9 +2,9 @@
 <layout>
 
     <data>
-        <variable name="callback" type="io.digibyte.presenter.activities.SettingsCallback"/>
+        <variable name="callback" type="de.eMark.presenter.activities.SettingsCallback"/>
         <variable name="adapter"
-                  type="io.digibyte.presenter.activities.settings.SettingsActivity.SettingsListAdapter"/>
+                  type="de.eMark.presenter.activities.settings.SettingsActivity.SettingsListAdapter"/>
     </data>
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"

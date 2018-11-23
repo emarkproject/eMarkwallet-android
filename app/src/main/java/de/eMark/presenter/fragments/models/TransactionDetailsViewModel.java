@@ -1,4 +1,4 @@
-package io.digibyte.presenter.fragments.models;
+package de.eMark.presenter.fragments.models;
 
 import android.annotation.SuppressLint;
 import android.databinding.BaseObservable;
@@ -13,16 +13,16 @@ import java.text.DateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-import io.digibyte.DigiByte;
-import io.digibyte.R;
-import io.digibyte.presenter.entities.TxItem;
-import io.digibyte.tools.database.Database;
-import io.digibyte.tools.database.DigiTransaction;
-import io.digibyte.tools.manager.BRSharedPrefs;
-import io.digibyte.tools.manager.TxManager;
-import io.digibyte.tools.threads.BRExecutor;
-import io.digibyte.tools.util.BRCurrency;
-import io.digibyte.tools.util.BRExchange;
+import de.eMark.DigiByte;
+import de.eMark.R;
+import de.eMark.presenter.entities.TxItem;
+import de.eMark.tools.database.Database;
+import de.eMark.tools.database.DigiTransaction;
+import de.eMark.tools.manager.BRSharedPrefs;
+import de.eMark.tools.manager.TxManager;
+import de.eMark.tools.threads.BRExecutor;
+import de.eMark.tools.util.BRCurrency;
+import de.eMark.tools.util.BRExchange;
 
 public class TransactionDetailsViewModel extends BaseObservable {
 

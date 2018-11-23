@@ -1,4 +1,4 @@
-package io.digibyte.presenter.activities.settings;
+package de.eMark.presenter.activities.settings;
 
 import android.content.Context;
 import android.content.Intent;
@@ -20,12 +20,12 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
-import io.digibyte.R;
-import io.digibyte.databinding.ActivitySpendLimitBinding;
-import io.digibyte.presenter.activities.util.BRActivity;
-import io.digibyte.tools.manager.FontManager;
-import io.digibyte.tools.security.BRKeyStore;
-import io.digibyte.tools.util.BRCurrency;
+import de.eMark.R;
+import de.eMark.databinding.ActivitySpendLimitBinding;
+import de.eMark.presenter.activities.util.BRActivity;
+import de.eMark.tools.manager.FontManager;
+import de.eMark.tools.security.BRKeyStore;
+import de.eMark.tools.util.BRCurrency;
 
 
 public class SpendLimitActivity extends BRActivity {

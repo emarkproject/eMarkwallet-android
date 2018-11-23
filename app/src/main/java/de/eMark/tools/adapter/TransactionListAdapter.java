@@ -1,4 +1,4 @@
-package io.digibyte.tools.adapter;
+package de.eMark.tools.adapter;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -13,17 +13,17 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 
-import io.digibyte.DigiByte;
-import io.digibyte.databinding.ListItemTransactionBinding;
-import io.digibyte.presenter.entities.TxItem;
-import io.digibyte.presenter.fragments.models.TransactionDetailsViewModel;
-import io.digibyte.tools.animation.BRAnimator;
-import io.digibyte.tools.database.Database;
-import io.digibyte.tools.list.ListItemData;
-import io.digibyte.tools.list.items.ListItemTransactionData;
-import io.digibyte.tools.list.items.ListItemTransactionViewHolder;
-import io.digibyte.tools.manager.BRSharedPrefs;
-import io.digibyte.wallet.BRWalletManager;
+import de.eMark.DigiByte;
+import de.eMark.databinding.ListItemTransactionBinding;
+import de.eMark.presenter.entities.TxItem;
+import de.eMark.presenter.fragments.models.TransactionDetailsViewModel;
+import de.eMark.tools.animation.BRAnimator;
+import de.eMark.tools.database.Database;
+import de.eMark.tools.list.ListItemData;
+import de.eMark.tools.list.items.ListItemTransactionData;
+import de.eMark.tools.list.items.ListItemTransactionViewHolder;
+import de.eMark.tools.manager.BRSharedPrefs;
+import de.eMark.wallet.BRWalletManager;
 
 
 /**

@@ -1,4 +1,4 @@
-package io.digibyte.presenter.interfaces;
+package de.eMark.presenter.interfaces;
 
 /**
  * BreadWallet

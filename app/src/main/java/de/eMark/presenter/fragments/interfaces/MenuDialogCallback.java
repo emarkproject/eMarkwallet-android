@@ -1,4 +1,4 @@
-package io.digibyte.presenter.fragments.interfaces;
+package de.eMark.presenter.fragments.interfaces;
 
 public interface MenuDialogCallback {
     void onCancelClick();

@@ -1,4 +1,4 @@
-package io.digibyte.presenter.fragments;
+package de.eMark.presenter.fragments;
 
 import android.net.Uri;
 import android.os.Bundle;
@@ -12,14 +12,14 @@ import android.widget.Toast;
 
 import java.math.BigDecimal;
 
-import io.digibyte.R;
-import io.digibyte.presenter.fragments.interfaces.OnBackPressListener;
-import io.digibyte.tools.manager.BRClipboardManager;
-import io.digibyte.tools.manager.BRSharedPrefs;
-import io.digibyte.tools.qrcode.QRUtils;
-import io.digibyte.tools.util.BRCurrency;
-import io.digibyte.tools.util.BRExchange;
-import io.digibyte.tools.util.Utils;
+import de.eMark.R;
+import de.eMark.presenter.fragments.interfaces.OnBackPressListener;
+import de.eMark.tools.manager.BRClipboardManager;
+import de.eMark.tools.manager.BRSharedPrefs;
+import de.eMark.tools.qrcode.QRUtils;
+import de.eMark.tools.util.BRCurrency;
+import de.eMark.tools.util.BRExchange;
+import de.eMark.tools.util.Utils;
 
 /**
  * BreadWallet

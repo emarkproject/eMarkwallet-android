@@ -1,9 +1,9 @@
-package io.digibyte.presenter.activities.models;
+package de.eMark.presenter.activities.models;
 
 import android.databinding.BaseObservable;
 import android.databinding.Bindable;
 
-import io.digibyte.BR;
+import de.eMark.BR;
 
 public class InputWordsViewModel extends BaseObservable {
 

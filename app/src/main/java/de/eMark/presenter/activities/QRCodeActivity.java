@@ -1,4 +1,4 @@
-package io.digibyte.presenter.activities;
+package de.eMark.presenter.activities;
 
 import android.animation.ObjectAnimator;
 import android.content.Intent;
@@ -10,12 +10,12 @@ import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import io.digibyte.R;
-import io.digibyte.databinding.ActivityQrCodeBinding;
-import io.digibyte.presenter.activities.callbacks.ActivityQRCodeCallback;
-import io.digibyte.presenter.activities.util.BRActivity;
-import io.digibyte.tools.animation.BRAnimator;
-import io.digibyte.tools.qrcode.QRUtils;
+import de.eMark.R;
+import de.eMark.databinding.ActivityQrCodeBinding;
+import de.eMark.presenter.activities.callbacks.ActivityQRCodeCallback;
+import de.eMark.presenter.activities.util.BRActivity;
+import de.eMark.tools.animation.BRAnimator;
+import de.eMark.tools.qrcode.QRUtils;
 
 public class QRCodeActivity extends BRActivity {
 

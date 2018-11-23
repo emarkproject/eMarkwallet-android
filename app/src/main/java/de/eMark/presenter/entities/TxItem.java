@@ -1,4 +1,4 @@
-package io.digibyte.presenter.entities;
+package de.eMark.presenter.entities;
 
 
 import android.os.Parcel;
@@ -9,7 +9,7 @@ import com.platform.tools.KVStoreManager;
 
 import java.util.Arrays;
 
-import io.digibyte.DigiByte;
+import de.eMark.DigiByte;
 
 /**
  * BreadWallet

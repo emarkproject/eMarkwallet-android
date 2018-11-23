@@ -1,15 +1,15 @@
-package io.digibyte.presenter.activities.settings;
+package de.eMark.presenter.activities.settings;
 
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 
-import io.digibyte.R;
-import io.digibyte.databinding.ActivitySyncBlockchainBinding;
-import io.digibyte.presenter.activities.callbacks.ActivitySyncCallback;
-import io.digibyte.presenter.activities.util.BRActivity;
-import io.digibyte.tools.animation.BRAnimator;
-import io.digibyte.tools.animation.BRDialog;
-import io.digibyte.wallet.BRWalletManager;
+import de.eMark.R;
+import de.eMark.databinding.ActivitySyncBlockchainBinding;
+import de.eMark.presenter.activities.callbacks.ActivitySyncCallback;
+import de.eMark.presenter.activities.util.BRActivity;
+import de.eMark.tools.animation.BRAnimator;
+import de.eMark.tools.animation.BRDialog;
+import de.eMark.wallet.BRWalletManager;
 
 
 public class SyncBlockchainActivity extends BRActivity {

@@ -2,7 +2,7 @@ package com.jniwrappers;
 
 import android.app.Activity;
 
-import io.digibyte.wallet.BRWalletManager;
+import de.eMark.wallet.BRWalletManager;
 
 import static okhttp3.internal.Internal.instance;
 

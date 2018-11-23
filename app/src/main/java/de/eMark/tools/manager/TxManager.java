@@ -1,13 +1,13 @@
-package io.digibyte.tools.manager;
+package de.eMark.tools.manager;
 
 import android.os.Handler;
 import android.os.Looper;
 
 import java.util.ArrayList;
 
-import io.digibyte.presenter.entities.TxItem;
-import io.digibyte.tools.threads.BRExecutor;
-import io.digibyte.wallet.BRWalletManager;
+import de.eMark.presenter.entities.TxItem;
+import de.eMark.tools.threads.BRExecutor;
+import de.eMark.wallet.BRWalletManager;
 
 
 /**

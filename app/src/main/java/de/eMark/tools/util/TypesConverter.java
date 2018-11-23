@@ -1,4 +1,4 @@
-package io.digibyte.tools.util;
+package de.eMark.tools.util;
 
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;

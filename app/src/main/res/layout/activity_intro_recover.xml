@@ -4,10 +4,10 @@
     <data>
 
         <variable name="callback"
-                  type="io.digibyte.presenter.activities.callbacks.ActivityRecoverCallback"/>
+                  type="de.eMark.presenter.activities.callbacks.ActivityRecoverCallback"/>
 
     </data>
-    <io.digibyte.presenter.customviews.BRLinearLayout
+    <de.eMark.presenter.customviews.BRLinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context="io.digibyte.presenter.activities.intro.RecoverActivity">
+        tools:context="de.eMark.presenter.activities.intro.RecoverActivity">
 
         <include layout="@layout/toolbar"/>
 
@@ -67,7 +67,7 @@
                 app:layout_constraintTop_toTopOf="@+id/imageView4"/>
 
 
-            <io.digibyte.presenter.customviews.BRText
+            <de.eMark.presenter.customviews.BRText
                 android:id="@+id/textView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -99,7 +99,7 @@
         </android.support.constraint.ConstraintLayout>
 
 
-        <io.digibyte.presenter.customviews.BRText
+        <de.eMark.presenter.customviews.BRText
             android:id="@+id/textView8"
             style="@style/Text.Description.Top"
             android:layout_width="wrap_content"
@@ -121,6 +121,6 @@
             android:onClick="@{() -> callback.onNextClick()}"
             android:text="@string/RecoverWallet.next"/>
 
-    </io.digibyte.presenter.customviews.BRLinearLayout>
+    </de.eMark.presenter.customviews.BRLinearLayout>
 
 </layout>

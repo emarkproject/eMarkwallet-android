@@ -1,4 +1,4 @@
-package io.digibyte.presenter.activities;
+package de.eMark.presenter.activities;
 
 import android.content.Intent;
 import android.databinding.DataBindingUtil;
@@ -12,17 +12,17 @@ import android.view.WindowManager;
 
 import com.platform.tools.BRBitId;
 
-import io.digibyte.R;
-import io.digibyte.databinding.ActivityPinBinding;
-import io.digibyte.presenter.activities.callbacks.LoginActivityCallback;
-import io.digibyte.presenter.activities.models.PinActivityModel;
-import io.digibyte.presenter.activities.util.BRActivity;
-import io.digibyte.presenter.fragments.FragmentFingerprint;
-import io.digibyte.tools.animation.BRAnimator;
-import io.digibyte.tools.animation.SpringAnimator;
-import io.digibyte.tools.security.AuthManager;
-import io.digibyte.tools.security.BitcoinUrlHandler;
-import io.digibyte.wallet.BRWalletManager;
+import de.eMark.R;
+import de.eMark.databinding.ActivityPinBinding;
+import de.eMark.presenter.activities.callbacks.LoginActivityCallback;
+import de.eMark.presenter.activities.models.PinActivityModel;
+import de.eMark.presenter.activities.util.BRActivity;
+import de.eMark.presenter.fragments.FragmentFingerprint;
+import de.eMark.tools.animation.BRAnimator;
+import de.eMark.tools.animation.SpringAnimator;
+import de.eMark.tools.security.AuthManager;
+import de.eMark.tools.security.BitcoinUrlHandler;
+import de.eMark.wallet.BRWalletManager;
 
 public class LoginActivity extends BRActivity {
     private static final String TAG = LoginActivity.class.getName();

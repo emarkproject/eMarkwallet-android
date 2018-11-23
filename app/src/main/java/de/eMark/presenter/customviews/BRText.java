@@ -1,4 +1,4 @@
-package io.digibyte.presenter.customviews;
+package de.eMark.presenter.customviews;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -7,9 +7,9 @@ import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.widget.TextView;
 
-import io.digibyte.R;
-import io.digibyte.tools.manager.FontManager;
-import io.digibyte.tools.util.Utils;
+import de.eMark.R;
+import de.eMark.tools.manager.FontManager;
+import de.eMark.tools.util.Utils;
 
 /**
  * BreadWallet

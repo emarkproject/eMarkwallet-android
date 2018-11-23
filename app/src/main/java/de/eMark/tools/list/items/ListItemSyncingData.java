@@ -1,7 +1,7 @@
-package io.digibyte.tools.list.items;
+package de.eMark.tools.list.items;
 
-import io.digibyte.R;
-import io.digibyte.tools.list.ListItemData;
+import de.eMark.R;
+import de.eMark.tools.list.ListItemData;
 
 public class ListItemSyncingData extends ListItemData
 {

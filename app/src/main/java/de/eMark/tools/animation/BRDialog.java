@@ -1,4 +1,4 @@
-package io.digibyte.tools.animation;
+package de.eMark.tools.animation;
 
 import android.app.Activity;
 import android.content.Context;
@@ -6,8 +6,8 @@ import android.content.DialogInterface;
 import android.support.annotation.NonNull;
 import android.text.SpannableString;
 
-import io.digibyte.presenter.customviews.BRDialogView;
-import io.digibyte.tools.threads.BRExecutor;
+import de.eMark.presenter.customviews.BRDialogView;
+import de.eMark.tools.threads.BRExecutor;
 
 /**
  * BreadWallet

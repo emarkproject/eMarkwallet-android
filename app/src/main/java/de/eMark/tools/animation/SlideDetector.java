@@ -1,4 +1,4 @@
-package io.digibyte.tools.animation;
+package de.eMark.tools.animation;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;

@@ -1,4 +1,4 @@
-package io.digibyte.presenter.activities.adapters;
+package de.eMark.presenter.activities.adapters;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -9,9 +9,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import io.digibyte.R;
-import io.digibyte.presenter.entities.VerticalSpaceItemDecoration;
-import io.digibyte.tools.adapter.TransactionListAdapter;
+import de.eMark.R;
+import de.eMark.presenter.entities.VerticalSpaceItemDecoration;
+import de.eMark.tools.adapter.TransactionListAdapter;
 import jp.wasabeef.recyclerview.animators.SlideInDownAnimator;
 
 public class TxAdapter extends PagerAdapter {

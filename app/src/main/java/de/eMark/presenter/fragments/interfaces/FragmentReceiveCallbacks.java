@@ -1,6 +1,6 @@
-package io.digibyte.presenter.fragments.interfaces;
+package de.eMark.presenter.fragments.interfaces;
 
-import io.digibyte.presenter.customviews.BRKeyboard;
+import de.eMark.presenter.customviews.BRKeyboard;
 
 public interface FragmentReceiveCallbacks extends BRKeyboard.OnInsertListener {
 

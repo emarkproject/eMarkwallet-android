@@ -2,7 +2,7 @@
 ----------------------------------
 
 [![download](/images/icon-google-play.png)]
-(https://play.google.com/store/apps/details?id=io.digibyte)
+(https://play.google.com/store/apps/details?id=de.eMark)
 
 ###DigiByte done right
 

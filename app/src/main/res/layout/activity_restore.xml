@@ -3,16 +3,16 @@
 
     <data>
         <variable name="callback"
-                  type="io.digibyte.presenter.activities.callbacks.ActivityWipeCallback"/>
+                  type="de.eMark.presenter.activities.callbacks.ActivityWipeCallback"/>
     </data>
-    <io.digibyte.presenter.customviews.BRLinearLayout
+    <de.eMark.presenter.customviews.BRLinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/activity_intro_recover"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context="io.digibyte.presenter.activities.intro.RecoverActivity">
+        tools:context="de.eMark.presenter.activities.intro.RecoverActivity">
 
         <include layout="@layout/toolbar"/>
 
@@ -78,6 +78,6 @@
             android:onClick="@{() -> callback.onNextButtonClick()}"
             android:text="@string/RecoverWallet.next"/>
 
-    </io.digibyte.presenter.customviews.BRLinearLayout>
+    </de.eMark.presenter.customviews.BRLinearLayout>
 </layout>
 

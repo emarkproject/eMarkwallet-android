@@ -1,4 +1,4 @@
-package io.digibyte.presenter.fragments;
+package de.eMark.presenter.fragments;
 
 import android.animation.ObjectAnimator;
 import android.net.Uri;
@@ -13,19 +13,19 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import io.digibyte.DigiByte;
-import io.digibyte.R;
-import io.digibyte.databinding.FragmentReceiveBinding;
-import io.digibyte.presenter.activities.QRCodeActivity;
-import io.digibyte.presenter.fragments.interfaces.FragmentReceiveCallbacks;
-import io.digibyte.presenter.fragments.interfaces.OnBackPressListener;
-import io.digibyte.presenter.fragments.models.ReceiveFragmentModel;
-import io.digibyte.tools.animation.BRAnimator;
-import io.digibyte.tools.manager.BRClipboardManager;
-import io.digibyte.tools.manager.BRSharedPrefs;
-import io.digibyte.tools.qrcode.QRUtils;
-import io.digibyte.tools.util.Utils;
-import io.digibyte.wallet.BRWalletManager;
+import de.eMark.DigiByte;
+import de.eMark.R;
+import de.eMark.databinding.FragmentReceiveBinding;
+import de.eMark.presenter.activities.QRCodeActivity;
+import de.eMark.presenter.fragments.interfaces.FragmentReceiveCallbacks;
+import de.eMark.presenter.fragments.interfaces.OnBackPressListener;
+import de.eMark.presenter.fragments.models.ReceiveFragmentModel;
+import de.eMark.tools.animation.BRAnimator;
+import de.eMark.tools.manager.BRClipboardManager;
+import de.eMark.tools.manager.BRSharedPrefs;
+import de.eMark.tools.qrcode.QRUtils;
+import de.eMark.tools.util.Utils;
+import de.eMark.wallet.BRWalletManager;
 
 /**
  * BreadWallet

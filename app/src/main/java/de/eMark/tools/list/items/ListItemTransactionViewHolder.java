@@ -1,4 +1,4 @@
-package io.digibyte.tools.list.items;
+package de.eMark.tools.list.items;
 
 import android.databinding.BindingAdapter;
 import android.graphics.Color;
@@ -10,14 +10,14 @@ import java.text.DateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-import io.digibyte.R;
-import io.digibyte.databinding.ListItemTransactionBinding;
-import io.digibyte.presenter.entities.TxItem;
-import io.digibyte.tools.list.ListItemData;
-import io.digibyte.tools.list.ListItemViewHolder;
-import io.digibyte.tools.manager.BRSharedPrefs;
-import io.digibyte.tools.util.BRCurrency;
-import io.digibyte.tools.util.BRExchange;
+import de.eMark.R;
+import de.eMark.databinding.ListItemTransactionBinding;
+import de.eMark.presenter.entities.TxItem;
+import de.eMark.tools.list.ListItemData;
+import de.eMark.tools.list.ListItemViewHolder;
+import de.eMark.tools.manager.BRSharedPrefs;
+import de.eMark.tools.util.BRCurrency;
+import de.eMark.tools.util.BRExchange;
 
 public class ListItemTransactionViewHolder extends ListItemViewHolder {
     public ListItemTransactionBinding binding;

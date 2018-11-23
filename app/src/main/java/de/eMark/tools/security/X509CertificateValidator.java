@@ -1,9 +1,9 @@
-package io.digibyte.tools.security;
+package de.eMark.tools.security;
 
 import android.util.Log;
 
-import io.digibyte.presenter.entities.PaymentRequestWrapper;
-import io.digibyte.exceptions.CertificateChainNotFound;
+import de.eMark.presenter.entities.PaymentRequestWrapper;
+import de.eMark.exceptions.CertificateChainNotFound;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;

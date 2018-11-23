@@ -1,4 +1,4 @@
-package io.digibyte.presenter.customviews;
+package de.eMark.presenter.customviews;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -17,9 +17,9 @@ import android.widget.TextView;
 
 import com.crashlytics.android.Crashlytics;
 
-import io.digibyte.R;
-import io.digibyte.tools.manager.BRReportsManager;
-import io.digibyte.tools.util.Utils;
+import de.eMark.R;
+import de.eMark.tools.manager.BRReportsManager;
+import de.eMark.tools.util.Utils;
 
 /**
  * BreadWallet

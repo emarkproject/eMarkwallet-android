@@ -1,14 +1,14 @@
-package io.digibyte.presenter.activities;
+package de.eMark.presenter.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import io.digibyte.R;
-import io.digibyte.tools.animation.BRAnimator;
-import io.digibyte.tools.animation.SpringAnimator;
-import io.digibyte.tools.security.AuthManager;
-import io.digibyte.tools.security.PostAuth;
+import de.eMark.R;
+import de.eMark.tools.animation.BRAnimator;
+import de.eMark.tools.animation.SpringAnimator;
+import de.eMark.tools.security.AuthManager;
+import de.eMark.tools.security.PostAuth;
 
 public class UpdatePinActivity extends BasePinActivity {
     private Mode initialCreateMode;

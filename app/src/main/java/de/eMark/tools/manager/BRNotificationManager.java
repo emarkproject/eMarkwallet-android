@@ -1,4 +1,4 @@
-package io.digibyte.tools.manager;
+package de.eMark.tools.manager;
 
 import android.app.Activity;
 import android.app.NotificationManager;
@@ -8,7 +8,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.support.v4.app.NotificationCompat;
 
-import io.digibyte.presenter.activities.BreadActivity;
+import de.eMark.presenter.activities.BreadActivity;
 
 
 /**

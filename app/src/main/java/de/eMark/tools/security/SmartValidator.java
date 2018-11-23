@@ -1,14 +1,14 @@
-package io.digibyte.tools.security;
+package de.eMark.tools.security;
 
 import android.app.Activity;
 import android.content.Context;
 import android.util.Log;
 
-import io.digibyte.tools.manager.BRReportsManager;
-import io.digibyte.tools.manager.BRSharedPrefs;
-import io.digibyte.tools.util.Bip39Reader;
-import io.digibyte.tools.util.TypesConverter;
-import io.digibyte.wallet.BRWalletManager;
+import de.eMark.tools.manager.BRReportsManager;
+import de.eMark.tools.manager.BRSharedPrefs;
+import de.eMark.tools.util.Bip39Reader;
+import de.eMark.tools.util.TypesConverter;
+import de.eMark.wallet.BRWalletManager;
 
 import java.text.Normalizer;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package io.digibyte.presenter.activities.settings;
+package de.eMark.presenter.activities.settings;
 
 import android.app.Activity;
 import android.content.Context;
@@ -16,15 +16,15 @@ import android.widget.TextView;
 import java.math.BigDecimal;
 import java.util.Currency;
 
-import io.digibyte.R;
-import io.digibyte.databinding.ActivityDisplayCurrencyBinding;
-import io.digibyte.presenter.activities.util.BRActivity;
-import io.digibyte.presenter.entities.CurrencyEntity;
-import io.digibyte.tools.manager.BRSharedPrefs;
-import io.digibyte.tools.manager.FontManager;
-import io.digibyte.tools.sqlite.CurrencyDataSource;
-import io.digibyte.tools.util.BRConstants;
-import io.digibyte.tools.util.BRCurrency;
+import de.eMark.R;
+import de.eMark.databinding.ActivityDisplayCurrencyBinding;
+import de.eMark.presenter.activities.util.BRActivity;
+import de.eMark.presenter.entities.CurrencyEntity;
+import de.eMark.tools.manager.BRSharedPrefs;
+import de.eMark.tools.manager.FontManager;
+import de.eMark.tools.sqlite.CurrencyDataSource;
+import de.eMark.tools.util.BRConstants;
+import de.eMark.tools.util.BRCurrency;
 
 
 public class DisplayCurrencyActivity extends BRActivity {

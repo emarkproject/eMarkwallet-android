@@ -1,4 +1,4 @@
-package io.digibyte.tools.sqlite;
+package de.eMark.tools.sqlite;
 
 /**
  * BreadWallet
@@ -32,11 +32,11 @@ import android.database.sqlite.SQLiteDatabase;
 import android.os.NetworkOnMainThreadException;
 import android.util.Log;
 
-import io.digibyte.presenter.activities.util.ActivityUTILS;
-import io.digibyte.presenter.entities.BRPeerEntity;
-import io.digibyte.presenter.entities.PeerEntity;
-import io.digibyte.tools.manager.BRReportsManager;
-import io.digibyte.tools.util.BRConstants;
+import de.eMark.presenter.activities.util.ActivityUTILS;
+import de.eMark.presenter.entities.BRPeerEntity;
+import de.eMark.presenter.entities.PeerEntity;
+import de.eMark.tools.manager.BRReportsManager;
+import de.eMark.tools.util.BRConstants;
 
 import java.util.ArrayList;
 import java.util.List;

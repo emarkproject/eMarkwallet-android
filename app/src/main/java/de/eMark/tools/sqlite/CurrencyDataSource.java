@@ -1,4 +1,4 @@
-package io.digibyte.tools.sqlite;
+package de.eMark.tools.sqlite;
 
 /**
  * BreadWallet
@@ -30,9 +30,9 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import io.digibyte.presenter.entities.CurrencyEntity;
-import io.digibyte.tools.manager.BRReportsManager;
-import io.digibyte.tools.util.BRConstants;
+import de.eMark.presenter.entities.CurrencyEntity;
+import de.eMark.tools.manager.BRReportsManager;
+import de.eMark.tools.util.BRConstants;
 
 import java.util.ArrayList;
 import java.util.Collection;

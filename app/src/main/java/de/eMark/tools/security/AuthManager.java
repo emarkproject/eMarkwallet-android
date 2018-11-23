@@ -1,4 +1,4 @@
-package io.digibyte.tools.security;
+package de.eMark.tools.security;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -14,16 +14,16 @@ import android.view.View;
 
 import com.appolica.flubber.Flubber;
 
-import io.digibyte.DigiByte;
-import io.digibyte.R;
-import io.digibyte.presenter.activities.DisabledActivity;
-import io.digibyte.presenter.activities.util.ActivityUTILS;
-import io.digibyte.presenter.fragments.FragmentFingerprint;
-import io.digibyte.presenter.fragments.FragmentPin;
-import io.digibyte.presenter.interfaces.BRAuthCompletion;
-import io.digibyte.tools.animation.BRDialog;
-import io.digibyte.tools.manager.BRSharedPrefs;
-import io.digibyte.tools.util.Utils;
+import de.eMark.DigiByte;
+import de.eMark.R;
+import de.eMark.presenter.activities.DisabledActivity;
+import de.eMark.presenter.activities.util.ActivityUTILS;
+import de.eMark.presenter.fragments.FragmentFingerprint;
+import de.eMark.presenter.fragments.FragmentPin;
+import de.eMark.presenter.interfaces.BRAuthCompletion;
+import de.eMark.tools.animation.BRDialog;
+import de.eMark.tools.manager.BRSharedPrefs;
+import de.eMark.tools.util.Utils;
 
 /**
  * BreadWallet

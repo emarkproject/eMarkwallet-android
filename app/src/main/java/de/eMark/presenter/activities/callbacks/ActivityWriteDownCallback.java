@@ -1,4 +1,4 @@
-package io.digibyte.presenter.activities.callbacks;
+package de.eMark.presenter.activities.callbacks;
 
 public interface ActivityWriteDownCallback {
 

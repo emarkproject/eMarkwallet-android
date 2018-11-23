@@ -1,4 +1,4 @@
-package io.digibyte.presenter.fragments;
+package de.eMark.presenter.fragments;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -10,9 +10,9 @@ import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
 import android.widget.RelativeLayout;
 
-import io.digibyte.R;
-import io.digibyte.presenter.customviews.BRButton;
-import io.digibyte.tools.animation.BRAnimator;
+import de.eMark.R;
+import de.eMark.presenter.customviews.BRButton;
+import de.eMark.tools.animation.BRAnimator;
 
 /**
  * BreadWallet

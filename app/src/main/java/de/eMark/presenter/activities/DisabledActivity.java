@@ -1,4 +1,4 @@
-package io.digibyte.presenter.activities;
+package de.eMark.presenter.activities;
 
 import android.os.Bundle;
 import android.os.CountDownTimer;
@@ -9,11 +9,11 @@ import android.widget.TextView;
 
 import java.util.Locale;
 
-import io.digibyte.R;
-import io.digibyte.presenter.activities.util.BRActivity;
-import io.digibyte.tools.animation.BRAnimator;
-import io.digibyte.tools.animation.SpringAnimator;
-import io.digibyte.tools.security.AuthManager;
+import de.eMark.R;
+import de.eMark.presenter.activities.util.BRActivity;
+import de.eMark.tools.animation.BRAnimator;
+import de.eMark.tools.animation.SpringAnimator;
+import de.eMark.tools.security.AuthManager;
 
 
 public class DisabledActivity extends BRActivity {

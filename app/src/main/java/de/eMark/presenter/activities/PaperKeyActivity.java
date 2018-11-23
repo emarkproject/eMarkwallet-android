@@ -1,4 +1,4 @@
-package io.digibyte.presenter.activities;
+package de.eMark.presenter.activities;
 
 import android.content.Context;
 import android.content.Intent;
@@ -17,14 +17,14 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Locale;
 
-import io.digibyte.R;
-import io.digibyte.databinding.ActivityPaperKeyBinding;
-import io.digibyte.presenter.activities.callbacks.ActivityPaperKeyCallback;
-import io.digibyte.presenter.activities.util.BRActivity;
-import io.digibyte.presenter.fragments.FragmentPhraseWord;
-import io.digibyte.tools.animation.BRDialog;
-import io.digibyte.tools.manager.BRReportsManager;
-import io.digibyte.tools.security.PostAuth;
+import de.eMark.R;
+import de.eMark.databinding.ActivityPaperKeyBinding;
+import de.eMark.presenter.activities.callbacks.ActivityPaperKeyCallback;
+import de.eMark.presenter.activities.util.BRActivity;
+import de.eMark.presenter.fragments.FragmentPhraseWord;
+import de.eMark.tools.animation.BRDialog;
+import de.eMark.tools.manager.BRReportsManager;
+import de.eMark.tools.security.PostAuth;
 
 
 public class PaperKeyActivity extends BRActivity {

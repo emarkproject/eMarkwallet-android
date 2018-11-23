@@ -1,4 +1,4 @@
-package io.digibyte.presenter.activities.settings;
+package de.eMark.presenter.activities.settings;
 
 import android.content.Intent;
 import android.databinding.DataBindingUtil;
@@ -15,13 +15,13 @@ import android.widget.TextView;
 import java.util.LinkedList;
 import java.util.List;
 
-import io.digibyte.R;
-import io.digibyte.databinding.ActivitySettingsBinding;
-import io.digibyte.presenter.activities.SettingsCallback;
-import io.digibyte.presenter.activities.util.BRActivity;
-import io.digibyte.presenter.entities.BRSettingsItem;
-import io.digibyte.tools.manager.BRSharedPrefs;
-import io.digibyte.tools.security.AuthManager;
+import de.eMark.R;
+import de.eMark.databinding.ActivitySettingsBinding;
+import de.eMark.presenter.activities.SettingsCallback;
+import de.eMark.presenter.activities.util.BRActivity;
+import de.eMark.presenter.entities.BRSettingsItem;
+import de.eMark.tools.manager.BRSharedPrefs;
+import de.eMark.tools.security.AuthManager;
 
 public class SettingsActivity extends BRActivity {
     public List<BRSettingsItem> items = new LinkedList();

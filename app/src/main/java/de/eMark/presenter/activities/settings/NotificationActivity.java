@@ -1,13 +1,13 @@
-package io.digibyte.presenter.activities.settings;
+package de.eMark.presenter.activities.settings;
 
 import android.os.Bundle;
 import android.widget.CompoundButton;
 import android.widget.ToggleButton;
 
-import io.digibyte.R;
-import io.digibyte.presenter.activities.util.ActivityUTILS;
-import io.digibyte.presenter.activities.util.BRActivity;
-import io.digibyte.tools.manager.BRSharedPrefs;
+import de.eMark.R;
+import de.eMark.presenter.activities.util.ActivityUTILS;
+import de.eMark.presenter.activities.util.BRActivity;
+import de.eMark.tools.manager.BRSharedPrefs;
 
 public class NotificationActivity extends BRActivity {
     private static final String TAG = NotificationActivity.class.getName();

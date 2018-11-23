@@ -1,4 +1,4 @@
-package io.digibyte.presenter.fragments;
+package de.eMark.presenter.fragments;
 
 import android.animation.ObjectAnimator;
 import android.os.Bundle;
@@ -12,11 +12,11 @@ import android.view.ViewGroup;
 
 import junit.framework.Assert;
 
-import io.digibyte.databinding.FragmentNotificationBinding;
-import io.digibyte.presenter.fragments.interfaces.OnBackPressListener;
-import io.digibyte.presenter.fragments.models.FragmentSignalViewModel;
-import io.digibyte.presenter.interfaces.BROnSignalCompletion;
-import io.digibyte.tools.animation.BRAnimator;
+import de.eMark.databinding.FragmentNotificationBinding;
+import de.eMark.presenter.fragments.interfaces.OnBackPressListener;
+import de.eMark.presenter.fragments.models.FragmentSignalViewModel;
+import de.eMark.presenter.interfaces.BROnSignalCompletion;
+import de.eMark.tools.animation.BRAnimator;
 
 
 /**

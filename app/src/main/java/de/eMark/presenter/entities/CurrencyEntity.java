@@ -1,4 +1,4 @@
-package io.digibyte.presenter.entities;
+package de.eMark.presenter.entities;
 
 import java.io.Serializable;
 

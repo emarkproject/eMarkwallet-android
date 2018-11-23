@@ -14,7 +14,7 @@
  * limitations under the License
  */
 
-package io.digibyte.tools.security;
+package de.eMark.tools.security;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -25,7 +25,7 @@ import android.support.annotation.RequiresApi;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import io.digibyte.R;
+import de.eMark.R;
 
 /**
  * Small helper class to manage text/icon around fingerprint authentication UI.

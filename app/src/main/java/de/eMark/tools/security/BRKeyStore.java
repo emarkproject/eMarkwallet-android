@@ -1,4 +1,4 @@
-package io.digibyte.tools.security;
+package de.eMark.tools.security;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -49,15 +49,15 @@ import javax.crypto.SecretKey;
 import javax.crypto.spec.GCMParameterSpec;
 import javax.crypto.spec.IvParameterSpec;
 
-import io.digibyte.R;
-import io.digibyte.exceptions.BRKeystoreErrorException;
-import io.digibyte.tools.animation.BRDialog;
-import io.digibyte.tools.manager.BRReportsManager;
-import io.digibyte.tools.manager.BRSharedPrefs;
-import io.digibyte.tools.util.BytesUtil;
-import io.digibyte.tools.util.TypesConverter;
-import io.digibyte.tools.util.Utils;
-import io.digibyte.wallet.BRWalletManager;
+import de.eMark.R;
+import de.eMark.exceptions.BRKeystoreErrorException;
+import de.eMark.tools.animation.BRDialog;
+import de.eMark.tools.manager.BRReportsManager;
+import de.eMark.tools.manager.BRSharedPrefs;
+import de.eMark.tools.util.BytesUtil;
+import de.eMark.tools.util.TypesConverter;
+import de.eMark.tools.util.Utils;
+import de.eMark.wallet.BRWalletManager;
 
 /**
  * BreadWallet

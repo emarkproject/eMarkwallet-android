@@ -3,7 +3,7 @@
 
     <data>
         <variable name="callback"
-                  type="io.digibyte.presenter.activities.callbacks.ActivitySyncCallback"/>
+                  type="de.eMark.presenter.activities.callbacks.ActivitySyncCallback"/>
     </data>
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"

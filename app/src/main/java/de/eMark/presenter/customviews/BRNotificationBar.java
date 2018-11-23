@@ -1,12 +1,12 @@
-package io.digibyte.presenter.customviews;
+package de.eMark.presenter.customviews;
 
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 
-import io.digibyte.R;
-import io.digibyte.presenter.activities.BreadActivity;
+import de.eMark.R;
+import de.eMark.presenter.activities.BreadActivity;
 
 /**
  * BreadWallet

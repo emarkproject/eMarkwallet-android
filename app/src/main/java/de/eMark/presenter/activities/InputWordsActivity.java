@@ -1,4 +1,4 @@
-package io.digibyte.presenter.activities;
+package de.eMark.presenter.activities;
 
 import android.content.Intent;
 import android.databinding.DataBindingUtil;
@@ -12,21 +12,21 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import io.digibyte.DigiByte;
-import io.digibyte.R;
-import io.digibyte.databinding.ActivityInputWordsBinding;
-import io.digibyte.presenter.activities.callbacks.ActivityInputWordsCallback;
-import io.digibyte.presenter.activities.intro.IntroActivity;
-import io.digibyte.presenter.activities.models.InputWordsViewModel;
-import io.digibyte.presenter.activities.util.BRActivity;
-import io.digibyte.tools.animation.BRDialog;
-import io.digibyte.tools.animation.SpringAnimator;
-import io.digibyte.tools.manager.BRSharedPrefs;
-import io.digibyte.tools.security.AuthManager;
-import io.digibyte.tools.security.PostAuth;
-import io.digibyte.tools.security.SmartValidator;
-import io.digibyte.tools.util.Utils;
-import io.digibyte.wallet.BRWalletManager;
+import de.eMark.DigiByte;
+import de.eMark.R;
+import de.eMark.databinding.ActivityInputWordsBinding;
+import de.eMark.presenter.activities.callbacks.ActivityInputWordsCallback;
+import de.eMark.presenter.activities.intro.IntroActivity;
+import de.eMark.presenter.activities.models.InputWordsViewModel;
+import de.eMark.presenter.activities.util.BRActivity;
+import de.eMark.tools.animation.BRDialog;
+import de.eMark.tools.animation.SpringAnimator;
+import de.eMark.tools.manager.BRSharedPrefs;
+import de.eMark.tools.security.AuthManager;
+import de.eMark.tools.security.PostAuth;
+import de.eMark.tools.security.SmartValidator;
+import de.eMark.tools.util.Utils;
+import de.eMark.wallet.BRWalletManager;
 
 public class InputWordsActivity extends BRActivity implements TextView.OnEditorActionListener {
     private static final String INPUT_WORDS_TYPE = "InputWordsActivity:Type";

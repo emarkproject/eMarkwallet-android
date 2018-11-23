@@ -1,4 +1,4 @@
-package io.digibyte.tools.security;
+package de.eMark.tools.security;
 
 import android.app.Activity;
 import android.content.Context;
@@ -12,17 +12,17 @@ import com.platform.tools.KVStoreManager;
 import java.security.InvalidKeyException;
 import java.util.Arrays;
 
-import io.digibyte.presenter.activities.PaperKeyActivity;
-import io.digibyte.presenter.activities.PaperKeyProveActivity;
-import io.digibyte.presenter.activities.UpdatePinActivity;
-import io.digibyte.presenter.activities.intro.WriteDownActivity;
-import io.digibyte.presenter.entities.PaymentItem;
-import io.digibyte.presenter.entities.PaymentRequestWrapper;
-import io.digibyte.tools.manager.BRReportsManager;
-import io.digibyte.tools.manager.BRSharedPrefs;
-import io.digibyte.tools.util.BRConstants;
-import io.digibyte.tools.util.TypesConverter;
-import io.digibyte.wallet.BRWalletManager;
+import de.eMark.presenter.activities.PaperKeyActivity;
+import de.eMark.presenter.activities.PaperKeyProveActivity;
+import de.eMark.presenter.activities.UpdatePinActivity;
+import de.eMark.presenter.activities.intro.WriteDownActivity;
+import de.eMark.presenter.entities.PaymentItem;
+import de.eMark.presenter.entities.PaymentRequestWrapper;
+import de.eMark.tools.manager.BRReportsManager;
+import de.eMark.tools.manager.BRSharedPrefs;
+import de.eMark.tools.util.BRConstants;
+import de.eMark.tools.util.TypesConverter;
+import de.eMark.wallet.BRWalletManager;
 
 /**
  * BreadWallet

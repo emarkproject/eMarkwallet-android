@@ -1,15 +1,15 @@
-package io.digibyte.presenter.activities;
+package de.eMark.presenter.activities;
 
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.Nullable;
 
-import io.digibyte.R;
-import io.digibyte.databinding.ActivityPinTemplateBinding;
-import io.digibyte.presenter.activities.models.PinActivityModel;
-import io.digibyte.presenter.activities.util.BRActivity;
-import io.digibyte.tools.security.AuthManager;
+import de.eMark.R;
+import de.eMark.databinding.ActivityPinTemplateBinding;
+import de.eMark.presenter.activities.models.PinActivityModel;
+import de.eMark.presenter.activities.util.BRActivity;
+import de.eMark.tools.security.AuthManager;
 
 public abstract class BasePinActivity extends BRActivity {
 

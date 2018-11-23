@@ -1,8 +1,8 @@
-package io.digibyte.presenter.interfaces;
+package de.eMark.presenter.interfaces;
 
 import java.io.Serializable;
 
-import io.digibyte.presenter.entities.PaymentItem;
+import de.eMark.presenter.entities.PaymentItem;
 
 /**
  * BreadWallet

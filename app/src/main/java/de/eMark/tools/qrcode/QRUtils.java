@@ -1,4 +1,4 @@
-package io.digibyte.tools.qrcode;
+package de.eMark.tools.qrcode;
 
 import static android.graphics.Color.BLACK;
 import static android.graphics.Color.WHITE;
@@ -28,7 +28,7 @@ import java.io.IOException;
 import java.util.EnumMap;
 import java.util.Map;
 
-import io.digibyte.R;
+import de.eMark.R;
 
 /**
  * BreadWallet
@@ -157,7 +157,7 @@ public class QRUtils {
             qrImageFile.createNewFile();
             FileOutputStream fOut = new FileOutputStream(qrImageFile);
             qrImage.compress(Bitmap.CompressFormat.JPEG, 80, fOut);
-            return FileProvider.getUriForFile(context, "io.digibyte.fileprovider", qrImageFile);
+            return FileProvider.getUriForFile(context, "de.eMark.fileprovider", qrImageFile);
         } catch(Exception e) {
             e.printStackTrace();
         }

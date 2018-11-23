@@ -1,6 +1,6 @@
-package io.digibyte.tools.manager;
+package de.eMark.tools.manager;
 
-import static io.digibyte.tools.util.BRConstants.GEO_PERMISSIONS_REQUESTED;
+import static de.eMark.tools.util.BRConstants.GEO_PERMISSIONS_REQUESTED;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Locale;
 import java.util.UUID;
 
-import io.digibyte.tools.util.BRConstants;
+import de.eMark.tools.util.BRConstants;
 
 /**
  * BreadWallet

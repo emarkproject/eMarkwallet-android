@@ -1,5 +1,5 @@
 
-package io.digibyte.presenter.activities.intro;
+package de.eMark.presenter.activities.intro;
 
 import android.content.Intent;
 import android.databinding.DataBindingUtil;
@@ -8,15 +8,15 @@ import android.support.v7.app.AppCompatActivity;
 
 import java.io.Serializable;
 
-import io.digibyte.R;
-import io.digibyte.databinding.ActivityIntroBinding;
-import io.digibyte.presenter.activities.UpdatePinActivity;
-import io.digibyte.presenter.activities.callbacks.IntroActivityCallback;
-import io.digibyte.presenter.activities.util.BRActivity;
-import io.digibyte.tools.security.BRKeyStore;
-import io.digibyte.tools.security.PostAuth;
-import io.digibyte.tools.security.SmartValidator;
-import io.digibyte.wallet.BRWalletManager;
+import de.eMark.R;
+import de.eMark.databinding.ActivityIntroBinding;
+import de.eMark.presenter.activities.UpdatePinActivity;
+import de.eMark.presenter.activities.callbacks.IntroActivityCallback;
+import de.eMark.presenter.activities.util.BRActivity;
+import de.eMark.tools.security.BRKeyStore;
+import de.eMark.tools.security.PostAuth;
+import de.eMark.tools.security.SmartValidator;
+import de.eMark.wallet.BRWalletManager;
 
 
 /**

@@ -1,4 +1,4 @@
-package io.digibyte.presenter.fragments;
+package de.eMark.presenter.fragments;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -7,14 +7,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import io.digibyte.DigiByte;
-import io.digibyte.R;
-import io.digibyte.databinding.TransactionDetailsItemBinding;
-import io.digibyte.presenter.entities.TxItem;
-import io.digibyte.presenter.fragments.interfaces.TransactionDetailsCallback;
-import io.digibyte.presenter.fragments.models.TransactionDetailsViewModel;
-import io.digibyte.tools.manager.BRClipboardManager;
-import io.digibyte.tools.manager.BRSharedPrefs;
+import de.eMark.DigiByte;
+import de.eMark.R;
+import de.eMark.databinding.TransactionDetailsItemBinding;
+import de.eMark.presenter.entities.TxItem;
+import de.eMark.presenter.fragments.interfaces.TransactionDetailsCallback;
+import de.eMark.presenter.fragments.models.TransactionDetailsViewModel;
+import de.eMark.tools.manager.BRClipboardManager;
+import de.eMark.tools.manager.BRSharedPrefs;
 
 /**
  * BreadWallet

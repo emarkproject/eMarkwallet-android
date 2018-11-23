@@ -252,7 +252,7 @@ static void threadCleanup(void *info) {
         (*_jvmPM)->DetachCurrentThread(_jvmPM);
 }
 
-JNIEXPORT void JNICALL Java_io_digibyte_wallet_BRPeerManager_rescan(JNIEnv *env, jobject thiz) {
+JNIEXPORT void JNICALL Java_de_eMark_wallet_BRPeerManager_rescan(JNIEnv *env, jobject thiz) {
     __android_log_print(ANDROID_LOG_DEBUG, "Message from C: ", "rescan");
     if (!_peerManager)
         __android_log_print(ANDROID_LOG_ERROR, "Message from C: ",
@@ -263,14 +263,14 @@ JNIEXPORT void JNICALL Java_io_digibyte_wallet_BRPeerManager_rescan(JNIEnv *env,
 }
 
 JNIEXPORT void JNICALL
-Java_io_digibyte_wallet_BRPeerManager_create(JNIEnv *env, jobject thiz,
+Java_de_eMark_wallet_BRPeerManager_create(JNIEnv *env, jobject thiz,
                                                  int earliestKeyTime,
                                                  int blocksCount, int peersCount) {
     return CreateInternal(env, thiz, earliestKeyTime, blocksCount, peersCount, (*env)->NewStringUTF(env, ""), 0, 0, 0);
 }
 
 JNIEXPORT void JNICALL
-Java_io_digibyte_wallet_BRPeerManager_createNew(JNIEnv *env, jobject thiz,
+Java_de_eMark_wallet_BRPeerManager_createNew(JNIEnv *env, jobject thiz,
                                              int earliestKeyTime,
                                              int blocksCount, int peersCount, jstring blockhash, int height, long timestamp, int target) {
     return CreateInternal(env, thiz, earliestKeyTime, blocksCount, peersCount, blockhash, height, timestamp, target);
@@ -344,7 +344,7 @@ void CreateInternal(JNIEnv *env, jobject thiz,
                                  (jint) BRPeerManagerLastBlockHeight(_peerManager));
 }
 
-JNIEXPORT void JNICALL Java_io_digibyte_wallet_BRPeerManager_connect(JNIEnv *env,
+JNIEXPORT void JNICALL Java_de_eMark_wallet_BRPeerManager_connect(JNIEnv *env,
                                                                          jobject thiz) {
     __android_log_print(ANDROID_LOG_DEBUG, "Message from C: ", "connect");
     if (_peerManager) BRPeerManagerConnect(_peerManager);
@@ -353,7 +353,7 @@ JNIEXPORT void JNICALL Java_io_digibyte_wallet_BRPeerManager_connect(JNIEnv *env
 
 //Call multiple times with all the blocks from the DB
 JNIEXPORT void JNICALL
-Java_io_digibyte_wallet_BRPeerManager_putBlock(JNIEnv *env, jobject thiz, jbyteArray block,
+Java_de_eMark_wallet_BRPeerManager_putBlock(JNIEnv *env, jobject thiz, jbyteArray block,
                                                    int blockHeight) {
 //    __android_log_print(ANDROID_LOG_ERROR, "Message from C: ", "putBlock");
 
@@ -376,7 +376,7 @@ Java_io_digibyte_wallet_BRPeerManager_putBlock(JNIEnv *env, jobject thiz, jbyteA
 }
 
 JNIEXPORT void JNICALL
-Java_io_digibyte_wallet_BRPeerManager_createBlockArrayWithCount(JNIEnv *env, jobject thiz,
+Java_de_eMark_wallet_BRPeerManager_createBlockArrayWithCount(JNIEnv *env, jobject thiz,
                                                                     size_t blockCount) {
     __android_log_print(ANDROID_LOG_DEBUG, "Message from C: ",
                         "block array created with count: %zu", blockCount);
@@ -387,7 +387,7 @@ Java_io_digibyte_wallet_BRPeerManager_createBlockArrayWithCount(JNIEnv *env, job
 
 //Call multiple times with all the peers from the DB
 JNIEXPORT void JNICALL
-Java_io_digibyte_wallet_BRPeerManager_putPeer(JNIEnv *env, jobject thiz, jbyteArray peerAddress,
+Java_de_eMark_wallet_BRPeerManager_putPeer(JNIEnv *env, jobject thiz, jbyteArray peerAddress,
                                                   jbyteArray peerPort, jbyteArray peerTimeStamp) {
 //    __android_log_print(ANDROID_LOG_ERROR, "Message from C: ", "putPeer");
 
@@ -410,7 +410,7 @@ Java_io_digibyte_wallet_BRPeerManager_putPeer(JNIEnv *env, jobject thiz, jbyteAr
 }
 
 JNIEXPORT void JNICALL
-Java_io_digibyte_wallet_BRPeerManager_createPeerArrayWithCount(JNIEnv *env, jobject thiz,
+Java_de_eMark_wallet_BRPeerManager_createPeerArrayWithCount(JNIEnv *env, jobject thiz,
                                                                    size_t peerCount) {
     __android_log_print(ANDROID_LOG_DEBUG, "Message from C: ", "peer array created with count: %zu",
                         peerCount);
@@ -420,21 +420,21 @@ Java_io_digibyte_wallet_BRPeerManager_createPeerArrayWithCount(JNIEnv *env, jobj
 }
 
 JNIEXPORT jdouble JNICALL
-Java_io_digibyte_wallet_BRPeerManager_syncProgress(JNIEnv *env, jobject thiz, int startHeight) {
+Java_de_eMark_wallet_BRPeerManager_syncProgress(JNIEnv *env, jobject thiz, int startHeight) {
 //    __android_log_print(ANDROID_LOG_ERROR, "Message from C: ", "syncProgress");
     if (!_peerManager || !_wallet) return 0;
     return (jdouble) BRPeerManagerSyncProgress(_peerManager, (uint32_t) startHeight);
     // need to call free();
 }
 
-JNIEXPORT jint JNICALL Java_io_digibyte_wallet_BRPeerManager_getCurrentBlockHeight(JNIEnv *env,
+JNIEXPORT jint JNICALL Java_de_eMark_wallet_BRPeerManager_getCurrentBlockHeight(JNIEnv *env,
                                                                                        jobject thiz) {
 //    __android_log_print(ANDROID_LOG_ERROR, "Message from C: ", "getCurrentBlockHeight");
     if (!_peerManager) return 0;
     return (jint) BRPeerManagerLastBlockHeight(_peerManager);
 }
 
-JNIEXPORT jint JNICALL Java_io_digibyte_wallet_BRPeerManager_getRelayCount(JNIEnv *env,
+JNIEXPORT jint JNICALL Java_de_eMark_wallet_BRPeerManager_getRelayCount(JNIEnv *env,
                                                                                jobject thiz,
                                                                                jbyteArray txHash) {
 //    __android_log_print(ANDROID_LOG_ERROR, "Message from C: ", "getCurrentBlockHeight");
@@ -445,7 +445,7 @@ JNIEXPORT jint JNICALL Java_io_digibyte_wallet_BRPeerManager_getRelayCount(JNIEn
     return (jint) BRPeerManagerRelayCount(_peerManager, theHash);
 }
 
-JNIEXPORT jboolean JNICALL Java_io_digibyte_wallet_BRPeerManager_isCreated(JNIEnv *env,
+JNIEXPORT jboolean JNICALL Java_de_eMark_wallet_BRPeerManager_isCreated(JNIEnv *env,
                                                                                jobject obj) {
     __android_log_print(ANDROID_LOG_DEBUG, "Message from C: ", "peerManager isCreated %s",
                         _peerManager ? "yes" : "no");
@@ -454,7 +454,7 @@ JNIEXPORT jboolean JNICALL Java_io_digibyte_wallet_BRPeerManager_isCreated(JNIEn
 
 
 //0 = disconnected, 1 = connecting, 2 = connected, -1 = _peerManager is null, -2 = something went wrong.
-JNIEXPORT jint JNICALL Java_io_digibyte_wallet_BRPeerManager_connectionStatus(JNIEnv *env,
+JNIEXPORT jint JNICALL Java_de_eMark_wallet_BRPeerManager_connectionStatus(JNIEnv *env,
                                                                                   jobject obj) {
     __android_log_print(ANDROID_LOG_DEBUG, "Message from C: ", "isConnected");
     if (!_peerManager) return -1;
@@ -466,21 +466,21 @@ JNIEXPORT jint JNICALL Java_io_digibyte_wallet_BRPeerManager_connectionStatus(JN
     return -2;
 }
 
-JNIEXPORT jint JNICALL Java_io_digibyte_wallet_BRPeerManager_getEstimatedBlockHeight(
+JNIEXPORT jint JNICALL Java_de_eMark_wallet_BRPeerManager_getEstimatedBlockHeight(
         JNIEnv *env, jobject thiz) {
 //    __android_log_print(ANDROID_LOG_ERROR, "Message from C: ", "getEstimatedBlockHeight");
     if (!_peerManager || !_wallet) return 0;
     return (jint) BRPeerManagerEstimatedBlockHeight(_peerManager);
 }
 
-JNIEXPORT jlong JNICALL Java_io_digibyte_wallet_BRPeerManager_getLastBlockTimestamp(
+JNIEXPORT jlong JNICALL Java_de_eMark_wallet_BRPeerManager_getLastBlockTimestamp(
         JNIEnv *env, jobject thiz) {
 //    __android_log_print(ANDROID_LOG_ERROR, "Message from C: ", "getLastBlockTimestamp");
     if (!_peerManager || !_wallet) return 0;
     return (jint) BRPeerManagerLastBlockTimestamp(_peerManager);
 }
 
-JNIEXPORT jstring JNICALL Java_io_digibyte_wallet_BRPeerManager_getCurrentPeerName(
+JNIEXPORT jstring JNICALL Java_de_eMark_wallet_BRPeerManager_getCurrentPeerName(
         JNIEnv *env, jobject thiz) {
 //    __android_log_print(ANDROID_LOG_DEBUG, "Message from C: ", "getEstimatedBlockHeight");
     if (!_peerManager || !_wallet) return 0;
@@ -488,7 +488,7 @@ JNIEXPORT jstring JNICALL Java_io_digibyte_wallet_BRPeerManager_getCurrentPeerNa
     return (*env)->NewStringUTF(env, BRPeerManagerDownloadPeerName(_peerManager));
 }
 
-JNIEXPORT jboolean JNICALL Java_io_digibyte_wallet_BRPeerManager_setFixedPeer(
+JNIEXPORT jboolean JNICALL Java_de_eMark_wallet_BRPeerManager_setFixedPeer(
         JNIEnv *env, jobject thiz, jstring node, jint port) {
     __android_log_print(ANDROID_LOG_DEBUG, "Message from C: ", "updateFixedPeer");
     if (!_peerManager) return JNI_FALSE;
@@ -511,7 +511,7 @@ JNIEXPORT jboolean JNICALL Java_io_digibyte_wallet_BRPeerManager_setFixedPeer(
     return JNI_TRUE;
 }
 
-JNIEXPORT void JNICALL Java_io_digibyte_wallet_BRPeerManager_peerManagerFreeEverything(
+JNIEXPORT void JNICALL Java_de_eMark_wallet_BRPeerManager_peerManagerFreeEverything(
         JNIEnv *env, jobject thiz) {
     __android_log_print(ANDROID_LOG_DEBUG, "Message from C: ", "peerManagerFreeEverything");
 

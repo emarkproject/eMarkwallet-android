@@ -25,7 +25,7 @@ android {
     defaultConfig {
         vectorDrawables.useSupportLibrary = true
         testInstrumentationRunner = 'android.support.test.runner.AndroidJUnitRunner'
-        applicationId = 'io.digibyte'
+        applicationId = 'de.eMark'
         minSdkVersion 17
         targetSdkVersion 27
         versionCode 2343
@@ -69,9 +69,9 @@ android {
 
     productFlavors {
         digibyte {
-            applicationId "io.digibyte"
+            applicationId "de.eMark"
             dimension "mode"
-            resValue "string", "app_name", "DigiByte"
+            resValue "string", "app_name", "eMark"
             buildConfigField "boolean", "BITCOIN_TESTNET", "false"
 
             externalNativeBuild {
@@ -86,9 +86,9 @@ android {
         }
 
         digibyteTestnet {
-            applicationId "io.digibytetestnet"
+            applicationId "de.eMarktestnet"
             dimension "mode"
-            resValue "string", "app_name", "digibyte-testnet"
+            resValue "string", "app_name", "eMark-testnet"
             buildConfigField "boolean", "BITCOIN_TESTNET", "true"
 
             externalNativeBuild {

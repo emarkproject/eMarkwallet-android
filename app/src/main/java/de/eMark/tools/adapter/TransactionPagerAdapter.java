@@ -1,4 +1,4 @@
-package io.digibyte.tools.adapter;
+package de.eMark.tools.adapter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -6,8 +6,8 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 
 import java.util.List;
 
-import io.digibyte.presenter.fragments.FragmentTransactionItem;
-import io.digibyte.tools.list.items.ListItemTransactionData;
+import de.eMark.presenter.fragments.FragmentTransactionItem;
+import de.eMark.tools.list.items.ListItemTransactionData;
 
 /**
  * BreadWallet

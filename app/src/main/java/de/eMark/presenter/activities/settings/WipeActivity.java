@@ -1,15 +1,15 @@
-package io.digibyte.presenter.activities.settings;
+package de.eMark.presenter.activities.settings;
 
 import android.content.Intent;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import io.digibyte.R;
-import io.digibyte.databinding.ActivityRestoreBinding;
-import io.digibyte.presenter.activities.InputWordsActivity;
-import io.digibyte.presenter.activities.callbacks.ActivityWipeCallback;
-import io.digibyte.presenter.activities.util.BRActivity;
+import de.eMark.R;
+import de.eMark.databinding.ActivityRestoreBinding;
+import de.eMark.presenter.activities.InputWordsActivity;
+import de.eMark.presenter.activities.callbacks.ActivityWipeCallback;
+import de.eMark.presenter.activities.util.BRActivity;
 
 
 public class WipeActivity extends BRActivity {

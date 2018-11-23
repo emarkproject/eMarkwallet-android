@@ -1,4 +1,4 @@
-package io.digibyte.presenter.activities.settings;
+package de.eMark.presenter.activities.settings;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -15,18 +15,18 @@ import android.view.View;
 
 import java.math.BigDecimal;
 
-import io.digibyte.DigiByte;
-import io.digibyte.R;
-import io.digibyte.databinding.ActivityFingerprintBinding;
-import io.digibyte.presenter.activities.util.BRActivity;
-import io.digibyte.presenter.interfaces.BRAuthCompletion;
-import io.digibyte.tools.animation.BRDialog;
-import io.digibyte.tools.manager.BRSharedPrefs;
-import io.digibyte.tools.security.AuthManager;
-import io.digibyte.tools.security.BRKeyStore;
-import io.digibyte.tools.util.BRCurrency;
-import io.digibyte.tools.util.BRExchange;
-import io.digibyte.tools.util.Utils;
+import de.eMark.DigiByte;
+import de.eMark.R;
+import de.eMark.databinding.ActivityFingerprintBinding;
+import de.eMark.presenter.activities.util.BRActivity;
+import de.eMark.presenter.interfaces.BRAuthCompletion;
+import de.eMark.tools.animation.BRDialog;
+import de.eMark.tools.manager.BRSharedPrefs;
+import de.eMark.tools.security.AuthManager;
+import de.eMark.tools.security.BRKeyStore;
+import de.eMark.tools.util.BRCurrency;
+import de.eMark.tools.util.BRExchange;
+import de.eMark.tools.util.Utils;
 
 
 public class FingerprintActivity extends BRActivity {

@@ -6,17 +6,17 @@
     <data>
 
         <variable name="callback"
-                  type="io.digibyte.presenter.activities.callbacks.ActivityWriteDownCallback"/>
+                  type="de.eMark.presenter.activities.callbacks.ActivityWriteDownCallback"/>
     </data>
 
-    <io.digibyte.presenter.customviews.BRLinearLayout
+    <de.eMark.presenter.customviews.BRLinearLayout
         android:id="@+id/activity_write_down"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:filterTouchesWhenObscured="true"
         android:textDirection="locale"
-        tools:context="io.digibyte.presenter.activities.intro.WriteDownActivity">
+        tools:context="de.eMark.presenter.activities.intro.WriteDownActivity">
 
         <include layout="@layout/toolbar"/>
 
@@ -66,5 +66,5 @@
             android:onClick="@{() -> callback.onWriteDownButtonClick()}"
             android:text="@string/StartPaperPhrase.buttonTitle"/>
 
-    </io.digibyte.presenter.customviews.BRLinearLayout>
+    </de.eMark.presenter.customviews.BRLinearLayout>
 </layout>

@@ -1,6 +1,6 @@
-package io.digibyte.tools.util;
+package de.eMark.tools.util;
 
-import io.digibyte.tools.manager.BRReportsManager;
+import de.eMark.tools.manager.BRReportsManager;
 
 import org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream;
 import org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream;

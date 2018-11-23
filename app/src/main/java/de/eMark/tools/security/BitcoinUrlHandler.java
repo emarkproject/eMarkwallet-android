@@ -1,4 +1,4 @@
-package io.digibyte.tools.security;
+package de.eMark.tools.security;
 
 import android.text.TextUtils;
 import android.util.Log;
@@ -6,9 +6,9 @@ import android.util.Log;
 import java.math.BigDecimal;
 import java.net.URI;
 
-import io.digibyte.presenter.entities.PaymentRequestWrapper;
-import io.digibyte.presenter.entities.RequestObject;
-import io.digibyte.wallet.BRWalletManager;
+import de.eMark.presenter.entities.PaymentRequestWrapper;
+import de.eMark.presenter.entities.RequestObject;
+import de.eMark.wallet.BRWalletManager;
 
 
 /**

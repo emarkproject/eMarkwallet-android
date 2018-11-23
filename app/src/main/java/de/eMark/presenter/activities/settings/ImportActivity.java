@@ -1,4 +1,4 @@
-package io.digibyte.presenter.activities.settings;
+package de.eMark.presenter.activities.settings;
 
 import android.content.pm.PackageManager;
 import android.os.Bundle;
@@ -6,10 +6,10 @@ import android.support.annotation.NonNull;
 import android.widget.Button;
 import android.widget.ImageButton;
 
-import io.digibyte.R;
-import io.digibyte.presenter.activities.util.BRActivity;
-import io.digibyte.tools.animation.BRAnimator;
-import io.digibyte.tools.util.BRConstants;
+import de.eMark.R;
+import de.eMark.presenter.activities.util.BRActivity;
+import de.eMark.tools.animation.BRAnimator;
+import de.eMark.tools.util.BRConstants;
 
 
 public class ImportActivity extends BRActivity {

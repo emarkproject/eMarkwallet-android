@@ -1,6 +1,6 @@
-package io.digibyte.presenter.fragments;
+package de.eMark.presenter.fragments;
 
-import static io.digibyte.tools.security.BitcoinUrlHandler.getRequestFromString;
+import static de.eMark.tools.security.BitcoinUrlHandler.getRequestFromString;
 
 import android.animation.LayoutTransition;
 import android.animation.ObjectAnimator;
@@ -23,27 +23,27 @@ import android.widget.TextView;
 
 import java.math.BigDecimal;
 
-import io.digibyte.R;
-import io.digibyte.databinding.FragmentSendBinding;
-import io.digibyte.presenter.activities.util.BRActivity;
-import io.digibyte.presenter.customviews.BRDialogView;
-import io.digibyte.presenter.entities.PaymentItem;
-import io.digibyte.presenter.entities.RequestObject;
-import io.digibyte.presenter.fragments.interfaces.FragmentSendCallbacks;
-import io.digibyte.presenter.fragments.interfaces.OnBackPressListener;
-import io.digibyte.presenter.fragments.models.SendFragmentModel;
-import io.digibyte.tools.animation.BRAnimator;
-import io.digibyte.tools.animation.BRDialog;
-import io.digibyte.tools.animation.SpringAnimator;
-import io.digibyte.tools.manager.BRClipboardManager;
-import io.digibyte.tools.manager.BRSharedPrefs;
-import io.digibyte.tools.security.BRSender;
-import io.digibyte.tools.security.BitcoinUrlHandler;
-import io.digibyte.tools.threads.BRExecutor;
-import io.digibyte.tools.util.BRCurrency;
-import io.digibyte.tools.util.BRExchange;
-import io.digibyte.tools.util.Utils;
-import io.digibyte.wallet.BRWalletManager;
+import de.eMark.R;
+import de.eMark.databinding.FragmentSendBinding;
+import de.eMark.presenter.activities.util.BRActivity;
+import de.eMark.presenter.customviews.BRDialogView;
+import de.eMark.presenter.entities.PaymentItem;
+import de.eMark.presenter.entities.RequestObject;
+import de.eMark.presenter.fragments.interfaces.FragmentSendCallbacks;
+import de.eMark.presenter.fragments.interfaces.OnBackPressListener;
+import de.eMark.presenter.fragments.models.SendFragmentModel;
+import de.eMark.tools.animation.BRAnimator;
+import de.eMark.tools.animation.BRDialog;
+import de.eMark.tools.animation.SpringAnimator;
+import de.eMark.tools.manager.BRClipboardManager;
+import de.eMark.tools.manager.BRSharedPrefs;
+import de.eMark.tools.security.BRSender;
+import de.eMark.tools.security.BitcoinUrlHandler;
+import de.eMark.tools.threads.BRExecutor;
+import de.eMark.tools.util.BRCurrency;
+import de.eMark.tools.util.BRExchange;
+import de.eMark.tools.util.Utils;
+import de.eMark.wallet.BRWalletManager;
 
 
 /**

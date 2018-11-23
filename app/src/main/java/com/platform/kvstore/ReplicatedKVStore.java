@@ -46,11 +46,11 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import io.digibyte.DigiByte;
-import io.digibyte.tools.security.BRKeyStore;
-import io.digibyte.tools.threads.BRExecutor;
-import io.digibyte.tools.util.BRConstants;
-import io.digibyte.tools.util.Utils;
+import de.eMark.DigiByte;
+import de.eMark.tools.security.BRKeyStore;
+import de.eMark.tools.threads.BRExecutor;
+import de.eMark.tools.util.BRConstants;
+import de.eMark.tools.util.Utils;
 
 public class ReplicatedKVStore {
     private static final String TAG = ReplicatedKVStore.class.getName();

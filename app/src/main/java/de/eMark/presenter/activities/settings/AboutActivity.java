@@ -1,4 +1,4 @@
-package io.digibyte.presenter.activities.settings;
+package de.eMark.presenter.activities.settings;
 
 import android.content.Intent;
 import android.content.pm.PackageInfo;
@@ -10,8 +10,8 @@ import android.widget.TextView;
 
 import java.util.Locale;
 
-import io.digibyte.R;
-import io.digibyte.presenter.activities.util.BRActivity;
+import de.eMark.R;
+import de.eMark.presenter.activities.util.BRActivity;
 
 public class AboutActivity extends BRActivity {
     private TextView policyText;

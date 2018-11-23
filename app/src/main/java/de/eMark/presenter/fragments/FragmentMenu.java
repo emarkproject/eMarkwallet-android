@@ -1,4 +1,4 @@
-package io.digibyte.presenter.fragments;
+package de.eMark.presenter.fragments;
 
 import android.animation.ObjectAnimator;
 import android.os.Bundle;
@@ -15,12 +15,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import io.digibyte.R;
-import io.digibyte.databinding.FragmentMenuBinding;
-import io.digibyte.presenter.entities.BRMenuItem;
-import io.digibyte.presenter.fragments.interfaces.MenuDialogCallback;
-import io.digibyte.presenter.fragments.interfaces.OnBackPressListener;
-import io.digibyte.tools.animation.BRAnimator;
+import de.eMark.R;
+import de.eMark.databinding.FragmentMenuBinding;
+import de.eMark.presenter.entities.BRMenuItem;
+import de.eMark.presenter.fragments.interfaces.MenuDialogCallback;
+import de.eMark.presenter.fragments.interfaces.OnBackPressListener;
+import de.eMark.tools.animation.BRAnimator;
 
 /**
  * BreadWallet

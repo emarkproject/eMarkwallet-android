@@ -1,4 +1,4 @@
-package io.digibyte.tools.manager;
+package de.eMark.tools.manager;
 
 import android.annotation.SuppressLint;
 import android.content.ClipData;

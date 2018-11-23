@@ -1,4 +1,4 @@
-package io.digibyte.tools.manager;
+package de.eMark.tools.manager;
 
 import android.app.Activity;
 import android.content.Context;
@@ -21,12 +21,12 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Set;
 
-import io.digibyte.DigiByte;
-import io.digibyte.presenter.entities.CurrencyEntity;
-import io.digibyte.tools.sqlite.CurrencyDataSource;
-import io.digibyte.tools.threads.BRExecutor;
-import io.digibyte.tools.util.Utils;
-import io.digibyte.wallet.BRWalletManager;
+import de.eMark.DigiByte;
+import de.eMark.presenter.entities.CurrencyEntity;
+import de.eMark.tools.sqlite.CurrencyDataSource;
+import de.eMark.tools.threads.BRExecutor;
+import de.eMark.tools.util.Utils;
+import de.eMark.wallet.BRWalletManager;
 import okhttp3.Request;
 import okhttp3.Response;
 

@@ -2,7 +2,7 @@ package com.jniwrappers;
 
 import android.util.Log;
 
-import io.digibyte.tools.util.Utils;
+import de.eMark.tools.util.Utils;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package io.digibyte.presenter.fragments;/*
+package de.eMark.presenter.fragments;/*
  * Copyright (C) 2015 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -32,16 +32,16 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import io.digibyte.DigiByte;
-import io.digibyte.R;
-import io.digibyte.databinding.FingerprintDialogContainerBinding;
-import io.digibyte.presenter.fragments.interfaces.FingerprintFragmentCallback;
-import io.digibyte.presenter.fragments.interfaces.OnBackPressListener;
-import io.digibyte.presenter.fragments.models.FingerprintFragmentViewModel;
-import io.digibyte.presenter.interfaces.BRAuthCompletion;
-import io.digibyte.tools.animation.BRAnimator;
-import io.digibyte.tools.security.AuthManager;
-import io.digibyte.tools.security.FingerprintUiHelper;
+import de.eMark.DigiByte;
+import de.eMark.R;
+import de.eMark.databinding.FingerprintDialogContainerBinding;
+import de.eMark.presenter.fragments.interfaces.FingerprintFragmentCallback;
+import de.eMark.presenter.fragments.interfaces.OnBackPressListener;
+import de.eMark.presenter.fragments.models.FingerprintFragmentViewModel;
+import de.eMark.presenter.interfaces.BRAuthCompletion;
+import de.eMark.tools.animation.BRAnimator;
+import de.eMark.tools.security.AuthManager;
+import de.eMark.tools.security.FingerprintUiHelper;
 
 
 /**

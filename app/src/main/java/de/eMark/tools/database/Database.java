@@ -1,4 +1,4 @@
-package io.digibyte.tools.database;
+package de.eMark.tools.database;
 
 import android.arch.persistence.room.Room;
 import android.os.Handler;
@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 
-import io.digibyte.DigiByte;
+import de.eMark.DigiByte;
 
 public class Database {
     public static Database instance = new Database();

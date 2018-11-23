@@ -1,4 +1,4 @@
-package io.digibyte.presenter.activities;
+package de.eMark.presenter.activities;
 
 import android.content.Intent;
 import android.databinding.DataBindingUtil;
@@ -18,18 +18,18 @@ import android.widget.TextView;
 import java.util.Locale;
 import java.util.Random;
 
-import io.digibyte.R;
-import io.digibyte.databinding.ActivityPaperKeyProveBinding;
-import io.digibyte.presenter.activities.callbacks.ActivityPaperKeyProveCallback;
-import io.digibyte.presenter.activities.util.BRActivity;
-import io.digibyte.tools.animation.BRAnimator;
-import io.digibyte.tools.animation.BRDialog;
-import io.digibyte.tools.animation.SpringAnimator;
-import io.digibyte.tools.manager.BRReportsManager;
-import io.digibyte.tools.manager.BRSharedPrefs;
-import io.digibyte.tools.security.SmartValidator;
-import io.digibyte.tools.util.Bip39Reader;
-import io.digibyte.tools.util.Utils;
+import de.eMark.R;
+import de.eMark.databinding.ActivityPaperKeyProveBinding;
+import de.eMark.presenter.activities.callbacks.ActivityPaperKeyProveCallback;
+import de.eMark.presenter.activities.util.BRActivity;
+import de.eMark.tools.animation.BRAnimator;
+import de.eMark.tools.animation.BRDialog;
+import de.eMark.tools.animation.SpringAnimator;
+import de.eMark.tools.manager.BRReportsManager;
+import de.eMark.tools.manager.BRSharedPrefs;
+import de.eMark.tools.security.SmartValidator;
+import de.eMark.tools.util.Bip39Reader;
+import de.eMark.tools.util.Utils;
 
 
 public class PaperKeyProveActivity extends BRActivity implements TextView.OnEditorActionListener {

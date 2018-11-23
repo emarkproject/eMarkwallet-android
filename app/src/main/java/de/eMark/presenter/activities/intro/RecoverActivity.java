@@ -1,13 +1,13 @@
-package io.digibyte.presenter.activities.intro;
+package de.eMark.presenter.activities.intro;
 
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 
-import io.digibyte.R;
-import io.digibyte.databinding.ActivityIntroRecoverBinding;
-import io.digibyte.presenter.activities.InputWordsActivity;
-import io.digibyte.presenter.activities.callbacks.ActivityRecoverCallback;
-import io.digibyte.presenter.activities.util.BRActivity;
+import de.eMark.R;
+import de.eMark.databinding.ActivityIntroRecoverBinding;
+import de.eMark.presenter.activities.InputWordsActivity;
+import de.eMark.presenter.activities.callbacks.ActivityRecoverCallback;
+import de.eMark.presenter.activities.util.BRActivity;
 
 public class RecoverActivity extends BRActivity {
 

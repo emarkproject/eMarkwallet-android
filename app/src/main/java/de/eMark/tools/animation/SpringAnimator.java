@@ -1,4 +1,4 @@
-package io.digibyte.tools.animation;
+package de.eMark.tools.animation;
 
 import android.content.Context;
 import android.view.View;
@@ -6,7 +6,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.view.animation.ScaleAnimation;
 
-import io.digibyte.R;
+import de.eMark.R;
 
 /**
  * BreadWallet

@@ -1,9 +1,9 @@
-package io.digibyte.presenter.fragments.interfaces;
+package de.eMark.presenter.fragments.interfaces;
 
 import android.view.View;
 import android.widget.TextView;
 
-import io.digibyte.presenter.customviews.BRKeyboard;
+import de.eMark.presenter.customviews.BRKeyboard;
 
 public interface FragmentSendCallbacks extends View.OnKeyListener, BRKeyboard.OnInsertListener,
         TextView.OnEditorActionListener {

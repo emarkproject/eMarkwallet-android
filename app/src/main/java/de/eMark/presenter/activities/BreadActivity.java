@@ -1,4 +1,4 @@
-package io.digibyte.presenter.activities;
+package de.eMark.presenter.activities;
 
 import android.animation.Animator;
 import android.animation.AnimatorInflater;
@@ -30,28 +30,28 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import butterknife.OnLongClick;
 import butterknife.Unbinder;
-import io.digibyte.DigiByte;
-import io.digibyte.R;
-import io.digibyte.databinding.ActivityBreadBinding;
-import io.digibyte.presenter.activities.adapters.TxAdapter;
-import io.digibyte.presenter.activities.settings.SecurityCenterActivity;
-import io.digibyte.presenter.activities.settings.SettingsActivity;
-import io.digibyte.presenter.activities.settings.SyncBlockchainActivity;
-import io.digibyte.presenter.activities.util.ActivityUTILS;
-import io.digibyte.presenter.activities.util.BRActivity;
-import io.digibyte.presenter.entities.TxItem;
-import io.digibyte.tools.animation.BRAnimator;
-import io.digibyte.tools.list.items.ListItemTransactionData;
-import io.digibyte.tools.manager.BRApiManager;
-import io.digibyte.tools.manager.BRSharedPrefs;
-import io.digibyte.tools.manager.SyncManager;
-import io.digibyte.tools.manager.TxManager;
-import io.digibyte.tools.manager.TxManager.onStatusListener;
-import io.digibyte.tools.sqlite.TransactionDataSource;
-import io.digibyte.tools.threads.BRExecutor;
-import io.digibyte.tools.util.ViewUtils;
-import io.digibyte.wallet.BRPeerManager;
-import io.digibyte.wallet.BRWalletManager;
+import de.eMark.DigiByte;
+import de.eMark.R;
+import de.eMark.databinding.ActivityBreadBinding;
+import de.eMark.presenter.activities.adapters.TxAdapter;
+import de.eMark.presenter.activities.settings.SecurityCenterActivity;
+import de.eMark.presenter.activities.settings.SettingsActivity;
+import de.eMark.presenter.activities.settings.SyncBlockchainActivity;
+import de.eMark.presenter.activities.util.ActivityUTILS;
+import de.eMark.presenter.activities.util.BRActivity;
+import de.eMark.presenter.entities.TxItem;
+import de.eMark.tools.animation.BRAnimator;
+import de.eMark.tools.list.items.ListItemTransactionData;
+import de.eMark.tools.manager.BRApiManager;
+import de.eMark.tools.manager.BRSharedPrefs;
+import de.eMark.tools.manager.SyncManager;
+import de.eMark.tools.manager.TxManager;
+import de.eMark.tools.manager.TxManager.onStatusListener;
+import de.eMark.tools.sqlite.TransactionDataSource;
+import de.eMark.tools.threads.BRExecutor;
+import de.eMark.tools.util.ViewUtils;
+import de.eMark.wallet.BRPeerManager;
+import de.eMark.wallet.BRWalletManager;
 
 /**
  * BreadWallet

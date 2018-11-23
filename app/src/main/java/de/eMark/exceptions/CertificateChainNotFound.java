@@ -1,4 +1,4 @@
-package io.digibyte.exceptions;
+package de.eMark.exceptions;
 
 import java.security.GeneralSecurityException;
 

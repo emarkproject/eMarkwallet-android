@@ -1,16 +1,16 @@
-package io.digibyte.tools.list.items;
+package de.eMark.tools.list.items;
 
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import io.digibyte.DigiByte;
-import io.digibyte.R;
-import io.digibyte.presenter.customviews.BRText;
-import io.digibyte.tools.list.ListItemData;
-import io.digibyte.tools.list.ListItemViewHolder;
-import io.digibyte.tools.manager.SyncManager;
-import io.digibyte.tools.util.Utils;
+import de.eMark.DigiByte;
+import de.eMark.R;
+import de.eMark.presenter.customviews.BRText;
+import de.eMark.tools.list.ListItemData;
+import de.eMark.tools.list.ListItemViewHolder;
+import de.eMark.tools.manager.SyncManager;
+import de.eMark.tools.util.Utils;
 
 public class ListItemSyncingViewHolder extends ListItemViewHolder {
     private final TextView date;

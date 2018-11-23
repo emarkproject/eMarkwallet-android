@@ -1,15 +1,15 @@
-package io.digibyte.tools.manager;
+package de.eMark.tools.manager;
 
-import static io.digibyte.tools.manager.PromptManager.PromptItem.FINGER_PRINT;
-import static io.digibyte.tools.manager.PromptManager.PromptItem.PAPER_KEY;
-import static io.digibyte.tools.manager.PromptManager.PromptItem.RECOMMEND_RESCAN;
-import static io.digibyte.tools.manager.PromptManager.PromptItem.UPGRADE_PIN;
+import static de.eMark.tools.manager.PromptManager.PromptItem.FINGER_PRINT;
+import static de.eMark.tools.manager.PromptManager.PromptItem.PAPER_KEY;
+import static de.eMark.tools.manager.PromptManager.PromptItem.RECOMMEND_RESCAN;
+import static de.eMark.tools.manager.PromptManager.PromptItem.UPGRADE_PIN;
 
 import android.content.Context;
 
-import io.digibyte.DigiByte;
-import io.digibyte.tools.security.BRKeyStore;
-import io.digibyte.tools.util.Utils;
+import de.eMark.DigiByte;
+import de.eMark.tools.security.BRKeyStore;
+import de.eMark.tools.util.Utils;
 
 /**
  * BreadWallet

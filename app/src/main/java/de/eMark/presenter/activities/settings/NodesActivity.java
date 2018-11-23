@@ -1,4 +1,4 @@
-package io.digibyte.presenter.activities.settings;
+package de.eMark.presenter.activities.settings;
 
 import android.app.AlertDialog;
 import android.graphics.Typeface;
@@ -12,14 +12,14 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import io.digibyte.R;
-import io.digibyte.presenter.activities.util.BRActivity;
-import io.digibyte.tools.animation.BRAnimator;
-import io.digibyte.tools.manager.BRSharedPrefs;
-import io.digibyte.tools.threads.BRExecutor;
-import io.digibyte.tools.util.TrustedNode;
-import io.digibyte.tools.util.Utils;
-import io.digibyte.wallet.BRPeerManager;
+import de.eMark.R;
+import de.eMark.presenter.activities.util.BRActivity;
+import de.eMark.tools.animation.BRAnimator;
+import de.eMark.tools.manager.BRSharedPrefs;
+import de.eMark.tools.threads.BRExecutor;
+import de.eMark.tools.util.TrustedNode;
+import de.eMark.tools.util.Utils;
+import de.eMark.wallet.BRPeerManager;
 
 
 public class NodesActivity extends BRActivity {

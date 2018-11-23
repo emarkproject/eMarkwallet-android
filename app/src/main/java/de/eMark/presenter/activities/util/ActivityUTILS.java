@@ -1,4 +1,4 @@
-package io.digibyte.presenter.activities.util;
+package de.eMark.presenter.activities.util;
 
 import android.animation.ValueAnimator;
 import android.annotation.TargetApi;
@@ -19,15 +19,15 @@ import java.text.DecimalFormatSymbols;
 import java.text.NumberFormat;
 import java.util.Locale;
 
-import io.digibyte.R;
-import io.digibyte.presenter.activities.BasePinActivity;
-import io.digibyte.presenter.activities.DisabledActivity;
-import io.digibyte.presenter.activities.InputWordsActivity;
-import io.digibyte.tools.animation.BRDialog;
-import io.digibyte.tools.manager.BRSharedPrefs;
-import io.digibyte.tools.threads.BRExecutor;
-import io.digibyte.tools.util.BRCurrency;
-import io.digibyte.tools.util.BRExchange;
+import de.eMark.R;
+import de.eMark.presenter.activities.BasePinActivity;
+import de.eMark.presenter.activities.DisabledActivity;
+import de.eMark.presenter.activities.InputWordsActivity;
+import de.eMark.tools.animation.BRDialog;
+import de.eMark.tools.manager.BRSharedPrefs;
+import de.eMark.tools.threads.BRExecutor;
+import de.eMark.tools.util.BRCurrency;
+import de.eMark.tools.util.BRExchange;
 
 
 /**

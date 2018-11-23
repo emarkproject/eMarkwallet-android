@@ -1,4 +1,4 @@
-package io.digibyte.presenter.customviews;
+package de.eMark.presenter.customviews;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -16,9 +16,9 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-import io.digibyte.R;
-import io.digibyte.presenter.activities.util.ActivityUTILS;
-import io.digibyte.tools.util.Utils;
+import de.eMark.R;
+import de.eMark.presenter.activities.util.ActivityUTILS;
+import de.eMark.tools.util.Utils;
 
 
 /**

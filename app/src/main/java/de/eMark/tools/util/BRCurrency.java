@@ -1,6 +1,6 @@
-package io.digibyte.tools.util;
+package de.eMark.tools.util;
 
-import static io.digibyte.tools.util.BRConstants.CURRENT_UNIT_BITS;
+import static de.eMark.tools.util.BRConstants.CURRENT_UNIT_BITS;
 
 import android.content.Context;
 
@@ -10,7 +10,7 @@ import java.text.DecimalFormatSymbols;
 import java.util.Currency;
 import java.util.Locale;
 
-import io.digibyte.tools.manager.BRSharedPrefs;
+import de.eMark.tools.manager.BRSharedPrefs;
 
 /**
  * BreadWallet

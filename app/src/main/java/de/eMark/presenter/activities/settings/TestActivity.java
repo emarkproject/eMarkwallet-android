@@ -1,9 +1,9 @@
-package io.digibyte.presenter.activities.settings;
+package de.eMark.presenter.activities.settings;
 
 import android.os.Bundle;
 
-import io.digibyte.R;
-import io.digibyte.presenter.activities.util.BRActivity;
+import de.eMark.R;
+import de.eMark.presenter.activities.util.BRActivity;
 
 public class TestActivity extends BRActivity {
     private static final String TAG = TestActivity.class.getName();

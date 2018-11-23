@@ -1,18 +1,18 @@
-package io.digibyte.tools.threads;
+package de.eMark.tools.threads;
 
 import android.app.Activity;
 import android.os.AsyncTask;
 
-import io.digibyte.DigiByte;
-import io.digibyte.BuildConfig;
-import io.digibyte.R;
-import io.digibyte.presenter.customviews.BRDialogView;
-import io.digibyte.presenter.entities.ImportPrivKeyEntity;
-import io.digibyte.tools.animation.BRDialog;
-import io.digibyte.tools.manager.BRSharedPrefs;
-import io.digibyte.tools.util.BRCurrency;
-import io.digibyte.tools.util.BRExchange;
-import io.digibyte.wallet.BRWalletManager;
+import de.eMark.DigiByte;
+import de.eMark.BuildConfig;
+import de.eMark.R;
+import de.eMark.presenter.customviews.BRDialogView;
+import de.eMark.presenter.entities.ImportPrivKeyEntity;
+import de.eMark.tools.animation.BRDialog;
+import de.eMark.tools.manager.BRSharedPrefs;
+import de.eMark.tools.util.BRCurrency;
+import de.eMark.tools.util.BRExchange;
+import de.eMark.wallet.BRWalletManager;
 
 import org.json.JSONArray;
 import org.json.JSONException;

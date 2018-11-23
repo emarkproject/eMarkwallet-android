@@ -1,4 +1,4 @@
-package io.digibyte.presenter.fragments;
+package de.eMark.presenter.fragments;
 
 import android.animation.Animator;
 import android.animation.AnimatorInflater;
@@ -16,13 +16,13 @@ import android.view.ViewGroup;
 
 import java.util.ArrayList;
 
-import io.digibyte.R;
-import io.digibyte.databinding.FragmentTransactionDetailsBinding;
-import io.digibyte.presenter.fragments.interfaces.OnBackPressListener;
-import io.digibyte.tools.adapter.TransactionPagerAdapter;
-import io.digibyte.tools.animation.BRAnimator;
-import io.digibyte.tools.list.items.ListItemTransactionData;
-import io.digibyte.tools.util.Utils;
+import de.eMark.R;
+import de.eMark.databinding.FragmentTransactionDetailsBinding;
+import de.eMark.presenter.fragments.interfaces.OnBackPressListener;
+import de.eMark.tools.adapter.TransactionPagerAdapter;
+import de.eMark.tools.animation.BRAnimator;
+import de.eMark.tools.list.items.ListItemTransactionData;
+import de.eMark.tools.util.Utils;
 
 
 /**

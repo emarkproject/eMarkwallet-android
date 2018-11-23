@@ -1,14 +1,14 @@
-package io.digibyte.tools.list.items;
+package de.eMark.tools.list.items;
 
 import android.os.Parcel;
 import android.os.Parcelable;
 
 import java.util.Date;
 
-import io.digibyte.R;
-import io.digibyte.presenter.entities.TxItem;
-import io.digibyte.tools.list.ListItemData;
-import io.digibyte.tools.util.BRDateUtil;
+import de.eMark.R;
+import de.eMark.presenter.entities.TxItem;
+import de.eMark.tools.list.ListItemData;
+import de.eMark.tools.util.BRDateUtil;
 
 public class ListItemTransactionData extends ListItemData implements Parcelable {
     public int transactionIndex;

@@ -1,4 +1,4 @@
-package io.digibyte.presenter.customviews;
+package de.eMark.presenter.customviews;
 
 import android.animation.ValueAnimator;
 import android.annotation.SuppressLint;
@@ -22,10 +22,10 @@ import android.view.animation.Animation;
 import android.view.animation.ScaleAnimation;
 import android.widget.Button;
 
-import io.digibyte.DigiByte;
-import io.digibyte.R;
-import io.digibyte.tools.manager.FontManager;
-import io.digibyte.tools.util.Utils;
+import de.eMark.DigiByte;
+import de.eMark.R;
+import de.eMark.tools.manager.FontManager;
+import de.eMark.tools.util.Utils;
 
 /**
  * BreadWallet

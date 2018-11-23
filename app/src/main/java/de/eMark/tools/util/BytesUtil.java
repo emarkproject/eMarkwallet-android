@@ -1,4 +1,4 @@
-package io.digibyte.tools.util;
+package de.eMark.tools.util;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

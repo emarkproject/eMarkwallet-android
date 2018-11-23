@@ -1,8 +1,8 @@
-package io.digibyte.tools.list.items;
+package de.eMark.tools.list.items;
 
-import io.digibyte.R;
-import io.digibyte.tools.list.ListItemData;
-import io.digibyte.tools.manager.PromptManager;
+import de.eMark.R;
+import de.eMark.tools.list.ListItemData;
+import de.eMark.tools.manager.PromptManager;
 
 public class ListItemPromptData extends ListItemData
 {

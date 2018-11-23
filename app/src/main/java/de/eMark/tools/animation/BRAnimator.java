@@ -1,4 +1,4 @@
-package io.digibyte.tools.animation;
+package de.eMark.tools.animation;
 
 import android.Manifest;
 import android.animation.Animator;
@@ -26,19 +26,19 @@ import com.google.zxing.client.android.CaptureActivity;
 
 import java.util.ArrayList;
 
-import io.digibyte.R;
-import io.digibyte.presenter.activities.BreadActivity;
-import io.digibyte.presenter.activities.LoginActivity;
-import io.digibyte.presenter.customviews.BRDialogView;
-import io.digibyte.presenter.fragments.FragmentMenu;
-import io.digibyte.presenter.fragments.FragmentRequestAmount;
-import io.digibyte.presenter.fragments.FragmentSend;
-import io.digibyte.presenter.fragments.FragmentSignal;
-import io.digibyte.presenter.fragments.FragmentTransactionDetails;
-import io.digibyte.presenter.interfaces.BROnSignalCompletion;
-import io.digibyte.tools.list.items.ListItemTransactionData;
-import io.digibyte.tools.threads.BRExecutor;
-import io.digibyte.tools.util.BRConstants;
+import de.eMark.R;
+import de.eMark.presenter.activities.BreadActivity;
+import de.eMark.presenter.activities.LoginActivity;
+import de.eMark.presenter.customviews.BRDialogView;
+import de.eMark.presenter.fragments.FragmentMenu;
+import de.eMark.presenter.fragments.FragmentRequestAmount;
+import de.eMark.presenter.fragments.FragmentSend;
+import de.eMark.presenter.fragments.FragmentSignal;
+import de.eMark.presenter.fragments.FragmentTransactionDetails;
+import de.eMark.presenter.interfaces.BROnSignalCompletion;
+import de.eMark.tools.list.items.ListItemTransactionData;
+import de.eMark.tools.threads.BRExecutor;
+import de.eMark.tools.util.BRConstants;
 
 
 /**

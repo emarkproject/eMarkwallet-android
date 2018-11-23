@@ -4,16 +4,16 @@
     <data>
 
         <variable name="textWatcher"
-                  type="io.digibyte.presenter.activities.PaperKeyProveActivity.BRTextWatcher"/>
+                  type="de.eMark.presenter.activities.PaperKeyProveActivity.BRTextWatcher"/>
 
         <variable name="editorActionListener"
                   type="android.widget.TextView.OnEditorActionListener"/>
 
         <variable name="callback"
-                  type="io.digibyte.presenter.activities.callbacks.ActivityPaperKeyProveCallback"/>
+                  type="de.eMark.presenter.activities.callbacks.ActivityPaperKeyProveCallback"/>
 
     </data>
-    <io.digibyte.presenter.customviews.BRLinearLayout
+    <de.eMark.presenter.customviews.BRLinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
@@ -23,7 +23,7 @@
         android:focusable="true"
         android:focusableInTouchMode="true"
         android:orientation="vertical"
-        tools:context="io.digibyte.presenter.activities.intro.WriteDownActivity">
+        tools:context="de.eMark.presenter.activities.intro.WriteDownActivity">
 
         <include layout="@layout/toolbar"/>
 
@@ -114,7 +114,7 @@
 
         </LinearLayout>
 
-    </io.digibyte.presenter.customviews.BRLinearLayout>
+    </de.eMark.presenter.customviews.BRLinearLayout>
 
 </layout>
 

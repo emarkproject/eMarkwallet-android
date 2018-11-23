@@ -1,12 +1,12 @@
-package io.digibyte.tools.list.items;
+package de.eMark.tools.list.items;
 
 import android.view.View;
 import android.widget.ImageButton;
 
-import io.digibyte.R;
-import io.digibyte.presenter.customviews.BRText;
-import io.digibyte.tools.list.ListItemData;
-import io.digibyte.tools.list.ListItemViewHolder;
+import de.eMark.R;
+import de.eMark.presenter.customviews.BRText;
+import de.eMark.tools.list.ListItemData;
+import de.eMark.tools.list.ListItemViewHolder;
 
 public class ListItemPromptViewHolder extends ListItemViewHolder
 {

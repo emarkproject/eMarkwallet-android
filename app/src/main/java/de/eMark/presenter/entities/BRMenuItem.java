@@ -1,11 +1,11 @@
-package io.digibyte.presenter.entities;
+package de.eMark.presenter.entities;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import io.digibyte.R;
+import de.eMark.R;
 
 /**
  * BreadWallet

@@ -1,12 +1,12 @@
-package io.digibyte.presenter.fragments.models;
+package de.eMark.presenter.fragments.models;
 
 import android.databinding.BaseObservable;
 import android.databinding.Bindable;
 import android.os.Handler;
 import android.os.Looper;
 
-import io.digibyte.BR;
-import io.digibyte.R;
+import de.eMark.BR;
+import de.eMark.R;
 
 public class ReceiveFragmentModel extends BaseObservable {
 

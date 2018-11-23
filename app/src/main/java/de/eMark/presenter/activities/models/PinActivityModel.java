@@ -1,8 +1,8 @@
-package io.digibyte.presenter.activities.models;
+package de.eMark.presenter.activities.models;
 
 import android.databinding.BaseObservable;
 
-import io.digibyte.R;
+import de.eMark.R;
 
 public class PinActivityModel extends BaseObservable {
 

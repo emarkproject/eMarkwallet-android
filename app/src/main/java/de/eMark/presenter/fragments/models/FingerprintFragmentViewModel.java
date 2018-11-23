@@ -1,9 +1,9 @@
-package io.digibyte.presenter.fragments.models;
+package de.eMark.presenter.fragments.models;
 
 import android.databinding.BaseObservable;
 import android.databinding.Bindable;
 
-import io.digibyte.BR;
+import de.eMark.BR;
 
 public class FingerprintFragmentViewModel extends BaseObservable {
 

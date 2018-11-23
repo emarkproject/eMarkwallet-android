@@ -1,4 +1,4 @@
-package io.digibyte;
+package de.eMark;
 
 import android.app.Activity;
 import android.app.Application;
@@ -20,13 +20,13 @@ import com.google.zxing.client.android.PreferencesActivity;
 
 import java.util.concurrent.TimeUnit;
 
-import io.digibyte.presenter.activities.DisabledActivity;
-import io.digibyte.presenter.activities.LoginActivity;
-import io.digibyte.tools.animation.BRAnimator;
-import io.digibyte.tools.manager.BRSharedPrefs;
-import io.digibyte.tools.security.BRKeyStore;
-import io.digibyte.tools.util.BRConstants;
-import io.digibyte.wallet.BRWalletManager;
+import de.eMark.presenter.activities.DisabledActivity;
+import de.eMark.presenter.activities.LoginActivity;
+import de.eMark.tools.animation.BRAnimator;
+import de.eMark.tools.manager.BRSharedPrefs;
+import de.eMark.tools.security.BRKeyStore;
+import de.eMark.tools.util.BRConstants;
+import de.eMark.wallet.BRWalletManager;
 import io.fabric.sdk.android.Fabric;
 
 

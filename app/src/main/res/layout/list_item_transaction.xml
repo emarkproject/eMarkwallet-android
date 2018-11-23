@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
-        <variable name="data" type="io.digibyte.tools.list.items.ListItemTransactionData"/>
+        <variable name="data" type="de.eMark.tools.list.items.ListItemTransactionData"/>
     </data>
 
     <RelativeLayout
@@ -36,7 +36,7 @@
                 android:layout_marginTop="4dp"
                 app:arrowIcon="@{data}"/>
 
-            <io.digibyte.presenter.customviews.BRText
+            <de.eMark.presenter.customviews.BRText
                 android:id="@+id/amount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -49,7 +49,7 @@
             <View android:layout_width="0dp" android:layout_height="wrap_content"
                   android:layout_weight="1"/>
 
-            <io.digibyte.presenter.customviews.BRText
+            <de.eMark.presenter.customviews.BRText
                 android:id="@+id/timestamp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

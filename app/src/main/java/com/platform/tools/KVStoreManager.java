@@ -17,10 +17,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import io.digibyte.tools.crypto.CryptoHelper;
-import io.digibyte.tools.manager.BRReportsManager;
-import io.digibyte.tools.util.BRCompressor;
-import io.digibyte.tools.util.Utils;
+import de.eMark.tools.crypto.CryptoHelper;
+import de.eMark.tools.manager.BRReportsManager;
+import de.eMark.tools.util.BRCompressor;
+import de.eMark.tools.util.Utils;
 
 /**
  * BreadWallet

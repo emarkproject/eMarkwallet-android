@@ -1,4 +1,4 @@
-package io.digibyte.presenter.fragments.models;
+package de.eMark.presenter.fragments.models;
 
 import android.databinding.BaseObservable;
 import android.databinding.Bindable;

@@ -1,4 +1,4 @@
-package io.digibyte.tools.sqlite;
+package de.eMark.tools.sqlite;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

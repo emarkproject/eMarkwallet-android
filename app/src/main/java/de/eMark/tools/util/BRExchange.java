@@ -1,16 +1,16 @@
-package io.digibyte.tools.util;
+package de.eMark.tools.util;
 
 import android.content.Context;
 
-import io.digibyte.presenter.entities.CurrencyEntity;
-import io.digibyte.tools.manager.BRSharedPrefs;
-import io.digibyte.tools.sqlite.CurrencyDataSource;
-import io.digibyte.wallet.BRWalletManager;
+import de.eMark.presenter.entities.CurrencyEntity;
+import de.eMark.tools.manager.BRSharedPrefs;
+import de.eMark.tools.sqlite.CurrencyDataSource;
+import de.eMark.wallet.BRWalletManager;
 
 import java.math.BigDecimal;
 
-import static io.digibyte.tools.util.BRConstants.CURRENT_UNIT_BITS;
-import static io.digibyte.tools.util.BRConstants.ROUNDING_MODE;
+import static de.eMark.tools.util.BRConstants.CURRENT_UNIT_BITS;
+import static de.eMark.tools.util.BRConstants.ROUNDING_MODE;
 
 /**
  * BreadWallet
