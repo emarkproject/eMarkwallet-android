@@ -57,6 +57,7 @@ gradle.properties
 .idea/codeStyleSettings.xml
 .navigation/
 
+
 # jniLibs files
 #NDK
 obj/
@@ -67,6 +68,5 @@ crash.txt
 .idea/copyright/
 /app/google-services.json
 /.idea/markdown-navigator/
-/app/src/main/java/io/digibyte/presenter/fragments/FragmentBreadSignal.java
 /fastlane/
 fastlane/
