@@ -100,7 +100,7 @@ JNIEXPORT jlong JNICALL Java_de_eMark_wallet_BRPeerManager_getLastBlockTimestamp
 JNIEXPORT void JNICALL Java_de_eMark_wallet_BRPeerManager_peerManagerFreeEverything(
         JNIEnv *env, jobject thiz);
 
-JNIEXPORT void JNICALL Java_io_digibyte_presenter_activities_IntroActivity_testCore(JNIEnv *env,
+JNIEXPORT void JNICALL Java_de_eMark_presenter_activities_IntroActivity_testCore(JNIEnv *env,
                                                                                         jobject instance);
 
 JNIEXPORT jint JNICALL Java_de_eMark_wallet_BRPeerManager_connectionStatus(JNIEnv *env,

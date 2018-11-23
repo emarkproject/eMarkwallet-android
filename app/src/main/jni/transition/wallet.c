@@ -228,7 +228,7 @@ Java_de_eMark_wallet_BRWalletManager_createWallet(JNIEnv *env, jobject thiz, siz
     __android_log_print(ANDROID_LOG_DEBUG, "Message from C: ", "createWallet");
 
     jint rs = (*env)->GetJavaVM(env, &_jvmW); // cache the JavaVM pointer
-    jclass peerManagerCLass = (*env)->FindClass(env, "io/digibyte/wallet/BRWalletManager");
+    jclass peerManagerCLass = (*env)->FindClass(env, "de/eMark/wallet/BRWalletManager");
     _walletManagerClass = (jclass) (*env)->NewGlobalRef(env, (jobject) peerManagerCLass);
 
     if (_wallet) return;
@@ -273,7 +273,7 @@ Java_de_eMark_wallet_BRWalletManager_createWallet(JNIEnv *env, jobject thiz, siz
     }
 
     //create class
-    jclass clazz = (*env)->FindClass(env, "io/digibyte/wallet/BRWalletManager");
+    jclass clazz = (*env)->FindClass(env, "de/eMark/wallet/BRWalletManager");
     jmethodID mid = (*env)->GetStaticMethodID(env, clazz, "onBalanceChanged", "(J)V");
     //call java methods
     (*env)->CallStaticVoidMethod(env, clazz, mid, BRWalletBalance(_wallet));
@@ -378,7 +378,7 @@ JNIEXPORT jobjectArray JNICALL Java_de_eMark_wallet_BRWalletManager_getTransacti
     txCount = BRWalletTransactions(_wallet, transactions_sqlite, txCount);
 
     //Find the class and populate the array of objects of this class
-    jclass txClass = (*env)->FindClass(env, "io/digibyte/presenter/entities/TxItem");
+    jclass txClass = (*env)->FindClass(env, "de/eMark/presenter/entities/TxItem");
     jobjectArray txObjects = (*env)->NewObjectArray(env, (jsize) txCount, txClass, 0);
     jobjectArray globalTxs = (*env)->NewGlobalRef(env, txObjects);
     jmethodID txObjMid = (*env)->GetMethodID(env, txClass, "<init>",
@@ -828,7 +828,7 @@ JNIEXPORT jobject JNICALL Java_de_eMark_wallet_BRWalletManager_getPrivKeyObject(
     if (!_privKeyTx) return NULL;
 
     jclass importPrivKeyClass = (*env)->FindClass(env,
-                                                  "io/digibyte/presenter/entities/ImportPrivKeyEntity");
+                                                  "de/eMark/presenter/entities/ImportPrivKeyEntity");
     BRAddress address = BRWalletReceiveAddress(_wallet);
     uint8_t script[BRAddressScriptPubKey(NULL, 0, address.s)];
     size_t scriptLen = BRAddressScriptPubKey(script, sizeof(script), address.s);

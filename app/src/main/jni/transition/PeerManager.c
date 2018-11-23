@@ -177,7 +177,7 @@ static void saveBlocks(void *info, int replace, BRMerkleBlock *blocks[], size_t 
     }
 
     mid = (*env)->GetStaticMethodID(env, _peerManagerClass, "saveBlocks",
-                                    "([Lio/digibyte/presenter/entities/BlockEntity;Z)V");
+                                    "([Lde/eMark/presenter/entities/BlockEntity;Z)V");
     (*env)->CallStaticVoidMethod(env, _peerManagerClass, mid, blockObjectArray,
                                  replace ? JNI_TRUE : JNI_FALSE);
 
@@ -227,7 +227,7 @@ static void savePeers(void *info, int replace, const BRPeer peers[], size_t coun
     }
 
     mid = (*env)->GetStaticMethodID(env, _peerManagerClass, "savePeers",
-                                    "([Lio/digibyte/presenter/entities/PeerEntity;Z)V");
+                                    "([Lde/eMark/presenter/entities/PeerEntity;Z)V");
     (*env)->CallStaticVoidMethod(env, _peerManagerClass, mid, peerObjectArray,
                                  replace ? JNI_TRUE : JNI_FALSE);
 }
@@ -284,9 +284,9 @@ void CreateInternal(JNIEnv *env, jobject thiz,
                         blocksCount, peersCount, earliestKeyTime);
 
     jint rs = (*env)->GetJavaVM(env, &_jvmPM);
-    jclass peerManagerClass = (*env)->FindClass(env, "io/digibyte/wallet/BRPeerManager");
-    jclass blockClass = (*env)->FindClass(env, "io/digibyte/presenter/entities/BlockEntity");
-    jclass peerClass = (*env)->FindClass(env, "io/digibyte/presenter/entities/PeerEntity");
+    jclass peerManagerClass = (*env)->FindClass(env, "de/eMark/wallet/BRPeerManager");
+    jclass blockClass = (*env)->FindClass(env, "de/eMark/presenter/entities/BlockEntity");
+    jclass peerClass = (*env)->FindClass(env, "de/eMark/presenter/entities/PeerEntity");
 
     _peerManagerClass = (jclass) (*env)->NewGlobalRef(env, (jobject) peerManagerClass);
     _blockClass = (jclass) (*env)->NewGlobalRef(env, (jobject) blockClass);

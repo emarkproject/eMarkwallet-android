@@ -66,7 +66,7 @@ public class AboutActivity extends BRActivity {
         });
         policyText.setOnClickListener(v -> {
             Intent browserIntent = new Intent(Intent.ACTION_VIEW,
-                    Uri.parse("https://digibyte.io/digibyte-privacy-policy"));
+                    Uri.parse("https://digibyte.de/eMark-privacy-policy"));
             startActivity(browserIntent);
             overridePendingTransition(R.anim.enter_from_bottom, R.anim.empty_300);
         });
