@@ -28,72 +28,72 @@ add_library( # Specifies the name of the library.
              SHARED
 
              # Provides a relative path to your source file(s).
-             src/main/jni/digibytewallet-core/BRAddress.c
-             src/main/jni/digibytewallet-core/BRAddress.h
-             src/main/jni/digibytewallet-core/BRArray.h
-             src/main/jni/digibytewallet-core/BRBase58.c
-             src/main/jni/digibytewallet-core/BRBase58.h
-             src/main/jni/digibytewallet-core/BRBech32.c
-             src/main/jni/digibytewallet-core/BRBech32.h
-             src/main/jni/digibytewallet-core/BRBIP32Sequence.c
-             src/main/jni/digibytewallet-core/BRBIP32Sequence.h
-             src/main/jni/digibytewallet-core/BRBIP38Key.c
-             src/main/jni/digibytewallet-core/BRBIP38Key.h
-             src/main/jni/digibytewallet-core/BRBIP39Mnemonic.c
-             src/main/jni/digibytewallet-core/BRBIP39Mnemonic.h
-             src/main/jni/digibytewallet-core/BRBIP39WordsEn.h
-             src/main/jni/digibytewallet-core/BRBloomFilter.c
-             src/main/jni/digibytewallet-core/BRBloomFilter.h
-             src/main/jni/digibytewallet-core/BRChainParams.h
-             src/main/jni/digibytewallet-core/BRCrypto.c
-             src/main/jni/digibytewallet-core/BRCrypto.h
-             src/main/jni/digibytewallet-core/BRInt.h
-             src/main/jni/digibytewallet-core/BRKey.c
-             src/main/jni/digibytewallet-core/BRKey.h
-             src/main/jni/digibytewallet-core/BRMerkleBlock.c
-             src/main/jni/digibytewallet-core/BRMerkleBlock.h
-             src/main/jni/digibytewallet-core/BRPaymentProtocol.c
-             src/main/jni/digibytewallet-core/BRPaymentProtocol.h
-             src/main/jni/digibytewallet-core/BRPeer.c
-             src/main/jni/digibytewallet-core/BRPeer.h
-             src/main/jni/digibytewallet-core/BRPeerManager.c
-             src/main/jni/digibytewallet-core/BRPeerManager.h
-             src/main/jni/digibytewallet-core/BRSet.c
-             src/main/jni/digibytewallet-core/BRSet.h
-             src/main/jni/digibytewallet-core/BRTransaction.c
-             src/main/jni/digibytewallet-core/BRTransaction.h
-             src/main/jni/digibytewallet-core/BRWallet.c
-             src/main/jni/digibytewallet-core/BRWallet.h
-             src/main/jni/digibytewallet-core/crypto/sha256.h
-             src/main/jni/digibytewallet-core/crypto/groestl.c
-             src/main/jni/digibytewallet-core/crypto/groestl.h
-             src/main/jni/digibytewallet-core/crypto/qubit.c
-             src/main/jni/digibytewallet-core/crypto/qubit.h
-             src/main/jni/digibytewallet-core/crypto/skein.c
-             src/main/jni/digibytewallet-core/crypto/skein.h
-             src/main/jni/digibytewallet-core/crypto/sha3/aes_helper.c
-             src/main/jni/digibytewallet-core/crypto/sha3/blake.c
-             src/main/jni/digibytewallet-core/crypto/sha3/bmw.c
-             src/main/jni/digibytewallet-core/crypto/sha3/cubehash.c
-             src/main/jni/digibytewallet-core/crypto/sha3/groestl.c
-             src/main/jni/digibytewallet-core/crypto/sha3/hashblock.h
-             src/main/jni/digibytewallet-core/crypto/sha3/keccak.c
-             src/main/jni/digibytewallet-core/crypto/sha3/skein.c
-             src/main/jni/digibytewallet-core/crypto/sha3/sph_types.h
-             src/main/jni/digibytewallet-core/crypto/sha3/sph_blake.h
-             src/main/jni/digibytewallet-core/crypto/sha3/sph_bmw.h
-             src/main/jni/digibytewallet-core/crypto/sha3/sph_cubehash.h
-             src/main/jni/digibytewallet-core/crypto/sha3/sph_groestl.h
-             src/main/jni/digibytewallet-core/crypto/sha3/sph_keccak.h
-             src/main/jni/digibytewallet-core/crypto/sha3/sph_skein.h
-             src/main/jni/digibytewallet-core/crypto/sha3/sph_luffa.c
-             src/main/jni/digibytewallet-core/crypto/sha3/sph_luffa.h
-             src/main/jni/digibytewallet-core/crypto/sha3/sph_shavite.c
-             src/main/jni/digibytewallet-core/crypto/sha3/sph_shavite.h
-             src/main/jni/digibytewallet-core/crypto/sha3/sph_simd.c
-             src/main/jni/digibytewallet-core/crypto/sha3/sph_simd.h
-             src/main/jni/digibytewallet-core/crypto/sha3/sph_echo.c
-             src/main/jni/digibytewallet-core/crypto/sha3/sph_echo.h
+             src/main/jni/eMarkwallet-core/BRAddress.c
+             src/main/jni/eMarkwallet-core/BRAddress.h
+             src/main/jni/eMarkwallet-core/BRArray.h
+             src/main/jni/eMarkwallet-core/BRBase58.c
+             src/main/jni/eMarkwallet-core/BRBase58.h
+             src/main/jni/eMarkwallet-core/BRBech32.c
+             src/main/jni/eMarkwallet-core/BRBech32.h
+             src/main/jni/eMarkwallet-core/BRBIP32Sequence.c
+             src/main/jni/eMarkwallet-core/BRBIP32Sequence.h
+             src/main/jni/eMarkwallet-core/BRBIP38Key.c
+             src/main/jni/eMarkwallet-core/BRBIP38Key.h
+             src/main/jni/eMarkwallet-core/BRBIP39Mnemonic.c
+             src/main/jni/eMarkwallet-core/BRBIP39Mnemonic.h
+             src/main/jni/eMarkwallet-core/BRBIP39WordsEn.h
+             src/main/jni/eMarkwallet-core/BRBloomFilter.c
+             src/main/jni/eMarkwallet-core/BRBloomFilter.h
+             src/main/jni/eMarkwallet-core/BRChainParams.h
+             src/main/jni/eMarkwallet-core/BRCrypto.c
+             src/main/jni/eMarkwallet-core/BRCrypto.h
+             src/main/jni/eMarkwallet-core/BRInt.h
+             src/main/jni/eMarkwallet-core/BRKey.c
+             src/main/jni/eMarkwallet-core/BRKey.h
+             src/main/jni/eMarkwallet-core/BRMerkleBlock.c
+             src/main/jni/eMarkwallet-core/BRMerkleBlock.h
+             src/main/jni/eMarkwallet-core/BRPaymentProtocol.c
+             src/main/jni/eMarkwallet-core/BRPaymentProtocol.h
+             src/main/jni/eMarkwallet-core/BRPeer.c
+             src/main/jni/eMarkwallet-core/BRPeer.h
+             src/main/jni/eMarkwallet-core/BRPeerManager.c
+             src/main/jni/eMarkwallet-core/BRPeerManager.h
+             src/main/jni/eMarkwallet-core/BRSet.c
+             src/main/jni/eMarkwallet-core/BRSet.h
+             src/main/jni/eMarkwallet-core/BRTransaction.c
+             src/main/jni/eMarkwallet-core/BRTransaction.h
+             src/main/jni/eMarkwallet-core/BRWallet.c
+             src/main/jni/eMarkwallet-core/BRWallet.h
+             src/main/jni/eMarkwallet-core/crypto/sha256.h
+             src/main/jni/eMarkwallet-core/crypto/groestl.c
+             src/main/jni/eMarkwallet-core/crypto/groestl.h
+             src/main/jni/eMarkwallet-core/crypto/qubit.c
+             src/main/jni/eMarkwallet-core/crypto/qubit.h
+             src/main/jni/eMarkwallet-core/crypto/skein.c
+             src/main/jni/eMarkwallet-core/crypto/skein.h
+             src/main/jni/eMarkwallet-core/crypto/sha3/aes_helper.c
+             src/main/jni/eMarkwallet-core/crypto/sha3/blake.c
+             src/main/jni/eMarkwallet-core/crypto/sha3/bmw.c
+             src/main/jni/eMarkwallet-core/crypto/sha3/cubehash.c
+             src/main/jni/eMarkwallet-core/crypto/sha3/groestl.c
+             src/main/jni/eMarkwallet-core/crypto/sha3/hashblock.h
+             src/main/jni/eMarkwallet-core/crypto/sha3/keccak.c
+             src/main/jni/eMarkwallet-core/crypto/sha3/skein.c
+             src/main/jni/eMarkwallet-core/crypto/sha3/sph_types.h
+             src/main/jni/eMarkwallet-core/crypto/sha3/sph_blake.h
+             src/main/jni/eMarkwallet-core/crypto/sha3/sph_bmw.h
+             src/main/jni/eMarkwallet-core/crypto/sha3/sph_cubehash.h
+             src/main/jni/eMarkwallet-core/crypto/sha3/sph_groestl.h
+             src/main/jni/eMarkwallet-core/crypto/sha3/sph_keccak.h
+             src/main/jni/eMarkwallet-core/crypto/sha3/sph_skein.h
+             src/main/jni/eMarkwallet-core/crypto/sha3/sph_luffa.c
+             src/main/jni/eMarkwallet-core/crypto/sha3/sph_luffa.h
+             src/main/jni/eMarkwallet-core/crypto/sha3/sph_shavite.c
+             src/main/jni/eMarkwallet-core/crypto/sha3/sph_shavite.h
+             src/main/jni/eMarkwallet-core/crypto/sha3/sph_simd.c
+             src/main/jni/eMarkwallet-core/crypto/sha3/sph_simd.h
+             src/main/jni/eMarkwallet-core/crypto/sha3/sph_echo.c
+             src/main/jni/eMarkwallet-core/crypto/sha3/sph_echo.h
 
              #include "sha3/sph_luffa.h"
              #include "sha3/sph_shavite.h"
@@ -114,7 +114,7 @@ add_library( # Specifies the name of the library.
              src/main/jni/transition/wallet.h)
 
 
-include_directories(src/main/jni/digibytewallet-core/)
+include_directories(src/main/jni/eMarkwallet-core/)
 include_directories(src/main/secp/secp256k1/include/)
 include_directories(src/main/secp/secp256k1/src/)
 include_directories(src/main/secp/secp256k1/)
