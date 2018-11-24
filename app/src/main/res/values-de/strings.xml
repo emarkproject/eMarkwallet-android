@@ -9,7 +9,7 @@
   <!-- Privay Policy button label -->
   <string name="About.privacy">Datenschutzerklärung</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/</string>
+  <string name="About.reddit">https://www.reddit.com/r/DeutscheeMark/</string>
   <!-- Terms of Use button label -->
   <string name="About.terms">Allgemeine Geschäftsbedingungen https://github.com/emarkproject/eMarkwallet-android</string>
   <!--
