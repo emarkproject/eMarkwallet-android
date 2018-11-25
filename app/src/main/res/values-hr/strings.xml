@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
   <!-- App name -->
-  <string name="About.appName.android">DigiWallet</string>
+  <string name="About.appName.android">eMark Wallet</string>
   <!-- About screen blog label -->
   <string name="About.blog">https://digibyte.io/</string>
   <!-- About screen footer -->
-  <string name="About.footer">Napravljeno od strane globalnog DigiWallet tima. Verzija %1$@</string>
+  <string name="About.footer">Napravljeno od strane globalnog eMark Wallet tima. Verzija %1$@</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">Pravila privatnosti</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/DeutscheeMark/</string>
   <!-- Terms of Use button label -->
-  <string name="About.terms">https://github.com/Racecraft/digibytewallet-android</string>
+  <string name="About.terms">https://github.com/emarkproject/eMarkwallet-android</string>
   <!--
   Terms of Use button label
   About screen title
   -->
-  <string name="About.title">DigiWallet za Android je mobilni novčanik za DigiByte.</string>
+  <string name="About.title">eMark Wallet za Android je mobilni novčanik za eMark.</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/deutsche_emark</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">Zatvori</string>
   <!-- Support center accessibiliy label -->
@@ -26,7 +26,7 @@
   <!-- Loading Wallet Message -->
   <string name="Account.loadingMessage">Učitavanje novčanika</string>
   <!-- Default wallet name -->
-  <string name="AccountHeader.defaultWalletName">Moj DigiWallet</string>
+  <string name="AccountHeader.defaultWalletName">Moj eMark Wallet</string>
   <!-- Third party keyboard warning -->
   <string name="Alert.customKeyboard.android">Čini se da koristite neovisnu tipkovnicu, koja može snimati upis i ukrasti Vaš papirnati ključ. Molimo koristite generičku Android tipkovnicu za dodatnu zaštitu.</string>
   <!-- Error alert title -->
@@ -34,7 +34,7 @@
   <!-- Keystore error -->
   <string name="Alert.keystore.generic.android">Postoji problem sa Vašim Android OS keystore-om, molimo kontaktirajte support@digibyte.io</string>
   <!-- KeyStore error, keys are invalidated -->
-  <string name="Alert.keystore.invalidated.android">Vaši DigiWallet kodirani podaci su nedavno poništeni jer je Android zaključavanje zaslona onemogućeno.</string>
+  <string name="Alert.keystore.invalidated.android">Vaši eMark Wallet kodirani podaci su nedavno poništeni jer je Android zaključavanje zaslona onemogućeno.</string>
   <!-- Keystore error title -->
   <string name="Alert.keystore.title.android">Android KeyStore greška</string>
   <!-- No internet alert message -->
@@ -56,7 +56,7 @@
   <!-- Send success alert header label (confirmation that the send happened) -->
   <string name="Alerts.sendSuccess">Potvrda slanja</string>
   <!-- Send success alert subheader label (e.g. the money was sent) -->
-  <string name="Alerts.sendSuccessSubheader">DigiByte Poslan!</string>
+  <string name="Alerts.sendSuccessSubheader">eMark Poslan!</string>
   <!-- Fingerprint was recognized by the scanner -->
   <string name="Alerts.touchIdSucceeded.android">Otisak prsta prepoznat</string>
   <string name="all">Sve</string>
@@ -67,29 +67,29 @@
   <!-- API Token error message -->
   <string name="ApiClient.tokenError">Nije moguće povratiti API token</string>
   <!-- Send BCH view body. -->
-  <string name="BCH.body">Unesite odredišnu DGB adresu ispod. Sav DGB u Vašem novčaniku u vrijeme fork-a (%1$s) će biti poslan.</string>
+  <string name="BCH.body">Unesite odredišnu DEM adresu ispod. Sav DEM u Vašem novčaniku u vrijeme fork-a (%1$s) će biti poslan.</string>
   <!-- Confirm sending <$5.00> to <address>? -->
   <string name="BCH.confirmationMessage">Potvrdite slanje %1$s na %2$s</string>
   <!-- Confirmation alert title -->
   <string name="BCH.confirmationTitle">Potvrda</string>
   <!-- Generic bch erorr message -->
-  <string name="BCH.genericError">Vaš račun ne sadrži DGB, ili ste primili DGB nakon fork-a.</string>
+  <string name="BCH.genericError">Vaš račun ne sadrži DEM, ili ste primili DEM nakon fork-a.</string>
   <!-- Transaction ID copied message -->
   <string name="BCH.hashCopiedMessage">Transakcijski ID kopiran</string>
   <!-- No address error message -->
   <string name="BCH.noAddressError">Molim unesite adresu</string>
   <!-- Attempted to scan unsupported qr code error message. -->
-  <string name="BCH.paymentProtocolError">Zahtjevi protokola za plaćanje nisu podržani za DGB transakcije</string>
+  <string name="BCH.paymentProtocolError">Zahtjevi protokola za plaćanje nisu podržani za DEM transakcije</string>
   <!-- BCH successfully sent alert message -->
-  <string name="BCH.successMessage">DGB je uspiješno poslan.</string>
+  <string name="BCH.successMessage">DEM je uspiješno poslan.</string>
   <!-- Widthdraw BCH view title -->
-  <string name="BCH.title">Isplata DGB</string>
+  <string name="BCH.title">Isplata DEM</string>
   <!-- Tx Hash button header -->
-  <string name="BCH.txHashHeader">DGB Transakcijski ID</string>
+  <string name="BCH.txHashHeader">DEM Transakcijski ID</string>
   <!-- Approve button label -->
   <string name="BitID.approve">Odobri</string>
   <!-- <sitename> is requesting authentication using your bitcoin wallet -->
-  <string name="BitID.authenticationRequest">%1$s zahtjeva provjeru autentičnosti koristeći  Vaš DigiWallet.</string>
+  <string name="BitID.authenticationRequest">%1$s zahtjeva provjeru autentičnosti koristeći  Vaš eMark Wallet.</string>
   <!-- Deny button label -->
   <string name="BitID.deny">Odbij</string>
   <!-- BitID error alert title -->
@@ -99,7 +99,7 @@
   <!-- BitID success alert title -->
   <string name="BitID.success">Uspješna provjera autentičnosti</string>
   <!-- BitID Authentication Request alert view title -->
-  <string name="BitID.title">DigiID zahtjev za provjeru autentičnosti</string>
+  <string name="BitID.title">eMarkID zahtjev za provjeru autentičnosti</string>
   <!-- Cancel button label -->
   <string name="Button.cancel">Odustani</string>
   <!-- Ignore button label -->
@@ -144,7 +144,7 @@
   <string name="current_amount">Trenutna vrijednost: %s</string>
   <string name="date">Datum</string>
   <!-- Bitcoin denomination picker label -->
-  <string name="DefaultCurrency.bitcoinLabel">DigiByte Valuta na zaslonu</string>
+  <string name="DefaultCurrency.bitcoinLabel">eMark Valuta na zaslonu</string>
   <!--
   Bitcoin denomination picker label
   Exchange rate label
@@ -155,7 +155,7 @@
   <!-- Email unavailable alert title -->
   <string name="ErrorMessages.emailUnavailableTitle">Email nedostupan</string>
   <!-- Message that gets shown when we've detected the user has encountered the looping lock-screen bug. (preserve [ ] characters) -->
-  <string name="ErrorMessages.loopingLockScreen.android">DigiWallet ne može biti autentificiran zbog greške u Vašoj verziji Androida. [Dodirnite ovdje za više informacija.]</string>
+  <string name="ErrorMessages.loopingLockScreen.android">eMark Wallet ne može biti autentificiran zbog greške u Vašoj verziji Androida. [Dodirnite ovdje za više informacija.]</string>
   <!-- Messaging unavailable alert title -->
   <string name="ErrorMessages.messagingUnavailableMessage">Ovaj uređaj nije postavljen za slanje SMS-a.</string>
   <!-- Messaging unavailable alert title -->
@@ -179,7 +179,7 @@
   <!-- Checking private key balance progress view text -->
   <string name="Import.checking">Provjeravam stanje privatnog ključa...</string>
   <!-- Sweep private key confirmation message -->
-  <string name="Import.confirm">Pošalji %1$s sa ovog privatnog ključa u Vaš novčanik? DigiByte mreža će dobiti naknadu od %2$s.</string>
+  <string name="Import.confirm">Pošalji %1$s sa ovog privatnog ključa u Vaš novčanik? eMark mreža će dobiti naknadu od %2$s.</string>
   <!-- Duplicate key error message -->
   <string name="Import.Error.duplicate">Privatni ključ se već nalazi u Vašem novčaniku.</string>
   <!-- empty private key error message -->
@@ -197,13 +197,13 @@
   <!-- Caption for graphics -->
   <string name="Import.leftCaption">Novčanik za uvoz</string>
   <!-- Import wallet intro screen message -->
-  <string name="Import.message">Uvoz novčanika prenosi sve DigiByte iz vašeg drugog novčanika u Vaš DigiWallet putem jedne transakcije.</string>
+  <string name="Import.message">Uvoz novčanika prenosi sve eMark iz vašeg drugog novčanika u Vaš eMark Wallet putem jedne transakcije.</string>
   <!-- Enter password alert view title -->
   <string name="Import.password">Ovaj privatni ključ je zaštićen lozinkom.</string>
   <!-- password textfield placeholder -->
   <string name="Import.passwordPlaceholder">lozinka</string>
   <!-- Caption for graphics -->
-  <string name="Import.rightCaption">Vaš DigiWallet</string>
+  <string name="Import.rightCaption">Vaš eMark Wallet</string>
   <!-- Scan Private key button label -->
   <string name="Import.scan">Pretraži privatni ključ</string>
   <!-- Import wallet success alert title -->
@@ -223,18 +223,18 @@
   <!-- Ignore jailbreak warning button -->
   <string name="JailbreakWarnings.ignore">Zanemari</string>
   <!-- Jailbreak warning message -->
-  <string name="JailbreakWarnings.messageWithBalance">SIGURNOST UREĐAJA UGROŽENA\n Bilo koja \"jailbreak\" aplikacija može pristupiti DigiWallet lozinkama i ukrasti Vaše DigiByte-e! Obrišite ovaj novčanik i povratite ga na nekom sigurnom uređaju.</string>
+  <string name="JailbreakWarnings.messageWithBalance">SIGURNOST UREĐAJA UGROŽENA\n Bilo koja \"jailbreak\" aplikacija može pristupiti eMark Wallet lozinkama i ukrasti Vaše eMark-e! Obrišite ovaj novčanik i povratite ga na nekom sigurnom uređaju.</string>
   <!--
   Ignore jailbreak warning button
   Jailbreak warning message
   -->
-  <string name="JailbreakWarnings.messageWithoutBalance">SIGURNOST UREĐAJA UGROŽENA\n Bilo koja \"jailbreak\" aplikacija može pristupiti DigiWallet lozinkama i ukrasti Vaše DigiByte-e! Molimo koristite DigiWallet samo na uređajima koji nisu jailbreak-ani.</string>
+  <string name="JailbreakWarnings.messageWithoutBalance">SIGURNOST UREĐAJA UGROŽENA\n Bilo koja \"jailbreak\" aplikacija može pristupiti eMark Wallet lozinkama i ukrasti Vaše eMark-e! Molimo koristite eMark Wallet samo na uređajima koji nisu jailbreak-ani.</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">UPOZORENJE</string>
   <!-- Location services disabled error -->
   <string name="LocationPlugin.disabled">Lokacijske usluge su onemogućene.</string>
   <!-- No permissions for location services -->
-  <string name="LocationPlugin.notAuthorized">DigiWallet nema dozvolu za pristup lokacijskim uslugama.</string>
+  <string name="LocationPlugin.notAuthorized">eMark Wallet nema dozvolu za pristup lokacijskim uslugama.</string>
   <!-- Wallet creation date prefix -->
   <string name="ManageWallet.creationDatePrefix">Napravili ste novčanik na  %1$s</string>
   <!-- Manage wallet description text -->
@@ -246,7 +246,7 @@
   <string name="max">Maks</string>
   <string name="max_send_enabled">Gumb Prikaži: Pošalji maks</string>
   <!-- Buy bitcoin title -->
-  <string name="MenuButton.buy">Kupi DigiByte</string>
+  <string name="MenuButton.buy">Kupi eMark</string>
   <!-- Menu button title -->
   <string name="MenuButton.lock">Zaključaj novčanik</string>
   <!-- Menu button title -->
@@ -278,7 +278,7 @@
   <!-- Node status label -->
   <string name="NodeSelector.statusLabel">Status veze sa čvorom</string>
   <!-- Node Selector view title -->
-  <string name="NodeSelector.title">DigiByte Čvorovi</string>
+  <string name="NodeSelector.title">eMark Čvorovi</string>
   <string name="no_limit">Bez granica</string>
   <string name="original_amount">Izvorna vrijednost: %s</string>
   <!-- Bad Payment request alert title -->
@@ -292,9 +292,9 @@
   <!-- Payment too small alert title -->
   <string name="PaymentProtocol.Errors.smallOutputError">"Plaćanje nije moguće "</string>
   <!-- Amount too small error message -->
-  <string name="PaymentProtocol.Errors.smallPayment">DigiByte transakcije ne mogu iznositi manje od %1$s.</string>
+  <string name="PaymentProtocol.Errors.smallPayment">eMark transakcije ne mogu iznositi manje od %1$s.</string>
   <!-- Output too small error message. -->
-  <string name="PaymentProtocol.Errors.smallTransaction">DigiByte transakcijski iznosi ne mogu biti manji od %1$s.</string>
+  <string name="PaymentProtocol.Errors.smallTransaction">eMark transakcijski iznosi ne mogu biti manji od %1$s.</string>
   <!-- Unsupported signature type payment protocol error message -->
   <string name="PaymentProtocol.Errors.unsupportedSignatureType">Nepodržan tip potpisa</string>
   <!-- Untrusted certificate payment protocol error message -->
@@ -317,7 +317,7 @@
   <!-- Transaction rejected prompt title -->
   <string name="Prompts.RecommendRescan.title">Transakcija odbijena</string>
   <!-- Share data prompt body -->
-  <string name="Prompts.ShareData.body">"Pomozite unaprijeđenju DigiWallet-a dijeljenjem Vaših anonimnih podataka "</string>
+  <string name="Prompts.ShareData.body">"Pomozite unaprijeđenju eMark Wallet-a dijeljenjem Vaših anonimnih podataka "</string>
   <!-- Share data prompt title -->
   <string name="Prompts.ShareData.title">Dijeli anonimne podatke</string>
   <!-- Enable touch ID prompt body -->
@@ -331,11 +331,11 @@
   <!-- Button on fingerprint prompt so the user can enter their PIN instead -->
   <string name="Prompts.TouchId.usePin.android">PIN</string>
   <!-- Upgrade PIN prompt body. -->
-  <string name="Prompts.UpgradePin.body">DigiWallet je unaprijeđen za korištenje 6-ero znamenkasti PIN. Dodirnite ovdje za nadogradnju.</string>
+  <string name="Prompts.UpgradePin.body">eMark Wallet je unaprijeđen za korištenje 6-ero znamenkasti PIN. Dodirnite ovdje za nadogradnju.</string>
   <!-- Upgrade PIN prompt title. -->
   <string name="Prompts.UpgradePin.title">Nadogradnja PIN-a</string>
   <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
-  <string name="PushNotifications.body">Uključite obavjesti da bi primili posebne poruke od DigiWallet-a u budućnosti.</string>
+  <string name="PushNotifications.body">Uključite obavjesti da bi primili posebne poruke od eMark Wallet-a u budućnosti.</string>
   <!-- Push notifications toggle switch label -->
   <string name="PushNotifications.label">Push Obavijesti</string>
   <!-- Push notifications are off label -->
@@ -366,7 +366,7 @@
   <!-- Enter paper key instruction -->
   <string name="RecoverWallet.instruction">Unesite Osobni Ključ za Oporavak</string>
   <!-- Recover wallet intro -->
-  <string name="RecoverWallet.intro">Vratite Vaš DigiWallet sa Osobnim Ključem za Oporavak</string>
+  <string name="RecoverWallet.intro">Vratite Vaš eMark Wallet sa Osobnim Ključem za Oporavak</string>
   <!-- Invalid paper key message -->
   <string name="RecoverWallet.invalid">Osobni ključ za oporavak koji ste unijeli nije ispravan. Molimo provjerite svaku riječ još jednom i pokušajte ponovno.</string>
   <!-- Previous button accessibility label -->
@@ -378,7 +378,7 @@
   <!-- Next button accessibility label -->
   <string name="RecoverWallet.rightArrow">Desna strelica</string>
   <!-- Recover wallet sub-header -->
-  <string name="RecoverWallet.subheader">Unesite Osobni ključ za oporavak za DigiWallet koji želite vratiti.</string>
+  <string name="RecoverWallet.subheader">Unesite Osobni ključ za oporavak za eMark Wallet koji želite vratiti.</string>
   <!-- Reset PIN with paper key: sub-header -->
   <string name="RecoverWallet.subheader_reset_pin">Za resetiranje PIN-a unesite riječi sa vašeg Osobnog ključa za oporavak u kvadratiće ispod.</string>
   <!-- No amount entered error message. -->
@@ -388,19 +388,19 @@
   <!-- Alert action button label -->
   <string name="ReScan.alertAction">Sinkroniziraj</string>
   <!-- Alert message body -->
-  <string name="ReScan.alertMessage">Slanje DigiByte-a tijekom sinkronizacije nije moguće.</string>
+  <string name="ReScan.alertMessage">Slanje eMark-a tijekom sinkronizacije nije moguće.</string>
   <!-- Alert message title -->
   <string name="ReScan.alertTitle">Sinkroniziraj sa Blockchain?</string>
   <!-- extimated time -->
   <string name="ReScan.body1">20-45 minuta</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body2">Ukoliko je transakcija označena kao završena u DigiByte mreži ali ne i u Vašem DigiWallet-u.</string>
+  <string name="ReScan.body2">Ukoliko je transakcija označena kao završena u eMark mreži ali ne i u Vašem eMark Wallet-u.</string>
   <!-- Syncing explanation -->
   <string name="ReScan.body3">Uzastopno se prikazuje greška u kojoj stoji da je Vaša transakcija odbijena.</string>
   <!-- Start Sync button label -->
   <string name="ReScan.buttonTitle">Započni sinkronizaciju</string>
   <!-- Sync blockchain view footer -->
-  <string name="ReScan.footer">Nećete biti u mogućnosti slati  DigiByte tijekom sinhronizacije sa blockchainom.</string>
+  <string name="ReScan.footer">Nećete biti u mogućnosti slati  eMark tijekom sinhronizacije sa blockchainom.</string>
   <!-- Sync Blockchain view header -->
   <string name="ReScan.header">Sinhroniziraj blockchain</string>
   <!-- Subheader label -->
@@ -420,17 +420,17 @@
   <!-- Security Center Info -->
   <string name="SecurityCenter.info">Omogućite sve sigurnosne opcije za maksimalnu zaštitu.</string>
   <!-- Paper Key button description -->
-  <string name="SecurityCenter.paperKeyDescription">Jedini način da pristupite svojim DigiByte-ima ukoliko izgubite,  promijenite ili nadogradite mobilni uređaj.</string>
+  <string name="SecurityCenter.paperKeyDescription">Jedini način da pristupite svojim eMark-ima ukoliko izgubite,  promijenite ili nadogradite mobilni uređaj.</string>
   <!-- Paper Key button title -->
   <string name="SecurityCenter.paperKeyTitle">Osobni ključ za oporavak</string>
   <!-- PIN button description -->
-  <string name="SecurityCenter.pinDescription">Štiti Vaš DigiWallet od neovlaštenih korisnika.</string>
+  <string name="SecurityCenter.pinDescription">Štiti Vaš eMark Wallet od neovlaštenih korisnika.</string>
   <!-- PIN button title -->
   <string name="SecurityCenter.pinTitle">6-eroznamenkasti PIN</string>
   <!-- Security Center Title -->
   <string name="SecurityCenter.title">Sigurnosni centar</string>
   <!-- Touch ID button description -->
-  <string name="SecurityCenter.touchIdDescription">Jednostavno otključajte svoj DigiWallet novčanik i šaljite DigiByte  do postavljenog ograničenja.</string>
+  <string name="SecurityCenter.touchIdDescription">Jednostavno otključajte svoj eMark Wallet novčanik i šaljite eMark  do postavljenog ograničenja.</string>
   <!-- Touch ID button title -->
   <string name="SecurityCenter.touchIdTitle">Touch ID</string>
   <!-- Security center fingerprint authentication button -->
@@ -440,13 +440,13 @@
   <!-- Balance: $4.00 -->
   <string name="Send.balance">Balance: %1$s</string>
   <!-- Instructions how to allow the camera access for the app -->
-  <string name="Send.cameraUnavailabeMessage.android">Dozvolite pristup kameri u \"Postavke\" &gt; \"Aplikacije\" &gt; \"DigiWallet\" &gt; \"Dozvole\"</string>
+  <string name="Send.cameraUnavailabeMessage.android">Dozvolite pristup kameri u \"Postavke\" &gt; \"Aplikacije\" &gt; \"eMark Wallet\" &gt; \"Dozvole\"</string>
   <!-- Permission required to access camera -->
-  <string name="Send.cameraUnavailabeTitle.android">DigiWallet nema dozvolu za pristup kameri</string>
+  <string name="Send.cameraUnavailabeTitle.android">eMark Wallet nema dozvolu za pristup kameri</string>
   <!-- Camera not allowed message -->
   <string name="Send.cameraunavailableMessage">Idite u Postavke i odobrite pristup kameri</string>
   <!-- Camera not allowed alert title -->
-  <string name="Send.cameraUnavailableTitle">DigiWallet nema dozvolu za pristup kameri</string>
+  <string name="Send.cameraUnavailableTitle">eMark Wallet nema dozvolu za pristup kameri</string>
   <!-- Warning when sending to self. -->
   <string name="Send.containsAddress">Odredišna i Vaša adresa su iste. Sebi ne možete poslati.</string>
   <!-- Could not create transaction alert title -->
@@ -460,9 +460,9 @@
   <!-- Payee identity not certified alert title. -->
   <string name="Send.identityNotCertified">Primateljev identitet nije certificiran.</string>
   <!-- Invalid address alert message -->
-  <string name="Send.invalidAddressMessage">Odredišna adresa nije točna DigiByte adresa.</string>
+  <string name="Send.invalidAddressMessage">Odredišna adresa nije točna eMark adresa.</string>
   <!-- Invalid address on pasteboard message -->
-  <string name="Send.invalidAddressOnPasteboard">Međuspremnik ne sadrži točnu DigiByte adresu.</string>
+  <string name="Send.invalidAddressOnPasteboard">Međuspremnik ne sadrži točnu eMark adresu.</string>
   <!-- Invalid address alert title -->
   <string name="Send.invalidAddressTitle">Neispravna adresa</string>
   <!-- Is rescanning error message -->
@@ -488,7 +488,7 @@
   <!-- Send money to label -->
   <string name="Send.toLabel">Za</string>
   <!-- Adress already used alert message - first part -->
-  <string name="Send.UsedAddress.firstLine">DigiByte adrese su namijenjene za jednokratno korištenje.</string>
+  <string name="Send.UsedAddress.firstLine">eMark adrese su namijenjene za jednokratno korištenje.</string>
   <!-- Adress already used alert message - second part -->
   <string name="Send.UsedAddress.secondLIne">Ponovno korištenje smanjuje privatnost za Vas i primatelja i može rezultirati gubitkom sredstava ukoliko ne postoji direktna kontrola nad adresama.</string>
   <!-- Adress already used alert title -->
@@ -503,11 +503,11 @@
   <!-- Join Early access label -->
   <string name="Settings.earlyAccess">Rani pristup</string>
   <!-- Are you enjoying bread alert message body -->
-  <string name="Settings.enjoying">Uživate li sa DigiWallet-om?</string>
+  <string name="Settings.enjoying">Uživate li sa eMark Wallet-om?</string>
   <!-- Import wallet left message -->
   <string name="Settings.importLeftMessage">Novčanik za uvoz</string>
   <!-- Import wallet right message -->
-  <string name="Settings.importRightMessage">Vaš DigiWallet</string>
+  <string name="Settings.importRightMessage">Vaš eMark Wallet</string>
   <!-- Import wallet label -->
   <string name="Settings.importTitle">Uvezi Wallet</string>
   <!-- Manage settings section header -->
@@ -515,7 +515,7 @@
   <!-- Notifications label -->
   <string name="Settings.notifications">Obavijesti</string>
   <!-- Restore screen lower label. -->
-  <string name="Settings.restore_label">Vaš DigiWallet na ovom uređaju</string>
+  <string name="Settings.restore_label">Vaš eMark Wallet na ovom uređaju</string>
   <!-- Leave review button label -->
   <string name="Settings.review">Napišite svoj osvrt</string>
   <!-- Share anonymous data label -->
@@ -533,7 +533,7 @@
   <!-- Start or recover another wallet menu label. -->
   <string name="Settings.wipe">Pokreni/Povrati novi novčanik</string>
   <!-- Share data view body -->
-  <string name="ShareData.body">Pomozite unapređenje DigiWallet-a dijeljenjem anonimnih podataka s nama. Ovo ne uključuje nikakve financijske informacije. Mi poštujemo Vašu financijsku privatnost.</string>
+  <string name="ShareData.body">Pomozite unapređenje eMark Wallet-a dijeljenjem anonimnih podataka s nama. Ovo ne uključuje nikakve financijske informacije. Mi poštujemo Vašu financijsku privatnost.</string>
   <!-- Share data header -->
   <string name="ShareData.header">Dijeli podatke?</string>
   <!-- Share data switch label. -->
@@ -541,13 +541,13 @@
   <!-- button label -->
   <string name="StartPaperPhrase.againButtonTitle">Ponovno zapišite Vaš osobni ključ za oporavak</string>
   <!-- Paper key explanation text. -->
-  <string name="StartPaperPhrase.body">Vaš osobni ključ za oporavak je jedini način da povratite svoje DigiWallet-e u slučaju krađe, gubitka, oštećenja ili zamjene uređaja. \n\nPrikazat ćemo Vam listu riječi koje trebate zapisati na papir i čuvati na sigurnom mjestu.</string>
+  <string name="StartPaperPhrase.body">Vaš osobni ključ za oporavak je jedini način da povratite svoje eMark Wallet-e u slučaju krađe, gubitka, oštećenja ili zamjene uređaja. \n\nPrikazat ćemo Vam listu riječi koje trebate zapisati na papir i čuvati na sigurnom mjestu.</string>
   <!-- button label -->
   <string name="StartPaperPhrase.buttonTitle">Zapišite osobni ključ za oporavak</string>
   <!-- Argument is date -->
   <string name="StartPaperPhrase.date">Posljednji put ste zapisali svoj osobni ključ za oporavak na %1$s</string>
   <!-- Start view message -->
-  <string name="StartViewController.message">Najsigurniji i pouzdaniji način korištenja DigiByte-a.</string>
+  <string name="StartViewController.message">Najsigurniji i pouzdaniji način korištenja eMark-a.</string>
   <!-- Syncing view connectiong state header text -->
   <string name="SyncingView.connecting">Spajanje</string>
   <!-- Syncing view header text -->
@@ -573,13 +573,13 @@
   <!-- Fingerprint Is Not Setup -->
   <string name="TouchIdSettings.disabledWarning.title.android">Autentifikacija otiskom prsta nije omogućena</string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">Koristite otisak prsta za otključavanje Vašeg DigiWallet-a i slanje DigiByte-a do određenog limita.</string>
+  <string name="TouchIdSettings.label">Koristite otisak prsta za otključavanje Vašeg eMark Wallet-a i slanje eMark-a do određenog limita.</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
   <string name="TouchIdSettings.linkText">Touch ID Zaslon za limit potrošnje</string>
   <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">Limit potrošnje: %1$s (%2$s)</string>
   <!-- Touch id switch label. -->
-  <string name="TouchIdSettings.switchLabel">Omogući Touch ID za DigiWallet</string>
+  <string name="TouchIdSettings.switchLabel">Omogući Touch ID za eMark Wallet</string>
   <!-- Enable fingerprint for this wallet called Bread -->
   <string name="TouchIdSettings.switchLabel.android">Omogući Autentifikaciju otiskom prsta</string>
   <!-- Touch ID settings view title -->
@@ -660,7 +660,7 @@
   <!-- "Sent [$5] to [address]" => This is the "to [address]" part. -->
   <string name="TransactionDetails.to">za %1$s</string>
   <!-- Transaction ID header -->
-  <string name="TransactionDetails.txHashHeader">DigiByte Transakcijski ID</string>
+  <string name="TransactionDetails.txHashHeader">eMark Transakcijski ID</string>
   <!-- (this transaction was) Received at this address: -->
   <string name="TransactionDirection.address">Primljeno na ovu adresu</string>
   <!-- (this transaction was) Sent to this address: -->
@@ -678,7 +678,7 @@
   <!-- Instruction to touch the sensor for fingerprint authentication -->
   <string name="UnlockScreen.touchIdInstructions.android">Dodirnite senzor</string>
   <!-- TouchID prompt text -->
-  <string name="UnlockScreen.touchIdPrompt">Otključajte Vaš DigiWallet.</string>
+  <string name="UnlockScreen.touchIdPrompt">Otključajte Vaš eMark Wallet.</string>
   <!-- Device authentication body -->
   <string name="UnlockScreen.touchIdPrompt.android">Molim Vas otključajte Vaš Android uređaj za nastavak.</string>
   <!-- Unlock with TouchID accessibility label -->
@@ -688,9 +688,9 @@
   <!-- Wallet unlocked message -->
   <string name="UnlockScreen.unlocked">Novčanik otključan</string>
   <!-- Update PIN caption text -->
-  <string name="UpdatePin.caption">Zapamtite ovaj PIN. Ako ga zaboravite, nećete moći pristupiti Vašem DigiByte.</string>
+  <string name="UpdatePin.caption">Zapamtite ovaj PIN. Ako ga zaboravite, nećete moći pristupiti Vašem eMark.</string>
   <!-- PIN creation info. -->
-  <string name="UpdatePin.createInstruction">Vaš PIN će se koristiti za otključavanje DigiWallet-a i slanje DigiByte.</string>
+  <string name="UpdatePin.createInstruction">Vaš PIN će se koristiti za otključavanje eMark Wallet-a i slanje eMark.</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">Postavite PIN</string>
   <!-- Update PIN title -->
@@ -724,7 +724,7 @@
   <!-- Authorize transaction with touch id message -->
   <string name="VerifyPin.touchIdMessage">Autoriziraj ovu transakciju</string>
   <!-- 'No wallet' warning for watch app -->
-  <string name="Watch.noWalletWarning">Otvorite DigiWallet android aplikaciju da biste postavili Vaš novčanik.</string>
+  <string name="Watch.noWalletWarning">Otvorite eMark Wallet android aplikaciju da biste postavili Vaš novčanik.</string>
   <!-- Dismiss button label -->
   <string name="Webview.dismiss">Odbaci</string>
   <!-- Webview loading error message -->
@@ -732,9 +732,9 @@
   <!-- Updating webview message -->
   <string name="Webview.updating">Obnavljanje...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">DigiWallet ima potpuno novi izgled i nove značajke.\n\nUkoliko trebate pomoć, potražite (?) u gornjem desnom uglu većine prozora.</string>
+  <string name="Welcome.body">eMark Wallet ima potpuno novi izgled i nove značajke.\n\nUkoliko trebate pomoć, potražite (?) u gornjem desnom uglu većine prozora.</string>
   <!-- Top title of welcome screen -->
-  <string name="Welcome.title">Dobrodošli u DigiWallet!</string>
+  <string name="Welcome.title">Dobrodošli u eMark Wallet!</string>
   <!-- Wipe wallet alert message -->
   <string name="WipeWallet.alertMessage">Jeste li sigurni da želite obrisati ovaj novčanik?</string>
   <!-- Wipe wallet alert title -->
@@ -746,7 +746,7 @@
   <!-- Enter phrase to wipe wallet instruction. -->
   <string name="WipeWallet.instruction">Da biste napravili novi ili povratili postojeći novčanik, prvo morate obrisati trenutno instalirani novčanik. Za nastavak, unesite osobni ključ za oporavak trenutno aktualnog novčanika.</string>
   <!-- Start wipe wallet view message -->
-  <string name="WipeWallet.startMessage">Pokretanje novog ili povrat drugog novčanika Vam dozvoljava pristup i upravljanje drugim DigiWallet novčanicima na ovom uređaju.</string>
+  <string name="WipeWallet.startMessage">Pokretanje novog ili povrat drugog novčanika Vam dozvoljava pristup i upravljanje drugim eMark Wallet novčanicima na ovom uređaju.</string>
   <!-- Start wipe wallet view warning -->
   <string name="WipeWallet.startWarning">Vaš trenutni novčanik će biti uklonjen sa ovog uređaja. Ukoliko želite da ga povratite u budućnosti, trebat će Vam Osobni  Ključ za Oporavak.</string>
   <!-- Wipe wallet navigation item title. -->

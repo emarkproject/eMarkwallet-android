@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
   <!-- App name -->
-  <string name="About.appName.android">DigiWallet</string>
+  <string name="About.appName.android">eMark Wallet</string>
   <!-- About screen blog label -->
   <string name="About.blog">https://digibyte.io/</string>
   <!-- About screen footer -->
-  <string name="About.footer">Laget av det globale DigiWallet teamet. Versjon %1$s</string>
+  <string name="About.footer">Laget av det globale eMark Wallet teamet. Versjon %1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">Personvern</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/DeutscheeMark/</string>
   <!-- Terms of Use button label -->
-  <string name="About.terms">Vilkår for bruk https://github.com/Racecraft/digibytewallet-android</string>
+  <string name="About.terms">Vilkår for bruk https://github.com/emarkproject/eMarkwallet-android</string>
   <!--
   Terms of Use button label
   About screen title
   -->
   <string name="About.title">Om</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/deutsche_emark</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">Lukk</string>
   <!-- Support center accessibiliy label -->
@@ -26,7 +26,7 @@
   <!-- Loading Wallet Message -->
   <string name="Account.loadingMessage">Laster lommebok</string>
   <!-- Default wallet name -->
-  <string name="AccountHeader.defaultWalletName">Min DigiWallet</string>
+  <string name="AccountHeader.defaultWalletName">Min eMark Wallet</string>
   <!-- Third party keyboard warning -->
   <string name="Alert.customKeyboard.android">"Det ser ut som du bruker et tredjeparts tastatur som kan kopiere det du skriver og stjele din private nøkkel. Vennligst bytt til standard Android tastatur for ekstra sikkerhet. "</string>
   <!-- Error alert title -->
@@ -34,7 +34,7 @@
   <!-- Keystore error -->
   <string name="Alert.keystore.generic.android">Det har oppstått et problem med din Android nøkkel lagring, vennligst kontakt support@digibyte.io</string>
   <!-- KeyStore error, keys are invalidated -->
-  <string name="Alert.keystore.invalidated.android">Dine DigiWallet-krypterte data ble nylig ugyldig fordi Android låseskjermen din ble deaktivert.</string>
+  <string name="Alert.keystore.invalidated.android">Dine eMark Wallet-krypterte data ble nylig ugyldig fordi Android låseskjermen din ble deaktivert.</string>
   <!-- Keystore error title -->
   <string name="Alert.keystore.title.android">Android nøkkel lagring feilet</string>
   <!-- No internet alert message -->
@@ -56,7 +56,7 @@
   <!-- Send success alert header label (confirmation that the send happened) -->
   <string name="Alerts.sendSuccess">Send bekreftelse</string>
   <!-- Send success alert subheader label (e.g. the money was sent) -->
-  <string name="Alerts.sendSuccessSubheader">DigiByte sendt!</string>
+  <string name="Alerts.sendSuccessSubheader">eMark sendt!</string>
   <!-- Fingerprint was recognized by the scanner -->
   <string name="Alerts.touchIdSucceeded.android">Fingeravtrykk er godkjent</string>
   <string name="all">Alle</string>
@@ -67,29 +67,29 @@
   <!-- API Token error message -->
   <string name="ApiClient.tokenError">Kan ikke hente API-token</string>
   <!-- Send BCH view body. -->
-  <string name="BCH.body">"Legg inn en DigiByte adresse nedenfor. Alle Digibyte i din lommebok på tidspunktet ved forgreiningen(%1$s) vil bli sendt. "</string>
+  <string name="BCH.body">"Legg inn en eMark adresse nedenfor. Alle Digibyte i din lommebok på tidspunktet ved forgreiningen(%1$s) vil bli sendt. "</string>
   <!-- Confirm sending <$5.00> to <address>? -->
   <string name="BCH.confirmationMessage">Bekreft sending av %1$s til %2$s</string>
   <!-- Confirmation alert title -->
   <string name="BCH.confirmationTitle">Bekreftelse</string>
   <!-- Generic bch erorr message -->
-  <string name="BCH.genericError">"Kontoen din inneholder ingen DigiByte, eller du mottok Digibyte etter forgreiningen. "</string>
+  <string name="BCH.genericError">"Kontoen din inneholder ingen eMark, eller du mottok Digibyte etter forgreiningen. "</string>
   <!-- Transaction ID copied message -->
   <string name="BCH.hashCopiedMessage">Transaksjons ID kopiert</string>
   <!-- No address error message -->
   <string name="BCH.noAddressError">Vennligst legg inn en adresse</string>
   <!-- Attempted to scan unsupported qr code error message. -->
-  <string name="BCH.paymentProtocolError">Betalingsprotokollforespørsler støttes ikke for DigiByte transaksjoner</string>
+  <string name="BCH.paymentProtocolError">Betalingsprotokollforespørsler støttes ikke for eMark transaksjoner</string>
   <!-- BCH successfully sent alert message -->
-  <string name="BCH.successMessage">"Sending av DigiByte var vellykket. "</string>
+  <string name="BCH.successMessage">"Sending av eMark var vellykket. "</string>
   <!-- Widthdraw BCH view title -->
-  <string name="BCH.title">Ta ut DigiByte</string>
+  <string name="BCH.title">Ta ut eMark</string>
   <!-- Tx Hash button header -->
-  <string name="BCH.txHashHeader">DigiByte transaksjons ID</string>
+  <string name="BCH.txHashHeader">eMark transaksjons ID</string>
   <!-- Approve button label -->
   <string name="BitID.approve">Godta</string>
   <!-- <sitename> is requesting authentication using your bitcoin wallet -->
-  <string name="BitID.authenticationRequest">%1$s ber om tillatelse til å bruke din DigiWallet</string>
+  <string name="BitID.authenticationRequest">%1$s ber om tillatelse til å bruke din eMark Wallet</string>
   <!-- Deny button label -->
   <string name="BitID.deny">Avslå</string>
   <!-- BitID error alert title -->
@@ -99,7 +99,7 @@
   <!-- BitID success alert title -->
   <string name="BitID.success">Autorisering godkjent</string>
   <!-- BitID Authentication Request alert view title -->
-  <string name="BitID.title">DigiID godkjenningsforespørsel</string>
+  <string name="BitID.title">eMarkID godkjenningsforespørsel</string>
   <!-- Cancel button label -->
   <string name="Button.cancel">Avbryt</string>
   <!-- Ignore button label -->
@@ -144,7 +144,7 @@
   <string name="current_amount">Nåværende verdi: %s</string>
   <string name="date">Dato</string>
   <!-- Bitcoin denomination picker label -->
-  <string name="DefaultCurrency.bitcoinLabel">DigiByte Display Unit</string>
+  <string name="DefaultCurrency.bitcoinLabel">eMark Display Unit</string>
   <!--
   Bitcoin denomination picker label
   Exchange rate label
@@ -155,7 +155,7 @@
   <!-- Email unavailable alert title -->
   <string name="ErrorMessages.emailUnavailableTitle">Epost utilgjengelig</string>
   <!-- Message that gets shown when we've detected the user has encountered the looping lock-screen bug. (preserve [ ] characters) -->
-  <string name="ErrorMessages.loopingLockScreen.android">DigiWallet kan ikke godkjennes pga en bug i din versjon av Android. (trykk her for mer informasjon)</string>
+  <string name="ErrorMessages.loopingLockScreen.android">eMark Wallet kan ikke godkjennes pga en bug i din versjon av Android. (trykk her for mer informasjon)</string>
   <!-- Messaging unavailable alert title -->
   <string name="ErrorMessages.messagingUnavailableMessage">"Denne enheten er ikke konfigurert til å sende meldinger. "</string>
   <!-- Messaging unavailable alert title -->
@@ -179,7 +179,7 @@
   <!-- Checking private key balance progress view text -->
   <string name="Import.checking">Sjekker saldo på din private nøkkel...</string>
   <!-- Sweep private key confirmation message -->
-  <string name="Import.confirm">Sende %1$s  fra denne private nøkkelen og til din lommebok? DigiByte nettverket vil motta en avgift på %2$s.</string>
+  <string name="Import.confirm">Sende %1$s  fra denne private nøkkelen og til din lommebok? eMark nettverket vil motta en avgift på %2$s.</string>
   <!-- Duplicate key error message -->
   <string name="Import.Error.duplicate">"Denne private nøkkelen er allerede lagt til i din lommebok. "</string>
   <!-- empty private key error message -->
@@ -197,13 +197,13 @@
   <!-- Caption for graphics -->
   <string name="Import.leftCaption">Lommeboken som skal importeres</string>
   <!-- Import wallet intro screen message -->
-  <string name="Import.message">"Importering av lommebok importerer alle dine DigiByte fra din andre lommebok og over på din nye DigiWallet i en enkel transaksjon. "</string>
+  <string name="Import.message">"Importering av lommebok importerer alle dine eMark fra din andre lommebok og over på din nye eMark Wallet i en enkel transaksjon. "</string>
   <!-- Enter password alert view title -->
   <string name="Import.password">"Denne private nøkkelen er passordbeskyttet. "</string>
   <!-- password textfield placeholder -->
   <string name="Import.passwordPlaceholder">Passord</string>
   <!-- Caption for graphics -->
-  <string name="Import.rightCaption">Din DigiWallet</string>
+  <string name="Import.rightCaption">Din eMark Wallet</string>
   <!-- Scan Private key button label -->
   <string name="Import.scan">Skann privat nøkkel</string>
   <!-- Import wallet success alert title -->
@@ -223,18 +223,18 @@
   <!-- Ignore jailbreak warning button -->
   <string name="JailbreakWarnings.ignore">Ignorer</string>
   <!-- Jailbreak warning message -->
-  <string name="JailbreakWarnings.messageWithBalance">ENHETENS SIKKERHET ER NEDGRADERT \ n En hvilken som helst rootet app kan få tilgang til din DigiWallets nøkkelringdata og stjele dine DigiByte! Slett denne lommeboken umiddelbart og gjenopprett den på en sikker enhet.</string>
+  <string name="JailbreakWarnings.messageWithBalance">ENHETENS SIKKERHET ER NEDGRADERT \ n En hvilken som helst rootet app kan få tilgang til din eMark Wallets nøkkelringdata og stjele dine eMark! Slett denne lommeboken umiddelbart og gjenopprett den på en sikker enhet.</string>
   <!--
   Ignore jailbreak warning button
   Jailbreak warning message
   -->
-  <string name="JailbreakWarnings.messageWithoutBalance">"ENHETENS SIKKERHET ER NEDGRADERT \ n Enhver root app kan få tilgang til DigiWallets nøkkelringdata og stjele DigiByte. Bruk bare DigiWallet på en rootet enhet. "</string>
+  <string name="JailbreakWarnings.messageWithoutBalance">"ENHETENS SIKKERHET ER NEDGRADERT \ n Enhver root app kan få tilgang til eMark Wallets nøkkelringdata og stjele eMark. Bruk bare eMark Wallet på en rootet enhet. "</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">ADVARSEL</string>
   <!-- Location services disabled error -->
   <string name="LocationPlugin.disabled">Lokasjon service er deaktivert.</string>
   <!-- No permissions for location services -->
-  <string name="LocationPlugin.notAuthorized">"DigiByte har ikke tilgang til din posisjon. "</string>
+  <string name="LocationPlugin.notAuthorized">"eMark har ikke tilgang til din posisjon. "</string>
   <!-- Wallet creation date prefix -->
   <string name="ManageWallet.creationDatePrefix">Datoen du opprettet din lommebok: %1$s</string>
   <!-- Manage wallet description text -->
@@ -246,7 +246,7 @@
   <string name="max">Max</string>
   <string name="max_send_enabled">Vis knapp: Send Maksimal</string>
   <!-- Buy bitcoin title -->
-  <string name="MenuButton.buy">Kjøp DigiByte</string>
+  <string name="MenuButton.buy">Kjøp eMark</string>
   <!-- Menu button title -->
   <string name="MenuButton.lock">Lås lommebok</string>
   <!-- Menu button title -->
@@ -278,7 +278,7 @@
   <!-- Node status label -->
   <string name="NodeSelector.statusLabel">Node tilkoblingsstatus</string>
   <!-- Node Selector view title -->
-  <string name="NodeSelector.title">DigiByte Noder</string>
+  <string name="NodeSelector.title">eMark Noder</string>
   <string name="no_limit">Ingen grense</string>
   <string name="original_amount">Opprinnelig verdi: %s</string>
   <!-- Bad Payment request alert title -->
@@ -292,16 +292,16 @@
   <!-- Payment too small alert title -->
   <string name="PaymentProtocol.Errors.smallOutputError">Kunne ikke utføre betaling</string>
   <!-- Amount too small error message -->
-  <string name="PaymentProtocol.Errors.smallPayment">Betalinger med DigiByte kan ikke være mindre enn %1$s.</string>
+  <string name="PaymentProtocol.Errors.smallPayment">Betalinger med eMark kan ikke være mindre enn %1$s.</string>
   <!-- Output too small error message. -->
-  <string name="PaymentProtocol.Errors.smallTransaction">En DigiByte transaksjon kan ikke være mindre enn %1$s.</string>
+  <string name="PaymentProtocol.Errors.smallTransaction">En eMark transaksjon kan ikke være mindre enn %1$s.</string>
   <!-- Unsupported signature type payment protocol error message -->
   <string name="PaymentProtocol.Errors.unsupportedSignatureType">Signaturtypen støttes ikke</string>
   <!-- Untrusted certificate payment protocol error message -->
   <string name="PaymentProtocol.Errors.untrustedCertificate">Usikkert sertifikat</string>
   <string name="processed">Bearbeidet</string>
   <!-- No passcode set warning body -->
-  <string name="Prompts.NoPasscode.body">En PIN kode er nødvendig for å sikre din DigiByte lommebok. Vennligst gå inn på innstillinger og slå på PIN kode.</string>
+  <string name="Prompts.NoPasscode.body">En PIN kode er nødvendig for å sikre din eMark lommebok. Vennligst gå inn på innstillinger og slå på PIN kode.</string>
   <!-- No Passcode set warning title -->
   <string name="Prompts.NoPasscode.title">Aktiver låsekode på denne enheten</string>
   <!-- Instruction how to enable device encryption -->
@@ -317,7 +317,7 @@
   <!-- Transaction rejected prompt title -->
   <string name="Prompts.RecommendRescan.title">Transaksjonen ble avvist</string>
   <!-- Share data prompt body -->
-  <string name="Prompts.ShareData.body">"Hjelp å forbedre DigiWallet ved å dele anonym data. "</string>
+  <string name="Prompts.ShareData.body">"Hjelp å forbedre eMark Wallet ved å dele anonym data. "</string>
   <!-- Share data prompt title -->
   <string name="Prompts.ShareData.title">Del anonym data</string>
   <!-- Enable touch ID prompt body -->
@@ -331,11 +331,11 @@
   <!-- Button on fingerprint prompt so the user can enter their PIN instead -->
   <string name="Prompts.TouchId.usePin.android">PIN kode</string>
   <!-- Upgrade PIN prompt body. -->
-  <string name="Prompts.UpgradePin.body">"DigiWallet har oppgradert til å bruke 6-sifret PIN kode. Trykk her for å oppgradere. "</string>
+  <string name="Prompts.UpgradePin.body">"eMark Wallet har oppgradert til å bruke 6-sifret PIN kode. Trykk her for å oppgradere. "</string>
   <!-- Upgrade PIN prompt title. -->
   <string name="Prompts.UpgradePin.title">Oppgrader PIN kode</string>
   <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
-  <string name="PushNotifications.body">"Slå på notifikasjoner for å motta meldinger fra DigiWallet. "</string>
+  <string name="PushNotifications.body">"Slå på notifikasjoner for å motta meldinger fra eMark Wallet. "</string>
   <!-- Push notifications toggle switch label -->
   <string name="PushNotifications.label">Push notifikasjoner</string>
   <!-- Push notifications are off label -->
@@ -366,7 +366,7 @@
   <!-- Enter paper key instruction -->
   <string name="RecoverWallet.instruction">Legg inn din private nøkkel</string>
   <!-- Recover wallet intro -->
-  <string name="RecoverWallet.intro">Gjenopprett din DigiWallet med privat nøkkel.</string>
+  <string name="RecoverWallet.intro">Gjenopprett din eMark Wallet med privat nøkkel.</string>
   <!-- Invalid paper key message -->
   <string name="RecoverWallet.invalid">"Den private nøkkelen du har tastet inn er ikke en gyldig nøkkel. Vennligst dobbelsjekk hvert eneste ord og prøv igjen. "</string>
   <!-- Previous button accessibility label -->
@@ -388,19 +388,19 @@
   <!-- Alert action button label -->
   <string name="ReScan.alertAction">Synkroniser</string>
   <!-- Alert message body -->
-  <string name="ReScan.alertMessage">"Under synkroniseringen, vil du ikke ha mulighet til å sende DigiByte. "</string>
+  <string name="ReScan.alertMessage">"Under synkroniseringen, vil du ikke ha mulighet til å sende eMark. "</string>
   <!-- Alert message title -->
   <string name="ReScan.alertTitle">"Synkronisere med blokk kjeden? "</string>
   <!-- extimated time -->
   <string name="ReScan.body1">20-45 minutter</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body2">Hvis en transaksjon viser fullført på DigiByte nettverket, men ikke i din DigiWallet.</string>
+  <string name="ReScan.body2">Hvis en transaksjon viser fullført på eMark nettverket, men ikke i din eMark Wallet.</string>
   <!-- Syncing explanation -->
   <string name="ReScan.body3">"Du får stadig opp en feil som sier at transaksjonen blir avvist. "</string>
   <!-- Start Sync button label -->
   <string name="ReScan.buttonTitle">Start synkronisering</string>
   <!-- Sync blockchain view footer -->
-  <string name="ReScan.footer">Du vil ikke kunne sende DigiByte mens du synkroniserer med blokkkjeden.</string>
+  <string name="ReScan.footer">Du vil ikke kunne sende eMark mens du synkroniserer med blokkkjeden.</string>
   <!-- Sync Blockchain view header -->
   <string name="ReScan.header">Synkroniser blokk kjede</string>
   <!-- Subheader label -->
@@ -420,17 +420,17 @@
   <!-- Security Center Info -->
   <string name="SecurityCenter.info">Aktiver alle sikkerhetsfunksjoner for maks sikkerhet.</string>
   <!-- Paper Key button description -->
-  <string name="SecurityCenter.paperKeyDescription">Den eneste måten å få tilgang til dine DigiByte hvis du mister eller oppgraderer telefonen.</string>
+  <string name="SecurityCenter.paperKeyDescription">Den eneste måten å få tilgang til dine eMark hvis du mister eller oppgraderer telefonen.</string>
   <!-- Paper Key button title -->
   <string name="SecurityCenter.paperKeyTitle">Privat nøkkel</string>
   <!-- PIN button description -->
-  <string name="SecurityCenter.pinDescription">Beskytter dine DigiWallet mot uautoriserte brukere.</string>
+  <string name="SecurityCenter.pinDescription">Beskytter dine eMark Wallet mot uautoriserte brukere.</string>
   <!-- PIN button title -->
   <string name="SecurityCenter.pinTitle">6-sifret Pin kode</string>
   <!-- Security Center Title -->
   <string name="SecurityCenter.title">"Sikkerhetssenter "</string>
   <!-- Touch ID button description -->
-  <string name="SecurityCenter.touchIdDescription">Lås opp din DigiWallet og send DigiByte opp til en angitt grense.</string>
+  <string name="SecurityCenter.touchIdDescription">Lås opp din eMark Wallet og send eMark opp til en angitt grense.</string>
   <!-- Touch ID button title -->
   <string name="SecurityCenter.touchIdTitle">Fingeravtrykk godkjenning</string>
   <!-- Security center fingerprint authentication button -->
@@ -440,15 +440,15 @@
   <!-- Balance: $4.00 -->
   <string name="Send.balance">Balanse: %1$s</string>
   <!-- Instructions how to allow the camera access for the app -->
-  <string name="Send.cameraUnavailabeMessage.android">"For å gi tilgang til kamera gå inn på innstillinger -&gt; Apper -&gt; DigiWallet -&gt; Apptillatelser "</string>
+  <string name="Send.cameraUnavailabeMessage.android">"For å gi tilgang til kamera gå inn på innstillinger -&gt; Apper -&gt; eMark Wallet -&gt; Apptillatelser "</string>
   <!-- Permission required to access camera -->
-  <string name="Send.cameraUnavailabeTitle.android">DigiWallet har ikke tilgang til kamera</string>
+  <string name="Send.cameraUnavailabeTitle.android">eMark Wallet har ikke tilgang til kamera</string>
   <!-- Camera not allowed message -->
-  <string name="Send.cameraunavailableMessage">"Gå til innstillinger og gi DigiWallet tilgang til bruk av kamera. "</string>
+  <string name="Send.cameraunavailableMessage">"Gå til innstillinger og gi eMark Wallet tilgang til bruk av kamera. "</string>
   <!-- Camera not allowed alert title -->
-  <string name="Send.cameraUnavailableTitle">DigiWallet har ikke tilgang til kamera.</string>
+  <string name="Send.cameraUnavailableTitle">eMark Wallet har ikke tilgang til kamera.</string>
   <!-- Warning when sending to self. -->
-  <string name="Send.containsAddress">"Destinasjonen er din egen adresse. Du kan ikke sende DigiByte til deg selv. "</string>
+  <string name="Send.containsAddress">"Destinasjonen er din egen adresse. Du kan ikke sende eMark til deg selv. "</string>
   <!-- Could not create transaction alert title -->
   <string name="Send.creatTransactionError">"Kunne ikke generere transaksjon. "</string>
   <!-- Description for sending money label -->
@@ -461,9 +461,9 @@
   <string name="Send.identityNotCertified">
 Betalingsmottakerens identitet er ikke sertifisert.</string>
   <!-- Invalid address alert message -->
-  <string name="Send.invalidAddressMessage">"Adressen du har lagt inn er ikke en gyldig DigiByte adresse. "</string>
+  <string name="Send.invalidAddressMessage">"Adressen du har lagt inn er ikke en gyldig eMark adresse. "</string>
   <!-- Invalid address on pasteboard message -->
-  <string name="Send.invalidAddressOnPasteboard">"Utklippstavle inneholder ikke en gyldig DigiByte adresse. "</string>
+  <string name="Send.invalidAddressOnPasteboard">"Utklippstavle inneholder ikke en gyldig eMark adresse. "</string>
   <!-- Invalid address alert title -->
   <string name="Send.invalidAddressTitle">"Ugyldig adresse "</string>
   <!-- Is rescanning error message -->
@@ -489,7 +489,7 @@ Betalingsmottakerens identitet er ikke sertifisert.</string>
   <!-- Send money to label -->
   <string name="Send.toLabel">Til</string>
   <!-- Adress already used alert message - first part -->
-  <string name="Send.UsedAddress.firstLine">DigiByte adresser er kun ment for engangsbruk.</string>
+  <string name="Send.UsedAddress.firstLine">eMark adresser er kun ment for engangsbruk.</string>
   <!-- Adress already used alert message - second part -->
   <string name="Send.UsedAddress.secondLIne">"Gjenbruk reduserer personvernet for både deg og mottaker, og kan resultere i tap hvis mottakeren ikke har full kontroll på adressen. "</string>
   <!-- Adress already used alert title -->
@@ -504,11 +504,11 @@ Betalingsmottakerens identitet er ikke sertifisert.</string>
   <!-- Join Early access label -->
   <string name="Settings.earlyAccess">Join Early Access</string>
   <!-- Are you enjoying bread alert message body -->
-  <string name="Settings.enjoying">"Er du fornøyd med DigiByte? "</string>
+  <string name="Settings.enjoying">"Er du fornøyd med eMark? "</string>
   <!-- Import wallet left message -->
   <string name="Settings.importLeftMessage">Lommeboken som vil bli importert</string>
   <!-- Import wallet right message -->
-  <string name="Settings.importRightMessage">Din DigiWallet</string>
+  <string name="Settings.importRightMessage">Din eMark Wallet</string>
   <!-- Import wallet label -->
   <string name="Settings.importTitle">Importer lommebok</string>
   <!-- Manage settings section header -->
@@ -516,7 +516,7 @@ Betalingsmottakerens identitet er ikke sertifisert.</string>
   <!-- Notifications label -->
   <string name="Settings.notifications">"Notifikasjoner "</string>
   <!-- Restore screen lower label. -->
-  <string name="Settings.restore_label">Din DigiWallet på denne enheten</string>
+  <string name="Settings.restore_label">Din eMark Wallet på denne enheten</string>
   <!-- Leave review button label -->
   <string name="Settings.review">Legg igjen en anmeldelse</string>
   <!-- Share anonymous data label -->
@@ -534,7 +534,7 @@ Betalingsmottakerens identitet er ikke sertifisert.</string>
   <!-- Start or recover another wallet menu label. -->
   <string name="Settings.wipe">Lag ny eller gjenopprett en lommebok</string>
   <!-- Share data view body -->
-  <string name="ShareData.body">Hjelp oss å forbedre DigiWallet ved å dele dine anonyme data med oss. Dette inkluderer ikke noen finansiell informasjon. Vi respekterer dittt økonomiske personvern.</string>
+  <string name="ShareData.body">Hjelp oss å forbedre eMark Wallet ved å dele dine anonyme data med oss. Dette inkluderer ikke noen finansiell informasjon. Vi respekterer dittt økonomiske personvern.</string>
   <!-- Share data header -->
   <string name="ShareData.header">Dele data?</string>
   <!-- Share data switch label. -->
@@ -543,13 +543,13 @@ Betalingsmottakerens identitet er ikke sertifisert.</string>
   <string name="StartPaperPhrase.againButtonTitle">"Vennligst skriv ned din private nøkkel en gang til. "</string>
   <!-- Paper key explanation text. -->
   <string name="StartPaperPhrase.body">"
-Din private nøkkel er den eneste måten å gjenopprette din DigiWallet på hvis telefonen går tapt, stjålet, ødelagt eller oppgradert. \ N \ n Vi vil vise deg en liste med ord som skal skrives ned på et papir og som må oppbevares trygt. "</string>
+Din private nøkkel er den eneste måten å gjenopprette din eMark Wallet på hvis telefonen går tapt, stjålet, ødelagt eller oppgradert. \ N \ n Vi vil vise deg en liste med ord som skal skrives ned på et papir og som må oppbevares trygt. "</string>
   <!-- button label -->
   <string name="StartPaperPhrase.buttonTitle">Skriv ned din private nøkkel</string>
   <!-- Argument is date -->
   <string name="StartPaperPhrase.date">"Sist du skrev ned din private nøkkel: "</string>
   <!-- Start view message -->
-  <string name="StartViewController.message">Den raskeste og sikreste måten å bruke DigiByte.</string>
+  <string name="StartViewController.message">Den raskeste og sikreste måten å bruke eMark.</string>
   <!-- Syncing view connectiong state header text -->
   <string name="SyncingView.connecting">Kobler til</string>
   <!-- Syncing view header text -->
@@ -575,13 +575,13 @@ Din private nøkkel er den eneste måten å gjenopprette din DigiWallet på hvis
   <!-- Fingerprint Is Not Setup -->
   <string name="TouchIdSettings.disabledWarning.title.android">Fingeravtrykk autorisering ikke aktivert</string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">"Bruk ditt fingeravtrykk til å låse opp din DigiWallet og til å sende DigiByte opp til en satt grense. "</string>
+  <string name="TouchIdSettings.label">"Bruk ditt fingeravtrykk til å låse opp din eMark Wallet og til å sende eMark opp til en satt grense. "</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
   <string name="TouchIdSettings.linkText">Bruksgrense ved bruk av fingeravtrykk godkjenning</string>
   <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">Bruksgrense: %1$s (%2$s)</string>
   <!-- Touch id switch label. -->
-  <string name="TouchIdSettings.switchLabel">Aktiver fingeravtrykk godkjenning for DigiWallet</string>
+  <string name="TouchIdSettings.switchLabel">Aktiver fingeravtrykk godkjenning for eMark Wallet</string>
   <!-- Enable fingerprint for this wallet called Bread -->
   <string name="TouchIdSettings.switchLabel.android">"Aktiver fingeravtrykkgodkjenning "</string>
   <!-- Touch ID settings view title -->
@@ -662,7 +662,7 @@ Din private nøkkel er den eneste måten å gjenopprette din DigiWallet på hvis
   <!-- "Sent [$5] to [address]" => This is the "to [address]" part. -->
   <string name="TransactionDetails.to">til %1$s</string>
   <!-- Transaction ID header -->
-  <string name="TransactionDetails.txHashHeader">DigiByte transaksjons ID</string>
+  <string name="TransactionDetails.txHashHeader">eMark transaksjons ID</string>
   <!-- (this transaction was) Received at this address: -->
   <string name="TransactionDirection.address">Mottatt på denne adressen</string>
   <!-- (this transaction was) Sent to this address: -->
@@ -680,7 +680,7 @@ Din private nøkkel er den eneste måten å gjenopprette din DigiWallet på hvis
   <!-- Instruction to touch the sensor for fingerprint authentication -->
   <string name="UnlockScreen.touchIdInstructions.android">Legg finger på sensoren</string>
   <!-- TouchID prompt text -->
-  <string name="UnlockScreen.touchIdPrompt">Lås opp din DigiWallet.</string>
+  <string name="UnlockScreen.touchIdPrompt">Lås opp din eMark Wallet.</string>
   <!-- Device authentication body -->
   <string name="UnlockScreen.touchIdPrompt.android">"Vennligst lås opp din Android enhet for å fortsette. "</string>
   <!-- Unlock with TouchID accessibility label -->
@@ -690,9 +690,9 @@ Din private nøkkel er den eneste måten å gjenopprette din DigiWallet på hvis
   <!-- Wallet unlocked message -->
   <string name="UnlockScreen.unlocked">Lommebok opplåst</string>
   <!-- Update PIN caption text -->
-  <string name="UpdatePin.caption">Husk denne PIN koden, hvis du glemmer den vil du ikke ha tilgang til dine DigiByte.</string>
+  <string name="UpdatePin.caption">Husk denne PIN koden, hvis du glemmer den vil du ikke ha tilgang til dine eMark.</string>
   <!-- PIN creation info. -->
-  <string name="UpdatePin.createInstruction">"Din PIN kode vil blir brukt til å låse opp din DigiWallet og til å sende DigiByte. "</string>
+  <string name="UpdatePin.createInstruction">"Din PIN kode vil blir brukt til å låse opp din eMark Wallet og til å sende eMark. "</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">Sett PIN kode</string>
   <!-- Update PIN title -->
@@ -727,7 +727,7 @@ Skriv inn den nye PIN-koden din på nytt.</string>
   <!-- Authorize transaction with touch id message -->
   <string name="VerifyPin.touchIdMessage">"Autoriser denne transaksjonen "</string>
   <!-- 'No wallet' warning for watch app -->
-  <string name="Watch.noWalletWarning">Åpne DigiWallet Android app for å sette opp din lommebok.</string>
+  <string name="Watch.noWalletWarning">Åpne eMark Wallet Android app for å sette opp din lommebok.</string>
   <!-- Dismiss button label -->
   <string name="Webview.dismiss">Avvis</string>
   <!-- Webview loading error message -->
@@ -735,9 +735,9 @@ Skriv inn den nye PIN-koden din på nytt.</string>
   <!-- Updating webview message -->
   <string name="Webview.updating">Oppdaterer...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">"DigiWallet har et helt nytt design og noen nye funksjoner.\n\n Hvis du trenger hjelp, se etter (?) øverst i høyre hjørne på skjermen.  "</string>
+  <string name="Welcome.body">"eMark Wallet har et helt nytt design og noen nye funksjoner.\n\n Hvis du trenger hjelp, se etter (?) øverst i høyre hjørne på skjermen.  "</string>
   <!-- Top title of welcome screen -->
-  <string name="Welcome.title">"Velkommen til DigiWallet! "</string>
+  <string name="Welcome.title">"Velkommen til eMark Wallet! "</string>
   <!-- Wipe wallet alert message -->
   <string name="WipeWallet.alertMessage">"Er du sikker på at du vil slette denne lommeboken? "</string>
   <!-- Wipe wallet alert title -->
@@ -749,7 +749,7 @@ Skriv inn den nye PIN-koden din på nytt.</string>
   <!-- Enter phrase to wipe wallet instruction. -->
   <string name="WipeWallet.instruction">"For å lage en ny eller gjenopprette en eksisterende lommebok, må du først slette den lommeboken som du allerede har satt opp. For å fortsette må du legge inn den private nøkkelen for den eksisterende lommeboken. "</string>
   <!-- Start wipe wallet view message -->
-  <string name="WipeWallet.startMessage">"Ved å lage ny eller gjenopprette en annen lommebok vil du ha mulighet til å administrere en annen DigiWallet på denne enheten. "</string>
+  <string name="WipeWallet.startMessage">"Ved å lage ny eller gjenopprette en annen lommebok vil du ha mulighet til å administrere en annen eMark Wallet på denne enheten. "</string>
   <!-- Start wipe wallet view warning -->
   <string name="WipeWallet.startWarning">"Din nåværende lommebok vil bli fjernet fra denne enheten. Hvis du ønsker å gjenopprette i fremtiden, vil du bli bedt om å taste inn din private nøkkel. "</string>
   <!-- Wipe wallet navigation item title. -->

@@ -9,17 +9,17 @@
   <!-- Privay Policy button label -->
   <string name="About.privacy">"ଗୋପନତ ନୀତି "</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/DeutscheeMark/</string>
   <!-- Terms of Use button label -->
   <string name="About.terms">କାର୍ଯ୍ୟକାଳ ବିଷୟରେ
-https://github.com/Racecraft/digibytewallet-android</string>
+https://github.com/emarkproject/eMarkwallet-android</string>
   <!--
   Terms of Use button label
   About screen title
   -->
   <string name="About.title">"ଆନଡ୍ରୟାଡ୍ ଡିଭାଇସ୍ ୱାଲେଟ୍ "</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/deutsche_emark</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">"ବନ୍ଦ "</string>
   <!-- Support center accessibiliy label -->
@@ -59,7 +59,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Send success alert header label (confirmation that the send happened) -->
   <string name="Alerts.sendSuccess">"	ପୁଷ୍ଟିକରଣ ପଠାନ୍ତୁ"</string>
   <!-- Send success alert subheader label (e.g. the money was sent) -->
-  <string name="Alerts.sendSuccessSubheader">"DigiByte ପଠାଇଲୁ "</string>
+  <string name="Alerts.sendSuccessSubheader">"eMark ପଠାଇଲୁ "</string>
   <!-- Fingerprint was recognized by the scanner -->
   <string name="Alerts.touchIdSucceeded.android">"ଟିପ ଚିହ୍ନ ଚିହ୍ନିଲାଉ "</string>
   <string name="all">ସମସ୍ତ</string>
@@ -76,7 +76,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Confirmation alert title -->
   <string name="BCH.confirmationTitle">"	ପୁଷ୍ଟିକରଣ"</string>
   <!-- Generic bch erorr message -->
-  <string name="BCH.genericError">ଆପଣର ଖାତା ରେ DGB ନୁହେ ଅବା DGB ଫୋରକ ପରେ ପାଇଲୋ</string>
+  <string name="BCH.genericError">ଆପଣର ଖାତା ରେ DEM ନୁହେ ଅବା DEM ଫୋରକ ପରେ ପାଇଲୋ</string>
   <!-- Transaction ID copied message -->
   <string name="BCH.hashCopiedMessage">"କାର୍ଯ୍ୟନିର୍ବାହ ର ନକଲ କରା  ହେଲା "</string>
   <!-- No address error message -->
@@ -88,11 +88,11 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Widthdraw BCH view title -->
   <string name="BCH.title">ପ୍ରତ୍ୟାବର୍ତନ ଡି.ଜି.ବି.</string>
   <!-- Tx Hash button header -->
-  <string name="BCH.txHashHeader">DGB କାର୍ଯ୍ୟନିର୍ବାହ ID</string>
+  <string name="BCH.txHashHeader">DEM କାର୍ଯ୍ୟନିର୍ବାହ ID</string>
   <!-- Approve button label -->
   <string name="BitID.approve">"ନିଶ୍ଚିତ "</string>
   <!-- <sitename> is requesting authentication using your bitcoin wallet -->
-  <string name="BitID.authenticationRequest">"%1$s ଆପଣାର DigiWallet କୁ ବ୍ୟବହାର କରିବା ପାଇଁ ଦୃଢ଼ୀକରଣ ଚାହୁଁଚି "</string>
+  <string name="BitID.authenticationRequest">"%1$s ଆପଣାର eMark Wallet କୁ ବ୍ୟବହାର କରିବା ପାଇଁ ଦୃଢ଼ୀକରଣ ଚାହୁଁଚି "</string>
   <!-- Deny button label -->
   <string name="BitID.deny">"ମନା "</string>
   <!-- BitID error alert title -->
@@ -102,7 +102,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- BitID success alert title -->
   <string name="BitID.success">ସଫଳ ଭାବରେ ପ୍ରମାଣିତ</string>
   <!-- BitID Authentication Request alert view title -->
-  <string name="BitID.title">"DigiID ଦୃଢ଼ୀକରଣ ଅନୁରୋଧ "</string>
+  <string name="BitID.title">"eMarkID ଦୃଢ଼ୀକରଣ ଅନୁରୋଧ "</string>
   <!-- Cancel button label -->
   <string name="Button.cancel">"ବାତିଲ "</string>
   <!-- Ignore button label -->
@@ -208,7 +208,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- password textfield placeholder -->
   <string name="Import.passwordPlaceholder">ପାସ୍-ୱା୍ର୍ଡ</string>
   <!-- Caption for graphics -->
-  <string name="Import.rightCaption">ଆପଣାର DigiWallet</string>
+  <string name="Import.rightCaption">ଆପଣାର eMark Wallet</string>
   <!-- Scan Private key button label -->
   <string name="Import.scan">ବ୍ୟକ୍ତିଗତ କି-ସଂଖ୍ୟା ପର୍ଯ୍ୟବେକ୍ଷଣ କରନ୍ତୁ</string>
   <!-- Import wallet success alert title -->
@@ -240,7 +240,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <string name="LocationPlugin.disabled">ସ୍ଥାନ  ଜନିତ ସେବା 
 ବଳହୀନ କରାଯାଇଛି</string>
   <!-- No permissions for location services -->
-  <string name="LocationPlugin.notAuthorized">"DigiWallet କୁ ସ୍ଥାନ ନିରୂପଣ ବ୍ୟବହାର କରିବା ପାଇଁ ଅନୁମତି ନୁହେ   "</string>
+  <string name="LocationPlugin.notAuthorized">"eMark Wallet କୁ ସ୍ଥାନ ନିରୂପଣ ବ୍ୟବହାର କରିବା ପାଇଁ ଅନୁମତି ନୁହେ   "</string>
   <!-- Wallet creation date prefix -->
   <string name="ManageWallet.creationDatePrefix">"ତମେ %1$s ରେ ନିଜର ମୁନି କୁ ସୃଷ୍ଟି କରିଲୋ "</string>
   <!-- Manage wallet description text -->
@@ -298,7 +298,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Payment too small alert title -->
   <string name="PaymentProtocol.Errors.smallOutputError">"ପ୍ରଦାନ କରି ପରିନୁ "</string>
   <!-- Amount too small error message -->
-  <string name="PaymentProtocol.Errors.smallPayment">"DigiByte ପ୍ରଦାନ %1$s ରୁ କାମ ରହି ପାରିବନୀ "</string>
+  <string name="PaymentProtocol.Errors.smallPayment">"eMark ପ୍ରଦାନ %1$s ରୁ କାମ ରହି ପାରିବନୀ "</string>
   <!-- Output too small error message. -->
   <string name="PaymentProtocol.Errors.smallTransaction">ସମ୍ପାଦନ ଫଳ %1$s ରୁ କମ୍ ଗ୍ରହଣୀୟ ନୁହଁ
 </string>
@@ -450,7 +450,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Instructions how to allow the camera access for the app -->
   <string name="Send.cameraUnavailabeMessage.android">କ୍ୟାମେରା ପ୍ରାପ୍ତ ପାଇଁ ଅନୁମତି \"ସେଟ୍ଟିନ୍ଗସ୍\"&gt;&gt;\"ଆପ୍ପସ୍\"&gt;&gt;\"ଅନୁମତି</string>
   <!-- Permission required to access camera -->
-  <string name="Send.cameraUnavailabeTitle.android">"DigiWallet କୁ କ୍ୟାମେରା ବ୍ୟବହାର କରିବା ପାଇଁ ଅନୁମତି ନୁହେ  "</string>
+  <string name="Send.cameraUnavailabeTitle.android">"eMark Wallet କୁ କ୍ୟାମେରା ବ୍ୟବହାର କରିବା ପାଇଁ ଅନୁମତି ନୁହେ  "</string>
   <!-- Camera not allowed message -->
   <string name="Send.cameraunavailableMessage">"କ୍ୟାମେରା ପ୍ରବେଶ ସୁବିଧା ପାଇଁ  Settings କୁ ଯିବେ "</string>
   <!-- Camera not allowed alert title -->
@@ -468,7 +468,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Payee identity not certified alert title. -->
   <string name="Send.identityNotCertified">ଜମାକାରୀ ନ୍କ ପରିଚୟ ପ୍ରମାଣିତ ନୁହଁ</string>
   <!-- Invalid address alert message -->
-  <string name="Send.invalidAddressMessage">"ଲକ୍ଷ୍ୟସ୍ଥାନ ଠିକଣା ଏକ ଠିକ DigiByte ଠିକଣା ନୁହେ "</string>
+  <string name="Send.invalidAddressMessage">"ଲକ୍ଷ୍ୟସ୍ଥାନ ଠିକଣା ଏକ ଠିକ eMark ଠିକଣା ନୁହେ "</string>
   <!-- Invalid address on pasteboard message -->
   <string name="Send.invalidAddressOnPasteboard">"ପେଏସତବୋର୍ଡ ଏକ ଠିକ  Digibyte ଠିକଣା ଧାରଣ କରୁନି  "</string>
   <!-- Invalid address alert title -->
@@ -587,7 +587,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Fingerprint Is Not Setup -->
   <string name="TouchIdSettings.disabledWarning.title.android">ଫିନ୍ଗରପ୍ରିଣ୍ଟ  ପ୍ରମାଣ ଯୋଗ୍ୟ ନୁହଁ</string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">"DigiWallet ର ଛବି ଖୋଲିବା ପାଇଁ ଆପଣାର ଟିପ ଚିହ୍ନ ର ବ୍ୟବହହର କରନ୍ତୁ  "</string>
+  <string name="TouchIdSettings.label">"eMark Wallet ର ଛବି ଖୋଲିବା ପାଇଁ ଆପଣାର ଟିପ ଚିହ୍ନ ର ବ୍ୟବହହର କରନ୍ତୁ  "</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
   <string name="TouchIdSettings.linkText">"ତାଛ ID ଖର୍ଚ୍ଚ ସୀମିତ ପରଦା "</string>
   <!-- Spending Limit: b100,000 ($100) -->
@@ -704,7 +704,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Update PIN caption text -->
   <string name="UpdatePin.caption">"pin କୁ ମନେ ରଖିବା ,ଅଥବା digibyte ରେ ପ୍ରବେଶ କରି ପାରିବ ନି "</string>
   <!-- PIN creation info. -->
-  <string name="UpdatePin.createInstruction">"DigiWallet ର ତାଲା ଖୋଲିବା ପାଇଁ ଆପଣାର ର ବ୍ୟବହୃତ କର  ଏବଂ  DigiByte କୁ ପଠାଇବା  "</string>
+  <string name="UpdatePin.createInstruction">"eMark Wallet ର ତାଲା ଖୋଲିବା ପାଇଁ ଆପଣାର ର ବ୍ୟବହୃତ କର  ଏବଂ  eMark କୁ ପଠାଇବା  "</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">"ସେଟ PIN "</string>
   <!-- Update PIN title -->

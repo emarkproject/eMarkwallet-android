@@ -9,16 +9,16 @@
   <!-- Privay Policy button label -->
   <string name="About.privacy">ગોપનીયતા નીતિ</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/DeutscheeMark/</string>
   <!-- Terms of Use button label -->
-  <string name="About.terms">આ પ્રોજેક્ટ ઓપન સોર્સ છે, તમે અહીં કોડની સમીક્ષા કરી શકો છો: https://github.com/Racecraft/digibytewallet-android</string>
+  <string name="About.terms">આ પ્રોજેક્ટ ઓપન સોર્સ છે, તમે અહીં કોડની સમીક્ષા કરી શકો છો: https://github.com/emarkproject/eMarkwallet-android</string>
   <!--
   Terms of Use button label
   About screen title
   -->
   <string name="About.title">"ડિગિવોલેટ એ એન્ડ્રોઇડ મોબાઈલ માટેનું ડીગીબાઈટ વોલેટ છે. "</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/deutsche_emark</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">બંધ કરો</string>
   <!-- Support center accessibiliy label -->
@@ -58,7 +58,7 @@
   <!-- Send success alert header label (confirmation that the send happened) -->
   <string name="Alerts.sendSuccess">પુષ્ટિકરણ મોકલો</string>
   <!-- Send success alert subheader label (e.g. the money was sent) -->
-  <string name="Alerts.sendSuccessSubheader">DigiByte મોકલ્યો!</string>
+  <string name="Alerts.sendSuccessSubheader">eMark મોકલ્યો!</string>
   <!-- Fingerprint was recognized by the scanner -->
   <string name="Alerts.touchIdSucceeded.android">ફિંગરપ્રિન્ટ ઓળખી</string>
   <string name="all">બધા</string>
@@ -75,19 +75,19 @@
   <!-- Confirmation alert title -->
   <string name="BCH.confirmationTitle">સમર્થન</string>
   <!-- Generic bch erorr message -->
-  <string name="BCH.genericError">તમારા એકાઉન્ટમાં કોઈ DGB નથી, અથવા તમે ફોર્ક પછી DGB પ્રાપ્ત કરી છે.</string>
+  <string name="BCH.genericError">તમારા એકાઉન્ટમાં કોઈ DEM નથી, અથવા તમે ફોર્ક પછી DEM પ્રાપ્ત કરી છે.</string>
   <!-- Transaction ID copied message -->
   <string name="BCH.hashCopiedMessage">ટ્રાન્ઝેક્શન આઈડી કૉપિ કરેલ છે</string>
   <!-- No address error message -->
   <string name="BCH.noAddressError">કૃપા કરી કોઈ સરનામું દાખલ કરો</string>
   <!-- Attempted to scan unsupported qr code error message. -->
-  <string name="BCH.paymentProtocolError">ચુકવણી પ્રોટોકૉલ વિનંતીઓ DGB વ્યવહારો માટે આધારભૂત નથી</string>
+  <string name="BCH.paymentProtocolError">ચુકવણી પ્રોટોકૉલ વિનંતીઓ DEM વ્યવહારો માટે આધારભૂત નથી</string>
   <!-- BCH successfully sent alert message -->
-  <string name="BCH.successMessage">DGB સફળતાપૂર્વક મોકલવામાં આવેલ છે.</string>
+  <string name="BCH.successMessage">DEM સફળતાપૂર્વક મોકલવામાં આવેલ છે.</string>
   <!-- Widthdraw BCH view title -->
   <string name="BCH.title">"ડીજિબી ઉપાડો "</string>
   <!-- Tx Hash button header -->
-  <string name="BCH.txHashHeader">"DGB વ્યવહાર ID "</string>
+  <string name="BCH.txHashHeader">"DEM વ્યવહાર ID "</string>
   <!-- Approve button label -->
   <string name="BitID.approve">મંજૂર</string>
   <!-- <sitename> is requesting authentication using your bitcoin wallet -->
@@ -101,7 +101,7 @@
   <!-- BitID success alert title -->
   <string name="BitID.success">સફળતાપૂર્વક પ્રમાણિત</string>
   <!-- BitID Authentication Request alert view title -->
-  <string name="BitID.title">DigiID પ્રમાણીકરણ વિનંતી</string>
+  <string name="BitID.title">eMarkID પ્રમાણીકરણ વિનંતી</string>
   <!-- Cancel button label -->
   <string name="Button.cancel">રદ કરો</string>
   <!-- Ignore button label -->
@@ -377,7 +377,7 @@
   <!-- Enter paper key instruction -->
   <string name="RecoverWallet.instruction">વ્યક્તિગત પુનઃપ્રાપ્તિ કી દાખલ કરો</string>
   <!-- Recover wallet intro -->
-  <string name="RecoverWallet.intro">તમારી વ્યક્તિગત પુનઃપ્રાપ્તિ કી સાથે તમારા DigiWallet પુનઃપ્રાપ્ત</string>
+  <string name="RecoverWallet.intro">તમારી વ્યક્તિગત પુનઃપ્રાપ્તિ કી સાથે તમારા eMark Wallet પુનઃપ્રાપ્ત</string>
   <!-- Invalid paper key message -->
   <string name="RecoverWallet.invalid">તમે દાખલ કરેલ વ્યક્તિગત પુનઃપ્રાપ્તિ કી અમાન્ય છે. કૃપા કરીને દરેક શબ્દને ફરીથી તપાસો અને ફરીથી પ્રયાસ કરો.</string>
   <!-- Previous button accessibility label -->
@@ -411,7 +411,7 @@
   <!-- Start Sync button label -->
   <string name="ReScan.buttonTitle">સમન્વયન પ્રારંભ કરો</string>
   <!-- Sync blockchain view footer -->
-  <string name="ReScan.footer">બ્લોકચેન સાથે સમન્વયનકરતી વખતે તમે DigiByte મોકલી શકશો નહીં.</string>
+  <string name="ReScan.footer">બ્લોકચેન સાથે સમન્વયનકરતી વખતે તમે eMark મોકલી શકશો નહીં.</string>
   <!-- Sync Blockchain view header -->
   <string name="ReScan.header">"બ્લોકચેન  સમન્વય "</string>
   <!-- Subheader label -->
@@ -475,7 +475,7 @@
   <string name="Send.identityNotCertified">નાણાં લેનારની  ઓળખાણ પ્રમાણિત નથી.</string>
   <!-- Invalid address alert message -->
   <string name="Send.invalidAddressMessage">
-ગંતવ્ય સરનામું કોઈ માન્ય DigiByte સરનામું નથી.</string>
+ગંતવ્ય સરનામું કોઈ માન્ય eMark સરનામું નથી.</string>
   <!-- Invalid address on pasteboard message -->
   <string name="Send.invalidAddressOnPasteboard">પેસ્ટબોર્ડમાં ડિગીબાઇટનુ માન્ય સરનામું નથી.</string>
   <!-- Invalid address alert title -->
@@ -551,7 +551,7 @@
   <!-- Start or recover another wallet menu label. -->
   <string name="Settings.wipe">અન્ય વૉલેટ પ્રારંભ / પુનર્પ્રાપ્ત કરો</string>
   <!-- Share data view body -->
-  <string name="ShareData.body">અમારા સાથે તમારા અનામ ડેટાને શેર કરીને DigiWallet ને બહેતર બનાવવામાં સહાય કરો. તેમાં કોઈ નાણાકીય માહિતી શામેલ નથી. અમે તમારી નાણાકીય ગોપનીયતાનો આદર કરીએ છીએ</string>
+  <string name="ShareData.body">અમારા સાથે તમારા અનામ ડેટાને શેર કરીને eMark Wallet ને બહેતર બનાવવામાં સહાય કરો. તેમાં કોઈ નાણાકીય માહિતી શામેલ નથી. અમે તમારી નાણાકીય ગોપનીયતાનો આદર કરીએ છીએ</string>
   <!-- Share data header -->
   <string name="ShareData.header">ડેટા શેર કરીએ?</string>
   <!-- Share data switch label. -->
@@ -763,7 +763,7 @@ PIN ભૂલ અપડેટ કરો</string>
   <!-- Updating webview message -->
   <string name="Webview.updating">અપડેટ કરી રહ્યું છે ...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">DigiWallet પાસે એક નવો દેખાવ અને કેટલીક નવી લાક્ષણિકતાઓ છે. \ N \ n જો તમને મદદની જરૂર હોય તો,  સ્ક્રીનોની સૌથી ઉપર જમણી બાજુએ (?) શોધો</string>
+  <string name="Welcome.body">eMark Wallet પાસે એક નવો દેખાવ અને કેટલીક નવી લાક્ષણિકતાઓ છે. \ N \ n જો તમને મદદની જરૂર હોય તો,  સ્ક્રીનોની સૌથી ઉપર જમણી બાજુએ (?) શોધો</string>
   <!-- Top title of welcome screen -->
   <string name="Welcome.title">ડિગીવોલેટ પર આપનું સ્વાગત છે!
 </string>

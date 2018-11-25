@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
   <!-- App name -->
-  <string name="About.appName.android">DigiWallet</string>
+  <string name="About.appName.android">eMark Wallet</string>
   <!-- About screen blog label -->
   <string name="About.blog">https://digibyte.io/</string>
   <!-- About screen footer -->
-  <string name="About.footer">Sviluppato da Global DigiWallet Team. Versione %1$s</string>
+  <string name="About.footer">Sviluppato da Global eMark Wallet Team. Versione %1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">Privacy</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/DeutscheeMark/</string>
   <!-- Terms of Use button label -->
-  <string name="About.terms">Termini di utilizzo https://github.com/Racecraft/digibytewallet-android</string>
+  <string name="About.terms">Termini di utilizzo https://github.com/emarkproject/eMarkwallet-android</string>
   <!--
   Terms of Use button label
   About screen title
   -->
-  <string name="About.title">DigiWallet per Android, il Portafoglio per DigiByte.
+  <string name="About.title">eMark Wallet per Android, il Portafoglio per eMark.
 </string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/deutsche_emark</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">Chiudi</string>
   <!-- Support center accessibiliy label -->
@@ -27,7 +27,7 @@
   <!-- Loading Wallet Message -->
   <string name="Account.loadingMessage">Caricamento Portafoglio</string>
   <!-- Default wallet name -->
-  <string name="AccountHeader.defaultWalletName">Il mio DigiWallet</string>
+  <string name="AccountHeader.defaultWalletName">Il mio eMark Wallet</string>
   <!-- Third party keyboard warning -->
   <string name="Alert.customKeyboard.android">Sembra che tu stia usando una tastiera di terze parti, che può registrare quello che scrivi e rubare la tua chiave cartacea. Per favore passa alla tastiera predefinita Android per una maggior protezione.</string>
   <!-- Error alert title -->
@@ -35,7 +35,7 @@
   <!-- Keystore error -->
   <string name="Alert.keystore.generic.android">C\'è un problema con la tua Android keystore, per favore contatta support@digibyte.io</string>
   <!-- KeyStore error, keys are invalidated -->
-  <string name="Alert.keystore.invalidated.android">I dati crittografati del tuo DigiWallet sono stati recentemente invalidati perché il blocco schermo di Android era disabilitato.</string>
+  <string name="Alert.keystore.invalidated.android">I dati crittografati del tuo eMark Wallet sono stati recentemente invalidati perché il blocco schermo di Android era disabilitato.</string>
   <!-- Keystore error title -->
   <string name="Alert.keystore.title.android">Errore di Android keystore</string>
   <!-- No internet alert message -->
@@ -57,7 +57,7 @@
   <!-- Send success alert header label (confirmation that the send happened) -->
   <string name="Alerts.sendSuccess">Invio Confermato</string>
   <!-- Send success alert subheader label (e.g. the money was sent) -->
-  <string name="Alerts.sendSuccessSubheader">DigiByte Inviati!</string>
+  <string name="Alerts.sendSuccessSubheader">eMark Inviati!</string>
   <!-- Fingerprint was recognized by the scanner -->
   <string name="Alerts.touchIdSucceeded.android">Impronta riconosciuta</string>
   <string name="all">TUTTI</string>
@@ -68,29 +68,29 @@
   <!-- API Token error message -->
   <string name="ApiClient.tokenError">Impossibile recuperare il token API</string>
   <!-- Send BCH view body. -->
-  <string name="BCH.body">Nel seguente campo inserisci un indirizzo di destinazione DigiByte. Dal momento della biforcazione (%1$s) tutti i DigiByte nel tuo portafoglio saranno inviati.</string>
+  <string name="BCH.body">Nel seguente campo inserisci un indirizzo di destinazione eMark. Dal momento della biforcazione (%1$s) tutti i eMark nel tuo portafoglio saranno inviati.</string>
   <!-- Confirm sending <$5.00> to <address>? -->
   <string name="BCH.confirmationMessage">Inviare %1$s all\'indirizzo %2$s ?</string>
   <!-- Confirmation alert title -->
   <string name="BCH.confirmationTitle">Conferma</string>
   <!-- Generic bch erorr message -->
-  <string name="BCH.genericError">Il tuo account non contiene nessun DigiByte, oppure hai ricevuto DigiByte dopo la biforcazione.</string>
+  <string name="BCH.genericError">Il tuo account non contiene nessun eMark, oppure hai ricevuto eMark dopo la biforcazione.</string>
   <!-- Transaction ID copied message -->
   <string name="BCH.hashCopiedMessage">ID transazione copiato</string>
   <!-- No address error message -->
   <string name="BCH.noAddressError">Inserisci un indirizzo</string>
   <!-- Attempted to scan unsupported qr code error message. -->
-  <string name="BCH.paymentProtocolError">Il protocollo di richieste pagamenti non è supportato per le transazioni DigiByte</string>
+  <string name="BCH.paymentProtocolError">Il protocollo di richieste pagamenti non è supportato per le transazioni eMark</string>
   <!-- BCH successfully sent alert message -->
-  <string name="BCH.successMessage">Invio DigiByte avvenuto con successo.</string>
+  <string name="BCH.successMessage">Invio eMark avvenuto con successo.</string>
   <!-- Widthdraw BCH view title -->
-  <string name="BCH.title">Preleva DigiByte</string>
+  <string name="BCH.title">Preleva eMark</string>
   <!-- Tx Hash button header -->
-  <string name="BCH.txHashHeader">ID transazione DigiByte</string>
+  <string name="BCH.txHashHeader">ID transazione eMark</string>
   <!-- Approve button label -->
   <string name="BitID.approve">Approva</string>
   <!-- <sitename> is requesting authentication using your bitcoin wallet -->
-  <string name="BitID.authenticationRequest">%1$s richiede l\'autenticazione utilizzando il tuo DigiWallet</string>
+  <string name="BitID.authenticationRequest">%1$s richiede l\'autenticazione utilizzando il tuo eMark Wallet</string>
   <!-- Deny button label -->
   <string name="BitID.deny">Rifiuta</string>
   <!-- BitID error alert title -->
@@ -100,7 +100,7 @@
   <!-- BitID success alert title -->
   <string name="BitID.success">Autenticato con Successo</string>
   <!-- BitID Authentication Request alert view title -->
-  <string name="BitID.title">Autenticazione DigiID Richiesta</string>
+  <string name="BitID.title">Autenticazione eMarkID Richiesta</string>
   <!-- Cancel button label -->
   <string name="Button.cancel">Cancella</string>
   <!-- Ignore button label -->
@@ -143,7 +143,7 @@
   <string name="current_amount">Valore corrente:</string>
   <string name="date">Data</string>
   <!-- Bitcoin denomination picker label -->
-  <string name="DefaultCurrency.bitcoinLabel">Unità DigiByte Visualizzata</string>
+  <string name="DefaultCurrency.bitcoinLabel">Unità eMark Visualizzata</string>
   <!--
   Bitcoin denomination picker label
   Exchange rate label
@@ -154,7 +154,7 @@
   <!-- Email unavailable alert title -->
   <string name="ErrorMessages.emailUnavailableTitle">Email non Disponibile</string>
   <!-- Message that gets shown when we've detected the user has encountered the looping lock-screen bug. (preserve [ ] characters) -->
-  <string name="ErrorMessages.loopingLockScreen.android">DigiWallet non può essere autenticato a causa di un errore nella tua versione di Android. [Per favore premi qui per maggiori informazioni.]</string>
+  <string name="ErrorMessages.loopingLockScreen.android">eMark Wallet non può essere autenticato a causa di un errore nella tua versione di Android. [Per favore premi qui per maggiori informazioni.]</string>
   <!-- Messaging unavailable alert title -->
   <string name="ErrorMessages.messagingUnavailableMessage">Questo dispositivo non è configurato per inviare messaggi.</string>
   <!-- Messaging unavailable alert title -->
@@ -178,7 +178,7 @@
   <!-- Checking private key balance progress view text -->
   <string name="Import.checking">Controllando il saldo della chiave privata...</string>
   <!-- Sweep private key confirmation message -->
-  <string name="Import.confirm">Inviare %1$s da questa chiave privata nel tuo portafoglio? La rete DigiByte riceverà un contributo di %2$s</string>
+  <string name="Import.confirm">Inviare %1$s da questa chiave privata nel tuo portafoglio? La rete eMark riceverà un contributo di %2$s</string>
   <!-- Duplicate key error message -->
   <string name="Import.Error.duplicate">Questa chiave privata è già nel tuo portafoglio.</string>
   <!-- empty private key error message -->
@@ -196,13 +196,13 @@
   <!-- Caption for graphics -->
   <string name="Import.leftCaption">Portafoglio da importare</string>
   <!-- Import wallet intro screen message -->
-  <string name="Import.message">L\'importazione di un portafoglio trasferisce tutti i DigiByte dall\'altro portafoglio nel tuo DigiWallet utilizzando una singola transazione.</string>
+  <string name="Import.message">L\'importazione di un portafoglio trasferisce tutti i eMark dall\'altro portafoglio nel tuo eMark Wallet utilizzando una singola transazione.</string>
   <!-- Enter password alert view title -->
   <string name="Import.password">Questa chiave privata è protetta da password.</string>
   <!-- password textfield placeholder -->
   <string name="Import.passwordPlaceholder">password</string>
   <!-- Caption for graphics -->
-  <string name="Import.rightCaption">Il tuo DigiWallet</string>
+  <string name="Import.rightCaption">Il tuo eMark Wallet</string>
   <!-- Scan Private key button label -->
   <string name="Import.scan">Scansiona una Chiave Privata</string>
   <!-- Import wallet success alert title -->
@@ -223,19 +223,19 @@
   <string name="JailbreakWarnings.ignore">Ignora</string>
   <!-- Jailbreak warning message -->
   <string name="JailbreakWarnings.messageWithBalance">SICUREZZA DEL DISPOSITIVO COMPROMESSA
-Qualsiasi app \'jailbreak\' può accedere ai dati del portachiavi DigiWallet e rubare i tuoi DigiByte! Pulisci immediatamente questo portafoglio e ripristinalo su un dispositivo sicuro.</string>
+Qualsiasi app \'jailbreak\' può accedere ai dati del portachiavi eMark Wallet e rubare i tuoi eMark! Pulisci immediatamente questo portafoglio e ripristinalo su un dispositivo sicuro.</string>
   <!--
   Ignore jailbreak warning button
   Jailbreak warning message
   -->
   <string name="JailbreakWarnings.messageWithoutBalance">SICUREZZA DEL DISPOSITIVO COMPROMESSA
-Qualsiasi app \'jailbreak\' può accedere ai dati di portachiavi di DigiWallet e rubare i tuoi DigiByte. Si prega di utilizzare DigiWallet solo su un dispositivo non-jailbroken.</string>
+Qualsiasi app \'jailbreak\' può accedere ai dati di portachiavi di eMark Wallet e rubare i tuoi eMark. Si prega di utilizzare eMark Wallet solo su un dispositivo non-jailbroken.</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">ATTENZIONE</string>
   <!-- Location services disabled error -->
   <string name="LocationPlugin.disabled">I servizi di localizzazione sono disabilitati.</string>
   <!-- No permissions for location services -->
-  <string name="LocationPlugin.notAuthorized">DigiWallet non ha l\'autorizzazione per accedere ai servizi di localizzazione.</string>
+  <string name="LocationPlugin.notAuthorized">eMark Wallet non ha l\'autorizzazione per accedere ai servizi di localizzazione.</string>
   <!-- Wallet creation date prefix -->
   <string name="ManageWallet.creationDatePrefix">Portafoglio creato il %1$s</string>
   <!-- Manage wallet description text -->
@@ -247,7 +247,7 @@ Qualsiasi app \'jailbreak\' può accedere ai dati di portachiavi di DigiWallet e
   <string name="max">max</string>
   <string name="max_send_enabled">Mostra pulsante: invia il numero massimo</string>
   <!-- Buy bitcoin title -->
-  <string name="MenuButton.buy">Compra DigiByte</string>
+  <string name="MenuButton.buy">Compra eMark</string>
   <!-- Menu button title -->
   <string name="MenuButton.lock">Blocca Portafoglio</string>
   <!-- Menu button title -->
@@ -279,7 +279,7 @@ Qualsiasi app \'jailbreak\' può accedere ai dati di portachiavi di DigiWallet e
   <!-- Node status label -->
   <string name="NodeSelector.statusLabel">Stato Connessione Nodo</string>
   <!-- Node Selector view title -->
-  <string name="NodeSelector.title">Nodi DigiByte</string>
+  <string name="NodeSelector.title">Nodi eMark</string>
   <string name="no_limit">Senza limiti</string>
   <string name="original_amount">Valore originale: %s</string>
   <!-- Bad Payment request alert title -->
@@ -293,9 +293,9 @@ Qualsiasi app \'jailbreak\' può accedere ai dati di portachiavi di DigiWallet e
   <!-- Payment too small alert title -->
   <string name="PaymentProtocol.Errors.smallOutputError">Non è stato possibile effettuare il pagamento</string>
   <!-- Amount too small error message -->
-  <string name="PaymentProtocol.Errors.smallPayment">I pagamenti DigiByte non possono essere meno di %1$s</string>
+  <string name="PaymentProtocol.Errors.smallPayment">I pagamenti eMark non possono essere meno di %1$s</string>
   <!-- Output too small error message. -->
-  <string name="PaymentProtocol.Errors.smallTransaction">Le transazioni in uscita DigiByte non possono essere inferiori a %1$s</string>
+  <string name="PaymentProtocol.Errors.smallTransaction">Le transazioni in uscita eMark non possono essere inferiori a %1$s</string>
   <!-- Unsupported signature type payment protocol error message -->
   <string name="PaymentProtocol.Errors.unsupportedSignatureType">Tipo Firma non supportata</string>
   <!-- Untrusted certificate payment protocol error message -->
@@ -318,7 +318,7 @@ Qualsiasi app \'jailbreak\' può accedere ai dati di portachiavi di DigiWallet e
   <!-- Transaction rejected prompt title -->
   <string name="Prompts.RecommendRescan.title">Transazione Rifiutata</string>
   <!-- Share data prompt body -->
-  <string name="Prompts.ShareData.body">Aiutaci a migliorare DigiWallet condividendo i tuoi dati  in maniera anonima con noi</string>
+  <string name="Prompts.ShareData.body">Aiutaci a migliorare eMark Wallet condividendo i tuoi dati  in maniera anonima con noi</string>
   <!-- Share data prompt title -->
   <string name="Prompts.ShareData.title">Condividi Dati Anonimi</string>
   <!-- Enable touch ID prompt body -->
@@ -332,11 +332,11 @@ Qualsiasi app \'jailbreak\' può accedere ai dati di portachiavi di DigiWallet e
   <!-- Button on fingerprint prompt so the user can enter their PIN instead -->
   <string name="Prompts.TouchId.usePin.android">PIN</string>
   <!-- Upgrade PIN prompt body. -->
-  <string name="Prompts.UpgradePin.body">DigiWallet necessita dell\'utilizzo di un PIN a 6 cifre. Tocca qui per aggiornare.</string>
+  <string name="Prompts.UpgradePin.body">eMark Wallet necessita dell\'utilizzo di un PIN a 6 cifre. Tocca qui per aggiornare.</string>
   <!-- Upgrade PIN prompt title. -->
   <string name="Prompts.UpgradePin.title">Aggiorna PIN</string>
   <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
-  <string name="PushNotifications.body">Attiva le notifiche per ricevere dal DigiWallet messaggi importanti in futuro.</string>
+  <string name="PushNotifications.body">Attiva le notifiche per ricevere dal eMark Wallet messaggi importanti in futuro.</string>
   <!-- Push notifications toggle switch label -->
   <string name="PushNotifications.label">Notifiche Push</string>
   <!-- Push notifications are off label -->
@@ -367,7 +367,7 @@ Qualsiasi app \'jailbreak\' può accedere ai dati di portachiavi di DigiWallet e
   <!-- Enter paper key instruction -->
   <string name="RecoverWallet.instruction">Inserisci la Chiave personale di recupero</string>
   <!-- Recover wallet intro -->
-  <string name="RecoverWallet.intro">Recupera il tuo DigiWallet con la tua Chiave personale di recupero.</string>
+  <string name="RecoverWallet.intro">Recupera il tuo eMark Wallet con la tua Chiave personale di recupero.</string>
   <!-- Invalid paper key message -->
   <string name="RecoverWallet.invalid">La Chiave personale di recupero inserita non è valida. Si prega di ricontrollare ogni parola e riprovare.</string>
   <!-- Previous button accessibility label -->
@@ -379,7 +379,7 @@ Qualsiasi app \'jailbreak\' può accedere ai dati di portachiavi di DigiWallet e
   <!-- Next button accessibility label -->
   <string name="RecoverWallet.rightArrow">Freccia destra</string>
   <!-- Recover wallet sub-header -->
-  <string name="RecoverWallet.subheader">Inserisci la Chiave personale di recupero per il DigiWallet che vuoi recuperare.</string>
+  <string name="RecoverWallet.subheader">Inserisci la Chiave personale di recupero per il eMark Wallet che vuoi recuperare.</string>
   <!-- Reset PIN with paper key: sub-header -->
   <string name="RecoverWallet.subheader_reset_pin">Per reimpostare il PIN, inserisci le parole dalla Chiave personale di recupero nelle caselle sottostanti.</string>
   <!-- No amount entered error message. -->
@@ -389,19 +389,19 @@ Qualsiasi app \'jailbreak\' può accedere ai dati di portachiavi di DigiWallet e
   <!-- Alert action button label -->
   <string name="ReScan.alertAction">Sincronizza</string>
   <!-- Alert message body -->
-  <string name="ReScan.alertMessage">Non sarai in grado di inviare DigiByte durante la sincronizzazione.</string>
+  <string name="ReScan.alertMessage">Non sarai in grado di inviare eMark durante la sincronizzazione.</string>
   <!-- Alert message title -->
   <string name="ReScan.alertTitle">Sincronizzare con Blockchain?</string>
   <!-- extimated time -->
   <string name="ReScan.body1">20-45 minuti</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body2">Se una transazione viene visualizzata come completata sulla rete DigiByte ma non nel tuo DigiWallet.</string>
+  <string name="ReScan.body2">Se una transazione viene visualizzata come completata sulla rete eMark ma non nel tuo eMark Wallet.</string>
   <!-- Syncing explanation -->
   <string name="ReScan.body3">Ricevi ripetutamente un errore che ti dice che la transazione è stata rifiutata.</string>
   <!-- Start Sync button label -->
   <string name="ReScan.buttonTitle">Inizia Sincronizzazione</string>
   <!-- Sync blockchain view footer -->
-  <string name="ReScan.footer">Non sarai in grado di inviare DigiByte durante la sincronizzazione con la blockchain.</string>
+  <string name="ReScan.footer">Non sarai in grado di inviare eMark durante la sincronizzazione con la blockchain.</string>
   <!-- Sync Blockchain view header -->
   <string name="ReScan.header">" Sincronizzazione Blockchain"</string>
   <!-- Subheader label -->
@@ -421,17 +421,17 @@ Qualsiasi app \'jailbreak\' può accedere ai dati di portachiavi di DigiWallet e
   <!-- Security Center Info -->
   <string name="SecurityCenter.info">Abilita tutte le funzionalità di sicurezza per la massima protezione.</string>
   <!-- Paper Key button description -->
-  <string name="SecurityCenter.paperKeyDescription">L\'unico modo per accedere al tuo DigiByte se perdi o aggiorni il tuo telefono.</string>
+  <string name="SecurityCenter.paperKeyDescription">L\'unico modo per accedere al tuo eMark se perdi o aggiorni il tuo telefono.</string>
   <!-- Paper Key button title -->
   <string name="SecurityCenter.paperKeyTitle">Chiave personale di recupero</string>
   <!-- PIN button description -->
-  <string name="SecurityCenter.pinDescription">Protegge il tuo DigiWallet da utenti non autorizzati.</string>
+  <string name="SecurityCenter.pinDescription">Protegge il tuo eMark Wallet da utenti non autorizzati.</string>
   <!-- PIN button title -->
   <string name="SecurityCenter.pinTitle">PIN a 6 cifre</string>
   <!-- Security Center Title -->
   <string name="SecurityCenter.title">Centro Sicurezza</string>
   <!-- Touch ID button description -->
-  <string name="SecurityCenter.touchIdDescription">Sblocca comodamente il tuo DigiWallet e invia DigiByte fino a un limite prestabilito.</string>
+  <string name="SecurityCenter.touchIdDescription">Sblocca comodamente il tuo eMark Wallet e invia eMark fino a un limite prestabilito.</string>
   <!-- Touch ID button title -->
   <string name="SecurityCenter.touchIdTitle">Touch ID</string>
   <!-- Security center fingerprint authentication button -->
@@ -441,13 +441,13 @@ Qualsiasi app \'jailbreak\' può accedere ai dati di portachiavi di DigiWallet e
   <!-- Balance: $4.00 -->
   <string name="Send.balance">Saldo: %1$s</string>
   <!-- Instructions how to allow the camera access for the app -->
-  <string name="Send.cameraUnavailabeMessage.android">Permetti accesso alla fotocamera in  \"Impostazioni\" &gt; \"Apps\" &gt; \"DigiWallet\" &gt; \"Permessi\"</string>
+  <string name="Send.cameraUnavailabeMessage.android">Permetti accesso alla fotocamera in  \"Impostazioni\" &gt; \"Apps\" &gt; \"eMark Wallet\" &gt; \"Permessi\"</string>
   <!-- Permission required to access camera -->
-  <string name="Send.cameraUnavailabeTitle.android">DigiWallet non è autorizzato ad accedere alla fotocamera</string>
+  <string name="Send.cameraUnavailabeTitle.android">eMark Wallet non è autorizzato ad accedere alla fotocamera</string>
   <!-- Camera not allowed message -->
   <string name="Send.cameraunavailableMessage">Vai in Impostazioni per consentire l\'accesso alla fotocamera.</string>
   <!-- Camera not allowed alert title -->
-  <string name="Send.cameraUnavailableTitle">DigiWallet non è autorizzato ad accedere alla fotocamera</string>
+  <string name="Send.cameraUnavailableTitle">eMark Wallet non è autorizzato ad accedere alla fotocamera</string>
   <!-- Warning when sending to self. -->
   <string name="Send.containsAddress">La destinazione è il tuo indirizzo. Non puoi inviare a te stesso.</string>
   <!-- Could not create transaction alert title -->
@@ -461,9 +461,9 @@ Qualsiasi app \'jailbreak\' può accedere ai dati di portachiavi di DigiWallet e
   <!-- Payee identity not certified alert title. -->
   <string name="Send.identityNotCertified">L\'identità del beneficiario non è certificata.</string>
   <!-- Invalid address alert message -->
-  <string name="Send.invalidAddressMessage">L\'indirizzo di destinazione non è un indirizzo DigiByte valido.</string>
+  <string name="Send.invalidAddressMessage">L\'indirizzo di destinazione non è un indirizzo eMark valido.</string>
   <!-- Invalid address on pasteboard message -->
-  <string name="Send.invalidAddressOnPasteboard">Gli appunti non contengono un indirizzo DigiByte valido.</string>
+  <string name="Send.invalidAddressOnPasteboard">Gli appunti non contengono un indirizzo eMark valido.</string>
   <!-- Invalid address alert title -->
   <string name="Send.invalidAddressTitle">Indirizzo non valido</string>
   <!-- Is rescanning error message -->
@@ -489,7 +489,7 @@ Qualsiasi app \'jailbreak\' può accedere ai dati di portachiavi di DigiWallet e
   <!-- Send money to label -->
   <string name="Send.toLabel">A</string>
   <!-- Adress already used alert message - first part -->
-  <string name="Send.UsedAddress.firstLine">Gli indirizzi DigiByte sono destinati al solo uso singolo.</string>
+  <string name="Send.UsedAddress.firstLine">Gli indirizzi eMark sono destinati al solo uso singolo.</string>
   <!-- Adress already used alert message - second part -->
   <string name="Send.UsedAddress.secondLIne">Il riutilizzo riduce la privacy sia per te che per il destinatario e può causare perdite se il destinatario non controlla direttamente l\'indirizzo.</string>
   <!-- Adress already used alert title -->
@@ -504,11 +504,11 @@ Qualsiasi app \'jailbreak\' può accedere ai dati di portachiavi di DigiWallet e
   <!-- Join Early access label -->
   <string name="Settings.earlyAccess">Accesso Anticipato</string>
   <!-- Are you enjoying bread alert message body -->
-  <string name="Settings.enjoying">Ti sta piacendo DigiWallet?</string>
+  <string name="Settings.enjoying">Ti sta piacendo eMark Wallet?</string>
   <!-- Import wallet left message -->
   <string name="Settings.importLeftMessage">Portafoglio da essere importato</string>
   <!-- Import wallet right message -->
-  <string name="Settings.importRightMessage">Il tuo DigiWallet</string>
+  <string name="Settings.importRightMessage">Il tuo eMark Wallet</string>
   <!-- Import wallet label -->
   <string name="Settings.importTitle">Importa Portafoglio</string>
   <!-- Manage settings section header -->
@@ -516,7 +516,7 @@ Qualsiasi app \'jailbreak\' può accedere ai dati di portachiavi di DigiWallet e
   <!-- Notifications label -->
   <string name="Settings.notifications">Notifiche</string>
   <!-- Restore screen lower label. -->
-  <string name="Settings.restore_label">Il tuo DigiWallet su questo dispositivo</string>
+  <string name="Settings.restore_label">Il tuo eMark Wallet su questo dispositivo</string>
   <!-- Leave review button label -->
   <string name="Settings.review">Lasciaci una recensione</string>
   <!-- Share anonymous data label -->
@@ -534,7 +534,7 @@ Qualsiasi app \'jailbreak\' può accedere ai dati di portachiavi di DigiWallet e
   <!-- Start or recover another wallet menu label. -->
   <string name="Settings.wipe">Crea/Recupera un altro Portafoglio</string>
   <!-- Share data view body -->
-  <string name="ShareData.body">Aiuta a migliorare DigiWallet condividendo i tuoi dati anonimi con noi. Questo non include alcuna informazione finanziaria. Rispettiamo la tua privacy.</string>
+  <string name="ShareData.body">Aiuta a migliorare eMark Wallet condividendo i tuoi dati anonimi con noi. Questo non include alcuna informazione finanziaria. Rispettiamo la tua privacy.</string>
   <!-- Share data header -->
   <string name="ShareData.header">Condividere dati?</string>
   <!-- Share data switch label. -->
@@ -542,7 +542,7 @@ Qualsiasi app \'jailbreak\' può accedere ai dati di portachiavi di DigiWallet e
   <!-- button label -->
   <string name="StartPaperPhrase.againButtonTitle">Annota di Nuovo la Chiave personale di recupero</string>
   <!-- Paper key explanation text. -->
-  <string name="StartPaperPhrase.body">La Chiave personale di recupero è l\'unico modo per ripristinare il DigiWallet se il telefono viene smarrito, rubato, rotto o aggiornato.
+  <string name="StartPaperPhrase.body">La Chiave personale di recupero è l\'unico modo per ripristinare il eMark Wallet se il telefono viene smarrito, rubato, rotto o aggiornato.
 
 Ti mostreremo un elenco di parole da scrivere su un pezzo di carta e tenerlo al sicuro.</string>
   <!-- button label -->
@@ -550,7 +550,7 @@ Ti mostreremo un elenco di parole da scrivere su un pezzo di carta e tenerlo al 
   <!-- Argument is date -->
   <string name="StartPaperPhrase.date">L\'ultima volta che hai scritto la tua Chiave personale di recupero è stato %1$s</string>
   <!-- Start view message -->
-  <string name="StartViewController.message">Il modo più sicuro per utilizzare DigiByte.</string>
+  <string name="StartViewController.message">Il modo più sicuro per utilizzare eMark.</string>
   <!-- Syncing view connectiong state header text -->
   <string name="SyncingView.connecting">Connessione in corso</string>
   <!-- Syncing view header text -->
@@ -576,13 +576,13 @@ Ti mostreremo un elenco di parole da scrivere su un pezzo di carta e tenerlo al 
   <!-- Fingerprint Is Not Setup -->
   <string name="TouchIdSettings.disabledWarning.title.android">Autenticazione con impronta disabilitata</string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">Usa la tua impronta per sbloccare il tuo DigiWallet e inviare DigiByte fino a un limite prestabilito.</string>
+  <string name="TouchIdSettings.label">Usa la tua impronta per sbloccare il tuo eMark Wallet e inviare eMark fino a un limite prestabilito.</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
   <string name="TouchIdSettings.linkText">Limite Spesa Touch ID</string>
   <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">Imite di spesa: %1$s(%2$s)</string>
   <!-- Touch id switch label. -->
-  <string name="TouchIdSettings.switchLabel">Abilita Touch ID per DigiWallet</string>
+  <string name="TouchIdSettings.switchLabel">Abilita Touch ID per eMark Wallet</string>
   <!-- Enable fingerprint for this wallet called Bread -->
   <string name="TouchIdSettings.switchLabel.android">Abilita Autenticazione con impronta</string>
   <!-- Touch ID settings view title -->
@@ -663,7 +663,7 @@ Ti mostreremo un elenco di parole da scrivere su un pezzo di carta e tenerlo al 
   <!-- "Sent [$5] to [address]" => This is the "to [address]" part. -->
   <string name="TransactionDetails.to">a %1$s</string>
   <!-- Transaction ID header -->
-  <string name="TransactionDetails.txHashHeader">ID di Transazione DigiByte</string>
+  <string name="TransactionDetails.txHashHeader">ID di Transazione eMark</string>
   <!-- (this transaction was) Received at this address: -->
   <string name="TransactionDirection.address">Ricevuto a questo indirizzo</string>
   <!-- (this transaction was) Sent to this address: -->
@@ -681,7 +681,7 @@ Ti mostreremo un elenco di parole da scrivere su un pezzo di carta e tenerlo al 
   <!-- Instruction to touch the sensor for fingerprint authentication -->
   <string name="UnlockScreen.touchIdInstructions.android">Sensore Tocco</string>
   <!-- TouchID prompt text -->
-  <string name="UnlockScreen.touchIdPrompt">Sblocca il tuo DigiWallet</string>
+  <string name="UnlockScreen.touchIdPrompt">Sblocca il tuo eMark Wallet</string>
   <!-- Device authentication body -->
   <string name="UnlockScreen.touchIdPrompt.android">Sblocca il tuo dispositivo Android</string>
   <!-- Unlock with TouchID accessibility label -->
@@ -691,9 +691,9 @@ Ti mostreremo un elenco di parole da scrivere su un pezzo di carta e tenerlo al 
   <!-- Wallet unlocked message -->
   <string name="UnlockScreen.unlocked">Portafoglio Sbloccato</string>
   <!-- Update PIN caption text -->
-  <string name="UpdatePin.caption">Ricorda questo PIN. Se lo dimentichi, non potrai accedere ai tuoi DigiByte.</string>
+  <string name="UpdatePin.caption">Ricorda questo PIN. Se lo dimentichi, non potrai accedere ai tuoi eMark.</string>
   <!-- PIN creation info. -->
-  <string name="UpdatePin.createInstruction">Il tuo PIN verrà utilizzato per sbloccare il tuo DigiWallet e inviare DigiByte.</string>
+  <string name="UpdatePin.createInstruction">Il tuo PIN verrà utilizzato per sbloccare il tuo eMark Wallet e inviare eMark.</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">Imposta PIN</string>
   <!-- Update PIN title -->
@@ -727,7 +727,7 @@ Ti mostreremo un elenco di parole da scrivere su un pezzo di carta e tenerlo al 
   <!-- Authorize transaction with touch id message -->
   <string name="VerifyPin.touchIdMessage">Autorizza questa transazione</string>
   <!-- 'No wallet' warning for watch app -->
-  <string name="Watch.noWalletWarning">Apri l\'app DigiWallet di Android per configurare il tuo Portafoglio.</string>
+  <string name="Watch.noWalletWarning">Apri l\'app eMark Wallet di Android per configurare il tuo Portafoglio.</string>
   <!-- Dismiss button label -->
   <string name="Webview.dismiss">Rimuovi</string>
   <!-- Webview loading error message -->
@@ -735,11 +735,11 @@ Ti mostreremo un elenco di parole da scrivere su un pezzo di carta e tenerlo al 
   <!-- Updating webview message -->
   <string name="Webview.updating">Aggiornando...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">DigiWallet ha un aspetto nuovo e molte nuove funzionalità.
+  <string name="Welcome.body">eMark Wallet ha un aspetto nuovo e molte nuove funzionalità.
 
 Se hai bisogno di aiuto, cerca il (?) In alto a destra nella maggior parte delle schermate.</string>
   <!-- Top title of welcome screen -->
-  <string name="Welcome.title">Benvenuto in DigiWallet!</string>
+  <string name="Welcome.title">Benvenuto in eMark Wallet!</string>
   <!-- Wipe wallet alert message -->
   <string name="WipeWallet.alertMessage">Sei sicuro di voler eliminare questo Portafoglio?</string>
   <!-- Wipe wallet alert title -->
@@ -751,7 +751,7 @@ Se hai bisogno di aiuto, cerca il (?) In alto a destra nella maggior parte delle
   <!-- Enter phrase to wipe wallet instruction. -->
   <string name="WipeWallet.instruction">Per avviare un nuovo Portafoglio o ripristinarne uno esistente, devi prima cancellare il Portafoglio attualmente installato. Per continuare, inserisci l\'attuale Chiave personale di recupero.</string>
   <!-- Start wipe wallet view message -->
-  <string name="WipeWallet.startMessage">L\'avvio o il ripristino di un altro portafoglio consente di accedere e gestire un altro DigiWallet su questo dispositivo.</string>
+  <string name="WipeWallet.startMessage">L\'avvio o il ripristino di un altro portafoglio consente di accedere e gestire un altro eMark Wallet su questo dispositivo.</string>
   <!-- Start wipe wallet view warning -->
   <string name="WipeWallet.startWarning">Il Portafoglio corrente verrà rimosso dal dispositivo. Se desiderassi ripristinarlo in futuro, avrai bisogno della tua Chiave personale di recupero.</string>
   <!-- Wipe wallet navigation item title. -->

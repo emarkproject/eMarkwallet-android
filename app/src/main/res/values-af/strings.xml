@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
   <!-- App name -->
-  <string name="About.appName.android">DigiWallet</string>
+  <string name="About.appName.android">eMark Wallet</string>
   <!-- About screen blog label -->
   <string name="About.blog">https://digibyte.io/</string>
   <!-- About screen footer -->
-  <string name="About.footer">Geskep deur die globale DigiWallet span. Weergawe %1$s</string>
+  <string name="About.footer">Geskep deur die globale eMark Wallet span. Weergawe %1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">Privaatheidsbeleid</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte</string>
+  <string name="About.reddit">https://www.reddit.com/r/DeutscheeMark</string>
   <!-- Terms of Use button label -->
   <string name="About.terms">Die projek is oopbron kode, die bronkode kan hersien word by: 
-https://github.com/Racecraft/digibytewallet-android</string>
+https://github.com/emarkproject/eMarkwallet-android</string>
   <!--
   Terms of Use button label
   About screen title
   -->
-  <string name="About.title">Vinnig,maklik en veilig!. DigiWallet vir Android is die maklikste manier om te begin DigiByte stuur en ontvang. Ontwerp met beide nuwe en ervare gebruikers in gedagte, is DigiBeursie vir Android maklik genoeg vir beginners om te gebruik, tog wel kragtig genoeg vir die ervare gebruikers</string>
+  <string name="About.title">Vinnig,maklik en veilig!. eMark Wallet vir Android is die maklikste manier om te begin eMark stuur en ontvang. Ontwerp met beide nuwe en ervare gebruikers in gedagte, is DigiBeursie vir Android maklik genoeg vir beginners om te gebruik, tog wel kragtig genoeg vir die ervare gebruikers</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/deutsche_emark</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">Sluit</string>
   <!-- Support center accessibiliy label -->
@@ -27,7 +27,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Loading Wallet Message -->
   <string name="Account.loadingMessage">Besig om beursie te laai</string>
   <!-- Default wallet name -->
-  <string name="AccountHeader.defaultWalletName">My DigiWallet</string>
+  <string name="AccountHeader.defaultWalletName">My eMark Wallet</string>
   <!-- Third party keyboard warning -->
   <string name="Alert.customKeyboard.android">Dit lyk asof jy \'n derde-party sleutelbord gebruik, wat moontlik kan registreer wat jy intik en potensieel jou Persoonlike herwinningssleutel kan steel. Skakel asseblief oor na die standaard Android sleutelbord vir ekstra beskerming.</string>
   <!-- Error alert title -->
@@ -35,7 +35,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Keystore error -->
   <string name="Alert.keystore.generic.android">Daar is n probleem met jou Android keystore, kontak asseblief support@digibyte.io</string>
   <!-- KeyStore error, keys are invalidated -->
-  <string name="Alert.keystore.invalidated.android">Jou DigiWallet gekodeerde data was onlangs ongeldig verklaar aangesien jou Android skerm sluit opsie gedeaktiveer was</string>
+  <string name="Alert.keystore.invalidated.android">Jou eMark Wallet gekodeerde data was onlangs ongeldig verklaar aangesien jou Android skerm sluit opsie gedeaktiveer was</string>
   <!-- Keystore error title -->
   <string name="Alert.keystore.title.android">Android KeyStore fout</string>
   <!-- No internet alert message -->
@@ -57,7 +57,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Send success alert header label (confirmation that the send happened) -->
   <string name="Alerts.sendSuccess">Stuur Konfirmasie</string>
   <!-- Send success alert subheader label (e.g. the money was sent) -->
-  <string name="Alerts.sendSuccessSubheader">DigiByte Gestuur!</string>
+  <string name="Alerts.sendSuccessSubheader">eMark Gestuur!</string>
   <!-- Fingerprint was recognized by the scanner -->
   <string name="Alerts.touchIdSucceeded.android">Vingerafdruk herken</string>
   <string name="all">ALLE</string>
@@ -68,29 +68,29 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- API Token error message -->
   <string name="ApiClient.tokenError">Kan nie API token terugkry nie</string>
   <!-- Send BCH view body. -->
-  <string name="BCH.body">Tik \'n bestemming DGB adress hieronder. Alle DGB in jou beursie teen die tyd van die vurk(%1$s) sal gestuur word.</string>
+  <string name="BCH.body">Tik \'n bestemming DEM adress hieronder. Alle DEM in jou beursie teen die tyd van die vurk(%1$s) sal gestuur word.</string>
   <!-- Confirm sending <$5.00> to <address>? -->
   <string name="BCH.confirmationMessage">Bekragtig sturing van %1$s na %2$s</string>
   <!-- Confirmation alert title -->
   <string name="BCH.confirmationTitle">Bekragtig</string>
   <!-- Generic bch erorr message -->
-  <string name="BCH.genericError">Jou rekening het tans geen DGB nie, of jy het DGB na die vurk ontvang.</string>
+  <string name="BCH.genericError">Jou rekening het tans geen DEM nie, of jy het DEM na die vurk ontvang.</string>
   <!-- Transaction ID copied message -->
   <string name="BCH.hashCopiedMessage">Transaksie ID gekopieer</string>
   <!-- No address error message -->
   <string name="BCH.noAddressError">Tik asseblief \'n adres in</string>
   <!-- Attempted to scan unsupported qr code error message. -->
-  <string name="BCH.paymentProtocolError">Betalings Protokol Navrae word nie ondersteun vir DGB transaksies nie</string>
+  <string name="BCH.paymentProtocolError">Betalings Protokol Navrae word nie ondersteun vir DEM transaksies nie</string>
   <!-- BCH successfully sent alert message -->
-  <string name="BCH.successMessage">DGB was suksesvol gestuur</string>
+  <string name="BCH.successMessage">DEM was suksesvol gestuur</string>
   <!-- Widthdraw BCH view title -->
-  <string name="BCH.title">Onttrek DGB</string>
+  <string name="BCH.title">Onttrek DEM</string>
   <!-- Tx Hash button header -->
-  <string name="BCH.txHashHeader">DGB Transaksie ID</string>
+  <string name="BCH.txHashHeader">DEM Transaksie ID</string>
   <!-- Approve button label -->
   <string name="BitID.approve">Laat Toe</string>
   <!-- <sitename> is requesting authentication using your bitcoin wallet -->
-  <string name="BitID.authenticationRequest">%1$s versoek permissie on jou DigiWallet te gebruik.</string>
+  <string name="BitID.authenticationRequest">%1$s versoek permissie on jou eMark Wallet te gebruik.</string>
   <!-- Deny button label -->
   <string name="BitID.deny">Weier</string>
   <!-- BitID error alert title -->
@@ -100,7 +100,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- BitID success alert title -->
   <string name="BitID.success">Suksesvol Geverifiseer</string>
   <!-- BitID Authentication Request alert view title -->
-  <string name="BitID.title">DigiID Verifikasie Versoek</string>
+  <string name="BitID.title">eMarkID Verifikasie Versoek</string>
   <!-- Cancel button label -->
   <string name="Button.cancel">Kanselleer</string>
   <!-- Ignore button label -->
@@ -145,7 +145,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <string name="current_amount">Huidige waarde: %s</string>
   <string name="date">Datum</string>
   <!-- Bitcoin denomination picker label -->
-  <string name="DefaultCurrency.bitcoinLabel">DigiByte Vertooneenheid</string>
+  <string name="DefaultCurrency.bitcoinLabel">eMark Vertooneenheid</string>
   <!--
   Bitcoin denomination picker label
   Exchange rate label
@@ -156,7 +156,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Email unavailable alert title -->
   <string name="ErrorMessages.emailUnavailableTitle">Epos onbeskikbaar</string>
   <!-- Message that gets shown when we've detected the user has encountered the looping lock-screen bug. (preserve [ ] characters) -->
-  <string name="ErrorMessages.loopingLockScreen.android">DigiWallet kan nie gesertifiseer word nie, as gevolg van n probleem in jou Android weergawe. [Tik die skerm vir meer informasie]</string>
+  <string name="ErrorMessages.loopingLockScreen.android">eMark Wallet kan nie gesertifiseer word nie, as gevolg van n probleem in jou Android weergawe. [Tik die skerm vir meer informasie]</string>
   <!-- Messaging unavailable alert title -->
   <string name="ErrorMessages.messagingUnavailableMessage">Die toestel is nie opgestel om boodskappe te stuur nie</string>
   <!-- Messaging unavailable alert title -->
@@ -180,7 +180,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Checking private key balance progress view text -->
   <string name="Import.checking">Kry privaatsleutel balans...</string>
   <!-- Sweep private key confirmation message -->
-  <string name="Import.confirm">Stuur %1$s van hierdie privaatsleutel in jou beursie? Die DigiByte netwerk sal \'n fooi van %2$s ontvang.</string>
+  <string name="Import.confirm">Stuur %1$s van hierdie privaatsleutel in jou beursie? Die eMark netwerk sal \'n fooi van %2$s ontvang.</string>
   <!-- Duplicate key error message -->
   <string name="Import.Error.duplicate">Hierdie privaatsleutel is reeds in jou beursie.</string>
   <!-- empty private key error message -->
@@ -198,13 +198,13 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Caption for graphics -->
   <string name="Import.leftCaption">Beursie om ingevoer te word</string>
   <!-- Import wallet intro screen message -->
-  <string name="Import.message">Invoering van \'n beursie stuur alle DigiByte van jou ander beursies in jou DigiWallet deur \'n enkele transaksie.</string>
+  <string name="Import.message">Invoering van \'n beursie stuur alle eMark van jou ander beursies in jou eMark Wallet deur \'n enkele transaksie.</string>
   <!-- Enter password alert view title -->
   <string name="Import.password">The privaatsleutel is wagwoord beskermd.</string>
   <!-- password textfield placeholder -->
   <string name="Import.passwordPlaceholder">wagwoord</string>
   <!-- Caption for graphics -->
-  <string name="Import.rightCaption">Jou DigiWallet</string>
+  <string name="Import.rightCaption">Jou eMark Wallet</string>
   <!-- Scan Private key button label -->
   <string name="Import.scan">Skandeer Private Sleutel</string>
   <!-- Import wallet success alert title -->
@@ -224,18 +224,18 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Ignore jailbreak warning button -->
   <string name="JailbreakWarnings.ignore">Ignoreer</string>
   <!-- Jailbreak warning message -->
-  <string name="JailbreakWarnings.messageWithBalance">"TOESTEL SEKURITEIT BENADEEL\n Enige \'jailbreak\' app kan toegang kry tot DigiWallet se keychain data en jou DigiByte steel! Verwyder hierdie beursie onmiddelik en herstel op n velige toestel "</string>
+  <string name="JailbreakWarnings.messageWithBalance">"TOESTEL SEKURITEIT BENADEEL\n Enige \'jailbreak\' app kan toegang kry tot eMark Wallet se keychain data en jou eMark steel! Verwyder hierdie beursie onmiddelik en herstel op n velige toestel "</string>
   <!--
   Ignore jailbreak warning button
   Jailbreak warning message
   -->
-  <string name="JailbreakWarnings.messageWithoutBalance">TOESTEL SEKURITEIT BENADEEL\n Enige \'jailbreak\' app kan toegang kry tot DigiWallet se keychain data en jou DigiByte steel!  Gebruik slegs DigiWallet op n toestel wat nie ge\'jailbreak\' is nie</string>
+  <string name="JailbreakWarnings.messageWithoutBalance">TOESTEL SEKURITEIT BENADEEL\n Enige \'jailbreak\' app kan toegang kry tot eMark Wallet se keychain data en jou eMark steel!  Gebruik slegs eMark Wallet op n toestel wat nie ge\'jailbreak\' is nie</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">WAARSKUWING</string>
   <!-- Location services disabled error -->
   <string name="LocationPlugin.disabled">Liggingsdienste is gedeaktiveer</string>
   <!-- No permissions for location services -->
-  <string name="LocationPlugin.notAuthorized">DigiWallet het nie toestemming om ligginsdiente te gebruik nie</string>
+  <string name="LocationPlugin.notAuthorized">eMark Wallet het nie toestemming om ligginsdiente te gebruik nie</string>
   <!-- Wallet creation date prefix -->
   <string name="ManageWallet.creationDatePrefix">Jy het jou beursie geskep op %1$s</string>
   <!-- Manage wallet description text -->
@@ -247,7 +247,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <string name="max">maksimum</string>
   <string name="max_send_enabled">Wys Knoppie: Stuur Maksimum</string>
   <!-- Buy bitcoin title -->
-  <string name="MenuButton.buy">Koop DigiByte</string>
+  <string name="MenuButton.buy">Koop eMark</string>
   <!-- Menu button title -->
   <string name="MenuButton.lock">Sluit Beursie</string>
   <!-- Menu button title -->
@@ -279,7 +279,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Node status label -->
   <string name="NodeSelector.statusLabel">Node Konneksie Status</string>
   <!-- Node Selector view title -->
-  <string name="NodeSelector.title">DigiByte Nodes</string>
+  <string name="NodeSelector.title">eMark Nodes</string>
   <string name="no_limit">Geen beperking</string>
   <string name="original_amount">Oorspronklike waarde: %s</string>
   <!-- Bad Payment request alert title -->
@@ -295,7 +295,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Amount too small error message -->
   <string name="PaymentProtocol.Errors.smallPayment">Digibyte betalings mag nie minder as %1$s wees nie.</string>
   <!-- Output too small error message. -->
-  <string name="PaymentProtocol.Errors.smallTransaction">DigiByte transaksie uitsette mag nie minder as %1$s wees nie.</string>
+  <string name="PaymentProtocol.Errors.smallTransaction">eMark transaksie uitsette mag nie minder as %1$s wees nie.</string>
   <!-- Unsupported signature type payment protocol error message -->
   <string name="PaymentProtocol.Errors.unsupportedSignatureType">digitale handtekening tipe nie ondersteun nie</string>
   <!-- Untrusted certificate payment protocol error message -->
@@ -318,7 +318,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Transaction rejected prompt title -->
   <string name="Prompts.RecommendRescan.title">Transaksie Afgekeur</string>
   <!-- Share data prompt body -->
-  <string name="Prompts.ShareData.body">Help DigiWallet verbeter deur jou anonieme inligting met ons te deel</string>
+  <string name="Prompts.ShareData.body">Help eMark Wallet verbeter deur jou anonieme inligting met ons te deel</string>
   <!-- Share data prompt title -->
   <string name="Prompts.ShareData.title">Deel Anonieme Inligting</string>
   <!-- Enable touch ID prompt body -->
@@ -332,11 +332,11 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Button on fingerprint prompt so the user can enter their PIN instead -->
   <string name="Prompts.TouchId.usePin.android">PIN</string>
   <!-- Upgrade PIN prompt body. -->
-  <string name="Prompts.UpgradePin.body">DigiWallet is opgegradeer om 6-nommer PIN te gebruik. Raak asseblief hier om op te gradeer</string>
+  <string name="Prompts.UpgradePin.body">eMark Wallet is opgegradeer om 6-nommer PIN te gebruik. Raak asseblief hier om op te gradeer</string>
   <!-- Upgrade PIN prompt title. -->
   <string name="Prompts.UpgradePin.title">"Opgradeer PIN "</string>
   <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
-  <string name="PushNotifications.body">Skakel Kennisgewings aan om spesiale boodskappe van DigiWallet in die toekoms te ontvang.</string>
+  <string name="PushNotifications.body">Skakel Kennisgewings aan om spesiale boodskappe van eMark Wallet in die toekoms te ontvang.</string>
   <!-- Push notifications toggle switch label -->
   <string name="PushNotifications.label">Stoot Kennisgewings</string>
   <!-- Push notifications are off label -->
@@ -367,7 +367,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Enter paper key instruction -->
   <string name="RecoverWallet.instruction">Tik Persoonlike Herwinnings Sleutel In</string>
   <!-- Recover wallet intro -->
-  <string name="RecoverWallet.intro">Herwin jou DigiWallet met jou Persoonlike Herwinnings Sleutel</string>
+  <string name="RecoverWallet.intro">Herwin jou eMark Wallet met jou Persoonlike Herwinnings Sleutel</string>
   <!-- Invalid paper key message -->
   <string name="RecoverWallet.invalid">Die Persoonlike Herwinnings Sleutel wat jy ingetik het is verkeerd. Maak seker elke woord is korrek en probeer weer.</string>
   <!-- Previous button accessibility label -->
@@ -379,7 +379,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Next button accessibility label -->
   <string name="RecoverWallet.rightArrow">Regter Pyl</string>
   <!-- Recover wallet sub-header -->
-  <string name="RecoverWallet.subheader">Tik die Persoonlike Herwinnings Slutel for die DigiWallet wat jy wil herwin in.</string>
+  <string name="RecoverWallet.subheader">Tik die Persoonlike Herwinnings Slutel for die eMark Wallet wat jy wil herwin in.</string>
   <!-- Reset PIN with paper key: sub-header -->
   <string name="RecoverWallet.subheader_reset_pin">Om jou PIN te herstel, tik die woorde van jou Persoonlike HerwinningsSleutel in die bokse hieronder.</string>
   <!-- No amount entered error message. -->
@@ -389,19 +389,19 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Alert action button label -->
   <string name="ReScan.alertAction">Sync</string>
   <!-- Alert message body -->
-  <string name="ReScan.alertMessage">Jy sal nie DigiByte kan stuur terwyl sinchronisasie plaasvind nie.</string>
+  <string name="ReScan.alertMessage">Jy sal nie eMark kan stuur terwyl sinchronisasie plaasvind nie.</string>
   <!-- Alert message title -->
   <string name="ReScan.alertTitle">Sinc met Blockchain?</string>
   <!-- extimated time -->
   <string name="ReScan.body1">20-45 minute</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body2">Indien \'n transaksie was as voltooid op die DigiByte newtwerk maar nie in jou DigiWallet is nie</string>
+  <string name="ReScan.body2">Indien \'n transaksie was as voltooid op die eMark newtwerk maar nie in jou eMark Wallet is nie</string>
   <!-- Syncing explanation -->
   <string name="ReScan.body3">Jy kry herhaaldelik \'n fout wat se jou transaksie was nie aanvaar nie.</string>
   <!-- Start Sync button label -->
   <string name="ReScan.buttonTitle">Begin Sync</string>
   <!-- Sync blockchain view footer -->
-  <string name="ReScan.footer">Jy sal nie DigiByte kan stuur terwyl jy sync met die blockchain nie.</string>
+  <string name="ReScan.footer">Jy sal nie eMark kan stuur terwyl jy sync met die blockchain nie.</string>
   <!-- Sync Blockchain view header -->
   <string name="ReScan.header">Sync Blockchain</string>
   <!-- Subheader label -->
@@ -421,17 +421,17 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Security Center Info -->
   <string name="SecurityCenter.info">Aktiveer alle sekuriteits fasiliteite vir maksimum beskerming.</string>
   <!-- Paper Key button description -->
-  <string name="SecurityCenter.paperKeyDescription">The enigste manier om jou DigiByte te bekom indien jy jou foon verloor of opgradeer</string>
+  <string name="SecurityCenter.paperKeyDescription">The enigste manier om jou eMark te bekom indien jy jou foon verloor of opgradeer</string>
   <!-- Paper Key button title -->
   <string name="SecurityCenter.paperKeyTitle">Persoonlike Herwinninngskode</string>
   <!-- PIN button description -->
-  <string name="SecurityCenter.pinDescription">Beskerm jou DigiWallet van ongemagtigde gebruikers</string>
+  <string name="SecurityCenter.pinDescription">Beskerm jou eMark Wallet van ongemagtigde gebruikers</string>
   <!-- PIN button title -->
   <string name="SecurityCenter.pinTitle">6-Nommer PIN</string>
   <!-- Security Center Title -->
   <string name="SecurityCenter.title">Sekuriteits Sentrum</string>
   <!-- Touch ID button description -->
-  <string name="SecurityCenter.touchIdDescription">Onsluit jou DigiWallet gerieflik en stuur DigiByte tot op n sekere limiet.</string>
+  <string name="SecurityCenter.touchIdDescription">Onsluit jou eMark Wallet gerieflik en stuur eMark tot op n sekere limiet.</string>
   <!-- Touch ID button title -->
   <string name="SecurityCenter.touchIdTitle">Touch ID</string>
   <!-- Security center fingerprint authentication button -->
@@ -441,13 +441,13 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Balance: $4.00 -->
   <string name="Send.balance">Balans: %1$s</string>
   <!-- Instructions how to allow the camera access for the app -->
-  <string name="Send.cameraUnavailabeMessage.android">Gee toegang tot jou kamera in \"Instellings\" &gt;\"Apps\" &gt; \"DigiWallet\" &gt; \"Permissies\"</string>
+  <string name="Send.cameraUnavailabeMessage.android">Gee toegang tot jou kamera in \"Instellings\" &gt;\"Apps\" &gt; \"eMark Wallet\" &gt; \"Permissies\"</string>
   <!-- Permission required to access camera -->
-  <string name="Send.cameraUnavailabeTitle.android">DigiWallet is nie permissie tot die kamera gegee nie</string>
+  <string name="Send.cameraUnavailabeTitle.android">eMark Wallet is nie permissie tot die kamera gegee nie</string>
   <!-- Camera not allowed message -->
   <string name="Send.cameraunavailableMessage">Gaan na Instellings en laat Kamera toegang toe</string>
   <!-- Camera not allowed alert title -->
-  <string name="Send.cameraUnavailableTitle">DigiWallet is nie die Kamera toegelaat nie</string>
+  <string name="Send.cameraUnavailableTitle">eMark Wallet is nie die Kamera toegelaat nie</string>
   <!-- Warning when sending to self. -->
   <string name="Send.containsAddress">Die bestemming is jou eie adres. Jy kan nie na jouself toe stuur nie.</string>
   <!-- Could not create transaction alert title -->
@@ -461,9 +461,9 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Payee identity not certified alert title. -->
   <string name="Send.identityNotCertified">Ontvangers identifikasie is nie gesertifiseer nie.</string>
   <!-- Invalid address alert message -->
-  <string name="Send.invalidAddressMessage">Die bestemming adres is nie n geldige DigiByte adres nie.</string>
+  <string name="Send.invalidAddressMessage">Die bestemming adres is nie n geldige eMark adres nie.</string>
   <!-- Invalid address on pasteboard message -->
-  <string name="Send.invalidAddressOnPasteboard">Die Knipbord het nie \'n geldige DigiByte adres nie.</string>
+  <string name="Send.invalidAddressOnPasteboard">Die Knipbord het nie \'n geldige eMark adres nie.</string>
   <!-- Invalid address alert title -->
   <string name="Send.invalidAddressTitle">Ongeldige Adres</string>
   <!-- Is rescanning error message -->
@@ -489,7 +489,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Send money to label -->
   <string name="Send.toLabel">Aan</string>
   <!-- Adress already used alert message - first part -->
-  <string name="Send.UsedAddress.firstLine">DigiByte adresse is bedoel vir slegs een transaksie.</string>
+  <string name="Send.UsedAddress.firstLine">eMark adresse is bedoel vir slegs een transaksie.</string>
   <!-- Adress already used alert message - second part -->
   <string name="Send.UsedAddress.secondLIne">"Hergebruik verminder privaatheid vir beide jou en die ontvanger en kan lei tot verlies indien die ontvanger nie direk beheer oor die adres het nie. "</string>
   <!-- Adress already used alert title -->
@@ -504,11 +504,11 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Join Early access label -->
   <string name="Settings.earlyAccess">Sluit Aan by Vroee Toegang</string>
   <!-- Are you enjoying bread alert message body -->
-  <string name="Settings.enjoying">Geniet jy DigiWallet?</string>
+  <string name="Settings.enjoying">Geniet jy eMark Wallet?</string>
   <!-- Import wallet left message -->
   <string name="Settings.importLeftMessage">Beursie sal Ingevoer word</string>
   <!-- Import wallet right message -->
-  <string name="Settings.importRightMessage">Jou DigiWallet</string>
+  <string name="Settings.importRightMessage">Jou eMark Wallet</string>
   <!-- Import wallet label -->
   <string name="Settings.importTitle">Voer Beursie In</string>
   <!-- Manage settings section header -->
@@ -516,7 +516,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Notifications label -->
   <string name="Settings.notifications">Kennisgewings</string>
   <!-- Restore screen lower label. -->
-  <string name="Settings.restore_label">Jou DigiWallet op hierdie Toestel</string>
+  <string name="Settings.restore_label">Jou eMark Wallet op hierdie Toestel</string>
   <!-- Leave review button label -->
   <string name="Settings.review">Los \'n Resensie</string>
   <!-- Share anonymous data label -->
@@ -534,7 +534,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Start or recover another wallet menu label. -->
   <string name="Settings.wipe">Begin/Herwin \'n Ander Beursie</string>
   <!-- Share data view body -->
-  <string name="ShareData.body">Help DigiWallet verbeter deur jou anonieme data met ons te deel. Dit sluit nie enige finansiele informasie in nie. Ons respekteer jou finansiele privaatheid.</string>
+  <string name="ShareData.body">Help eMark Wallet verbeter deur jou anonieme data met ons te deel. Dit sluit nie enige finansiele informasie in nie. Ons respekteer jou finansiele privaatheid.</string>
   <!-- Share data header -->
   <string name="ShareData.header">Deel Data?</string>
   <!-- Share data switch label. -->
@@ -542,13 +542,13 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- button label -->
   <string name="StartPaperPhrase.againButtonTitle">Skryf jou Persoonlike Herwinnings Sleutel weer neer</string>
   <!-- Paper key explanation text. -->
-  <string name="StartPaperPhrase.body">"Jou Persoonlike Herwinnings Sleutel is the enigste manier om jou DigiWallet te herwin indien jou foon verlore, gesteel, stukkend of opgegradeer is.\n\nOns sal jou \'n lys woorde wys wat jou moet neerskryf op n stuk papier en veilig hou. "</string>
+  <string name="StartPaperPhrase.body">"Jou Persoonlike Herwinnings Sleutel is the enigste manier om jou eMark Wallet te herwin indien jou foon verlore, gesteel, stukkend of opgegradeer is.\n\nOns sal jou \'n lys woorde wys wat jou moet neerskryf op n stuk papier en veilig hou. "</string>
   <!-- button label -->
   <string name="StartPaperPhrase.buttonTitle">Skryf jou Personnlike Herwinnings Sleutel neer</string>
   <!-- Argument is date -->
   <string name="StartPaperPhrase.date">Jy het laas jou Persoonlike Herwinnings Sleutel neergeskryf op %1$s</string>
   <!-- Start view message -->
-  <string name="StartViewController.message">"Die mees versekerde en veiligste manier om DigiByte te gebruik. "</string>
+  <string name="StartViewController.message">"Die mees versekerde en veiligste manier om eMark te gebruik. "</string>
   <!-- Syncing view connectiong state header text -->
   <string name="SyncingView.connecting">Konnekteer</string>
   <!-- Syncing view header text -->
@@ -574,13 +574,13 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Fingerprint Is Not Setup -->
   <string name="TouchIdSettings.disabledWarning.title.android">Vingerafdruk Identifikasie nie geaktiveer nie</string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">Gebruik jou vingerafdruk om jou DigiWallet te ontsluit en stuur Digibyte tot op \'n gestelde limiet</string>
+  <string name="TouchIdSettings.label">Gebruik jou vingerafdruk om jou eMark Wallet te ontsluit en stuur Digibyte tot op \'n gestelde limiet</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
   <string name="TouchIdSettings.linkText">Touch ID Spanderingslimiet Skerm</string>
   <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">Spandeer Limiet: %1$s (%2$s)</string>
   <!-- Touch id switch label. -->
-  <string name="TouchIdSettings.switchLabel">Aktiveer Touch ID vir DigiWallet</string>
+  <string name="TouchIdSettings.switchLabel">Aktiveer Touch ID vir eMark Wallet</string>
   <!-- Enable fingerprint for this wallet called Bread -->
   <string name="TouchIdSettings.switchLabel.android">Aktiveer Vingerafdruk Identifikasie</string>
   <!-- Touch ID settings view title -->
@@ -661,7 +661,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- "Sent [$5] to [address]" => This is the "to [address]" part. -->
   <string name="TransactionDetails.to">na %1$s</string>
   <!-- Transaction ID header -->
-  <string name="TransactionDetails.txHashHeader">DigiByte Transaksie ID</string>
+  <string name="TransactionDetails.txHashHeader">eMark Transaksie ID</string>
   <!-- (this transaction was) Received at this address: -->
   <string name="TransactionDirection.address">Ontvang op die Adres</string>
   <!-- (this transaction was) Sent to this address: -->
@@ -679,7 +679,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Instruction to touch the sensor for fingerprint authentication -->
   <string name="UnlockScreen.touchIdInstructions.android">Raak Sensor</string>
   <!-- TouchID prompt text -->
-  <string name="UnlockScreen.touchIdPrompt">Ontsluit jou DigiWallet</string>
+  <string name="UnlockScreen.touchIdPrompt">Ontsluit jou eMark Wallet</string>
   <!-- Device authentication body -->
   <string name="UnlockScreen.touchIdPrompt.android">Onsluit asseblief jou Android toestel om voort te gaan.</string>
   <!-- Unlock with TouchID accessibility label -->
@@ -689,9 +689,9 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Wallet unlocked message -->
   <string name="UnlockScreen.unlocked">Beursie Onstluit</string>
   <!-- Update PIN caption text -->
-  <string name="UpdatePin.caption">"Onthou die PIN. As jy dit vergeet, sal jy toegang tot jou DigiByte verloor. "</string>
+  <string name="UpdatePin.caption">"Onthou die PIN. As jy dit vergeet, sal jy toegang tot jou eMark verloor. "</string>
   <!-- PIN creation info. -->
-  <string name="UpdatePin.createInstruction">Jou PIN sal gebruik word om jou DigiWallet te ontsluit en DigiByte te stuur.</string>
+  <string name="UpdatePin.createInstruction">Jou PIN sal gebruik word om jou eMark Wallet te ontsluit en eMark te stuur.</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">Stel PIN</string>
   <!-- Update PIN title -->
@@ -725,7 +725,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Authorize transaction with touch id message -->
   <string name="VerifyPin.touchIdMessage">Bemagtig die transaksie</string>
   <!-- 'No wallet' warning for watch app -->
-  <string name="Watch.noWalletWarning">Maak die DigiWallet Android app oop om jou beursie op te stel.</string>
+  <string name="Watch.noWalletWarning">Maak die eMark Wallet Android app oop om jou beursie op te stel.</string>
   <!-- Dismiss button label -->
   <string name="Webview.dismiss">Verwyder</string>
   <!-- Webview loading error message -->
@@ -733,9 +733,9 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Updating webview message -->
   <string name="Webview.updating">Besig met Opdatering...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">"DigiWallet het \'n splinternuwe baadjie aan met \'n paar nuwe opsies\n\nIndien jy hulp benodig, kyk vir die (?) regs-bo op meeste skerms. "</string>
+  <string name="Welcome.body">"eMark Wallet het \'n splinternuwe baadjie aan met \'n paar nuwe opsies\n\nIndien jy hulp benodig, kyk vir die (?) regs-bo op meeste skerms. "</string>
   <!-- Top title of welcome screen -->
-  <string name="Welcome.title">Welkom by DigiWallet!</string>
+  <string name="Welcome.title">Welkom by eMark Wallet!</string>
   <!-- Wipe wallet alert message -->
   <string name="WipeWallet.alertMessage">Is jy seker jy wil die beursie verwyder?</string>
   <!-- Wipe wallet alert title -->

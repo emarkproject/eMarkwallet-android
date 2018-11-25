@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
   <!-- App name -->
-  <string name="About.appName.android">DigiWallet(ডিগী বাইট)</string>
+  <string name="About.appName.android">eMark Wallet(ডিগী বাইট)</string>
   <!-- About screen blog label -->
   <string name="About.blog">https://digibyte.io/</string>
   <!-- About screen footer -->
-  <string name="About.footer">আন্তর্জাতিক DigiWallet টিম দ্বারা তৈরি। সংস্করণ  %১$s</string>
+  <string name="About.footer">আন্তর্জাতিক eMark Wallet টিম দ্বারা তৈরি। সংস্করণ  %১$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">গোপনীয় নীতি</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/DeutscheeMark/</string>
   <!-- Terms of Use button label -->
   <string name="About.terms">ব্যবহার বিধি</string>
   <!--
@@ -18,7 +18,7 @@
   -->
   <string name="About.title">আমাদের সম্পর্কে</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/deutsche_emark</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">বন্ধ</string>
   <!-- Support center accessibiliy label -->
@@ -26,7 +26,7 @@
   <!-- Loading Wallet Message -->
   <string name="Account.loadingMessage">ওয়ালেট লোডিং</string>
   <!-- Default wallet name -->
-  <string name="AccountHeader.defaultWalletName">আমার DigiWallet</string>
+  <string name="AccountHeader.defaultWalletName">আমার eMark Wallet</string>
   <!-- Third party keyboard warning -->
   <string name="Alert.customKeyboard.android">মনে হচ্ছে আপনি তৃতীয় পক্ষের কোনো কীবোর্ড ব্যবহার করছেন, যা আপনার কাগজের কী চুরি করতে পারেন। অতিরিক্ত সুরক্ষার জন্য ডিফল্ট অ্যান্ড্রয়েড এর কীবোর্ড সুইচ করুন।</string>
   <!-- Error alert title -->
@@ -34,7 +34,7 @@
   <!-- Keystore error -->
   <string name="Alert.keystore.generic.android">আপনার অ্যান্ড্রয়েড অপারেটিং সিস্টেম keystore একটি সমস্যা আছে, দয়া করে support@digibyte.io এ যোগাযোগ করুন।</string>
   <!-- KeyStore error, keys are invalidated -->
-  <string name="Alert.keystore.invalidated.android">আপনার DigiWallet এনক্রিপ্ট ডেটা সম্প্রতি অকার্যকর হয়েছে, কারণ আপনার Android লক স্ক্রিনটি অক্ষম করা আছে।</string>
+  <string name="Alert.keystore.invalidated.android">আপনার eMark Wallet এনক্রিপ্ট ডেটা সম্প্রতি অকার্যকর হয়েছে, কারণ আপনার Android লক স্ক্রিনটি অক্ষম করা আছে।</string>
   <!-- Keystore error title -->
   <string name="Alert.keystore.title.android">"অ্যান্ড্রয়েড কীস্টোর ভুল "</string>
   <!-- No internet alert message -->
@@ -73,23 +73,23 @@
   <!-- Confirmation alert title -->
   <string name="BCH.confirmationTitle">নিশ্চিতকরণ</string>
   <!-- Generic bch erorr message -->
-  <string name="BCH.genericError">আপনার অ্যাকাউন্টে কোন DigiByte নেই, অথবা আপনি ফর্ক এর পর DigiByte পাবেন।</string>
+  <string name="BCH.genericError">আপনার অ্যাকাউন্টে কোন eMark নেই, অথবা আপনি ফর্ক এর পর eMark পাবেন।</string>
   <!-- Transaction ID copied message -->
   <string name="BCH.hashCopiedMessage">লেনদেন আইডি কপি করা হয়েছে</string>
   <!-- No address error message -->
   <string name="BCH.noAddressError">অনুগ্রহ করে একটি ঠিকানা লিখুন</string>
   <!-- Attempted to scan unsupported qr code error message. -->
-  <string name="BCH.paymentProtocolError">পেমেন্ট প্রোটোকল অনুরোধগুলি DigiByte লেনদেনের জন্য সমর্থিত নয়</string>
+  <string name="BCH.paymentProtocolError">পেমেন্ট প্রোটোকল অনুরোধগুলি eMark লেনদেনের জন্য সমর্থিত নয়</string>
   <!-- BCH successfully sent alert message -->
-  <string name="BCH.successMessage">DigiByte সফলভাবে পাঠানো হয়েছে।</string>
+  <string name="BCH.successMessage">eMark সফলভাবে পাঠানো হয়েছে।</string>
   <!-- Widthdraw BCH view title -->
-  <string name="BCH.title">DigiByte উত্তোলন</string>
+  <string name="BCH.title">eMark উত্তোলন</string>
   <!-- Tx Hash button header -->
-  <string name="BCH.txHashHeader">DigiByte লেনদেন আইডি</string>
+  <string name="BCH.txHashHeader">eMark লেনদেন আইডি</string>
   <!-- Approve button label -->
   <string name="BitID.approve">অনুমোদন করা</string>
   <!-- <sitename> is requesting authentication using your bitcoin wallet -->
-  <string name="BitID.authenticationRequest">%১$@ আপনার DigiWallet ওয়ালেট ব্যবহার করে প্রমাণীকরণের অনুরোধ করছে</string>
+  <string name="BitID.authenticationRequest">%১$@ আপনার eMark Wallet ওয়ালেট ব্যবহার করে প্রমাণীকরণের অনুরোধ করছে</string>
   <!-- Deny button label -->
   <string name="BitID.deny">অস্বীকার</string>
   <!-- BitID error alert title -->
@@ -99,7 +99,7 @@
   <!-- BitID success alert title -->
   <string name="BitID.success">সফলভাবে প্রমাণিত</string>
   <!-- BitID Authentication Request alert view title -->
-  <string name="BitID.title">DigiID প্রমাণীকরণের অনুরোধ</string>
+  <string name="BitID.title">eMarkID প্রমাণীকরণের অনুরোধ</string>
   <!-- Cancel button label -->
   <string name="Button.cancel">বাতিল</string>
   <!-- Ignore button label -->
@@ -144,7 +144,7 @@
   <string name="current_amount">বর্তমান মূল্য: %s</string>
   <string name="date">তারিখ</string>
   <!-- Bitcoin denomination picker label -->
-  <string name="DefaultCurrency.bitcoinLabel">DigiByte প্রদর্শন ইউনিট</string>
+  <string name="DefaultCurrency.bitcoinLabel">eMark প্রদর্শন ইউনিট</string>
   <!--
   Bitcoin denomination picker label
   Exchange rate label
@@ -155,7 +155,7 @@
   <!-- Email unavailable alert title -->
   <string name="ErrorMessages.emailUnavailableTitle">অপ্রাপ্য ইমেল</string>
   <!-- Message that gets shown when we've detected the user has encountered the looping lock-screen bug. (preserve [ ] characters) -->
-  <string name="ErrorMessages.loopingLockScreen.android">আপনার অ্যান্ড্রয়েডের সংস্করণের একটি বাগের কারণে DigiWallet প্রমাণীকরণ করা যাবে না। [আরও তথ্যের জন্য এখানে  ক্লিক করুন।]</string>
+  <string name="ErrorMessages.loopingLockScreen.android">আপনার অ্যান্ড্রয়েডের সংস্করণের একটি বাগের কারণে eMark Wallet প্রমাণীকরণ করা যাবে না। [আরও তথ্যের জন্য এখানে  ক্লিক করুন।]</string>
   <!-- Messaging unavailable alert title -->
   <string name="ErrorMessages.messagingUnavailableMessage">এই যন্ত্রটি বার্তা পাঠানোর জন্য কনফিগার করা নেই।</string>
   <!-- Messaging unavailable alert title -->
@@ -179,7 +179,7 @@
   <!-- Checking private key balance progress view text -->
   <string name="Import.checking">ব্যক্তিগত কী ব্যালেন্স চেক করা হচ্ছে ...</string>
   <!-- Sweep private key confirmation message -->
-  <string name="Import.confirm">এই ব্যক্তিগত কী থেকে আপনার ওয়ালেট এ %১$@ পাঠান? DigiByte নেটওয়ার্ক একটি %২$@ ফি পাবেন</string>
+  <string name="Import.confirm">এই ব্যক্তিগত কী থেকে আপনার ওয়ালেট এ %১$@ পাঠান? eMark নেটওয়ার্ক একটি %২$@ ফি পাবেন</string>
   <!-- Duplicate key error message -->
   <string name="Import.Error.duplicate">এই ব্যক্তিগত কী ইতিমধ্যে আপনার ওয়ালেটটিতে রয়েছে।</string>
   <!-- empty private key error message -->
@@ -197,13 +197,13 @@
   <!-- Caption for graphics -->
   <string name="Import.leftCaption">ওয়ালেট ইম্পোর্টেড হতে হবে</string>
   <!-- Import wallet intro screen message -->
-  <string name="Import.message">একটি লেনদেন ব্যবহার করে আপনার অন্যান্য ওয়ালেট থেকে আপনার DigiWallet ওয়ালেটএ সব টাকা স্থানান্তর করুন।</string>
+  <string name="Import.message">একটি লেনদেন ব্যবহার করে আপনার অন্যান্য ওয়ালেট থেকে আপনার eMark Wallet ওয়ালেটএ সব টাকা স্থানান্তর করুন।</string>
   <!-- Enter password alert view title -->
   <string name="Import.password">এই ব্যক্তিগত কী/চাবি পাসওয়ার্ড সুরক্ষিত।</string>
   <!-- password textfield placeholder -->
   <string name="Import.passwordPlaceholder">পাসওয়ার্ড</string>
   <!-- Caption for graphics -->
-  <string name="Import.rightCaption">"আপনার DigiWallet ওয়ালেট "</string>
+  <string name="Import.rightCaption">"আপনার eMark Wallet ওয়ালেট "</string>
   <!-- Scan Private key button label -->
   <string name="Import.scan">ব্যক্তিগত কী স্ক্যান করুন</string>
   <!-- Import wallet success alert title -->
@@ -223,18 +223,18 @@
   <!-- Ignore jailbreak warning button -->
   <string name="JailbreakWarnings.ignore">উপেক্ষা করা</string>
   <!-- Jailbreak warning message -->
-  <string name="JailbreakWarnings.messageWithBalance">ডিভাইস নিরাপত্তা কম্প্রোমাইজড\n কোনো \'জেলব্রেক\' অ্যাপ্লিকেশন DigiWallet এর কী চেইন  ডেটা অ্যাক্সেস করতে পারে এবং আপনার DigiByte চুরি করতে পারে। অবিলম্বে এই ওয়ালেট মুছে ফেলুন এবং একটি নিরাপদ ডিভাইস পুনঃস্থাপন করুন।</string>
+  <string name="JailbreakWarnings.messageWithBalance">ডিভাইস নিরাপত্তা কম্প্রোমাইজড\n কোনো \'জেলব্রেক\' অ্যাপ্লিকেশন eMark Wallet এর কী চেইন  ডেটা অ্যাক্সেস করতে পারে এবং আপনার eMark চুরি করতে পারে। অবিলম্বে এই ওয়ালেট মুছে ফেলুন এবং একটি নিরাপদ ডিভাইস পুনঃস্থাপন করুন।</string>
   <!--
   Ignore jailbreak warning button
   Jailbreak warning message
   -->
-  <string name="JailbreakWarnings.messageWithoutBalance">ডিভাইস নিরাপত্তা কম্প্রোমাইজড\n কোনো \'জেলব্রেক\' অ্যাপ্লিকেশন DigiWallet এর কী চেইন ডেটা অ্যাক্সেস করতে পারে এবং আপনার DigiByte চুরি করতে পারে।  অনুগ্রহ করে DigiWallet শুধুমাত্র একটি নন-জেলব্রোকেন ডিভাইস ব্যবহার করুন।</string>
+  <string name="JailbreakWarnings.messageWithoutBalance">ডিভাইস নিরাপত্তা কম্প্রোমাইজড\n কোনো \'জেলব্রেক\' অ্যাপ্লিকেশন eMark Wallet এর কী চেইন ডেটা অ্যাক্সেস করতে পারে এবং আপনার eMark চুরি করতে পারে।  অনুগ্রহ করে eMark Wallet শুধুমাত্র একটি নন-জেলব্রোকেন ডিভাইস ব্যবহার করুন।</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">সতর্কীকরণ</string>
   <!-- Location services disabled error -->
   <string name="LocationPlugin.disabled">লোকেশন সার্ভিস অক্ষম করা আছে।</string>
   <!-- No permissions for location services -->
-  <string name="LocationPlugin.notAuthorized">DigiWallet এ অবস্থান পরিষেবা অ্যাক্সেস করার অনুমতি নেই।</string>
+  <string name="LocationPlugin.notAuthorized">eMark Wallet এ অবস্থান পরিষেবা অ্যাক্সেস করার অনুমতি নেই।</string>
   <!-- Wallet creation date prefix -->
   <string name="ManageWallet.creationDatePrefix">আপনি আপনার ওয়ালেটে %১$@ তৈরি করেছেন</string>
   <!-- Manage wallet description text -->
@@ -246,7 +246,7 @@
   <string name="max">সর্বাধিক</string>
   <string name="max_send_enabled">বোতাম দেখান: সর্বোচ্চ পাঠান</string>
   <!-- Buy bitcoin title -->
-  <string name="MenuButton.buy">DigiByte কিনুন</string>
+  <string name="MenuButton.buy">eMark কিনুন</string>
   <!-- Menu button title -->
   <string name="MenuButton.lock">ওয়ালেট বন্ধ</string>
   <!-- Menu button title -->
@@ -278,7 +278,7 @@
   <!-- Node status label -->
   <string name="NodeSelector.statusLabel">নোড সংযোগের অবস্থা</string>
   <!-- Node Selector view title -->
-  <string name="NodeSelector.title">DigiByte নোড</string>
+  <string name="NodeSelector.title">eMark নোড</string>
   <string name="no_limit">সীমাহীন</string>
   <string name="original_amount">বর্তমান মূল্য: %s</string>
   <!-- Bad Payment request alert title -->
@@ -292,9 +292,9 @@
   <!-- Payment too small alert title -->
   <string name="PaymentProtocol.Errors.smallOutputError">অর্থ প্রদান করা যায়নি</string>
   <!-- Amount too small error message -->
-  <string name="PaymentProtocol.Errors.smallPayment">DigiByte অর্থ প্রদান %১$@ এর চেয়ে কম হতে পারে না</string>
+  <string name="PaymentProtocol.Errors.smallPayment">eMark অর্থ প্রদান %১$@ এর চেয়ে কম হতে পারে না</string>
   <!-- Output too small error message. -->
-  <string name="PaymentProtocol.Errors.smallTransaction">DigiByte লেনদেনের আউটপুট  $১@ এর চেয়ে কম হতে পারে না</string>
+  <string name="PaymentProtocol.Errors.smallTransaction">eMark লেনদেনের আউটপুট  $১@ এর চেয়ে কম হতে পারে না</string>
   <!-- Unsupported signature type payment protocol error message -->
   <string name="PaymentProtocol.Errors.unsupportedSignatureType">স্বাক্ষরের ধরণ অসমর্থি</string>
   <!-- Untrusted certificate payment protocol error message -->
@@ -317,7 +317,7 @@
   <!-- Transaction rejected prompt title -->
   <string name="Prompts.RecommendRescan.title">লেনদেন খারিজ</string>
   <!-- Share data prompt body -->
-  <string name="Prompts.ShareData.body">আমাদেরকে আপনার বেনামী ডেটা প্রদান করে DigiWallet উন্নত করতে সহায়তা করুন।</string>
+  <string name="Prompts.ShareData.body">আমাদেরকে আপনার বেনামী ডেটা প্রদান করে eMark Wallet উন্নত করতে সহায়তা করুন।</string>
   <!-- Share data prompt title -->
   <string name="Prompts.ShareData.title">নামবিহীন তথ্য প্রদান করুন</string>
   <!-- Enable touch ID prompt body -->
@@ -331,11 +331,11 @@
   <!-- Button on fingerprint prompt so the user can enter their PIN instead -->
   <string name="Prompts.TouchId.usePin.android">"পিন "</string>
   <!-- Upgrade PIN prompt body. -->
-  <string name="Prompts.UpgradePin.body">"DigiWallet একটি 6-সংখ্যা PIN ব্যবহার করে আপগ্রেড করা হয়েছে। আপগ্রেড করার জন্য এখানে চাপ দিন "</string>
+  <string name="Prompts.UpgradePin.body">"eMark Wallet একটি 6-সংখ্যা PIN ব্যবহার করে আপগ্রেড করা হয়েছে। আপগ্রেড করার জন্য এখানে চাপ দিন "</string>
   <!-- Upgrade PIN prompt title. -->
   <string name="Prompts.UpgradePin.title">পিন হালনাগাদ</string>
   <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
-  <string name="PushNotifications.body">ভবিষ্যতে DigiWallet থেকে বিশেষ বার্তা পেতে  নোটিফিকেশন  চালু করুন।</string>
+  <string name="PushNotifications.body">ভবিষ্যতে eMark Wallet থেকে বিশেষ বার্তা পেতে  নোটিফিকেশন  চালু করুন।</string>
   <!-- Push notifications toggle switch label -->
   <string name="PushNotifications.label">নোটিফিকেশন পুশ</string>
   <!-- Push notifications are off label -->
@@ -366,7 +366,7 @@
   <!-- Enter paper key instruction -->
   <string name="RecoverWallet.instruction">কাগজের কী লিখুন</string>
   <!-- Recover wallet intro -->
-  <string name="RecoverWallet.intro">আপনার কাগজ কী দিয়ে আপনার DigiWallet পুনরুদ্ধার করুন।</string>
+  <string name="RecoverWallet.intro">আপনার কাগজ কী দিয়ে আপনার eMark Wallet পুনরুদ্ধার করুন।</string>
   <!-- Invalid paper key message -->
   <string name="RecoverWallet.invalid">আপনি যে কাগজ কীটি/চাবি টি প্রবেশ করিয়েছেন তা অকার্যকর। দয়া করে প্রতিটি শব্দ দুইবার পরীক্ষা করুন এবং আবার চেষ্টা করুন।</string>
   <!-- Previous button accessibility label -->
@@ -394,7 +394,7 @@
   <!-- extimated time -->
   <string name="ReScan.body1">২০-৪৫ মিনিট</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body2">যদি DigiByte নেটওয়ার্কে একটি লেনদেন সম্পন্ন দেখায় কিন্তু আপনার DigiWallet মধ্যে না।</string>
+  <string name="ReScan.body2">যদি eMark নেটওয়ার্কে একটি লেনদেন সম্পন্ন দেখায় কিন্তু আপনার eMark Wallet মধ্যে না।</string>
   <!-- Syncing explanation -->
   <string name="ReScan.body3">আপনার লেনদেন প্রত্যাখ্যান করা হয়েছে বলে আপনি বারবার একটি ত্রূটি পান।</string>
   <!-- Start Sync button label -->
@@ -420,17 +420,17 @@
   <!-- Security Center Info -->
   <string name="SecurityCenter.info">সর্বাধিক সুরক্ষার জন্য সমস্ত নিরাপত্তা ব্যাবস্থা সক্রিয় করুন।</string>
   <!-- Paper Key button description -->
-  <string name="SecurityCenter.paperKeyDescription">আপনি আপনার ফোন হারিয়ে ফেললে বা আপগ্রেড করলে এটি আপনার DigiByte অ্যাক্সেস করার একমাত্র উপায়।</string>
+  <string name="SecurityCenter.paperKeyDescription">আপনি আপনার ফোন হারিয়ে ফেললে বা আপগ্রেড করলে এটি আপনার eMark অ্যাক্সেস করার একমাত্র উপায়।</string>
   <!-- Paper Key button title -->
   <string name="SecurityCenter.paperKeyTitle">পেপার চাবি/কী</string>
   <!-- PIN button description -->
-  <string name="SecurityCenter.pinDescription">"অ-অনুমোদিত ব্যবহারকারীদের কাছ থেকে আপনার DigiWallet রক্ষা করুন।  "</string>
+  <string name="SecurityCenter.pinDescription">"অ-অনুমোদিত ব্যবহারকারীদের কাছ থেকে আপনার eMark Wallet রক্ষা করুন।  "</string>
   <!-- PIN button title -->
   <string name="SecurityCenter.pinTitle">৬-সংখ্যার পিন</string>
   <!-- Security Center Title -->
   <string name="SecurityCenter.title">নিরাপত্তা কেন্দ্র</string>
   <!-- Touch ID button description -->
-  <string name="SecurityCenter.touchIdDescription">সুবিধামত আপনার DigiWallet আনলক করুন এবং একটি নিদিষ্ট সীমা পর্যন্ত টাকা পাঠান।</string>
+  <string name="SecurityCenter.touchIdDescription">সুবিধামত আপনার eMark Wallet আনলক করুন এবং একটি নিদিষ্ট সীমা পর্যন্ত টাকা পাঠান।</string>
   <!-- Touch ID button title -->
   <string name="SecurityCenter.touchIdTitle">স্পর্শ আইডি</string>
   <!-- Security center fingerprint authentication button -->
@@ -440,13 +440,13 @@
   <!-- Balance: $4.00 -->
   <string name="Send.balance">ব্যালেন্স: %১$ @</string>
   <!-- Instructions how to allow the camera access for the app -->
-  <string name="Send.cameraUnavailabeMessage.android">"ক্যামেরা অ্যাক্সেসের অনুমতি দিন \"সেটিংস\" &gt; \"আপস\" &gt; \"DigiWallet\" &gt; \"পারমিশন\" "</string>
+  <string name="Send.cameraUnavailabeMessage.android">"ক্যামেরা অ্যাক্সেসের অনুমতি দিন \"সেটিংস\" &gt; \"আপস\" &gt; \"eMark Wallet\" &gt; \"পারমিশন\" "</string>
   <!-- Permission required to access camera -->
-  <string name="Send.cameraUnavailabeTitle.android">DigiWallet এই ক্যামেরা অ্যাক্সেস করার অনুমতি নেই</string>
+  <string name="Send.cameraUnavailabeTitle.android">eMark Wallet এই ক্যামেরা অ্যাক্সেস করার অনুমতি নেই</string>
   <!-- Camera not allowed message -->
   <string name="Send.cameraunavailableMessage">সেটিংসে যান এবং ক্যামেরা জন্য অ্যাক্সেসের অনুমতি দিন</string>
   <!-- Camera not allowed alert title -->
-  <string name="Send.cameraUnavailableTitle">DigiWallet এই ক্যামেরা অ্যাক্সেস করার অনুমতি নেই</string>
+  <string name="Send.cameraUnavailableTitle">eMark Wallet এই ক্যামেরা অ্যাক্সেস করার অনুমতি নেই</string>
   <!-- Warning when sending to self. -->
   <string name="Send.containsAddress">এই গন্তব্য আপনার নিজস্ব ঠিকানা। আপনি নিজের কাছে পাঠাতে পারেন না।</string>
   <!-- Could not create transaction alert title -->
@@ -460,9 +460,9 @@
   <!-- Payee identity not certified alert title. -->
   <string name="Send.identityNotCertified">পাত্তনাদার পরিচয় সার্টিফাইড নয়।</string>
   <!-- Invalid address alert message -->
-  <string name="Send.invalidAddressMessage">গন্তব্য ঠিকানা একটি বৈধ DigiByte ঠিকানা নয়।</string>
+  <string name="Send.invalidAddressMessage">গন্তব্য ঠিকানা একটি বৈধ eMark ঠিকানা নয়।</string>
   <!-- Invalid address on pasteboard message -->
-  <string name="Send.invalidAddressOnPasteboard">পেস্টবোর্ডটিতে একটি বৈধ DigiByte ঠিকানা নেই।</string>
+  <string name="Send.invalidAddressOnPasteboard">পেস্টবোর্ডটিতে একটি বৈধ eMark ঠিকানা নেই।</string>
   <!-- Invalid address alert title -->
   <string name="Send.invalidAddressTitle">অকার্যকর ঠিকানা</string>
   <!-- Is rescanning error message -->
@@ -488,7 +488,7 @@
   <!-- Send money to label -->
   <string name="Send.toLabel">থেকে</string>
   <!-- Adress already used alert message - first part -->
-  <string name="Send.UsedAddress.firstLine">DigiByte ঠিকানা শুধুমাত্র একবার ব্যবহারের জন্য লক্ষ্য করা হয়।</string>
+  <string name="Send.UsedAddress.firstLine">eMark ঠিকানা শুধুমাত্র একবার ব্যবহারের জন্য লক্ষ্য করা হয়।</string>
   <!-- Adress already used alert message - second part -->
   <string name="Send.UsedAddress.secondLIne">পুনরায় ব্যবহার আপনার এবং প্রাপক উভয়ের জন্য গোপনীয়তা হ্রাস করে এবং প্রাপক যদি সরাসরি ঠিকানা নিয়ন্ত্রণ করে না তাহলে ক্ষতি হতে পারে।</string>
   <!-- Adress already used alert title -->
@@ -503,11 +503,11 @@
   <!-- Join Early access label -->
   <string name="Settings.earlyAccess">দ্রুত যোগ দিন</string>
   <!-- Are you enjoying bread alert message body -->
-  <string name="Settings.enjoying">আপনি কি DigiWallet উপভোগ করছেন?</string>
+  <string name="Settings.enjoying">আপনি কি eMark Wallet উপভোগ করছেন?</string>
   <!-- Import wallet left message -->
   <string name="Settings.importLeftMessage">ওয়ালেট ইম্পোর্টেড হতে হবে</string>
   <!-- Import wallet right message -->
-  <string name="Settings.importRightMessage">আপনার DigiWallet ওয়ালেট</string>
+  <string name="Settings.importRightMessage">আপনার eMark Wallet ওয়ালেট</string>
   <!-- Import wallet label -->
   <string name="Settings.importTitle">ইম্পোর্ট ওয়ালেট</string>
   <!-- Manage settings section header -->
@@ -515,7 +515,7 @@
   <!-- Notifications label -->
   <string name="Settings.notifications">"বিজ্ঞপ্তিগুলি/নোটিফিকেশন "</string>
   <!-- Restore screen lower label. -->
-  <string name="Settings.restore_label">এই ডিভাইসে আপনার DigiWallet</string>
+  <string name="Settings.restore_label">এই ডিভাইসে আপনার eMark Wallet</string>
   <!-- Leave review button label -->
   <string name="Settings.review">আমাদের একটি পর্যালোচনা দিন</string>
   <!-- Share anonymous data label -->
@@ -533,7 +533,7 @@
   <!-- Start or recover another wallet menu label. -->
   <string name="Settings.wipe">অন্য একটি ওয়ালেট শুরু/পুনরুদ্ধার</string>
   <!-- Share data view body -->
-  <string name="ShareData.body">আমাদেরকে আপনার বেনামী তথ্য প্রদান করে DigiWallet উন্নত করতে সহায়তা করুন। এটি কোনো আর্থিক তথ্য অন্তর্ভুক্ত করে না। আমরা আপনার আর্থিক গোপনীয়তাকে সম্মান করি।</string>
+  <string name="ShareData.body">আমাদেরকে আপনার বেনামী তথ্য প্রদান করে eMark Wallet উন্নত করতে সহায়তা করুন। এটি কোনো আর্থিক তথ্য অন্তর্ভুক্ত করে না। আমরা আপনার আর্থিক গোপনীয়তাকে সম্মান করি।</string>
   <!-- Share data header -->
   <string name="ShareData.header">তথ্য কি শেয়ার করবেন?</string>
   <!-- Share data switch label. -->
@@ -541,7 +541,7 @@
   <!-- button label -->
   <string name="StartPaperPhrase.againButtonTitle">আবার নিচে পেপার কী লিখুন</string>
   <!-- Paper key explanation text. -->
-  <string name="StartPaperPhrase.body">আপনার ফোনের হারিয়ে গেলে, চুরি হলে, ভেঙে গেলে বা আপগ্রেড করা হলে কাগজের/পেপার  চাবি  আপনার DigiWallet পুনরুদ্ধার করার একমাত্র উপায়।\n\nআমরা কাগজের একটি টুকরো লিখতে এবং নিরাপদ রাখার জন্য আপনাকে শব্দগুলির একটি তালিকা দেখাব।</string>
+  <string name="StartPaperPhrase.body">আপনার ফোনের হারিয়ে গেলে, চুরি হলে, ভেঙে গেলে বা আপগ্রেড করা হলে কাগজের/পেপার  চাবি  আপনার eMark Wallet পুনরুদ্ধার করার একমাত্র উপায়।\n\nআমরা কাগজের একটি টুকরো লিখতে এবং নিরাপদ রাখার জন্য আপনাকে শব্দগুলির একটি তালিকা দেখাব।</string>
   <!-- button label -->
   <string name="StartPaperPhrase.buttonTitle">নিচে পেপার কী লিখুন</string>
   <!-- Argument is date -->
@@ -573,13 +573,13 @@
   <!-- Fingerprint Is Not Setup -->
   <string name="TouchIdSettings.disabledWarning.title.android">ফিঙ্গারপ্রিন্ট প্রমাণীকরণ সক্ষম নয়</string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">আপনার DigiWallet আনলক করতে আপনার আঙ্গুলের ছাপ ব্যবহার করুন এবং একটি সেট করা সীমা পর্যন্ত টাকা পাঠান।</string>
+  <string name="TouchIdSettings.label">আপনার eMark Wallet আনলক করতে আপনার আঙ্গুলের ছাপ ব্যবহার করুন এবং একটি সেট করা সীমা পর্যন্ত টাকা পাঠান।</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
   <string name="TouchIdSettings.linkText">স্পর্শ আইডি খরচ সীমা অতিক্রম</string>
   <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">খরচ সীমা: %১$@ (%২$@)</string>
   <!-- Touch id switch label. -->
-  <string name="TouchIdSettings.switchLabel">DigiByte এর জন্য টাচ আইডি সক্ষম করুন</string>
+  <string name="TouchIdSettings.switchLabel">eMark এর জন্য টাচ আইডি সক্ষম করুন</string>
   <!-- Enable fingerprint for this wallet called Bread -->
   <string name="TouchIdSettings.switchLabel.android">ফিঙ্গারপ্রিন্ট প্রমাণীকরণ সক্ষম করুন</string>
   <!-- Touch ID settings view title -->
@@ -660,7 +660,7 @@
   <!-- "Sent [$5] to [address]" => This is the "to [address]" part. -->
   <string name="TransactionDetails.to">%১$s তে</string>
   <!-- Transaction ID header -->
-  <string name="TransactionDetails.txHashHeader">DigiByte লেনদেন আইডি</string>
+  <string name="TransactionDetails.txHashHeader">eMark লেনদেন আইডি</string>
   <!-- (this transaction was) Received at this address: -->
   <string name="TransactionDirection.address">এই ঠিকানাতে গ্রহণ</string>
   <!-- (this transaction was) Sent to this address: -->
@@ -678,7 +678,7 @@
   <!-- Instruction to touch the sensor for fingerprint authentication -->
   <string name="UnlockScreen.touchIdInstructions.android">স্পর্শ সেন্সর</string>
   <!-- TouchID prompt text -->
-  <string name="UnlockScreen.touchIdPrompt">আপনার DigiWallet আনলক করুন।</string>
+  <string name="UnlockScreen.touchIdPrompt">আপনার eMark Wallet আনলক করুন।</string>
   <!-- Device authentication body -->
   <string name="UnlockScreen.touchIdPrompt.android">চালিয়ে যেতে আপনার অ্যান্ড্রয়েড ডিভাইস আনলক করুন।</string>
   <!-- Unlock with TouchID accessibility label -->
@@ -688,9 +688,9 @@
   <!-- Wallet unlocked message -->
   <string name="UnlockScreen.unlocked">ওয়ালেট আনলক করা হয়েছে</string>
   <!-- Update PIN caption text -->
-  <string name="UpdatePin.caption">এই পিনটি মনে রাখুন। যদি আপনি এটি ভুলে যান, তাহলে আপনি আপনার DigiByte এ প্রবেশ করতে পারবেন না।</string>
+  <string name="UpdatePin.caption">এই পিনটি মনে রাখুন। যদি আপনি এটি ভুলে যান, তাহলে আপনি আপনার eMark এ প্রবেশ করতে পারবেন না।</string>
   <!-- PIN creation info. -->
-  <string name="UpdatePin.createInstruction">আপনার পিন টি আপনার DigiWallet আনলক করতে এবং অর্থ পাঠাতে ব্যবহার করা হবে।</string>
+  <string name="UpdatePin.createInstruction">আপনার পিন টি আপনার eMark Wallet আনলক করতে এবং অর্থ পাঠাতে ব্যবহার করা হবে।</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">PIN সেট করুন</string>
   <!-- Update PIN title -->
@@ -724,7 +724,7 @@
   <!-- Authorize transaction with touch id message -->
   <string name="VerifyPin.touchIdMessage">এই লেনদেন অনুমোদন</string>
   <!-- 'No wallet' warning for watch app -->
-  <string name="Watch.noWalletWarning">আপনার ওয়ালেট সেট আপ করার জন্য DigiWallet আইফোন অ্যাপ্লিকেশন চালু করুন।</string>
+  <string name="Watch.noWalletWarning">আপনার ওয়ালেট সেট আপ করার জন্য eMark Wallet আইফোন অ্যাপ্লিকেশন চালু করুন।</string>
   <!-- Dismiss button label -->
   <string name="Webview.dismiss">বাদ দেত্তয়া</string>
   <!-- Webview loading error message -->
@@ -732,9 +732,9 @@
   <!-- Updating webview message -->
   <string name="Webview.updating">হালনাগাদ করা হচ্ছে ...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">OS এর জন্য DigiWallet তার নাম পরিবর্তন  করে DigiWallet করেছে, একটি নতুন চেহারা এবং কিছু নতুন বৈশিষ্ট্য যুক্ত হয়েছে।\n\nযদি আপনার সাহায্যের প্রয়োজন হয়, তবে স্ক্রিনের উপরের ডানদিকে (?) চিহ্ন সন্ধান করুন।</string>
+  <string name="Welcome.body">OS এর জন্য eMark Wallet তার নাম পরিবর্তন  করে eMark Wallet করেছে, একটি নতুন চেহারা এবং কিছু নতুন বৈশিষ্ট্য যুক্ত হয়েছে।\n\nযদি আপনার সাহায্যের প্রয়োজন হয়, তবে স্ক্রিনের উপরের ডানদিকে (?) চিহ্ন সন্ধান করুন।</string>
   <!-- Top title of welcome screen -->
-  <string name="Welcome.title">DigiWallet এ স্বাগতম!</string>
+  <string name="Welcome.title">eMark Wallet এ স্বাগতম!</string>
   <!-- Wipe wallet alert message -->
   <string name="WipeWallet.alertMessage">আপনি কি এই ওয়ালেটটি মুছে ফেলতে চান?</string>
   <!-- Wipe wallet alert title -->
@@ -746,7 +746,7 @@
   <!-- Enter phrase to wipe wallet instruction. -->
   <string name="WipeWallet.instruction">একটি নতুন ওয়ারলেস শুরু বা একটি পুরাতন ওয়ালেট পুনরুদ্ধার করতে, প্রথমে আপনাকে যে ওয়ালেট  ইনস্টল করা আছে সেটি মুছে ফেলতে হবে। চালিয়ে যেতে, বর্তমান ওয়ালেটের কাগজ কীটি লিখুন।</string>
   <!-- Start wipe wallet view message -->
-  <string name="WipeWallet.startMessage">অন্য একটি ওয়ালেট চালু বা পুনরুদ্ধার করেত আপনাকে এই ডিভাইসে একটি ভিন্ন DigiWallet প্রবেশ এবং পরিচালনা করতে দেয়।</string>
+  <string name="WipeWallet.startMessage">অন্য একটি ওয়ালেট চালু বা পুনরুদ্ধার করেত আপনাকে এই ডিভাইসে একটি ভিন্ন eMark Wallet প্রবেশ এবং পরিচালনা করতে দেয়।</string>
   <!-- Start wipe wallet view warning -->
   <string name="WipeWallet.startWarning">আপনার বর্তমান ওয়ালেটটি এই ডিভাইস থেকে সরানো হবে। আপনি যদি ভবিষ্যতে এটি পুনরুদ্ধার করতে চান, তাহলে আপনার কাগজের কীটি প্রবেশ করাতে হবে।</string>
   <!-- Wipe wallet navigation item title. -->

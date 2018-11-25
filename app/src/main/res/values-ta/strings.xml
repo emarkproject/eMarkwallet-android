@@ -11,7 +11,7 @@
   <!-- Privay Policy button label -->
   <string name="About.privacy">தனியுரிமை கொள்கை</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/DeutscheeMark/</string>
   <!-- Terms of Use button label -->
   <string name="About.terms">இந்த திட்டம் திறந்த-மூலமாகும், நீங்கள் குறியீட்டை இங்கு மதிப்பாய்வு செய்யலாம்:
 </string>
@@ -21,7 +21,7 @@
   -->
   <string name="About.title">வேகமானது, எளியது மற்றும் பாதுகாப்பானது!: ஆண்ட்ராய்டுக்கான டிஜிவாலட், டிஜிபைட் ஐ அனுப்ப மற்றும் பெற தொடங்குவதற்கான எளிய வழியாகும். புதிய மற்றும் அனுபவம் வாய்ந்த பயனர்கள் ஆகிய இருவரையும் மனதில் கொண்டு வடிவமைக்கபட்டது, ஆண்ட்ராய்டுக்கான டிஜிவாலட்டை முதல் முறை புதியதாக பயன்படுத்த மிகவும் எளிதானது, இது வழக்கமான திறன் பெற்ற பயனர்களுக்கு இன்னும்  போதுமான திறன் வாய்ந்ததாக இருக்கும்.</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/deutsche_emark</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">மூடு</string>
   <!-- Support center accessibiliy label -->
@@ -73,13 +73,13 @@
   <!-- API Token error message -->
   <string name="ApiClient.tokenError">API டோக்கனை மீட்டெடுக்க முடியவில்லை</string>
   <!-- Send BCH view body. -->
-  <string name="BCH.body">டிஜிபைட் முகவரி இலக்கை கீழே உள்ளிடவும்.முட்கரண்டி நேரத்தில்  உங்கள் வாலட்டில் இருக்கும் அனைத்து DGBகலும் (%1$s) அனுப்பப்படும்.</string>
+  <string name="BCH.body">டிஜிபைட் முகவரி இலக்கை கீழே உள்ளிடவும்.முட்கரண்டி நேரத்தில்  உங்கள் வாலட்டில் இருக்கும் அனைத்து DEMகலும் (%1$s) அனுப்பப்படும்.</string>
   <!-- Confirm sending <$5.00> to <address>? -->
   <string name="BCH.confirmationMessage">%1$s முதல் %2$s வரை அனுப்புவதை உறுதிப்படுத்தவும்</string>
   <!-- Confirmation alert title -->
   <string name="BCH.confirmationTitle">உறுதிபாடு</string>
   <!-- Generic bch erorr message -->
-  <string name="BCH.genericError">உங்கள் கணக்கில் எந்த ஒரு DGB யும் இல்லை, அல்லது நீங்கள் DGB ஐ முனிகூட்டியே பெற்றுள்ளீர்கள்.</string>
+  <string name="BCH.genericError">உங்கள் கணக்கில் எந்த ஒரு DEM யும் இல்லை, அல்லது நீங்கள் DEM ஐ முனிகூட்டியே பெற்றுள்ளீர்கள்.</string>
   <!-- Transaction ID copied message -->
   <string name="BCH.hashCopiedMessage">பரிவர்த்தனை ID நகலெடுக்கப்பட்டது</string>
   <!-- No address error message -->
@@ -87,7 +87,7 @@
   <!-- Attempted to scan unsupported qr code error message. -->
   <string name="BCH.paymentProtocolError">டிஜிபைட் பரிவர்த்தனைகளுக்கு கட்டண நெறிமுறை கோரிக்கைகள் ஒத்துழைக்கப்படவில்லை</string>
   <!-- BCH successfully sent alert message -->
-  <string name="BCH.successMessage">DGB வெற்றிகரமாக அனுப்பப்பட்டது.</string>
+  <string name="BCH.successMessage">DEM வெற்றிகரமாக அனுப்பப்பட்டது.</string>
   <!-- Widthdraw BCH view title -->
   <string name="BCH.title">டிஜிபைட் ஐ திரும்பப்பெறு</string>
   <!-- Tx Hash button header -->
