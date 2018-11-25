@@ -56,7 +56,7 @@ gradle.properties
 .idea/copyright/profiles_settings.xml
 .idea/codeStyleSettings.xml
 .navigation/
-*.Thumbs.db
+*/Thumbs.db
 
 
 # jniLibs files
