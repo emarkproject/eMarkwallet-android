@@ -150,13 +150,13 @@ public class Utils {
             String message, String rURL) {
 
         Uri.Builder builder = new Uri.Builder();
-        builder = builder.scheme("digibyte");
+        builder = builder.scheme("eMark");
         if (address != null && !address.isEmpty()) {
             builder = builder.appendPath(address);
         }
         if (satoshiAmount != 0) {
             builder = builder.appendQueryParameter("amount", new BigDecimal(satoshiAmount).
-                    divide(new BigDecimal(100000000), 8,
+                    divide(new BigDecimal(1000000), 8,
                             BRConstants.ROUNDING_MODE).toPlainString());
         }
         if (label != null && !label.isEmpty()) {

@@ -55,13 +55,13 @@ public class BRExchange {
         int unit = BRSharedPrefs.getCurrencyUnit(app);
         switch (unit) {
             case CURRENT_UNIT_BITS:
-                result = new BigDecimal(String.valueOf(amount)).divide(new BigDecimal("100"), 2, ROUNDING_MODE);
+                result = new BigDecimal(String.valueOf(amount)).divide(new BigDecimal("1"), 0, ROUNDING_MODE);
                 break;
             case BRConstants.CURRENT_UNIT_MBITS:
-                result = new BigDecimal(String.valueOf(amount)).divide(new BigDecimal("100000"), 5, ROUNDING_MODE);
+                result = new BigDecimal(String.valueOf(amount)).divide(new BigDecimal("1000"), 3, ROUNDING_MODE);
                 break;
             case BRConstants.CURRENT_UNIT_BITCOINS:
-                result = new BigDecimal(String.valueOf(amount)).divide(new BigDecimal("100000000"), 8, ROUNDING_MODE);
+                result = new BigDecimal(String.valueOf(amount)).divide(new BigDecimal("1000000"), 6, ROUNDING_MODE);
                 break;
         }
         return result;
@@ -72,13 +72,13 @@ public class BRExchange {
         int unit = BRSharedPrefs.getCurrencyUnit(app);
         switch (unit) {
             case CURRENT_UNIT_BITS:
-                result = new BigDecimal(String.valueOf(amount)).multiply(new BigDecimal("100"));
+                result = new BigDecimal(String.valueOf(amount)).multiply(new BigDecimal("1"));
                 break;
             case BRConstants.CURRENT_UNIT_MBITS:
-                result = new BigDecimal(String.valueOf(amount)).multiply(new BigDecimal("100000"));
+                result = new BigDecimal(String.valueOf(amount)).multiply(new BigDecimal("1000"));
                 break;
             case BRConstants.CURRENT_UNIT_BITCOINS:
-                result = new BigDecimal(String.valueOf(amount)).multiply(new BigDecimal("100000000"));
+                result = new BigDecimal(String.valueOf(amount)).multiply(new BigDecimal("1000000"));
                 break;
         }
         return result;

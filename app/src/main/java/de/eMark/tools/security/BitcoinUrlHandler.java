@@ -118,7 +118,7 @@ public class BitcoinUrlHandler {
             if (keyValue[0].trim().equals("amount")) {
                 try {
                     BigDecimal bigDecimal = new BigDecimal(keyValue[1].trim());
-                    obj.amount = bigDecimal.multiply(new BigDecimal("100000000")).toString();
+                    obj.amount = bigDecimal.multiply(new BigDecimal("1000000")).toString();
                 } catch (NumberFormatException e) {
                     e.printStackTrace();
                 }
