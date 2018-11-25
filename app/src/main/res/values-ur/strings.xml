@@ -9,17 +9,17 @@
   <!-- Privay Policy button label -->
   <string name="About.privacy">پرائیویسی پالیسی</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte</string>
+  <string name="About.reddit">https://www.reddit.com/r/DeutscheeMark</string>
   <!-- Terms of Use button label -->
   <string name="About.terms">یہ پروجیکٹ اوپن سورس ہے. آپ یہاں کوڈ کا جائزہ لے سکتے ہیں: 
-https://github.com/Racecraft/digibytewallet-android</string>
+https://github.com/emarkproject/eMarkwallet-android</string>
   <!--
   Terms of Use button label
   About screen title
   -->
   <string name="About.title">ڈیجی والیٹ اینڈرائڈ  موبائل کے لئے  ڈیجی بائٹ کا  پرس ہے.</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/deutsche_emark</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">بند کریں</string>
   <!-- Support center accessibiliy label -->
@@ -68,25 +68,25 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- API Token error message -->
   <string name="ApiClient.tokenError">API ٹوکن حاصل کرنے میں ناکام</string>
   <!-- Send BCH view body. -->
-  <string name="BCH.body">ذیل میں DGB ایڈریس درج کریں. فورک %1$s کے وقت آپ کے والیٹ کے تمام DGB بھیج دیے جاییں گے .</string>
+  <string name="BCH.body">ذیل میں DEM ایڈریس درج کریں. فورک %1$s کے وقت آپ کے والیٹ کے تمام DEM بھیج دیے جاییں گے .</string>
   <!-- Confirm sending <$5.00> to <address>? -->
   <string name="BCH.confirmationMessage">%1$s سے %2$s بھیجنے کی تصدیق کریں</string>
   <!-- Confirmation alert title -->
   <string name="BCH.confirmationTitle">تصدیق کریں</string>
   <!-- Generic bch erorr message -->
-  <string name="BCH.genericError">آپ کے اکاؤنٹ میں DGB نہیں ہیں یا آپ کو DGB فورک کے بعد ملے.</string>
+  <string name="BCH.genericError">آپ کے اکاؤنٹ میں DEM نہیں ہیں یا آپ کو DEM فورک کے بعد ملے.</string>
   <!-- Transaction ID copied message -->
   <string name="BCH.hashCopiedMessage">ٹرانزیکشن کی شناخت کاپی</string>
   <!-- No address error message -->
   <string name="BCH.noAddressError">براہ کرم ایڈریس درج کریں</string>
   <!-- Attempted to scan unsupported qr code error message. -->
-  <string name="BCH.paymentProtocolError">DGB ٹرانزیکشنز کے لئے ادائیگی پروٹوکول کی ریکویسٹ  کی سپورٹ نہیں ہے</string>
+  <string name="BCH.paymentProtocolError">DEM ٹرانزیکشنز کے لئے ادائیگی پروٹوکول کی ریکویسٹ  کی سپورٹ نہیں ہے</string>
   <!-- BCH successfully sent alert message -->
-  <string name="BCH.successMessage">DGB کامیابی سے بھیج دیا گیا ہے.</string>
+  <string name="BCH.successMessage">DEM کامیابی سے بھیج دیا گیا ہے.</string>
   <!-- Widthdraw BCH view title -->
-  <string name="BCH.title">DGB نکلوانا</string>
+  <string name="BCH.title">DEM نکلوانا</string>
   <!-- Tx Hash button header -->
-  <string name="BCH.txHashHeader">DGB ٹرانزیکشن کی شناخت</string>
+  <string name="BCH.txHashHeader">DEM ٹرانزیکشن کی شناخت</string>
   <!-- Approve button label -->
   <string name="BitID.approve">منظور</string>
   <!-- <sitename> is requesting authentication using your bitcoin wallet -->

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
   <!-- App name -->
-  <string name="About.appName.android">DigiWallet</string>
+  <string name="About.appName.android">eMark Wallet</string>
   <!-- About screen blog label -->
   <string name="About.blog">https://digibyte.io/</string>
   <!-- About screen footer -->
-  <string name="About.footer">Búið til af DigiWallet teyminu. Útgáfa %1$s</string>
+  <string name="About.footer">Búið til af eMark Wallet teyminu. Útgáfa %1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">Friðhelgisstefna</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/DeutscheeMark/</string>
   <!-- Terms of Use button label -->
   <string name="About.terms">Kóði þessa forrits er undir opnu leyfi. Þú getur séð hann hér:
-https://github.com/Racecraft/digibytewallet-android</string>
+https://github.com/emarkproject/eMarkwallet-android</string>
   <!--
   Terms of Use button label
   About screen title
   -->
-  <string name="About.title">DigiWallet fyrir Android er snjallsímaveskið fyrir DigiByte.</string>
+  <string name="About.title">eMark Wallet fyrir Android er snjallsímaveskið fyrir eMark.</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/deutsche_emark</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">Loka</string>
   <!-- Support center accessibiliy label -->
@@ -27,7 +27,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Loading Wallet Message -->
   <string name="Account.loadingMessage">Hleður inn veski</string>
   <!-- Default wallet name -->
-  <string name="AccountHeader.defaultWalletName">Mitt DigiWallet</string>
+  <string name="AccountHeader.defaultWalletName">Mitt eMark Wallet</string>
   <!-- Third party keyboard warning -->
   <string name="Alert.customKeyboard.android">Það lítur út fyrir að þú sért að nota lyklaborð frá þriðja aðila, sem gæti tekið upp það sem þú skrifar og stolið endurheimtunarlykli þínum. Vinsamlegast skiptu yfir á sjálfgefið Android lyklaborð fyrir aukavörn.</string>
   <!-- Error alert title -->
@@ -35,7 +35,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Keystore error -->
   <string name="Alert.keystore.generic.android">Það er vandamál með lyklavörslu Android stýrikerfis þíns, vinsamlegast hafðu samband við support@digibyte.io</string>
   <!-- KeyStore error, keys are invalidated -->
-  <string name="Alert.keystore.invalidated.android">Dulkóðuð DigiWallet gögn þín voru nýlega ógild vegna þess að skjálás Android tækis þíns var gerður óvirkur.</string>
+  <string name="Alert.keystore.invalidated.android">Dulkóðuð eMark Wallet gögn þín voru nýlega ógild vegna þess að skjálás Android tækis þíns var gerður óvirkur.</string>
   <!-- Keystore error title -->
   <string name="Alert.keystore.title.android">Villa í lyklavörslu Android</string>
   <!-- No internet alert message -->
@@ -57,7 +57,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Send success alert header label (confirmation that the send happened) -->
   <string name="Alerts.sendSuccess">Staðfesting sendingu</string>
   <!-- Send success alert subheader label (e.g. the money was sent) -->
-  <string name="Alerts.sendSuccessSubheader">DigiByte sent!</string>
+  <string name="Alerts.sendSuccessSubheader">eMark sent!</string>
   <!-- Fingerprint was recognized by the scanner -->
   <string name="Alerts.touchIdSucceeded.android">Fingrafar þekkt</string>
   <string name="all">ALLT</string>
@@ -68,29 +68,29 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- API Token error message -->
   <string name="ApiClient.tokenError">Gat ekki sótt API miða</string>
   <!-- Send BCH view body. -->
-  <string name="BCH.body">Sláðu inn DGB vistfang á áfangastað fyrir neðan. Allt DGB í þínu veski þegar sundurliðun á stað (%1$s) verður sent.</string>
+  <string name="BCH.body">Sláðu inn DEM vistfang á áfangastað fyrir neðan. Allt DEM í þínu veski þegar sundurliðun á stað (%1$s) verður sent.</string>
   <!-- Confirm sending <$5.00> to <address>? -->
   <string name="BCH.confirmationMessage">Staðfesta sendingu %1$s til %2$s</string>
   <!-- Confirmation alert title -->
   <string name="BCH.confirmationTitle">Staðfesting</string>
   <!-- Generic bch erorr message -->
-  <string name="BCH.genericError">Enginn DGB er á þínum reikning, eða þú tókst við DGB eftir sundurliðun.</string>
+  <string name="BCH.genericError">Enginn DEM er á þínum reikning, eða þú tókst við DEM eftir sundurliðun.</string>
   <!-- Transaction ID copied message -->
   <string name="BCH.hashCopiedMessage">Raðnúmer færslu afritað</string>
   <!-- No address error message -->
   <string name="BCH.noAddressError">Vinsamlegast sláðu inn vistfang</string>
   <!-- Attempted to scan unsupported qr code error message. -->
-  <string name="BCH.paymentProtocolError">DGB færslur styðja ekki greiðslusamskiptareglubeiðnir.</string>
+  <string name="BCH.paymentProtocolError">DEM færslur styðja ekki greiðslusamskiptareglubeiðnir.</string>
   <!-- BCH successfully sent alert message -->
-  <string name="BCH.successMessage">Tókst að senda DGB.</string>
+  <string name="BCH.successMessage">Tókst að senda DEM.</string>
   <!-- Widthdraw BCH view title -->
-  <string name="BCH.title">Taka út DGB</string>
+  <string name="BCH.title">Taka út DEM</string>
   <!-- Tx Hash button header -->
-  <string name="BCH.txHashHeader">Raðnúmer DGB færslu</string>
+  <string name="BCH.txHashHeader">Raðnúmer DEM færslu</string>
   <!-- Approve button label -->
   <string name="BitID.approve">Samþykkja</string>
   <!-- <sitename> is requesting authentication using your bitcoin wallet -->
-  <string name="BitID.authenticationRequest">%1$s er að biðja um auðkenningu með þínu DigiWallet.</string>
+  <string name="BitID.authenticationRequest">%1$s er að biðja um auðkenningu með þínu eMark Wallet.</string>
   <!-- Deny button label -->
   <string name="BitID.deny">Neita</string>
   <!-- BitID error alert title -->
@@ -100,7 +100,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- BitID success alert title -->
   <string name="BitID.success">Auðkenning tókst</string>
   <!-- BitID Authentication Request alert view title -->
-  <string name="BitID.title">DigiID auðkennisbeiðni</string>
+  <string name="BitID.title">eMarkID auðkennisbeiðni</string>
   <!-- Cancel button label -->
   <string name="Button.cancel">Hætta við</string>
   <!-- Ignore button label -->
@@ -145,7 +145,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <string name="current_amount">Núverandi gildi: %s</string>
   <string name="date">Dagsetning</string>
   <!-- Bitcoin denomination picker label -->
-  <string name="DefaultCurrency.bitcoinLabel">DigiByte sýniseining</string>
+  <string name="DefaultCurrency.bitcoinLabel">eMark sýniseining</string>
   <!--
   Bitcoin denomination picker label
   Exchange rate label
@@ -156,7 +156,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Email unavailable alert title -->
   <string name="ErrorMessages.emailUnavailableTitle">Netfang ekki tiltækt</string>
   <!-- Message that gets shown when we've detected the user has encountered the looping lock-screen bug. (preserve [ ] characters) -->
-  <string name="ErrorMessages.loopingLockScreen.android">Ekki er hægt að auðkenna DigiWallet vegna lús í þinni útgáfu af Android. [Vinsamlegast ýttu hér fyrir frekari upplýsingar.]</string>
+  <string name="ErrorMessages.loopingLockScreen.android">Ekki er hægt að auðkenna eMark Wallet vegna lús í þinni útgáfu af Android. [Vinsamlegast ýttu hér fyrir frekari upplýsingar.]</string>
   <!-- Messaging unavailable alert title -->
   <string name="ErrorMessages.messagingUnavailableMessage">Þetta tæki er ekki stilt til þess að senda skilaboð.</string>
   <!-- Messaging unavailable alert title -->
@@ -180,7 +180,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Checking private key balance progress view text -->
   <string name="Import.checking">Athugar stöðu á einkalykli...</string>
   <!-- Sweep private key confirmation message -->
-  <string name="Import.confirm">Viltu senda %1$s frá þessum einkalykli í veski þitt? DigiByte netið mun fá gjald að upphæð %2$s.</string>
+  <string name="Import.confirm">Viltu senda %1$s frá þessum einkalykli í veski þitt? eMark netið mun fá gjald að upphæð %2$s.</string>
   <!-- Duplicate key error message -->
   <string name="Import.Error.duplicate">Þessi einkalykill er nú þegar í þínu veski</string>
   <!-- empty private key error message -->
@@ -198,13 +198,13 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Caption for graphics -->
   <string name="Import.leftCaption">Veski sem flytja á inn</string>
   <!-- Import wallet intro screen message -->
-  <string name="Import.message">Innflutningur veskis færir öll DigiByte úr hinu veski þinu inn í þitt DigiWallet í einni færslu.</string>
+  <string name="Import.message">Innflutningur veskis færir öll eMark úr hinu veski þinu inn í þitt eMark Wallet í einni færslu.</string>
   <!-- Enter password alert view title -->
   <string name="Import.password">Þessi einkalykill er varinn af lykilorði.</string>
   <!-- password textfield placeholder -->
   <string name="Import.passwordPlaceholder">lykilorð</string>
   <!-- Caption for graphics -->
-  <string name="Import.rightCaption">Þitt DigiWallet</string>
+  <string name="Import.rightCaption">Þitt eMark Wallet</string>
   <!-- Scan Private key button label -->
   <string name="Import.scan">Skanna einkalykil</string>
   <!-- Import wallet success alert title -->
@@ -226,20 +226,20 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Jailbreak warning message -->
   <string name="JailbreakWarnings.messageWithBalance">ÖRYGGI TÆKIS RASKAÐ
 
-Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum DigiWallet og stolið þínu DigiByte! Þurrkaðu þetta veski strax og endurheimtu á öruggu tæki.</string>
+Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum eMark Wallet og stolið þínu eMark! Þurrkaðu þetta veski strax og endurheimtu á öruggu tæki.</string>
   <!--
   Ignore jailbreak warning button
   Jailbreak warning message
   -->
   <string name="JailbreakWarnings.messageWithoutBalance">ÖRYGGI TÆKIS RASKAÐ
 
-Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum DigiWallet og stolið þínu DigiByte. Vinsamlegast notaðu DigiWallet eingöngu á tæki sem ekki er óhlekkt.</string>
+Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum eMark Wallet og stolið þínu eMark. Vinsamlegast notaðu eMark Wallet eingöngu á tæki sem ekki er óhlekkt.</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">VIÐVÖRUN</string>
   <!-- Location services disabled error -->
   <string name="LocationPlugin.disabled">Staðsetningarþjónustur eru óvirkar.</string>
   <!-- No permissions for location services -->
-  <string name="LocationPlugin.notAuthorized">DigiWallet hefur ekki leyfi til að nota staðsetningarþjónustur.</string>
+  <string name="LocationPlugin.notAuthorized">eMark Wallet hefur ekki leyfi til að nota staðsetningarþjónustur.</string>
   <!-- Wallet creation date prefix -->
   <string name="ManageWallet.creationDatePrefix">Þú bjóst til veski þitt þann %1$s</string>
   <!-- Manage wallet description text -->
@@ -251,7 +251,7 @@ Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum
   <string name="max">hámark</string>
   <string name="max_send_enabled">Sýna hnappur: Senda hámark</string>
   <!-- Buy bitcoin title -->
-  <string name="MenuButton.buy">Kaupa DigiByte</string>
+  <string name="MenuButton.buy">Kaupa eMark</string>
   <!-- Menu button title -->
   <string name="MenuButton.lock">Læsa veski</string>
   <!-- Menu button title -->
@@ -283,7 +283,7 @@ Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum
   <!-- Node status label -->
   <string name="NodeSelector.statusLabel">Staða á tengingu við tengipunkt</string>
   <!-- Node Selector view title -->
-  <string name="NodeSelector.title">DigiByte tengipunktar</string>
+  <string name="NodeSelector.title">eMark tengipunktar</string>
   <string name="no_limit">Engin takmörk</string>
   <string name="original_amount">Upprunaleg gildi: %s</string>
   <!-- Bad Payment request alert title -->
@@ -297,9 +297,9 @@ Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum
   <!-- Payment too small alert title -->
   <string name="PaymentProtocol.Errors.smallOutputError">Gat ekki borgað</string>
   <!-- Amount too small error message -->
-  <string name="PaymentProtocol.Errors.smallPayment">DigiByte borganir geta ekki verið minni en %1$s.</string>
+  <string name="PaymentProtocol.Errors.smallPayment">eMark borganir geta ekki verið minni en %1$s.</string>
   <!-- Output too small error message. -->
-  <string name="PaymentProtocol.Errors.smallTransaction">DigiByte færsluúttök geta ekki verið minni en %1$s.</string>
+  <string name="PaymentProtocol.Errors.smallTransaction">eMark færsluúttök geta ekki verið minni en %1$s.</string>
   <!-- Unsupported signature type payment protocol error message -->
   <string name="PaymentProtocol.Errors.unsupportedSignatureType">Óstudd tegund undirskriftar</string>
   <!-- Untrusted certificate payment protocol error message -->
@@ -322,7 +322,7 @@ Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum
   <!-- Transaction rejected prompt title -->
   <string name="Prompts.RecommendRescan.title">Færslu hafnað</string>
   <!-- Share data prompt body -->
-  <string name="Prompts.ShareData.body">Hjálpaðu við að bæta DigiWallet með því að deila nafnlausum upplýsingum með okkur</string>
+  <string name="Prompts.ShareData.body">Hjálpaðu við að bæta eMark Wallet með því að deila nafnlausum upplýsingum með okkur</string>
   <!-- Share data prompt title -->
   <string name="Prompts.ShareData.title">Deila nafnlausum upplýsingum</string>
   <!-- Enable touch ID prompt body -->
@@ -336,11 +336,11 @@ Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum
   <!-- Button on fingerprint prompt so the user can enter their PIN instead -->
   <string name="Prompts.TouchId.usePin.android">PIN</string>
   <!-- Upgrade PIN prompt body. -->
-  <string name="Prompts.UpgradePin.body">DigiWallet hefur verið endurnýjað til að nota 6 stafa PIN. Ýttu hér til að endurnýja.</string>
+  <string name="Prompts.UpgradePin.body">eMark Wallet hefur verið endurnýjað til að nota 6 stafa PIN. Ýttu hér til að endurnýja.</string>
   <!-- Upgrade PIN prompt title. -->
   <string name="Prompts.UpgradePin.title">Endurnýja PIN</string>
   <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
-  <string name="PushNotifications.body">Kveiktu á tilkynningum til að fá sérstök skilaboð frá DigiWallet í framtíðinni.</string>
+  <string name="PushNotifications.body">Kveiktu á tilkynningum til að fá sérstök skilaboð frá eMark Wallet í framtíðinni.</string>
   <!-- Push notifications toggle switch label -->
   <string name="PushNotifications.label">Push tilkynningar</string>
   <!-- Push notifications are off label -->
@@ -383,7 +383,7 @@ Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum
   <!-- Next button accessibility label -->
   <string name="RecoverWallet.rightArrow">Hægri ör</string>
   <!-- Recover wallet sub-header -->
-  <string name="RecoverWallet.subheader">Sláðu inn endurheimtunarlykil fyrir það DigiWallet sem þú vilt endurheimta.</string>
+  <string name="RecoverWallet.subheader">Sláðu inn endurheimtunarlykil fyrir það eMark Wallet sem þú vilt endurheimta.</string>
   <!-- Reset PIN with paper key: sub-header -->
   <string name="RecoverWallet.subheader_reset_pin">Til að endurstilla PIN kóðann þinn, sláðu inn orðin úr endurheimtunarlyklinum þínum í kassana hér fyrir neðan.</string>
   <!-- No amount entered error message. -->
@@ -393,19 +393,19 @@ Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum
   <!-- Alert action button label -->
   <string name="ReScan.alertAction">Samstilla</string>
   <!-- Alert message body -->
-  <string name="ReScan.alertMessage">Þú munt ekki geta sent DigiByte á meðan þú samstillir.</string>
+  <string name="ReScan.alertMessage">Þú munt ekki geta sent eMark á meðan þú samstillir.</string>
   <!-- Alert message title -->
   <string name="ReScan.alertTitle">Samstilla við blokkarkeðju?</string>
   <!-- extimated time -->
   <string name="ReScan.body1">20-45 mínútur</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body2">Ef færsla sýnist kláruð á DigiByte neti en ekki í þínu DigiWallet.</string>
+  <string name="ReScan.body2">Ef færsla sýnist kláruð á eMark neti en ekki í þínu eMark Wallet.</string>
   <!-- Syncing explanation -->
   <string name="ReScan.body3">Þú færð endurteknar villur sem segja að færslu þinni hafi verið hafnað.</string>
   <!-- Start Sync button label -->
   <string name="ReScan.buttonTitle">Hefja samstillingu</string>
   <!-- Sync blockchain view footer -->
-  <string name="ReScan.footer">Þú munt ekki geta sent DigiByte þegar samstilling við blokkarkeðju er í gangi.</string>
+  <string name="ReScan.footer">Þú munt ekki geta sent eMark þegar samstilling við blokkarkeðju er í gangi.</string>
   <!-- Sync Blockchain view header -->
   <string name="ReScan.header">Samstilla blokkarkeðju</string>
   <!-- Subheader label -->
@@ -425,17 +425,17 @@ Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum
   <!-- Security Center Info -->
   <string name="SecurityCenter.info">Virkjaðu alla öryggiseiginleika fyrir hámarksvernd.</string>
   <!-- Paper Key button description -->
-  <string name="SecurityCenter.paperKeyDescription">Eina leiðin til að fá aðgang að þínu DigiByte ef þú týnir eða endurnýjir símann þinn.</string>
+  <string name="SecurityCenter.paperKeyDescription">Eina leiðin til að fá aðgang að þínu eMark ef þú týnir eða endurnýjir símann þinn.</string>
   <!-- Paper Key button title -->
   <string name="SecurityCenter.paperKeyTitle">Endurheimtunarlykill</string>
   <!-- PIN button description -->
-  <string name="SecurityCenter.pinDescription">Verndar DigiWallet þitt fyrir óheimiluðum notendum.</string>
+  <string name="SecurityCenter.pinDescription">Verndar eMark Wallet þitt fyrir óheimiluðum notendum.</string>
   <!-- PIN button title -->
   <string name="SecurityCenter.pinTitle">6 stafa PIN</string>
   <!-- Security Center Title -->
   <string name="SecurityCenter.title">Öryggismiðstöð</string>
   <!-- Touch ID button description -->
-  <string name="SecurityCenter.touchIdDescription">Auðveldlega opnaðu þitt DigiWallet og sentu DigiByte upp að ákveðnu takmarki.</string>
+  <string name="SecurityCenter.touchIdDescription">Auðveldlega opnaðu þitt eMark Wallet og sentu eMark upp að ákveðnu takmarki.</string>
   <!-- Touch ID button title -->
   <string name="SecurityCenter.touchIdTitle">Touch ID</string>
   <!-- Security center fingerprint authentication button -->
@@ -447,11 +447,11 @@ Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum
   <!-- Instructions how to allow the camera access for the app -->
   <string name="Send.cameraUnavailabeMessage.android">Leyfa myndavélaaðgang í \"Settings\" &gt; \"Apps\" &gt; \"Digiwallet\" &gt; \"Permissions\"</string>
   <!-- Permission required to access camera -->
-  <string name="Send.cameraUnavailabeTitle.android">DigiWallet hefur verið hafnað aðgangi að myndavélinni</string>
+  <string name="Send.cameraUnavailabeTitle.android">eMark Wallet hefur verið hafnað aðgangi að myndavélinni</string>
   <!-- Camera not allowed message -->
   <string name="Send.cameraunavailableMessage">Farðu í stillingar til að leyfa aðgang að myndavél</string>
   <!-- Camera not allowed alert title -->
-  <string name="Send.cameraUnavailableTitle">DigiWallet hefur ekki leyfi til að nota myndavélina</string>
+  <string name="Send.cameraUnavailableTitle">eMark Wallet hefur ekki leyfi til að nota myndavélina</string>
   <!-- Warning when sending to self. -->
   <string name="Send.containsAddress">Áfangastaður er þitt eigið vistfang. Þú getur ekki sent sjálfum/ri þér.</string>
   <!-- Could not create transaction alert title -->
@@ -465,9 +465,9 @@ Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum
   <!-- Payee identity not certified alert title. -->
   <string name="Send.identityNotCertified">Skilríki greiðanda er ekki vottað.</string>
   <!-- Invalid address alert message -->
-  <string name="Send.invalidAddressMessage">Vistfang aðfangastaðar er ekki gilt DigiByte vistfang.</string>
+  <string name="Send.invalidAddressMessage">Vistfang aðfangastaðar er ekki gilt eMark vistfang.</string>
   <!-- Invalid address on pasteboard message -->
-  <string name="Send.invalidAddressOnPasteboard">Límborð inniheldur ekki gilt DigiByte vistfang.</string>
+  <string name="Send.invalidAddressOnPasteboard">Límborð inniheldur ekki gilt eMark vistfang.</string>
   <!-- Invalid address alert title -->
   <string name="Send.invalidAddressTitle">Ógilt vistfang</string>
   <!-- Is rescanning error message -->
@@ -493,7 +493,7 @@ Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum
   <!-- Send money to label -->
   <string name="Send.toLabel">Til</string>
   <!-- Adress already used alert message - first part -->
-  <string name="Send.UsedAddress.firstLine">DigiByte vistföng eru eingöngu ætluð sem einnota.</string>
+  <string name="Send.UsedAddress.firstLine">eMark vistföng eru eingöngu ætluð sem einnota.</string>
   <!-- Adress already used alert message - second part -->
   <string name="Send.UsedAddress.secondLIne">Endurnotkun skemmir friðhelgi fyrir bæði þér og viðtakandanum og getur endað í tapi ef viðtakandinn er ekki með beina strjórn á vistfanginu.</string>
   <!-- Adress already used alert title -->
@@ -508,11 +508,11 @@ Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum
   <!-- Join Early access label -->
   <string name="Settings.earlyAccess">Taka þátt í foraðgengi</string>
   <!-- Are you enjoying bread alert message body -->
-  <string name="Settings.enjoying">Ertu að njóta DigiWallet?</string>
+  <string name="Settings.enjoying">Ertu að njóta eMark Wallet?</string>
   <!-- Import wallet left message -->
   <string name="Settings.importLeftMessage">Veski sem flytja á inn</string>
   <!-- Import wallet right message -->
-  <string name="Settings.importRightMessage">Þitt DigiWallet</string>
+  <string name="Settings.importRightMessage">Þitt eMark Wallet</string>
   <!-- Import wallet label -->
   <string name="Settings.importTitle">Flytja inn veski</string>
   <!-- Manage settings section header -->
@@ -520,7 +520,7 @@ Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum
   <!-- Notifications label -->
   <string name="Settings.notifications">Tilkynningar</string>
   <!-- Restore screen lower label. -->
-  <string name="Settings.restore_label">Þitt DigiWallet á þessu tæki</string>
+  <string name="Settings.restore_label">Þitt eMark Wallet á þessu tæki</string>
   <!-- Leave review button label -->
   <string name="Settings.review">Segðu okkur hvað þér finnst</string>
   <!-- Share anonymous data label -->
@@ -538,7 +538,7 @@ Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum
   <!-- Start or recover another wallet menu label. -->
   <string name="Settings.wipe">Stofna/endurheimta annað veski</string>
   <!-- Share data view body -->
-  <string name="ShareData.body">Hjálpaðu við að bæta DigiWallet með því að deila nafnlausum upplýsingum með okkur. Þetta inniheldur engar fjárhagslegar upplýsingar. Við virðum fjárhagslegu friðhelgi þína.</string>
+  <string name="ShareData.body">Hjálpaðu við að bæta eMark Wallet með því að deila nafnlausum upplýsingum með okkur. Þetta inniheldur engar fjárhagslegar upplýsingar. Við virðum fjárhagslegu friðhelgi þína.</string>
   <!-- Share data header -->
   <string name="ShareData.header">Deila gögnum?</string>
   <!-- Share data switch label. -->
@@ -546,13 +546,13 @@ Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum
   <!-- button label -->
   <string name="StartPaperPhrase.againButtonTitle">Skrifaðu niður endurheimtunarlykil þinn aftur.</string>
   <!-- Paper key explanation text. -->
-  <string name="StartPaperPhrase.body">Endurheimtunarlykill þinn er eina leiðin til að endurheimta þitt DigiWallet ef sími þinn týnist, verður fyrir þjófnaði, bilar, skemmist, eða er endurnýjaður.\n\nVið munum sýna þér lista af orðum til að skrifa niður á blað og halda öruggu.</string>
+  <string name="StartPaperPhrase.body">Endurheimtunarlykill þinn er eina leiðin til að endurheimta þitt eMark Wallet ef sími þinn týnist, verður fyrir þjófnaði, bilar, skemmist, eða er endurnýjaður.\n\nVið munum sýna þér lista af orðum til að skrifa niður á blað og halda öruggu.</string>
   <!-- button label -->
   <string name="StartPaperPhrase.buttonTitle">Skrifa niður endurheimtunarlykil</string>
   <!-- Argument is date -->
   <string name="StartPaperPhrase.date">Þú skrifaðir síðast niður endurheimtunarlykil þinn þann %1$s</string>
   <!-- Start view message -->
-  <string name="StartViewController.message">Öruggasta og tryggasta leiðin til að nota DigiByte.</string>
+  <string name="StartViewController.message">Öruggasta og tryggasta leiðin til að nota eMark.</string>
   <!-- Syncing view connectiong state header text -->
   <string name="SyncingView.connecting">Tengir</string>
   <!-- Syncing view header text -->
@@ -580,13 +580,13 @@ Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum
   <!-- Fingerprint Is Not Setup -->
   <string name="TouchIdSettings.disabledWarning.title.android">Fingrafarsauðkenning ekki virk</string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">Notaðu fingrafar þitt til að opna þitt DigiWallet og senda DigiByte upp að ákveðnu takmarki.</string>
+  <string name="TouchIdSettings.label">Notaðu fingrafar þitt til að opna þitt eMark Wallet og senda eMark upp að ákveðnu takmarki.</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
   <string name="TouchIdSettings.linkText">Touch ID eyðslutakmarksskjár</string>
   <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">Eyðslutakmark: %1$s (%2$s)</string>
   <!-- Touch id switch label. -->
-  <string name="TouchIdSettings.switchLabel">Virkja Touch ID fyrir DigiWallet</string>
+  <string name="TouchIdSettings.switchLabel">Virkja Touch ID fyrir eMark Wallet</string>
   <!-- Enable fingerprint for this wallet called Bread -->
   <string name="TouchIdSettings.switchLabel.android">Virkja fingrafarsauðkenni</string>
   <!-- Touch ID settings view title -->
@@ -667,7 +667,7 @@ Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum
   <!-- "Sent [$5] to [address]" => This is the "to [address]" part. -->
   <string name="TransactionDetails.to">Til %1$s</string>
   <!-- Transaction ID header -->
-  <string name="TransactionDetails.txHashHeader">Raðnúmer DigiByte færslu</string>
+  <string name="TransactionDetails.txHashHeader">Raðnúmer eMark færslu</string>
   <!-- (this transaction was) Received at this address: -->
   <string name="TransactionDirection.address">Móttekið á þessu vistfangi</string>
   <!-- (this transaction was) Sent to this address: -->
@@ -685,7 +685,7 @@ Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum
   <!-- Instruction to touch the sensor for fingerprint authentication -->
   <string name="UnlockScreen.touchIdInstructions.android">Snertiskynjari</string>
   <!-- TouchID prompt text -->
-  <string name="UnlockScreen.touchIdPrompt">Opna þitt DigiWallet.</string>
+  <string name="UnlockScreen.touchIdPrompt">Opna þitt eMark Wallet.</string>
   <!-- Device authentication body -->
   <string name="UnlockScreen.touchIdPrompt.android">Vinsamlegast opnaðu Android tæki þitt til að halda áfram.</string>
   <!-- Unlock with TouchID accessibility label -->
@@ -695,9 +695,9 @@ Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum
   <!-- Wallet unlocked message -->
   <string name="UnlockScreen.unlocked">Veski opnað</string>
   <!-- Update PIN caption text -->
-  <string name="UpdatePin.caption">Legðu þetta PIN á minnið. Ef þú gleymir því, muntu ekki hafa aðgang að þínu DigiByte.</string>
+  <string name="UpdatePin.caption">Legðu þetta PIN á minnið. Ef þú gleymir því, muntu ekki hafa aðgang að þínu eMark.</string>
   <!-- PIN creation info. -->
-  <string name="UpdatePin.createInstruction">PIN þitt mun vera notað til að opna þitt DigiWallet og senda DigiByte.</string>
+  <string name="UpdatePin.createInstruction">PIN þitt mun vera notað til að opna þitt eMark Wallet og senda eMark.</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">Stilla PIN</string>
   <!-- Update PIN title -->
@@ -731,7 +731,7 @@ Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum
   <!-- Authorize transaction with touch id message -->
   <string name="VerifyPin.touchIdMessage">Heimila þessa færslu</string>
   <!-- 'No wallet' warning for watch app -->
-  <string name="Watch.noWalletWarning">Opnaðu DigiWallet Android forritið til að setja upp þitt veski.</string>
+  <string name="Watch.noWalletWarning">Opnaðu eMark Wallet Android forritið til að setja upp þitt veski.</string>
   <!-- Dismiss button label -->
   <string name="Webview.dismiss">Vísa frá</string>
   <!-- Webview loading error message -->
@@ -739,9 +739,9 @@ Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum
   <!-- Updating webview message -->
   <string name="Webview.updating">Uppfærir...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">DigiWallet hefur glænýtt útlit og nokkra nýja eiginleika.\n\nEf þú þarft hjálp, leitaðu eftir (?) í efra hægra horni á flestum skjám.</string>
+  <string name="Welcome.body">eMark Wallet hefur glænýtt útlit og nokkra nýja eiginleika.\n\nEf þú þarft hjálp, leitaðu eftir (?) í efra hægra horni á flestum skjám.</string>
   <!-- Top title of welcome screen -->
-  <string name="Welcome.title">Velkomin í DigiWallet!</string>
+  <string name="Welcome.title">Velkomin í eMark Wallet!</string>
   <!-- Wipe wallet alert message -->
   <string name="WipeWallet.alertMessage">Ertu viss um að þú viljir eyða þessu veski?</string>
   <!-- Wipe wallet alert title -->
@@ -753,7 +753,7 @@ Hvert forrit fyrir óhlekkt tæki sem er getur komist að lyklakippuupplýsingum
   <!-- Enter phrase to wipe wallet instruction. -->
   <string name="WipeWallet.instruction">Til að stofna nýtt veski eða endurheimta núverandi veski, þarftu fyrst að eyða því veski sem er nú þegar uppsett. Til að halda áfram, sláðu inn endurheimtunalykil á þegar uppsettu veski.</string>
   <!-- Start wipe wallet view message -->
-  <string name="WipeWallet.startMessage">Stofnun eða endurheimta annars veskis leyfir þér að fá aðgang að og stjórna öðru DigiWallet á þessu tæki.</string>
+  <string name="WipeWallet.startMessage">Stofnun eða endurheimta annars veskis leyfir þér að fá aðgang að og stjórna öðru eMark Wallet á þessu tæki.</string>
   <!-- Start wipe wallet view warning -->
   <string name="WipeWallet.startWarning">Núverandi veski þitt mun vera fjarlægt af þessu tæki. Ef þú villt endurheimta það í framtíðinni, muntu þurfa að slá inn endurheimtunarlykil þinn.</string>
   <!-- Wipe wallet navigation item title. -->

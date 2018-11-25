@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
   <!-- App name -->
-  <string name="About.appName.android">DigiWallet</string>
+  <string name="About.appName.android">eMark Wallet</string>
   <!-- About screen blog label -->
   <string name="About.blog">https://digibyte.io/</string>
   <!-- About screen footer -->
-  <string name="About.footer">Imetengenezwa na kikundi kutoka kote duniani cha DigiWallet. Version %1$s</string>
+  <string name="About.footer">Imetengenezwa na kikundi kutoka kote duniani cha eMark Wallet. Version %1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">Sera ya Faragha</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/DeutscheeMark/</string>
   <!-- Terms of Use button label -->
   <string name="About.terms">Mradi huu ni chanzo wazi, unaweza kupitia code hapa:
-https://github.com/Racecraft/digibytewallet-android</string>
+https://github.com/emarkproject/eMarkwallet-android</string>
   <!--
   Terms of Use button label
   About screen title
   -->
-  <string name="About.title">DigiWallet ya Android ni kipochi rununu cha DigiByte.</string>
+  <string name="About.title">eMark Wallet ya Android ni kipochi rununu cha eMark.</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/deutsche_emark</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">Funga</string>
   <!-- Support center accessibiliy label -->
@@ -27,7 +27,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Loading Wallet Message -->
   <string name="Account.loadingMessage">Kipochi kinapakia</string>
   <!-- Default wallet name -->
-  <string name="AccountHeader.defaultWalletName">DigiWallet Yangu</string>
+  <string name="AccountHeader.defaultWalletName">eMark Wallet Yangu</string>
   <!-- Third party keyboard warning -->
   <string name="Alert.customKeyboard.android">Inaonekana kama unatumia kibodi inayotumika na programu ingine, ambayo inaweza kurekodi kile unachokiandika na kuiba funguo lako binafsi la kuokoa kipochi chako. Tafadhali badilisha mpangilio huo na uchague  kibodi ya Android iwe chaguo-msingi kwa ulinzi wa ziada.</string>
   <!-- Error alert title -->
@@ -35,7 +35,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Keystore error -->
   <string name="Alert.keystore.generic.android">Kuna tatizo la kuhifadhi nenosiri la Android OS, tafadhali wasiliana na support@digibyte.io</string>
   <!-- KeyStore error, keys are invalidated -->
-  <string name="Alert.keystore.invalidated.android">Data yako ya DigiWallet iliyo encrypted hivi karibuni haikubaliki kwa sababu skrini yako ya lock ya Android imezimwa.</string>
+  <string name="Alert.keystore.invalidated.android">Data yako ya eMark Wallet iliyo encrypted hivi karibuni haikubaliki kwa sababu skrini yako ya lock ya Android imezimwa.</string>
   <!-- Keystore error title -->
   <string name="Alert.keystore.title.android">Hitilafu ya Hifadhi ya Android ya nenosiri 
 </string>
@@ -58,7 +58,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Send success alert header label (confirmation that the send happened) -->
   <string name="Alerts.sendSuccess">Tuma Thibitisho</string>
   <!-- Send success alert subheader label (e.g. the money was sent) -->
-  <string name="Alerts.sendSuccessSubheader">"DigiByte Zimetumwa! "</string>
+  <string name="Alerts.sendSuccessSubheader">"eMark Zimetumwa! "</string>
   <!-- Fingerprint was recognized by the scanner -->
   <string name="Alerts.touchIdSucceeded.android">"Alama za vidole zimetambulika "</string>
   <string name="all">WOTE</string>
@@ -69,30 +69,30 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- API Token error message -->
   <string name="ApiClient.tokenError">Kasoro na kupata ishara ya API</string>
   <!-- Send BCH view body. -->
-  <string name="BCH.body">"Ingiza anwani ya DGB hapa chini. DGB zote katika kipochi chako wakati wa kuboresha (%1$s) zitatumwa. "</string>
+  <string name="BCH.body">"Ingiza anwani ya DEM hapa chini. DEM zote katika kipochi chako wakati wa kuboresha (%1$s) zitatumwa. "</string>
   <!-- Confirm sending <$5.00> to <address>? -->
   <string name="BCH.confirmationMessage">Thibitisha kamili kutuma %1$s kwa %2$s</string>
   <!-- Confirmation alert title -->
   <string name="BCH.confirmationTitle">Thibitisho</string>
   <!-- Generic bch erorr message -->
-  <string name="BCH.genericError">Akaunti yako haina DGB zozote, ama umezipata baada ya mitambo kuboreshwa (fork).</string>
+  <string name="BCH.genericError">Akaunti yako haina DEM zozote, ama umezipata baada ya mitambo kuboreshwa (fork).</string>
   <!-- Transaction ID copied message -->
   <string name="BCH.hashCopiedMessage">Maelezo kamili ya shughuli kunakiliwa</string>
   <!-- No address error message -->
   <string name="BCH.noAddressError">Ingiza anwani kamili</string>
   <!-- Attempted to scan unsupported qr code error message. -->
-  <string name="BCH.paymentProtocolError">Mpangilio wa maombi za malipo haufanikishwi kupitia shughuli za DGB</string>
+  <string name="BCH.paymentProtocolError">Mpangilio wa maombi za malipo haufanikishwi kupitia shughuli za DEM</string>
   <!-- BCH successfully sent alert message -->
-  <string name="BCH.successMessage">DGB zimetumwa bila hitilafu.</string>
+  <string name="BCH.successMessage">DEM zimetumwa bila hitilafu.</string>
   <!-- Widthdraw BCH view title -->
-  <string name="BCH.title">Kutoa DGB</string>
+  <string name="BCH.title">Kutoa DEM</string>
   <!-- Tx Hash button header -->
-  <string name="BCH.txHashHeader">DGB Transaction ID</string>
+  <string name="BCH.txHashHeader">DEM Transaction ID</string>
   <!-- Approve button label -->
   <string name="BitID.approve">Idhinisha
 </string>
   <!-- <sitename> is requesting authentication using your bitcoin wallet -->
-  <string name="BitID.authenticationRequest">%1$s anaitisha uhalalishaji kupitia kipochi chako cha DigiWallet</string>
+  <string name="BitID.authenticationRequest">%1$s anaitisha uhalalishaji kupitia kipochi chako cha eMark Wallet</string>
   <!-- Deny button label -->
   <string name="BitID.deny">Kanusha</string>
   <!-- BitID error alert title -->
@@ -102,7 +102,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- BitID success alert title -->
   <string name="BitID.success">Imethibitishwa Vilivyo</string>
   <!-- BitID Authentication Request alert view title -->
-  <string name="BitID.title">"DigiID Ombi la kuthibitishwa "</string>
+  <string name="BitID.title">"eMarkID Ombi la kuthibitishwa "</string>
   <!-- Cancel button label -->
   <string name="Button.cancel">Kufuta</string>
   <!-- Ignore button label -->
@@ -147,7 +147,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <string name="current_amount">Thamani ya sasa: %s</string>
   <string name="date">Tarehe</string>
   <!-- Bitcoin denomination picker label -->
-  <string name="DefaultCurrency.bitcoinLabel">"Kitengo cha DigiByte cha maonesho "</string>
+  <string name="DefaultCurrency.bitcoinLabel">"Kitengo cha eMark cha maonesho "</string>
   <!--
   Bitcoin denomination picker label
   Exchange rate label
@@ -158,7 +158,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Email unavailable alert title -->
   <string name="ErrorMessages.emailUnavailableTitle">Barua pepe haipatikani</string>
   <!-- Message that gets shown when we've detected the user has encountered the looping lock-screen bug. (preserve [ ] characters) -->
-  <string name="ErrorMessages.loopingLockScreen.android">DigiWallet haiwezi kuthibitishwa kutokana na hitilafu katika toleo lako la Android [Tafadhali bonyeza hapa ili kupata habari zaidi]
+  <string name="ErrorMessages.loopingLockScreen.android">eMark Wallet haiwezi kuthibitishwa kutokana na hitilafu katika toleo lako la Android [Tafadhali bonyeza hapa ili kupata habari zaidi]
 </string>
   <!-- Messaging unavailable alert title -->
   <string name="ErrorMessages.messagingUnavailableMessage">"Kifaa hichi hakijatengenezwa vilivyo kutuma ujumbe. "</string>
@@ -183,7 +183,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Checking private key balance progress view text -->
   <string name="Import.checking">"Kuangalia masalio ya ufunguo wa kibinafsi "</string>
   <!-- Sweep private key confirmation message -->
-  <string name="Import.confirm">"Tuma %1$s kutoka huu ufunguo wa kibinafsi na kuweka kwa kipochi? Mtandao wa DigiByte utapokea ada ya %2$s "</string>
+  <string name="Import.confirm">"Tuma %1$s kutoka huu ufunguo wa kibinafsi na kuweka kwa kipochi? Mtandao wa eMark utapokea ada ya %2$s "</string>
   <!-- Duplicate key error message -->
   <string name="Import.Error.duplicate">Ufunguo huu wa kibnafsi tayari unapatikana kwa kipochi chako.</string>
   <!-- empty private key error message -->
@@ -204,13 +204,13 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Caption for graphics -->
   <string name="Import.leftCaption">Kipochi kinachoingizwa</string>
   <!-- Import wallet intro screen message -->
-  <string name="Import.message">"Kuagiza mkoba huhamisha DigiByte zote kutoka kipochi chako hadi kwa DigiWallet kwa shughuli moja tu.  "</string>
+  <string name="Import.message">"Kuagiza mkoba huhamisha eMark zote kutoka kipochi chako hadi kwa eMark Wallet kwa shughuli moja tu.  "</string>
   <!-- Enter password alert view title -->
   <string name="Import.password">Funguo hili la kibinafsi limelindwa na nenosiri</string>
   <!-- password textfield placeholder -->
   <string name="Import.passwordPlaceholder">nenosiri</string>
   <!-- Caption for graphics -->
-  <string name="Import.rightCaption">DigiWallet yako</string>
+  <string name="Import.rightCaption">eMark Wallet yako</string>
   <!-- Scan Private key button label -->
   <string name="Import.scan">"Soma kifunguo cha binafsi "</string>
   <!-- Import wallet success alert title -->
@@ -232,19 +232,19 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <string name="JailbreakWarnings.ignore">Puuza</string>
   <!-- Jailbreak warning message -->
   <string name="JailbreakWarnings.messageWithBalance">"USALAMA WA KIFAA UMEVUNJWA 
-Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya DigiWallet na kuiba DigiByte yako! Tafadhali tumia DigiWallet kwa kifaa kilicho non-jailbroken. "</string>
+Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya eMark Wallet na kuiba eMark yako! Tafadhali tumia eMark Wallet kwa kifaa kilicho non-jailbroken. "</string>
   <!--
   Ignore jailbreak warning button
   Jailbreak warning message
   -->
   <string name="JailbreakWarnings.messageWithoutBalance">"USALAMA WA KIFAA UMEVUNJWA 
-Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya DigiWallet na kuiba DigiByte yako! Tafadhali tumia DigiWallet kwa kifaa kilicho non-jailbroken. "</string>
+Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya eMark Wallet na kuiba eMark yako! Tafadhali tumia eMark Wallet kwa kifaa kilicho non-jailbroken. "</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">ONYO</string>
   <!-- Location services disabled error -->
   <string name="LocationPlugin.disabled">Huduma za eneo zimezimwa.</string>
   <!-- No permissions for location services -->
-  <string name="LocationPlugin.notAuthorized">DigiWallet haina uwezo wa kufikia huduma za eneo.</string>
+  <string name="LocationPlugin.notAuthorized">eMark Wallet haina uwezo wa kufikia huduma za eneo.</string>
   <!-- Wallet creation date prefix -->
   <string name="ManageWallet.creationDatePrefix">Umetengeneza kipochi kwa %1$s</string>
   <!-- Manage wallet description text -->
@@ -256,7 +256,7 @@ Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya DigiWallet na ku
   <string name="max">upeo</string>
   <string name="max_send_enabled">Onyesha Button: Tuma Maximum</string>
   <!-- Buy bitcoin title -->
-  <string name="MenuButton.buy">Nunua DigiByte</string>
+  <string name="MenuButton.buy">Nunua eMark</string>
   <!-- Menu button title -->
   <string name="MenuButton.lock">Funga Kipochi</string>
   <!-- Menu button title -->
@@ -288,7 +288,7 @@ Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya DigiWallet na ku
   <!-- Node status label -->
   <string name="NodeSelector.statusLabel">Hali ya Kuunganisha ya Node</string>
   <!-- Node Selector view title -->
-  <string name="NodeSelector.title">Nodes za DigiByte</string>
+  <string name="NodeSelector.title">Nodes za eMark</string>
   <string name="no_limit">Hakuna Mpaka</string>
   <string name="original_amount">Thamani ya awali: %s</string>
   <!-- Bad Payment request alert title -->
@@ -302,9 +302,9 @@ Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya DigiWallet na ku
   <!-- Payment too small alert title -->
   <string name="PaymentProtocol.Errors.smallOutputError">Haikuweza kulipa</string>
   <!-- Amount too small error message -->
-  <string name="PaymentProtocol.Errors.smallPayment">Malipo ya DigiByte hayawezi kuwa chini ya %1$s</string>
+  <string name="PaymentProtocol.Errors.smallPayment">Malipo ya eMark hayawezi kuwa chini ya %1$s</string>
   <!-- Output too small error message. -->
-  <string name="PaymentProtocol.Errors.smallTransaction">Utoaji wa shughuli za DigiByte haziwezi kuwa chini ya %1$s.</string>
+  <string name="PaymentProtocol.Errors.smallTransaction">Utoaji wa shughuli za eMark haziwezi kuwa chini ya %1$s.</string>
   <!-- Unsupported signature type payment protocol error message -->
   <string name="PaymentProtocol.Errors.unsupportedSignatureType">aina ya saini isiyotambuliwa</string>
   <!-- Untrusted certificate payment protocol error message -->
@@ -327,7 +327,7 @@ Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya DigiWallet na ku
   <!-- Transaction rejected prompt title -->
   <string name="Prompts.RecommendRescan.title">Shughuli imekataliwa</string>
   <!-- Share data prompt body -->
-  <string name="Prompts.ShareData.body">Tusaidie kuboresha DigiWallet kwa kututumia data yako isiyojulikana</string>
+  <string name="Prompts.ShareData.body">Tusaidie kuboresha eMark Wallet kwa kututumia data yako isiyojulikana</string>
   <!-- Share data prompt title -->
   <string name="Prompts.ShareData.title">Shiriki data isiyojulikana</string>
   <!-- Enable touch ID prompt body -->
@@ -341,12 +341,12 @@ Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya DigiWallet na ku
   <!-- Button on fingerprint prompt so the user can enter their PIN instead -->
   <string name="Prompts.TouchId.usePin.android">PINI</string>
   <!-- Upgrade PIN prompt body. -->
-  <string name="Prompts.UpgradePin.body">DigiWallet imeboreshwa kwa kutumia PINI ya nambari 6. Boneza hapa ili kuboresha.
+  <string name="Prompts.UpgradePin.body">eMark Wallet imeboreshwa kwa kutumia PINI ya nambari 6. Boneza hapa ili kuboresha.
 </string>
   <!-- Upgrade PIN prompt title. -->
   <string name="Prompts.UpgradePin.title">Wezesha PINI</string>
   <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
-  <string name="PushNotifications.body">Wezesha kupokea ujumbe maalum kutoka kwa DigiWallet hapo siku za usoni.</string>
+  <string name="PushNotifications.body">Wezesha kupokea ujumbe maalum kutoka kwa eMark Wallet hapo siku za usoni.</string>
   <!-- Push notifications toggle switch label -->
   <string name="PushNotifications.label">Eneza Taarifa</string>
   <!-- Push notifications are off label -->
@@ -379,7 +379,7 @@ Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya DigiWallet na ku
   <!-- Enter paper key instruction -->
   <string name="RecoverWallet.instruction">Ingiza funguo binafsi la kuokoa kipochi</string>
   <!-- Recover wallet intro -->
-  <string name="RecoverWallet.intro">Okoa DigiWallet na funguo binafsi la kuokoa kipochi</string>
+  <string name="RecoverWallet.intro">Okoa eMark Wallet na funguo binafsi la kuokoa kipochi</string>
   <!-- Invalid paper key message -->
   <string name="RecoverWallet.invalid">Funguo binafsi la kuokoa kipochi chako ni batili. Tafadhali angalia kila neno  na ujaribu tena.</string>
   <!-- Previous button accessibility label -->
@@ -391,7 +391,7 @@ Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya DigiWallet na ku
   <!-- Next button accessibility label -->
   <string name="RecoverWallet.rightArrow">Mshale wa kulia</string>
   <!-- Recover wallet sub-header -->
-  <string name="RecoverWallet.subheader">Ingiza funguo binafsi la kuokoa DigiWallet unaotaka kuokoa</string>
+  <string name="RecoverWallet.subheader">Ingiza funguo binafsi la kuokoa eMark Wallet unaotaka kuokoa</string>
   <!-- Reset PIN with paper key: sub-header -->
   <string name="RecoverWallet.subheader_reset_pin">Kuweka upya PINI yako, ingiza maneno kutoka kwenye funguo binafsi ya Kuokoa kipochi chako ndani ya masanduku yaliyo hapa chini.</string>
   <!-- No amount entered error message. -->
@@ -401,19 +401,19 @@ Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya DigiWallet na ku
   <!-- Alert action button label -->
   <string name="ReScan.alertAction">Sawazisha</string>
   <!-- Alert message body -->
-  <string name="ReScan.alertMessage">Hutaweza kutuma DigiByte huku usawazisha.</string>
+  <string name="ReScan.alertMessage">Hutaweza kutuma eMark huku usawazisha.</string>
   <!-- Alert message title -->
   <string name="ReScan.alertTitle">Sawazisha na Blockchain?</string>
   <!-- extimated time -->
   <string name="ReScan.body1">Dakika 20-45</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body2">Ikiwa shughuli inaonyesha kama imekamilika kwenye mtandao wa DigiByte lakini sio kwenye DigiWallet yako.</string>
+  <string name="ReScan.body2">Ikiwa shughuli inaonyesha kama imekamilika kwenye mtandao wa eMark lakini sio kwenye eMark Wallet yako.</string>
   <!-- Syncing explanation -->
   <string name="ReScan.body3">"Unaendelea kupata hitilafu kuwa shughuli uliyojaribu haikubaliwi. "</string>
   <!-- Start Sync button label -->
   <string name="ReScan.buttonTitle">Anza kusawazisha</string>
   <!-- Sync blockchain view footer -->
-  <string name="ReScan.footer">Hutaweza kutuma DigiByte huku usawazisha na blockchain.</string>
+  <string name="ReScan.footer">Hutaweza kutuma eMark huku usawazisha na blockchain.</string>
   <!-- Sync Blockchain view header -->
   <string name="ReScan.header">Sawazisha Blockchain</string>
   <!-- Subheader label -->
@@ -433,17 +433,17 @@ Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya DigiWallet na ku
   <!-- Security Center Info -->
   <string name="SecurityCenter.info">Wezesha vipengele vyote vya usalama kwa ulinzi wa hali ya juu.</string>
   <!-- Paper Key button description -->
-  <string name="SecurityCenter.paperKeyDescription">Njia pekee ya kufikia DigiByte yako ikiwa umepoteza au kuboresha simu yako.</string>
+  <string name="SecurityCenter.paperKeyDescription">Njia pekee ya kufikia eMark yako ikiwa umepoteza au kuboresha simu yako.</string>
   <!-- Paper Key button title -->
   <string name="SecurityCenter.paperKeyTitle">Funguo binafsi ya kuokoa mkoba</string>
   <!-- PIN button description -->
-  <string name="SecurityCenter.pinDescription">Inalinda DigiWallet yako kutoka kwa watumiaji wasioidhinishwa.</string>
+  <string name="SecurityCenter.pinDescription">Inalinda eMark Wallet yako kutoka kwa watumiaji wasioidhinishwa.</string>
   <!-- PIN button title -->
   <string name="SecurityCenter.pinTitle">PINI ya tarakimu 6</string>
   <!-- Security Center Title -->
   <string name="SecurityCenter.title">Kituo cha Usalama</string>
   <!-- Touch ID button description -->
-  <string name="SecurityCenter.touchIdDescription">Fungua kwa urahisi DigiWallet yako na tuma DigiByte hadi kikomo ulicho weka.</string>
+  <string name="SecurityCenter.touchIdDescription">Fungua kwa urahisi eMark Wallet yako na tuma eMark hadi kikomo ulicho weka.</string>
   <!-- Touch ID button title -->
   <string name="SecurityCenter.touchIdTitle">Kujitambulisha kwa kubonyeza</string>
   <!-- Security center fingerprint authentication button -->
@@ -453,14 +453,14 @@ Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya DigiWallet na ku
   <!-- Balance: $4.00 -->
   <string name="Send.balance">Salio: %1$s</string>
   <!-- Instructions how to allow the camera access for the app -->
-  <string name="Send.cameraUnavailabeMessage.android">Kuwezesha upatikanaji wa kamera tumia \"Mipangilio\"&gt; \"Apps\"&gt; \"DigiWallet\"&gt; \"Ruhusa\"
+  <string name="Send.cameraUnavailabeMessage.android">Kuwezesha upatikanaji wa kamera tumia \"Mipangilio\"&gt; \"Apps\"&gt; \"eMark Wallet\"&gt; \"Ruhusa\"
 </string>
   <!-- Permission required to access camera -->
-  <string name="Send.cameraUnavailabeTitle.android">DigiWallet hairuhusiwi kufikia kamera</string>
+  <string name="Send.cameraUnavailabeTitle.android">eMark Wallet hairuhusiwi kufikia kamera</string>
   <!-- Camera not allowed message -->
   <string name="Send.cameraunavailableMessage">Nenda kwenye Mipangilio ili kuruhusu upatikanaji wa kamera.</string>
   <!-- Camera not allowed alert title -->
-  <string name="Send.cameraUnavailableTitle">DigiWallet hairuhusiwi kufikia kamera</string>
+  <string name="Send.cameraUnavailableTitle">eMark Wallet hairuhusiwi kufikia kamera</string>
   <!-- Warning when sending to self. -->
   <string name="Send.containsAddress">Hifadhi ni anwani yako mwenyewe. Huwezi kujitumia wewe mwenyewe.</string>
   <!-- Could not create transaction alert title -->
@@ -474,9 +474,9 @@ Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya DigiWallet na ku
   <!-- Payee identity not certified alert title. -->
   <string name="Send.identityNotCertified">Kitambulisho cha nayelipa hakijathibitishwa.</string>
   <!-- Invalid address alert message -->
-  <string name="Send.invalidAddressMessage">Anwani ya kumalizia sio anwani sahihi ya DigiByte.</string>
+  <string name="Send.invalidAddressMessage">Anwani ya kumalizia sio anwani sahihi ya eMark.</string>
   <!-- Invalid address on pasteboard message -->
-  <string name="Send.invalidAddressOnPasteboard">Ubao wa kuweka haina anwani ya DigiByte halali.</string>
+  <string name="Send.invalidAddressOnPasteboard">Ubao wa kuweka haina anwani ya eMark halali.</string>
   <!-- Invalid address alert title -->
   <string name="Send.invalidAddressTitle">Anwani isiyo sahihi</string>
   <!-- Is rescanning error message -->
@@ -502,7 +502,7 @@ Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya DigiWallet na ku
   <!-- Send money to label -->
   <string name="Send.toLabel">Kwa</string>
   <!-- Adress already used alert message - first part -->
-  <string name="Send.UsedAddress.firstLine">Anwani za DigiByte zinalenga kwa matumizi moja tu.</string>
+  <string name="Send.UsedAddress.firstLine">Anwani za eMark zinalenga kwa matumizi moja tu.</string>
   <!-- Adress already used alert message - second part -->
   <string name="Send.UsedAddress.secondLIne">"Matumizi tena hupunguza faragha kwa wewe na mpokeaji na inaweza kusababisha hasara ikiwa mpokeaji hawezi kudhibiti anwani. "</string>
   <!-- Adress already used alert title -->
@@ -517,11 +517,11 @@ Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya DigiWallet na ku
   <!-- Join Early access label -->
   <string name="Settings.earlyAccess">Jiunge na kikundi cha kwanza</string>
   <!-- Are you enjoying bread alert message body -->
-  <string name="Settings.enjoying">Je, unafurahia kutumia DigiWallet?</string>
+  <string name="Settings.enjoying">Je, unafurahia kutumia eMark Wallet?</string>
   <!-- Import wallet left message -->
   <string name="Settings.importLeftMessage">Kipochi kinachoingizwa</string>
   <!-- Import wallet right message -->
-  <string name="Settings.importRightMessage">DigiWallet yako</string>
+  <string name="Settings.importRightMessage">eMark Wallet yako</string>
   <!-- Import wallet label -->
   <string name="Settings.importTitle">Ingiza Kipochi</string>
   <!-- Manage settings section header -->
@@ -529,7 +529,7 @@ Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya DigiWallet na ku
   <!-- Notifications label -->
   <string name="Settings.notifications">Taarifa</string>
   <!-- Restore screen lower label. -->
-  <string name="Settings.restore_label">DigiWallet yako kwa hichi kifaa</string>
+  <string name="Settings.restore_label">eMark Wallet yako kwa hichi kifaa</string>
   <!-- Leave review button label -->
   <string name="Settings.review">Tuachie Mapitio</string>
   <!-- Share anonymous data label -->
@@ -547,7 +547,7 @@ Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya DigiWallet na ku
   <!-- Start or recover another wallet menu label. -->
   <string name="Settings.wipe">Anza / Pata Kipochi Kingingine</string>
   <!-- Share data view body -->
-  <string name="ShareData.body">Saidia kuboresha DigiWallet kwa kutuma data yako isiyojulikana. Hii haijumuishi maelezo yoyote ya kifedha. Tunaheshimu siri yako ya kifedha.</string>
+  <string name="ShareData.body">Saidia kuboresha eMark Wallet kwa kutuma data yako isiyojulikana. Hii haijumuishi maelezo yoyote ya kifedha. Tunaheshimu siri yako ya kifedha.</string>
   <!-- Share data header -->
   <string name="ShareData.header">Shiriki data?</string>
   <!-- Share data switch label. -->
@@ -555,13 +555,13 @@ Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya DigiWallet na ku
   <!-- button label -->
   <string name="StartPaperPhrase.againButtonTitle">"Andika tena funguo binafsi ya kuokoa kipochi tena "</string>
   <!-- Paper key explanation text. -->
-  <string name="StartPaperPhrase.body">Funguo binafsi ya kuokoa kipochi chako ni njia pekee ya kurejesha DigiWallet yako ikiwa simu yako imepotea, imeibiwa, imevunjwa, au imeboreshwa.\n\nTutakuonyesha orodha ya maneno ya kuandika kwenye karatasi na ili uhifadhi.</string>
+  <string name="StartPaperPhrase.body">Funguo binafsi ya kuokoa kipochi chako ni njia pekee ya kurejesha eMark Wallet yako ikiwa simu yako imepotea, imeibiwa, imevunjwa, au imeboreshwa.\n\nTutakuonyesha orodha ya maneno ya kuandika kwenye karatasi na ili uhifadhi.</string>
   <!-- button label -->
   <string name="StartPaperPhrase.buttonTitle">"Andika chini funguo binafsi la kuokoa kipochi "</string>
   <!-- Argument is date -->
   <string name="StartPaperPhrase.date">Siku ya mwisho kuandika chini funguo binafsi la kuokoa kipochi ni %1$s</string>
   <!-- Start view message -->
-  <string name="StartViewController.message">Njia salama zaidi ya kutumia DigiByte.</string>
+  <string name="StartViewController.message">Njia salama zaidi ya kutumia eMark.</string>
   <!-- Syncing view connectiong state header text -->
   <string name="SyncingView.connecting">Kuunganisha</string>
   <!-- Syncing view header text -->
@@ -587,13 +587,13 @@ Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya DigiWallet na ku
   <!-- Fingerprint Is Not Setup -->
   <string name="TouchIdSettings.disabledWarning.title.android">Usajili kutumia alama za vidole haijawezeshwa</string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">Tumia vidole vyako kufungua DigiWallet na kutuma DigiByte kwa kikomo ulicho kuweka.</string>
+  <string name="TouchIdSettings.label">Tumia vidole vyako kufungua eMark Wallet na kutuma eMark kwa kikomo ulicho kuweka.</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
   <string name="TouchIdSettings.linkText">Kitambulisho cha kubonyeza skrini ya kipimo cha kutumia</string>
   <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">Kikomo cha matumizi: %1$s (%2$s)</string>
   <!-- Touch id switch label. -->
-  <string name="TouchIdSettings.switchLabel">Wezesha kujitambulisha kwa kubonyeza kwa DigiWallet</string>
+  <string name="TouchIdSettings.switchLabel">Wezesha kujitambulisha kwa kubonyeza kwa eMark Wallet</string>
   <!-- Enable fingerprint for this wallet called Bread -->
   <string name="TouchIdSettings.switchLabel.android">Wezesha usajili kutumia alama za vidole</string>
   <!-- Touch ID settings view title -->
@@ -674,7 +674,7 @@ Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya DigiWallet na ku
   <!-- "Sent [$5] to [address]" => This is the "to [address]" part. -->
   <string name="TransactionDetails.to">kwa %1$s</string>
   <!-- Transaction ID header -->
-  <string name="TransactionDetails.txHashHeader">DigiByte Kitambulisho cha Shughuli</string>
+  <string name="TransactionDetails.txHashHeader">eMark Kitambulisho cha Shughuli</string>
   <!-- (this transaction was) Received at this address: -->
   <string name="TransactionDirection.address">Imepokewa kwenye Anwani hii</string>
   <!-- (this transaction was) Sent to this address: -->
@@ -692,7 +692,7 @@ Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya DigiWallet na ku
   <!-- Instruction to touch the sensor for fingerprint authentication -->
   <string name="UnlockScreen.touchIdInstructions.android">Kubonyeza kwa hisia</string>
   <!-- TouchID prompt text -->
-  <string name="UnlockScreen.touchIdPrompt">Kufungua DigiWallet yako.</string>
+  <string name="UnlockScreen.touchIdPrompt">Kufungua eMark Wallet yako.</string>
   <!-- Device authentication body -->
   <string name="UnlockScreen.touchIdPrompt.android">"Tafadhali fungua kifaa chako cha Android kuendelea. "</string>
   <!-- Unlock with TouchID accessibility label -->
@@ -702,9 +702,9 @@ Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya DigiWallet na ku
   <!-- Wallet unlocked message -->
   <string name="UnlockScreen.unlocked">Kipochi Kimefunguliwa</string>
   <!-- Update PIN caption text -->
-  <string name="UpdatePin.caption">Kumbuka hii PINI. Ukiisahau, huwezi kufikia DigiByte yako/zako.</string>
+  <string name="UpdatePin.caption">Kumbuka hii PINI. Ukiisahau, huwezi kufikia eMark yako/zako.</string>
   <!-- PIN creation info. -->
-  <string name="UpdatePin.createInstruction">PINI yako itatumika kufungua DigiWallet yako na kutuma DigiByte.</string>
+  <string name="UpdatePin.createInstruction">PINI yako itatumika kufungua eMark Wallet yako na kutuma eMark.</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">Weka PINI</string>
   <!-- Update PIN title -->
@@ -738,7 +738,7 @@ Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya DigiWallet na ku
   <!-- Authorize transaction with touch id message -->
   <string name="VerifyPin.touchIdMessage">Thibitisha shughuli hii</string>
   <!-- 'No wallet' warning for watch app -->
-  <string name="Watch.noWalletWarning">"Fungua app ya DigiWallet kwenye Android ili kuanzisha kipochi chako. "</string>
+  <string name="Watch.noWalletWarning">"Fungua app ya eMark Wallet kwenye Android ili kuanzisha kipochi chako. "</string>
   <!-- Dismiss button label -->
   <string name="Webview.dismiss">Futa</string>
   <!-- Webview loading error message -->
@@ -746,9 +746,9 @@ Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya DigiWallet na ku
   <!-- Updating webview message -->
   <string name="Webview.updating">Inasasisha ...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">DigiWallet ina nakshi na sifa mpaya.\n\nikiwa unahitaji msaada, angalia (?) Sehemu ya juu ya skrini.</string>
+  <string name="Welcome.body">eMark Wallet ina nakshi na sifa mpaya.\n\nikiwa unahitaji msaada, angalia (?) Sehemu ya juu ya skrini.</string>
   <!-- Top title of welcome screen -->
-  <string name="Welcome.title">Karibu kwenye DigiWallet!</string>
+  <string name="Welcome.title">Karibu kwenye eMark Wallet!</string>
   <!-- Wipe wallet alert message -->
   <string name="WipeWallet.alertMessage">Una uhakika unataka kufuta kipochi hichi?</string>
   <!-- Wipe wallet alert title -->
@@ -760,7 +760,7 @@ Programu yeyote ya \'jailbreak\' inaweza kufikia data muhimu ya DigiWallet na ku
   <!-- Enter phrase to wipe wallet instruction. -->
   <string name="WipeWallet.instruction">"Kufungua mkoba mpya au kurejesha mkoba uliopo, lazima kwanza ufute mkoba uliowekwa sasa. Ili kuendelea, ingiza funguo binafsi za kuokoa  kipochi "</string>
   <!-- Start wipe wallet view message -->
-  <string name="WipeWallet.startMessage">Kuanza au kurejesha kipochi chingine utapata kufikia na kusimamia DigiWallet tofauti kwenye kifaa hichi.</string>
+  <string name="WipeWallet.startMessage">Kuanza au kurejesha kipochi chingine utapata kufikia na kusimamia eMark Wallet tofauti kwenye kifaa hichi.</string>
   <!-- Start wipe wallet view warning -->
   <string name="WipeWallet.startWarning">Kipochi chako kitaondolewa kwenye kifaa hiki. Ikiwa unataka kurejesha tena wakati ujao, utahitajika kuingiza funguo binafsi la kuokoa kipochi</string>
   <!-- Wipe wallet navigation item title. -->

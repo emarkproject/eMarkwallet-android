@@ -9,7 +9,7 @@
   <!-- Privay Policy button label -->
   <string name="About.privacy">隱私政策</string>
   <!-- Terms of Use button label -->
-  <string name="About.terms">此項目是開源的，您可以在此連結查看代碼 https://github.com/Racecraft/digibytewallet-android</string>
+  <string name="About.terms">此項目是開源的，您可以在此連結查看代碼 https://github.com/emarkproject/eMarkwallet-android</string>
   <!--
   Terms of Use button label
   About screen title

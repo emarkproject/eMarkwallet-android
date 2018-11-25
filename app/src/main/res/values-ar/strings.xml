@@ -9,17 +9,17 @@
   <!-- Privay Policy button label -->
   <string name="About.privacy">سياسة الخصوصية</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte</string>
+  <string name="About.reddit">https://www.reddit.com/r/DeutscheeMark</string>
   <!-- Terms of Use button label -->
   <string name="About.terms">هذا المشروع مفتوح المصدر ، يمكنك مراجعة الكود هنا:
-https://github.com/Racecraft/digibytewallet-android</string>
+https://github.com/emarkproject/eMarkwallet-android</string>
   <!--
   Terms of Use button label
   About screen title
   -->
   <string name="About.title">ديجيولت للأندرويد هي المحفظة النقالة للديجيبايت.</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/deutsche_emark</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">إغلاق</string>
   <!-- Support center accessibiliy label -->

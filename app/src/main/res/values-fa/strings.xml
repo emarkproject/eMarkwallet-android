@@ -9,17 +9,17 @@
   <!-- Privay Policy button label -->
   <string name="About.privacy">سیاست حفظ حریم خصوصی</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/DeutscheeMark/</string>
   <!-- Terms of Use button label -->
   <string name="About.terms">این پروژه متن باز است، میتوانید کدها را اینجا پیدا کنید:
-https://github.com/Racecraft/digibytewallet-android</string>
+https://github.com/emarkproject/eMarkwallet-android</string>
   <!--
   Terms of Use button label
   About screen title
   -->
   <string name="About.title">کیف پول دیجی برای اندروید کیف پول همراه دیجی بایت است.</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/deutsche_emark</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">بستن</string>
   <!-- Support center accessibiliy label -->
@@ -447,7 +447,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Balance: $4.00 -->
   <string name="Send.balance">موجودی: %1$s</string>
   <!-- Instructions how to allow the camera access for the app -->
-  <string name="Send.cameraUnavailabeMessage.android">دسترسی دادن به دوربین در  \"Settings\" &gt; \"Apps\" &gt; \"DigiWallet\" &gt; \"Permissions\"</string>
+  <string name="Send.cameraUnavailabeMessage.android">دسترسی دادن به دوربین در  \"Settings\" &gt; \"Apps\" &gt; \"eMark Wallet\" &gt; \"Permissions\"</string>
   <!-- Permission required to access camera -->
   <string name="Send.cameraUnavailabeTitle.android">کیف پول دیجی اجازه دسترسی به دوربین ندارد</string>
   <!-- Camera not allowed message -->

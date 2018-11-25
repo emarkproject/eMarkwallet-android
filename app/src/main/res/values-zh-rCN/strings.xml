@@ -9,16 +9,16 @@
   <!-- Privay Policy button label -->
   <string name="About.privacy">隐私政策</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/DeutscheeMark/</string>
   <!-- Terms of Use button label -->
-  <string name="About.terms">此项目是开源的，您可以在此链接查看代码https://github.com/Racecraft/digibytewallet-android</string>
+  <string name="About.terms">此项目是开源的，您可以在此链接查看代码https://github.com/emarkproject/eMarkwallet-android</string>
   <!--
   Terms of Use button label
   About screen title
   -->
   <string name="About.title">快速，简单，安全！使用极特钱包安卓版是发送极特币最简单的方法。在设计之初特别考虑到新老客户不同的需求，安卓极特钱包对初次使用用户足够友好，对老用户又足够强大！</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/deutsche_emark</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">关闭</string>
   <!-- Support center accessibiliy label -->

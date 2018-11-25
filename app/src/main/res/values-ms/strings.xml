@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
   <!-- App name -->
-  <string name="About.appName.android">DigiWallet</string>
+  <string name="About.appName.android">eMark Wallet</string>
   <!-- About screen blog label -->
   <string name="About.blog">https://digibyte.io/</string>
   <!-- About screen footer -->
-  <string name="About.footer">Dibuat oleh pasukan DigiWallet global. Versi %1$s</string>
+  <string name="About.footer">Dibuat oleh pasukan eMark Wallet global. Versi %1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">Dasar Privasi</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/DeutscheeMark/</string>
   <!-- Terms of Use button label -->
-  <string name="About.terms">Syarat Penggunaan https://github.com/Racecraft/digibytewallet-android</string>
+  <string name="About.terms">Syarat Penggunaan https://github.com/emarkproject/eMarkwallet-android</string>
   <!--
   Terms of Use button label
   About screen title
   -->
   <string name="About.title">Tentang</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/deutsche_emark</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">Tutup</string>
   <!-- Support center accessibiliy label -->
@@ -26,7 +26,7 @@
   <!-- Loading Wallet Message -->
   <string name="Account.loadingMessage">Memuatkan wallet</string>
   <!-- Default wallet name -->
-  <string name="AccountHeader.defaultWalletName">DigiWallet Saya</string>
+  <string name="AccountHeader.defaultWalletName">eMark Wallet Saya</string>
   <!-- Third party keyboard warning -->
   <string name="Alert.customKeyboard.android">Kelihatannya seperti anda menggunakan papan kekunci pihak ketiga, yang boleh merakam apa yang anda taip dan mencuri Kunci Kertas anda. Sila beralih ke papan kekunci Android lalai untuk perlindungan tambahan.</string>
   <!-- Error alert title -->
@@ -34,7 +34,7 @@
   <!-- Keystore error -->
   <string name="Alert.keystore.generic.android">Terdapat masalah dengan keystore OS Android anda, sila hubungi support@digibyte.io</string>
   <!-- KeyStore error, keys are invalidated -->
-  <string name="Alert.keystore.invalidated.android">Data DigiWallet disulitkan baru-baru ini tidak sah kerana skrin kunci Android anda telah dilumpuhkan.</string>
+  <string name="Alert.keystore.invalidated.android">Data eMark Wallet disulitkan baru-baru ini tidak sah kerana skrin kunci Android anda telah dilumpuhkan.</string>
   <!-- Keystore error title -->
   <string name="Alert.keystore.title.android">Ralat Keystore Android</string>
   <!-- No internet alert message -->
@@ -56,7 +56,7 @@
   <!-- Send success alert header label (confirmation that the send happened) -->
   <string name="Alerts.sendSuccess">Menghantar Pengesahan</string>
   <!-- Send success alert subheader label (e.g. the money was sent) -->
-  <string name="Alerts.sendSuccessSubheader">DigiByte Dihantar!</string>
+  <string name="Alerts.sendSuccessSubheader">eMark Dihantar!</string>
   <!-- Fingerprint was recognized by the scanner -->
   <string name="Alerts.touchIdSucceeded.android">Cap jari diiktiraf</string>
   <string name="all">SEMUA</string>
@@ -67,29 +67,29 @@
   <!-- API Token error message -->
   <string name="ApiClient.tokenError">Tidak dapat mengambil token API</string>
   <!-- Send BCH view body. -->
-  <string name="BCH.body">Masukkan destinasi alamat DGB di bawah. Semua DGB di wallet anda pada masa garpu (%1$s) akan dihantar.</string>
+  <string name="BCH.body">Masukkan destinasi alamat DEM di bawah. Semua DEM di wallet anda pada masa garpu (%1$s) akan dihantar.</string>
   <!-- Confirm sending <$5.00> to <address>? -->
   <string name="BCH.confirmationMessage">Sahkan menghantar %1$s ke %2$s</string>
   <!-- Confirmation alert title -->
   <string name="BCH.confirmationTitle">Pengesahan</string>
   <!-- Generic bch erorr message -->
-  <string name="BCH.genericError">Akaun anda tidak mengandungi sebarang DGB, atau anda menerima DGB selepas garpu.</string>
+  <string name="BCH.genericError">Akaun anda tidak mengandungi sebarang DEM, atau anda menerima DEM selepas garpu.</string>
   <!-- Transaction ID copied message -->
   <string name="BCH.hashCopiedMessage">ID Transaksi Disalin</string>
   <!-- No address error message -->
   <string name="BCH.noAddressError">Sila masukkan alamat</string>
   <!-- Attempted to scan unsupported qr code error message. -->
-  <string name="BCH.paymentProtocolError">Permintaan Protokol Pembayaran tidak disokong untuk transaksi DGB</string>
+  <string name="BCH.paymentProtocolError">Permintaan Protokol Pembayaran tidak disokong untuk transaksi DEM</string>
   <!-- BCH successfully sent alert message -->
-  <string name="BCH.successMessage">DGB berjaya dihantar.</string>
+  <string name="BCH.successMessage">DEM berjaya dihantar.</string>
   <!-- Widthdraw BCH view title -->
-  <string name="BCH.title">Mengeluarkan DGB</string>
+  <string name="BCH.title">Mengeluarkan DEM</string>
   <!-- Tx Hash button header -->
-  <string name="BCH.txHashHeader">ID Transaksi DGB</string>
+  <string name="BCH.txHashHeader">ID Transaksi DEM</string>
   <!-- Approve button label -->
   <string name="BitID.approve">Meluluskan</string>
   <!-- <sitename> is requesting authentication using your bitcoin wallet -->
-  <string name="BitID.authenticationRequest">%1$s meminta pengesahan menggunakan DigiWallet anda.</string>
+  <string name="BitID.authenticationRequest">%1$s meminta pengesahan menggunakan eMark Wallet anda.</string>
   <!-- Deny button label -->
   <string name="BitID.deny">Menafikan</string>
   <!-- BitID error alert title -->
@@ -99,7 +99,7 @@
   <!-- BitID success alert title -->
   <string name="BitID.success">Berjaya Disahkan</string>
   <!-- BitID Authentication Request alert view title -->
-  <string name="BitID.title">Permintaan Pengesahan DigiID</string>
+  <string name="BitID.title">Permintaan Pengesahan eMarkID</string>
   <!-- Cancel button label -->
   <string name="Button.cancel">Batal</string>
   <!-- Ignore button label -->
@@ -144,7 +144,7 @@
   <string name="current_amount">Nilai Semasa: %s</string>
   <string name="date">Tarikh</string>
   <!-- Bitcoin denomination picker label -->
-  <string name="DefaultCurrency.bitcoinLabel">Paparan Unit DigiByte</string>
+  <string name="DefaultCurrency.bitcoinLabel">Paparan Unit eMark</string>
   <!--
   Bitcoin denomination picker label
   Exchange rate label
@@ -155,7 +155,7 @@
   <!-- Email unavailable alert title -->
   <string name="ErrorMessages.emailUnavailableTitle">E-mel Tidak Tersedia</string>
   <!-- Message that gets shown when we've detected the user has encountered the looping lock-screen bug. (preserve [ ] characters) -->
-  <string name="ErrorMessages.loopingLockScreen.android">DigiWallet tidak boleh disahkan kerana bug dalam versi Android anda. [Sila ketik di sini untuk mendapatkan maklumat lanjut.]</string>
+  <string name="ErrorMessages.loopingLockScreen.android">eMark Wallet tidak boleh disahkan kerana bug dalam versi Android anda. [Sila ketik di sini untuk mendapatkan maklumat lanjut.]</string>
   <!-- Messaging unavailable alert title -->
   <string name="ErrorMessages.messagingUnavailableMessage">Peranti ini tidak dikonfigurasi untuk menghantar mesej.</string>
   <!-- Messaging unavailable alert title -->
@@ -179,7 +179,7 @@
   <!-- Checking private key balance progress view text -->
   <string name="Import.checking">Memeriksa keseimbangan kunci peribadi ...</string>
   <!-- Sweep private key confirmation message -->
-  <string name="Import.confirm">Hantar %1$s dari kunci peribadi ini ke wallet anda? Rangkaian DigiByte akan menerima bayaran%2$s.</string>
+  <string name="Import.confirm">Hantar %1$s dari kunci peribadi ini ke wallet anda? Rangkaian eMark akan menerima bayaran%2$s.</string>
   <!-- Duplicate key error message -->
   <string name="Import.Error.duplicate">Kunci peribadi ini telah berada dalam wallet anda.</string>
   <!-- empty private key error message -->
@@ -197,13 +197,13 @@
   <!-- Caption for graphics -->
   <string name="Import.leftCaption">Wallet untuk diimport</string>
   <!-- Import wallet intro screen message -->
-  <string name="Import.message">Mengimport pemindahan wallet semua DigiByte dari wallet anda yang lain ke DigiWallet anda menggunakan transaksi tunggal.</string>
+  <string name="Import.message">Mengimport pemindahan wallet semua eMark dari wallet anda yang lain ke eMark Wallet anda menggunakan transaksi tunggal.</string>
   <!-- Enter password alert view title -->
   <string name="Import.password">Kunci peribadi ini dilindungi kata laluan.</string>
   <!-- password textfield placeholder -->
   <string name="Import.passwordPlaceholder">kata laluan</string>
   <!-- Caption for graphics -->
-  <string name="Import.rightCaption">DigiWallet anda</string>
+  <string name="Import.rightCaption">eMark Wallet anda</string>
   <!-- Scan Private key button label -->
   <string name="Import.scan">Imbas Kunci Peribadi</string>
   <!-- Import wallet success alert title -->
@@ -223,18 +223,18 @@
   <!-- Ignore jailbreak warning button -->
   <string name="JailbreakWarnings.ignore">Abaikan</string>
   <!-- Jailbreak warning message -->
-  <string name="JailbreakWarnings.messageWithBalance">PERANTI KESELAMATAN DIKOMPROMIKAN Sebarang aplikasi \'jailbreak\' boleh mengakses data keychain DigiWallet dan mencuri DigiByte anda! Hapuskan wallet ini dengan serta-merta dan pulihkan pada peranti yang selamat.</string>
+  <string name="JailbreakWarnings.messageWithBalance">PERANTI KESELAMATAN DIKOMPROMIKAN Sebarang aplikasi \'jailbreak\' boleh mengakses data keychain eMark Wallet dan mencuri eMark anda! Hapuskan wallet ini dengan serta-merta dan pulihkan pada peranti yang selamat.</string>
   <!--
   Ignore jailbreak warning button
   Jailbreak warning message
   -->
-  <string name="JailbreakWarnings.messageWithoutBalance">PERANTI KESELAMATAN DIKOMPROMIKAN Sebarang aplikasi \'jailbreak\' boleh mengakses data keychain DigiWallet dan mencuri DigiByte anda. Sila hanya gunakan DigiWallet pada peranti bukan jailbroken.</string>
+  <string name="JailbreakWarnings.messageWithoutBalance">PERANTI KESELAMATAN DIKOMPROMIKAN Sebarang aplikasi \'jailbreak\' boleh mengakses data keychain eMark Wallet dan mencuri eMark anda. Sila hanya gunakan eMark Wallet pada peranti bukan jailbroken.</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">AMARAN</string>
   <!-- Location services disabled error -->
   <string name="LocationPlugin.disabled">Perkhidmatan Lokasi dilumpuhkan.</string>
   <!-- No permissions for location services -->
-  <string name="LocationPlugin.notAuthorized">DigiWallet tidak mempunyai kebenaran untuk mengakses perkhidmatan lokasi.</string>
+  <string name="LocationPlugin.notAuthorized">eMark Wallet tidak mempunyai kebenaran untuk mengakses perkhidmatan lokasi.</string>
   <!-- Wallet creation date prefix -->
   <string name="ManageWallet.creationDatePrefix">Anda mencipta wallet anda pada %1$s</string>
   <!-- Manage wallet description text -->
@@ -246,7 +246,7 @@
   <string name="max">maksimum</string>
   <string name="max_send_enabled">Butang pameran: hantar maksimum</string>
   <!-- Buy bitcoin title -->
-  <string name="MenuButton.buy">Beli DigiByte</string>
+  <string name="MenuButton.buy">Beli eMark</string>
   <!-- Menu button title -->
   <string name="MenuButton.lock">Kunci Wallet</string>
   <!-- Menu button title -->
@@ -278,7 +278,7 @@
   <!-- Node status label -->
   <string name="NodeSelector.statusLabel">Statu Hubungan Nod</string>
   <!-- Node Selector view title -->
-  <string name="NodeSelector.title">Nod DigiByte</string>
+  <string name="NodeSelector.title">Nod eMark</string>
   <string name="no_limit">Tiada Had</string>
   <string name="original_amount">Nilai Asal: %s</string>
   <!-- Bad Payment request alert title -->
@@ -292,9 +292,9 @@
   <!-- Payment too small alert title -->
   <string name="PaymentProtocol.Errors.smallOutputError">Tidak dapat membuat pembayaran</string>
   <!-- Amount too small error message -->
-  <string name="PaymentProtocol.Errors.smallPayment">Pembayaran DigiByte tidak boleh kurang daripada %1$s</string>
+  <string name="PaymentProtocol.Errors.smallPayment">Pembayaran eMark tidak boleh kurang daripada %1$s</string>
   <!-- Output too small error message. -->
-  <string name="PaymentProtocol.Errors.smallTransaction">Output transaksi DigiByte tidak boleh kurang daripada %1$s</string>
+  <string name="PaymentProtocol.Errors.smallTransaction">Output transaksi eMark tidak boleh kurang daripada %1$s</string>
   <!-- Unsupported signature type payment protocol error message -->
   <string name="PaymentProtocol.Errors.unsupportedSignatureType">Jenis tandatangan tidak disokong</string>
   <!-- Untrusted certificate payment protocol error message -->
@@ -317,7 +317,7 @@
   <!-- Transaction rejected prompt title -->
   <string name="Prompts.RecommendRescan.title">Transaksi Ditolak</string>
   <!-- Share data prompt body -->
-  <string name="Prompts.ShareData.body">Bantu meningkatkan DigiWallet dengan berkongsi data anonymous anda dengan kami</string>
+  <string name="Prompts.ShareData.body">Bantu meningkatkan eMark Wallet dengan berkongsi data anonymous anda dengan kami</string>
   <!-- Share data prompt title -->
   <string name="Prompts.ShareData.title">Kongsi Data Anonymous</string>
   <!-- Enable touch ID prompt body -->
@@ -331,11 +331,11 @@
   <!-- Button on fingerprint prompt so the user can enter their PIN instead -->
   <string name="Prompts.TouchId.usePin.android">PIN</string>
   <!-- Upgrade PIN prompt body. -->
-  <string name="Prompts.UpgradePin.body">DigiWallet telah dinaik taraf untuk menggunakan PIN 6 digit. Ketik di sini untuk menaik taraf.</string>
+  <string name="Prompts.UpgradePin.body">eMark Wallet telah dinaik taraf untuk menggunakan PIN 6 digit. Ketik di sini untuk menaik taraf.</string>
   <!-- Upgrade PIN prompt title. -->
   <string name="Prompts.UpgradePin.title">Naik taraf PIN</string>
   <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
-  <string name="PushNotifications.body">Hidupkan pemberitahuan untuk menerima mesej khas dari DigiWallet pada masa akan datang.</string>
+  <string name="PushNotifications.body">Hidupkan pemberitahuan untuk menerima mesej khas dari eMark Wallet pada masa akan datang.</string>
   <!-- Push notifications toggle switch label -->
   <string name="PushNotifications.label">Pemberitahuan Push</string>
   <!-- Push notifications are off label -->
@@ -366,7 +366,7 @@
   <!-- Enter paper key instruction -->
   <string name="RecoverWallet.instruction">Masukkan Kunci Kertas</string>
   <!-- Recover wallet intro -->
-  <string name="RecoverWallet.intro">Pulihkan DigiWallet anda dengan kunci kertas anda.</string>
+  <string name="RecoverWallet.intro">Pulihkan eMark Wallet anda dengan kunci kertas anda.</string>
   <!-- Invalid paper key message -->
   <string name="RecoverWallet.invalid">Kunci kertas yang anda masukkan tidak sah. Sila semak semula setiap perkataan dan cuba lagi.</string>
   <!-- Previous button accessibility label -->
@@ -388,19 +388,19 @@
   <!-- Alert action button label -->
   <string name="ReScan.alertAction">Segerakkan</string>
   <!-- Alert message body -->
-  <string name="ReScan.alertMessage">Anda tidak akan dapat menghantar DigiByte semasa menyegerakkan.</string>
+  <string name="ReScan.alertMessage">Anda tidak akan dapat menghantar eMark semasa menyegerakkan.</string>
   <!-- Alert message title -->
   <string name="ReScan.alertTitle">Sengerakkan dengan Blockchain?</string>
   <!-- extimated time -->
   <string name="ReScan.body1">20-45 minit</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body2">Sekiranya transaksi ditunjukkan sebagai selesai pada rangkaian DigiByte tetapi tidak di DigiWallet anda.</string>
+  <string name="ReScan.body2">Sekiranya transaksi ditunjukkan sebagai selesai pada rangkaian eMark tetapi tidak di eMark Wallet anda.</string>
   <!-- Syncing explanation -->
   <string name="ReScan.body3">Anda berulang kali mendapat ralat mengatakan transaksi anda ditolak.</string>
   <!-- Start Sync button label -->
   <string name="ReScan.buttonTitle">Mula Penyegerakan</string>
   <!-- Sync blockchain view footer -->
-  <string name="ReScan.footer">Anda tidak akan dapat menghantar DigiByte semasa menyegerakkan dengan blockchain.</string>
+  <string name="ReScan.footer">Anda tidak akan dapat menghantar eMark semasa menyegerakkan dengan blockchain.</string>
   <!-- Sync Blockchain view header -->
   <string name="ReScan.header">Menyegerak Blockchain</string>
   <!-- Subheader label -->
@@ -420,18 +420,18 @@
   <!-- Security Center Info -->
   <string name="SecurityCenter.info">Dayakan semua ciri keselamatan untuk perlindungan maksimum.</string>
   <!-- Paper Key button description -->
-  <string name="SecurityCenter.paperKeyDescription">Satu-satunya cara untuk mengakses DigiByte anda jika anda kehilangan atau menaik taraf telefon anda.</string>
+  <string name="SecurityCenter.paperKeyDescription">Satu-satunya cara untuk mengakses eMark anda jika anda kehilangan atau menaik taraf telefon anda.</string>
   <!-- Paper Key button title -->
   <string name="SecurityCenter.paperKeyTitle">Kunci Kertas
 </string>
   <!-- PIN button description -->
-  <string name="SecurityCenter.pinDescription">Melindungi DigiWallet anda dari pengguna yang tidak dibenarkan.</string>
+  <string name="SecurityCenter.pinDescription">Melindungi eMark Wallet anda dari pengguna yang tidak dibenarkan.</string>
   <!-- PIN button title -->
   <string name="SecurityCenter.pinTitle">PIN 6-Digit</string>
   <!-- Security Center Title -->
   <string name="SecurityCenter.title">Pusat Keselamatan</string>
   <!-- Touch ID button description -->
-  <string name="SecurityCenter.touchIdDescription">Dengan mudah membuka kunci DigiWallet anda dan hantar DigiByte ke had set.</string>
+  <string name="SecurityCenter.touchIdDescription">Dengan mudah membuka kunci eMark Wallet anda dan hantar eMark ke had set.</string>
   <!-- Touch ID button title -->
   <string name="SecurityCenter.touchIdTitle">ID Sentuh</string>
   <!-- Security center fingerprint authentication button -->
@@ -441,13 +441,13 @@
   <!-- Balance: $4.00 -->
   <string name="Send.balance">Baki: %1$s</string>
   <!-- Instructions how to allow the camera access for the app -->
-  <string name="Send.cameraUnavailabeMessage.android">Benarkan akses kamera dalam \"Tetapan\"&gt; \"Aplikasi\"&gt; \"DigiWallet\"&gt; \"Kebenaran\"</string>
+  <string name="Send.cameraUnavailabeMessage.android">Benarkan akses kamera dalam \"Tetapan\"&gt; \"Aplikasi\"&gt; \"eMark Wallet\"&gt; \"Kebenaran\"</string>
   <!-- Permission required to access camera -->
-  <string name="Send.cameraUnavailabeTitle.android">DigiWallet tidak dibenarkan mengakses kamera</string>
+  <string name="Send.cameraUnavailabeTitle.android">eMark Wallet tidak dibenarkan mengakses kamera</string>
   <!-- Camera not allowed message -->
   <string name="Send.cameraunavailableMessage">Pergi ke Tetapan untuk membenarkan akses kamera.</string>
   <!-- Camera not allowed alert title -->
-  <string name="Send.cameraUnavailableTitle">DigiWallet tidak dibenarkan mengakses kamera</string>
+  <string name="Send.cameraUnavailableTitle">eMark Wallet tidak dibenarkan mengakses kamera</string>
   <!-- Warning when sending to self. -->
   <string name="Send.containsAddress">Destinasi adalah alamat anda sendiri. Anda tidak boleh menghantar kepada diri sendiri.</string>
   <!-- Could not create transaction alert title -->
@@ -461,9 +461,9 @@
   <!-- Payee identity not certified alert title. -->
   <string name="Send.identityNotCertified">Identiti penerima tidak diperakui.</string>
   <!-- Invalid address alert message -->
-  <string name="Send.invalidAddressMessage">Alamat destinasi bukanlah alamat DigiByte yang sah.</string>
+  <string name="Send.invalidAddressMessage">Alamat destinasi bukanlah alamat eMark yang sah.</string>
   <!-- Invalid address on pasteboard message -->
-  <string name="Send.invalidAddressOnPasteboard">Papan tampal tidak mengandungi alamat DigiByte yang sah.</string>
+  <string name="Send.invalidAddressOnPasteboard">Papan tampal tidak mengandungi alamat eMark yang sah.</string>
   <!-- Invalid address alert title -->
   <string name="Send.invalidAddressTitle">Alamat Tidak Sah</string>
   <!-- Is rescanning error message -->
@@ -489,7 +489,7 @@
   <!-- Send money to label -->
   <string name="Send.toLabel">Kepada</string>
   <!-- Adress already used alert message - first part -->
-  <string name="Send.UsedAddress.firstLine">Alamat DigiByte hanya dimaksudkan untuk penggunaan tunggal.</string>
+  <string name="Send.UsedAddress.firstLine">Alamat eMark hanya dimaksudkan untuk penggunaan tunggal.</string>
   <!-- Adress already used alert message - second part -->
   <string name="Send.UsedAddress.secondLIne">Penggunaan semula mengurangkan privasi untuk anda dan penerima dan boleh mengakibatkan kerugian jika penerima tidak mengendalikan alamat secara langsung.</string>
   <!-- Adress already used alert title -->
@@ -504,11 +504,11 @@
   <!-- Join Early access label -->
   <string name="Settings.earlyAccess">Sertai Akses Awal</string>
   <!-- Are you enjoying bread alert message body -->
-  <string name="Settings.enjoying">Adakah anda menikmati DigiWallet?</string>
+  <string name="Settings.enjoying">Adakah anda menikmati eMark Wallet?</string>
   <!-- Import wallet left message -->
   <string name="Settings.importLeftMessage">Wallet untuk Diimport</string>
   <!-- Import wallet right message -->
-  <string name="Settings.importRightMessage">DigiWallet Anda</string>
+  <string name="Settings.importRightMessage">eMark Wallet Anda</string>
   <!-- Import wallet label -->
   <string name="Settings.importTitle">Import Wallet</string>
   <!-- Manage settings section header -->
@@ -516,7 +516,7 @@
   <!-- Notifications label -->
   <string name="Settings.notifications">Pemberitahuan</string>
   <!-- Restore screen lower label. -->
-  <string name="Settings.restore_label">DigiWallet anda pada Peranti ini</string>
+  <string name="Settings.restore_label">eMark Wallet anda pada Peranti ini</string>
   <!-- Leave review button label -->
   <string name="Settings.review">Tinggalkan kami Ulasan</string>
   <!-- Share anonymous data label -->
@@ -534,7 +534,7 @@
   <!-- Start or recover another wallet menu label. -->
   <string name="Settings.wipe">Mula / Pulihkan Wallet Lain</string>
   <!-- Share data view body -->
-  <string name="ShareData.body">Bantu meningkatkan DigiWallet dengan berkongsi data anonymous anda dengan kami. Ini tidak termasuk sebarang maklumat kewangan. Kami menghormati privasi kewangan anda.</string>
+  <string name="ShareData.body">Bantu meningkatkan eMark Wallet dengan berkongsi data anonymous anda dengan kami. Ini tidak termasuk sebarang maklumat kewangan. Kami menghormati privasi kewangan anda.</string>
   <!-- Share data header -->
   <string name="ShareData.header">Kongsi Data?</string>
   <!-- Share data switch label. -->
@@ -542,13 +542,13 @@
   <!-- button label -->
   <string name="StartPaperPhrase.againButtonTitle">Tulislah Kunci Pemulihan Peribadi anda sekali lagi</string>
   <!-- Paper key explanation text. -->
-  <string name="StartPaperPhrase.body">Kunci kertas anda adalah satu-satunya cara untuk memulihkan DigiWallet anda jika telefon anda hilang, dicuri, pecah, atau dinaik taraf. \ N \ n Kami akan menunjukkan kepada anda senarai perkataan untuk ditulis di sekeping kertas dan selamat.</string>
+  <string name="StartPaperPhrase.body">Kunci kertas anda adalah satu-satunya cara untuk memulihkan eMark Wallet anda jika telefon anda hilang, dicuri, pecah, atau dinaik taraf. \ N \ n Kami akan menunjukkan kepada anda senarai perkataan untuk ditulis di sekeping kertas dan selamat.</string>
   <!-- button label -->
   <string name="StartPaperPhrase.buttonTitle">Tulis Kunci Kertas</string>
   <!-- Argument is date -->
   <string name="StartPaperPhrase.date">Anda kali terakhir menulis kunci kertas anda pada %1$s</string>
   <!-- Start view message -->
-  <string name="StartViewController.message">Cara paling terjamin dan paling selamat untuk menggunakan DigiByte.</string>
+  <string name="StartViewController.message">Cara paling terjamin dan paling selamat untuk menggunakan eMark.</string>
   <!-- Syncing view connectiong state header text -->
   <string name="SyncingView.connecting">Menghubungkan</string>
   <!-- Syncing view header text -->
@@ -574,13 +574,13 @@
   <!-- Fingerprint Is Not Setup -->
   <string name="TouchIdSettings.disabledWarning.title.android">Pengesahan Cap Jari Tidak Didayakan</string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">Gunakan cap jari anda untuk membuka DigiWallet anda dan hantar DigiByte ke had yang ditetapkan.</string>
+  <string name="TouchIdSettings.label">Gunakan cap jari anda untuk membuka eMark Wallet anda dan hantar eMark ke had yang ditetapkan.</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
   <string name="TouchIdSettings.linkText">"Skrin I D Sentuh Had Perbenlanjaan "</string>
   <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">Had Perbelanjaan: %1$s (%2$s)</string>
   <!-- Touch id switch label. -->
-  <string name="TouchIdSettings.switchLabel">Dayakan ID Sentuh untuk DigiWallet</string>
+  <string name="TouchIdSettings.switchLabel">Dayakan ID Sentuh untuk eMark Wallet</string>
   <!-- Enable fingerprint for this wallet called Bread -->
   <string name="TouchIdSettings.switchLabel.android">Dayakan Pengesahan Cap Jari</string>
   <!-- Touch ID settings view title -->
@@ -661,7 +661,7 @@
   <!-- "Sent [$5] to [address]" => This is the "to [address]" part. -->
   <string name="TransactionDetails.to">ke %1$s</string>
   <!-- Transaction ID header -->
-  <string name="TransactionDetails.txHashHeader">ID Transaksi DigiByte</string>
+  <string name="TransactionDetails.txHashHeader">ID Transaksi eMark</string>
   <!-- (this transaction was) Received at this address: -->
   <string name="TransactionDirection.address">Diterima di Alamat ini</string>
   <!-- (this transaction was) Sent to this address: -->
@@ -679,7 +679,7 @@
   <!-- Instruction to touch the sensor for fingerprint authentication -->
   <string name="UnlockScreen.touchIdInstructions.android">Pengesan Sentuh</string>
   <!-- TouchID prompt text -->
-  <string name="UnlockScreen.touchIdPrompt">Membuka DigiWallet anda.</string>
+  <string name="UnlockScreen.touchIdPrompt">Membuka eMark Wallet anda.</string>
   <!-- Device authentication body -->
   <string name="UnlockScreen.touchIdPrompt.android">Sila buka peranti Android anda untuk meneruskan.</string>
   <!-- Unlock with TouchID accessibility label -->
@@ -689,9 +689,9 @@
   <!-- Wallet unlocked message -->
   <string name="UnlockScreen.unlocked">Wallet Dibuka</string>
   <!-- Update PIN caption text -->
-  <string name="UpdatePin.caption">Ingat PIN ini. Sekiranya anda terlupa, anda tidak dapat mengakses DigiByte anda.</string>
+  <string name="UpdatePin.caption">Ingat PIN ini. Sekiranya anda terlupa, anda tidak dapat mengakses eMark anda.</string>
   <!-- PIN creation info. -->
-  <string name="UpdatePin.createInstruction">PIN anda akan digunakan untuk membuka kunci DigiWallet anda dan menghantar DigiByte.</string>
+  <string name="UpdatePin.createInstruction">PIN anda akan digunakan untuk membuka kunci eMark Wallet anda dan menghantar eMark.</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">Tetapkan PIN</string>
   <!-- Update PIN title -->
@@ -725,7 +725,7 @@
   <!-- Authorize transaction with touch id message -->
   <string name="VerifyPin.touchIdMessage">Membenarkan transaksi ini</string>
   <!-- 'No wallet' warning for watch app -->
-  <string name="Watch.noWalletWarning">Buka aplikasi DigiWallet Android untuk menetapkan wallet.</string>
+  <string name="Watch.noWalletWarning">Buka aplikasi eMark Wallet Android untuk menetapkan wallet.</string>
   <!-- Dismiss button label -->
   <string name="Webview.dismiss">Bersurai</string>
   <!-- Webview loading error message -->
@@ -733,9 +733,9 @@
   <!-- Updating webview message -->
   <string name="Webview.updating">Mengemas kini...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">DigiWallet mempunyai wajah baru dan beberapa ciri baru. \ N \ n Jika anda memerlukan bantuan, cari (?) Di sebelah kanan bahagian atas kebanyakan skrin.</string>
+  <string name="Welcome.body">eMark Wallet mempunyai wajah baru dan beberapa ciri baru. \ N \ n Jika anda memerlukan bantuan, cari (?) Di sebelah kanan bahagian atas kebanyakan skrin.</string>
   <!-- Top title of welcome screen -->
-  <string name="Welcome.title">Selamat datang ke DigiWallet!</string>
+  <string name="Welcome.title">Selamat datang ke eMark Wallet!</string>
   <!-- Wipe wallet alert message -->
   <string name="WipeWallet.alertMessage">Adakah anda pasti mahu memadam wallet ini?</string>
   <!-- Wipe wallet alert title -->
@@ -747,7 +747,7 @@
   <!-- Enter phrase to wipe wallet instruction. -->
   <string name="WipeWallet.instruction">Untuk memulakan wallet baru atau mengembalikan wallet sedia ada, anda mesti memadamkan wallet yang sedang dipasang dahulu. Untuk meneruskan, masukkan Kunci Kertas wallet semasa.</string>
   <!-- Start wipe wallet view message -->
-  <string name="WipeWallet.startMessage">Memulakan atau memulihkan wallet lain membolehkan anda mengakses dan mengurus DigiWallet yang berbeza pada peranti ini.</string>
+  <string name="WipeWallet.startMessage">Memulakan atau memulihkan wallet lain membolehkan anda mengakses dan mengurus eMark Wallet yang berbeza pada peranti ini.</string>
   <!-- Start wipe wallet view warning -->
   <string name="WipeWallet.startWarning">Dompet semasa anda akan dialih keluar dari peranti ini. Jika anda ingin mengembalikannya pada masa hadapan, anda perlu memasukkan Kunci Kertas anda.</string>
   <!-- Wipe wallet navigation item title. -->

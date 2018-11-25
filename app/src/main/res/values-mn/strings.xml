@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
   <!-- App name -->
-  <string name="About.appName.android">DigiWallet</string>
+  <string name="About.appName.android">eMark Wallet</string>
   <!-- About screen blog label -->
   <string name="About.blog">https://digibyte.io/</string>
   <!-- About screen footer -->
-  <string name="About.footer">"  global DigiWallet баг бүтээсэн. Хувилбар %1$s"</string>
+  <string name="About.footer">"  global eMark Wallet баг бүтээсэн. Хувилбар %1$s"</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">Нууцлалын бодлого</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/DeutscheeMark/</string>
   <!-- Terms of Use button label -->
   <string name="About.terms">Энэ төсөл нээлттэй бөгөөд та энэ кодыг эндээс үзэж болно:
-https://github.com/Racecraft/digibytewallet-android</string>
+https://github.com/emarkproject/eMarkwallet-android</string>
   <!--
   Terms of Use button label
   About screen title
   -->
   <string name="About.title">
-DigiWallet нь DigiByte-д зориулсан гар утасны түрийвч юм.</string>
+eMark Wallet нь eMark-д зориулсан гар утасны түрийвч юм.</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/deutsche_emark</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">Хаах</string>
   <!-- Support center accessibiliy label -->
@@ -29,7 +29,7 @@ DigiWallet нь DigiByte-д зориулсан гар утасны түрийв�
   <!-- Loading Wallet Message -->
   <string name="Account.loadingMessage">Түрийвчийг ачаалж байна</string>
   <!-- Default wallet name -->
-  <string name="AccountHeader.defaultWalletName">Миний DigiWallet</string>
+  <string name="AccountHeader.defaultWalletName">Миний eMark Wallet</string>
   <!-- Third party keyboard warning -->
   <string name="Alert.customKeyboard.android">Та гуравдагч этгээдийн гар ашиглаж байгаа бөгөөд таны бичсэн зүйлээ бичиж, хувийн сэргээх түлхүүрийг хулгайлж чадна. Анхдагч Андройд гарыг нэмэлт хамгаалалтанд шилжүүлээрэй.</string>
   <!-- Error alert title -->
@@ -40,7 +40,7 @@ DigiWallet нь DigiByte-д зориулсан гар утасны түрийв�
 Таны Андройд  OS-тэй холбоотой асуудал байна, support@digibyte.io хаягаар холбоо барина уу</string>
   <!-- KeyStore error, keys are invalidated -->
   <string name="Alert.keystore.invalidated.android">
-Таны Андройд түгжээний дэлгэцийг идэвхгүй болгосон учраас таны DigiWallet шифрлэгдсэн дата саяхан хүчингүй болсон.</string>
+Таны Андройд түгжээний дэлгэцийг идэвхгүй болгосон учраас таны eMark Wallet шифрлэгдсэн дата саяхан хүчингүй болсон.</string>
   <!-- Keystore error title -->
   <string name="Alert.keystore.title.android">Android KeyStore алдаа</string>
   <!-- No internet alert message -->
@@ -63,7 +63,7 @@ DigiWallet нь DigiByte-д зориулсан гар утасны түрийв�
   <!-- Send success alert header label (confirmation that the send happened) -->
   <string name="Alerts.sendSuccess">Батламж илгээх</string>
   <!-- Send success alert subheader label (e.g. the money was sent) -->
-  <string name="Alerts.sendSuccessSubheader">DigiByte илгээсэн!</string>
+  <string name="Alerts.sendSuccessSubheader">eMark илгээсэн!</string>
   <!-- Fingerprint was recognized by the scanner -->
   <string name="Alerts.touchIdSucceeded.android">Хурууны хээ танигдсан</string>
   <string name="all">Бүгд</string>
@@ -74,32 +74,32 @@ DigiWallet нь DigiByte-д зориулсан гар утасны түрийв�
   <!-- API Token error message -->
   <string name="ApiClient.tokenError">API токеныг татаж авах боломжгүй байна</string>
   <!-- Send BCH view body. -->
-  <string name="BCH.body">" DGB хаягийг доор оруулна уу. Салах үеийн түрийвч дэх бүх DGB (% 1 $ s) илгээгдэх болно."</string>
+  <string name="BCH.body">" DEM хаягийг доор оруулна уу. Салах үеийн түрийвч дэх бүх DEM (% 1 $ s) илгээгдэх болно."</string>
   <!-- Confirm sending <$5.00> to <address>? -->
   <string name="BCH.confirmationMessage">Илгээхийг баталгаажуулна уу %1$s рүү %2$s</string>
   <!-- Confirmation alert title -->
   <string name="BCH.confirmationTitle">Баталгаажуулалт</string>
   <!-- Generic bch erorr message -->
   <string name="BCH.genericError">
-Таны дансанд ямар ч DGB-г агуулаагүй, эсвэл сэрээ дууссаны дараа DGB хүлээн авсан болно.</string>
+Таны дансанд ямар ч DEM-г агуулаагүй, эсвэл сэрээ дууссаны дараа DEM хүлээн авсан болно.</string>
   <!-- Transaction ID copied message -->
   <string name="BCH.hashCopiedMessage">Transaction ID хуулбарласан</string>
   <!-- No address error message -->
   <string name="BCH.noAddressError">Хаягаа оруулна уу</string>
   <!-- Attempted to scan unsupported qr code error message. -->
-  <string name="BCH.paymentProtocolError">Төлбөрийн протокол хүсэлт DGB-ийн гүйлгээг дэмжих боломжгүй</string>
+  <string name="BCH.paymentProtocolError">Төлбөрийн протокол хүсэлт DEM-ийн гүйлгээг дэмжих боломжгүй</string>
   <!-- BCH successfully sent alert message -->
   <string name="BCH.successMessage">
-DGB амжилттай илгээгдсэн.</string>
+DEM амжилттай илгээгдсэн.</string>
   <!-- Widthdraw BCH view title -->
-  <string name="BCH.title">DGB Шилжүүлэх</string>
+  <string name="BCH.title">DEM Шилжүүлэх</string>
   <!-- Tx Hash button header -->
-  <string name="BCH.txHashHeader">DGB гүйлгээний утга ID</string>
+  <string name="BCH.txHashHeader">DEM гүйлгээний утга ID</string>
   <!-- Approve button label -->
   <string name="BitID.approve">Зөвшөөрөх</string>
   <!-- <sitename> is requesting authentication using your bitcoin wallet -->
   <string name="BitID.authenticationRequest">
- %1$s таны DigiWallet ашиглан authentication хүсч байна.</string>
+ %1$s таны eMark Wallet ашиглан authentication хүсч байна.</string>
   <!-- Deny button label -->
   <string name="BitID.deny">үгүйсгэх</string>
   <!-- BitID error alert title -->
@@ -111,7 +111,7 @@ DGB амжилттай илгээгдсэн.</string>
   <string name="BitID.success">
 Амжилттай баталгаажсан</string>
   <!-- BitID Authentication Request alert view title -->
-  <string name="BitID.title">DigiID Таних хүсэлт</string>
+  <string name="BitID.title">eMarkID Таних хүсэлт</string>
   <!-- Cancel button label -->
   <string name="Button.cancel">Цуцлах</string>
   <!-- Ignore button label -->
@@ -157,7 +157,7 @@ DGB амжилттай илгээгдсэн.</string>
   <string name="current_amount">Одоогийн үнэ цэнэ: %s</string>
   <string name="date">Огноо</string>
   <!-- Bitcoin denomination picker label -->
-  <string name="DefaultCurrency.bitcoinLabel">DigiByte харуулах нэгж</string>
+  <string name="DefaultCurrency.bitcoinLabel">eMark харуулах нэгж</string>
   <!--
   Bitcoin denomination picker label
   Exchange rate label
@@ -168,7 +168,7 @@ DGB амжилттай илгээгдсэн.</string>
   <!-- Email unavailable alert title -->
   <string name="ErrorMessages.emailUnavailableTitle">И-мэйл байхгүй байна</string>
   <!-- Message that gets shown when we've detected the user has encountered the looping lock-screen bug. (preserve [ ] characters) -->
-  <string name="ErrorMessages.loopingLockScreen.android">DigiWallet нь таны Android хувилбарт алдаатай тул баталгаажуулах боломжгүй байна. [Дэлгэрэнгүй мэдээллийг энд дарж үзнэ үү.]</string>
+  <string name="ErrorMessages.loopingLockScreen.android">eMark Wallet нь таны Android хувилбарт алдаатай тул баталгаажуулах боломжгүй байна. [Дэлгэрэнгүй мэдээллийг энд дарж үзнэ үү.]</string>
   <!-- Messaging unavailable alert title -->
   <string name="ErrorMessages.messagingUnavailableMessage">Энэ төхөөрөмж мессеж илгээхээр тохируулагдаагүй байна.</string>
   <!-- Messaging unavailable alert title -->
@@ -193,7 +193,7 @@ DGB амжилттай илгээгдсэн.</string>
   <!-- Checking private key balance progress view text -->
   <string name="Import.checking">Хувийн түлхүүрийн үлдэгдэл шалгаж байна...</string>
   <!-- Sweep private key confirmation message -->
-  <string name="Import.confirm">Энэ хувийн түлхүүрийн %1$s-г түрийвчдээ илгээх үү? DigiByte сүлжээ нь %2$s төлбөр авдаг.</string>
+  <string name="Import.confirm">Энэ хувийн түлхүүрийн %1$s-г түрийвчдээ илгээх үү? eMark сүлжээ нь %2$s төлбөр авдаг.</string>
   <!-- Duplicate key error message -->
   <string name="Import.Error.duplicate">Энэ хувийн түлхүүр таны түрийвч дээр аль хэдийн орсон байна.</string>
   <!-- empty private key error message -->
@@ -212,14 +212,14 @@ DGB амжилттай илгээгдсэн.</string>
   <!-- Caption for graphics -->
   <string name="Import.leftCaption">Түрийвчийг импортлох боломжтой</string>
   <!-- Import wallet intro screen message -->
-  <string name="Import.message">Бүх хэтэвчээс DigiWallet-ыг нэг гүйлгээ ашиглан DigiByte руу түрийвч шилжүүлэн импортлоорой.</string>
+  <string name="Import.message">Бүх хэтэвчээс eMark Wallet-ыг нэг гүйлгээ ашиглан eMark руу түрийвч шилжүүлэн импортлоорой.</string>
   <!-- Enter password alert view title -->
   <string name="Import.password">Энэ хувийн түлхүүр нь нууц үгээр хамгаалагдсан.</string>
   <!-- password textfield placeholder -->
   <string name="Import.passwordPlaceholder">нууц үг</string>
   <!-- Caption for graphics -->
   <string name="Import.rightCaption">
-Таны DigiWallet</string>
+Таны eMark Wallet</string>
   <!-- Scan Private key button label -->
   <string name="Import.scan">Хувийн түлхүүрийг хайх</string>
   <!-- Import wallet success alert title -->
@@ -240,19 +240,19 @@ DGB амжилттай илгээгдсэн.</string>
   <!-- Ignore jailbreak warning button -->
   <string name="JailbreakWarnings.ignore">зөвшөөрөхгүй</string>
   <!-- Jailbreak warning message -->
-  <string name="JailbreakWarnings.messageWithBalance">ТӨХӨӨРӨМЖИЙН АЮУЛГҮЙ БАЙДАЛ ЭВДЭГДЭХ \n ямар нэг \'jailbreak\' апп DigiWallet-ийн гол түлхүүрийн өгөгдөлд хандах боломжтой ба DigiByte-ийг хулгайлж авна! Энэ түрүүвчийг нэн даруй арчиж аюулгүй төхөөрөмж дээр сэргээнэ үү.</string>
+  <string name="JailbreakWarnings.messageWithBalance">ТӨХӨӨРӨМЖИЙН АЮУЛГҮЙ БАЙДАЛ ЭВДЭГДЭХ \n ямар нэг \'jailbreak\' апп eMark Wallet-ийн гол түлхүүрийн өгөгдөлд хандах боломжтой ба eMark-ийг хулгайлж авна! Энэ түрүүвчийг нэн даруй арчиж аюулгүй төхөөрөмж дээр сэргээнэ үү.</string>
   <!--
   Ignore jailbreak warning button
   Jailbreak warning message
   -->
-  <string name="JailbreakWarnings.messageWithoutBalance">ТӨХӨӨРӨМЖИЙН АЮУЛГҮЙ БАЙДАЛ ЭВДЭГДЭХ \n ямар нэг \'jailbreak\' апп DigiWallet-ийн гол түлхүүрийн өгөгдөлд хандах боломжтой ба DigiByte-ийг хулгайлж авна! DigiWallet ииг зөвхөн non-jailbroken төхөөрөмж дээр ашиглаарай</string>
+  <string name="JailbreakWarnings.messageWithoutBalance">ТӨХӨӨРӨМЖИЙН АЮУЛГҮЙ БАЙДАЛ ЭВДЭГДЭХ \n ямар нэг \'jailbreak\' апп eMark Wallet-ийн гол түлхүүрийн өгөгдөлд хандах боломжтой ба eMark-ийг хулгайлж авна! eMark Wallet ииг зөвхөн non-jailbroken төхөөрөмж дээр ашиглаарай</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">АНХААРУУЛГА</string>
   <!-- Location services disabled error -->
   <string name="LocationPlugin.disabled">Байршлын үйлчилгээ хаагдсан байна.</string>
   <!-- No permissions for location services -->
   <string name="LocationPlugin.notAuthorized">
-DigiWallet нь байршлын үйлчилгээнд хандах зөвшөөрөлгүй байна.</string>
+eMark Wallet нь байршлын үйлчилгээнд хандах зөвшөөрөлгүй байна.</string>
   <!-- Wallet creation date prefix -->
   <string name="ManageWallet.creationDatePrefix">Та хэтэвчээ  %1$s дээр үүсгэсэн</string>
   <!-- Manage wallet description text -->
@@ -264,7 +264,7 @@ DigiWallet нь байршлын үйлчилгээнд хандах зөвшө�
   <string name="max">Макс</string>
   <string name="max_send_enabled">Харуулах товч: хамгийн ихийг илгээх</string>
   <!-- Buy bitcoin title -->
-  <string name="MenuButton.buy">DigiByte худалдан авах</string>
+  <string name="MenuButton.buy">eMark худалдан авах</string>
   <!-- Menu button title -->
   <string name="MenuButton.lock">Түрийвч түгжих</string>
   <!-- Menu button title -->
@@ -296,7 +296,7 @@ DigiWallet нь байршлын үйлчилгээнд хандах зөвшө�
   <!-- Node status label -->
   <string name="NodeSelector.statusLabel">Node холболтын төлөв</string>
   <!-- Node Selector view title -->
-  <string name="NodeSelector.title">DigiByte цэгүүд</string>
+  <string name="NodeSelector.title">eMark цэгүүд</string>
   <string name="no_limit">Хязгааргүй</string>
   <string name="original_amount">Эх үнэ:</string>
   <!-- Bad Payment request alert title -->
@@ -310,10 +310,10 @@ DigiWallet нь байршлын үйлчилгээнд хандах зөвшө�
   <!-- Payment too small alert title -->
   <string name="PaymentProtocol.Errors.smallOutputError">Төлбөр хийх боломжгүй</string>
   <!-- Amount too small error message -->
-  <string name="PaymentProtocol.Errors.smallPayment">DigiByte төлбөрүүд нь үүнээс бага байж болохгүй %1$s</string>
+  <string name="PaymentProtocol.Errors.smallPayment">eMark төлбөрүүд нь үүнээс бага байж болохгүй %1$s</string>
   <!-- Output too small error message. -->
   <string name="PaymentProtocol.Errors.smallTransaction">
-DigiByte гүйлгээний гаралт  %1$s  -с бага байж болохгүй.</string>
+eMark гүйлгээний гаралт  %1$s  -с бага байж болохгүй.</string>
   <!-- Unsupported signature type payment protocol error message -->
   <string name="PaymentProtocol.Errors.unsupportedSignatureType">гарын үсгийн хэлбэрийг дэмждэггүй</string>
   <!-- Untrusted certificate payment protocol error message -->
@@ -339,7 +339,7 @@ DigiByte гүйлгээний гаралт  %1$s  -с бага байж боло
   <!-- Transaction rejected prompt title -->
   <string name="Prompts.RecommendRescan.title">Гүйлгээ татгалзсан</string>
   <!-- Share data prompt body -->
-  <string name="Prompts.ShareData.body">DigiWallet-ийг сайжруулахад тусална уу</string>
+  <string name="Prompts.ShareData.body">eMark Wallet-ийг сайжруулахад тусална уу</string>
   <!-- Share data prompt title -->
   <string name="Prompts.ShareData.title">Нэргүй дата хуваалцах</string>
   <!-- Enable touch ID prompt body -->
@@ -354,11 +354,11 @@ DigiByte гүйлгээний гаралт  %1$s  -с бага байж боло
   <string name="Prompts.TouchId.usePin.android">PIN</string>
   <!-- Upgrade PIN prompt body. -->
   <string name="Prompts.UpgradePin.body">
-DigiWallet нь 6 оронтой ПИН кодыг ашиглан сайжруулсан. Шинэчлэхийн тулд энд дарна уу.</string>
+eMark Wallet нь 6 оронтой ПИН кодыг ашиглан сайжруулсан. Шинэчлэхийн тулд энд дарна уу.</string>
   <!-- Upgrade PIN prompt title. -->
   <string name="Prompts.UpgradePin.title">PIN шинэчлэх</string>
   <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
-  <string name="PushNotifications.body">DigiWallet-с тусгай мессеж хүлээн авахын тулд мэдэгдлийг асаана уу.</string>
+  <string name="PushNotifications.body">eMark Wallet-с тусгай мессеж хүлээн авахын тулд мэдэгдлийг асаана уу.</string>
   <!-- Push notifications toggle switch label -->
   <string name="PushNotifications.label">Мэдэгдлүүдийг Түлхэх</string>
   <!-- Push notifications are off label -->
@@ -390,7 +390,7 @@ Wallet сэргээх</string>
   <!-- Enter paper key instruction -->
   <string name="RecoverWallet.instruction">Хувийн сэргээх түлхүүрийг оруулна уу</string>
   <!-- Recover wallet intro -->
-  <string name="RecoverWallet.intro">DigiWallet-г өөрийн хувийн сэргээх түлхүүрээр сэргээх.</string>
+  <string name="RecoverWallet.intro">eMark Wallet-г өөрийн хувийн сэргээх түлхүүрээр сэргээх.</string>
   <!-- Invalid paper key message -->
   <string name="RecoverWallet.invalid">
 Таны оруулсан хувийн сэргээх түлхүүр буруу байна. Үг бүрийг дахин шалгаад дахин оролдоно уу.</string>
@@ -403,7 +403,7 @@ Wallet сэргээх</string>
   <!-- Next button accessibility label -->
   <string name="RecoverWallet.rightArrow">Баруун сум</string>
   <!-- Recover wallet sub-header -->
-  <string name="RecoverWallet.subheader">Дахин сэргээхийг хүссэн DigiWallet-д зориулсан хувийн сэргээх түлхүүрийг оруулна уу.</string>
+  <string name="RecoverWallet.subheader">Дахин сэргээхийг хүссэн eMark Wallet-д зориулсан хувийн сэргээх түлхүүрийг оруулна уу.</string>
   <!-- Reset PIN with paper key: sub-header -->
   <string name="RecoverWallet.subheader_reset_pin">Өөрийн PIN-ыг дахин тохируулахын тулд өөрийн хувийн сэргээх түлхүүрээс үгсийг доорх хайрцагт оруулна уу.</string>
   <!-- No amount entered error message. -->
@@ -414,20 +414,20 @@ Wallet сэргээх</string>
   <!-- Alert action button label -->
   <string name="ReScan.alertAction">Синк хийх</string>
   <!-- Alert message body -->
-  <string name="ReScan.alertMessage">Та синхрон хийж бх үед DigiByte-г илгээх боломжгүй болно.</string>
+  <string name="ReScan.alertMessage">Та синхрон хийж бх үед eMark-г илгээх боломжгүй болно.</string>
   <!-- Alert message title -->
   <string name="ReScan.alertTitle">Блокчейнтэй синк хийх?</string>
   <!-- extimated time -->
   <string name="ReScan.body1">20-45 минут</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body2">Хэрэв гүйлгээ DigiByte сүлжээнд дууссан гэж үзвэл таны DigiWallet-д байхгүй.</string>
+  <string name="ReScan.body2">Хэрэв гүйлгээ eMark сүлжээнд дууссан гэж үзвэл таны eMark Wallet-д байхгүй.</string>
   <!-- Syncing explanation -->
   <string name="ReScan.body3">Таны гүйлгээг татгалзсан гэж хэлэхэд алдаа байнга гардаг.</string>
   <!-- Start Sync button label -->
   <string name="ReScan.buttonTitle">Синкийг эхлүүлэх</string>
   <!-- Sync blockchain view footer -->
   <string name="ReScan.footer">
-Та DigiByte-г Block-тай синхрончлох үед илгээж чадахгүй.</string>
+Та eMark-г Block-тай синхрончлох үед илгээж чадахгүй.</string>
   <!-- Sync Blockchain view header -->
   <string name="ReScan.header">
 Blockchain-ыг холбох</string>
@@ -450,18 +450,18 @@ Blockchain-ыг холбох</string>
   <!-- Security Center Info -->
   <string name="SecurityCenter.info">Хамгаалалтын бүх боломжуудыг дээд хэмжээгээр хамгаалах боломжтой болгоно.</string>
   <!-- Paper Key button description -->
-  <string name="SecurityCenter.paperKeyDescription">Хэрэв та утсаа алдаж эсвэл шинэчлэх бол DigiByte-д хандах цорын ганц арга зам юм.</string>
+  <string name="SecurityCenter.paperKeyDescription">Хэрэв та утсаа алдаж эсвэл шинэчлэх бол eMark-д хандах цорын ганц арга зам юм.</string>
   <!-- Paper Key button title -->
   <string name="SecurityCenter.paperKeyTitle">Хувийн сэргээх түлхүүр</string>
   <!-- PIN button description -->
   <string name="SecurityCenter.pinDescription">
-Таны DigiWallet ийг зөвшөөрөлгүй хэрэглэгчидээс хамгаална.</string>
+Таны eMark Wallet ийг зөвшөөрөлгүй хэрэглэгчидээс хамгаална.</string>
   <!-- PIN button title -->
   <string name="SecurityCenter.pinTitle">6 оронтой PIN</string>
   <!-- Security Center Title -->
   <string name="SecurityCenter.title">Аюулгүй байдлын төв</string>
   <!-- Touch ID button description -->
-  <string name="SecurityCenter.touchIdDescription">DigiWallet-гээ онгойлгож, DigiByte-г багцын хязгаар хүртэл нь илгээх боломжтой.</string>
+  <string name="SecurityCenter.touchIdDescription">eMark Wallet-гээ онгойлгож, eMark-г багцын хязгаар хүртэл нь илгээх боломжтой.</string>
   <!-- Touch ID button title -->
   <string name="SecurityCenter.touchIdTitle">Touch ID</string>
   <!-- Security center fingerprint authentication button -->
@@ -472,14 +472,14 @@ Blockchain-ыг холбох</string>
   <!-- Balance: $4.00 -->
   <string name="Send.balance">Үлдэгдэл: %1$s</string>
   <!-- Instructions how to allow the camera access for the app -->
-  <string name="Send.cameraUnavailabeMessage.android">Камерыг зөвшөөрөх \"Тохиргоо\"&gt; \"Apps\"&gt; \"DigiWallet\"&gt; \"Permissions\" дээр</string>
+  <string name="Send.cameraUnavailabeMessage.android">Камерыг зөвшөөрөх \"Тохиргоо\"&gt; \"Apps\"&gt; \"eMark Wallet\"&gt; \"Permissions\" дээр</string>
   <!-- Permission required to access camera -->
   <string name="Send.cameraUnavailabeTitle.android">
-DigiWallet камер руу нэвтрэх эрхгүй</string>
+eMark Wallet камер руу нэвтрэх эрхгүй</string>
   <!-- Camera not allowed message -->
   <string name="Send.cameraunavailableMessage">Камераар нэвтэрмээр байвал Тохиргоо руу очно уу.</string>
   <!-- Camera not allowed alert title -->
-  <string name="Send.cameraUnavailableTitle">DigiWallet камер руу нэвтрэх эрхгүй</string>
+  <string name="Send.cameraUnavailableTitle">eMark Wallet камер руу нэвтрэх эрхгүй</string>
   <!-- Warning when sending to self. -->
   <string name="Send.containsAddress">Очих газар бол таны хаяг юм. Та өөр лүүгээ явуулж чадахгүй.</string>
   <!-- Could not create transaction alert title -->
@@ -493,9 +493,9 @@ DigiWallet камер руу нэвтрэх эрхгүй</string>
   <!-- Payee identity not certified alert title. -->
   <string name="Send.identityNotCertified">Хүлээн авагчийн үнэмлэх баталгаажаагүй байна.</string>
   <!-- Invalid address alert message -->
-  <string name="Send.invalidAddressMessage">Очих хаяг нь зөв DigiByte хаяг биш байна.</string>
+  <string name="Send.invalidAddressMessage">Очих хаяг нь зөв eMark хаяг биш байна.</string>
   <!-- Invalid address on pasteboard message -->
-  <string name="Send.invalidAddressOnPasteboard">Самбарын цайвар DigiByte хаягийг агуулаагүй байна.</string>
+  <string name="Send.invalidAddressOnPasteboard">Самбарын цайвар eMark хаягийг агуулаагүй байна.</string>
   <!-- Invalid address alert title -->
   <string name="Send.invalidAddressTitle">Буруу хаяг</string>
   <!-- Is rescanning error message -->
@@ -522,7 +522,7 @@ DigiWallet камер руу нэвтрэх эрхгүй</string>
   <string name="Send.toLabel">рүү</string>
   <!-- Adress already used alert message - first part -->
   <string name="Send.UsedAddress.firstLine">
-DigiByte хаягууд нь зөвхөн ганц хэрэглээнд зориулагдсан.</string>
+eMark хаягууд нь зөвхөн ганц хэрэглээнд зориулагдсан.</string>
   <!-- Adress already used alert message - second part -->
   <string name="Send.UsedAddress.secondLIne">
 Дахин ашиглах нь танд болон хүлээн авагч хоёулангийнх нь хувийн нууцыг бууруулж, хүлээн авагч шууд хаягыг хянадаггүй тохиолдолд алдагдлыг үүсгэж болно.</string>
@@ -540,11 +540,11 @@ DigiByte хаягууд нь зөвхөн ганц хэрэглээнд зори
   <string name="Settings.earlyAccess">Өмнөх хандалт руу орох</string>
   <!-- Are you enjoying bread alert message body -->
   <string name="Settings.enjoying">
-DigiWallet-г та үздэг үү?</string>
+eMark Wallet-г та үздэг үү?</string>
   <!-- Import wallet left message -->
   <string name="Settings.importLeftMessage">" Wallet Импортлосон байх"</string>
   <!-- Import wallet right message -->
-  <string name="Settings.importRightMessage">Таны DigiWallet</string>
+  <string name="Settings.importRightMessage">Таны eMark Wallet</string>
   <!-- Import wallet label -->
   <string name="Settings.importTitle">Түрийвч импорт хийх</string>
   <!-- Manage settings section header -->
@@ -553,7 +553,7 @@ DigiWallet-г та үздэг үү?</string>
   <string name="Settings.notifications">Мэдэгдэл</string>
   <!-- Restore screen lower label. -->
   <string name="Settings.restore_label">
-Таны төхөөрөмж дээрх DigiWallet</string>
+Таны төхөөрөмж дээрх eMark Wallet</string>
   <!-- Leave review button label -->
   <string name="Settings.review">Сэтгэгдэл үлдээх</string>
   <!-- Share anonymous data label -->
@@ -572,7 +572,7 @@ DigiWallet-г та үздэг үү?</string>
   <!-- Start or recover another wallet menu label. -->
   <string name="Settings.wipe">Өөр нэг Wallet-г эхлүүлэх/сэргээх</string>
   <!-- Share data view body -->
-  <string name="ShareData.body">DigiWallet-ийг сайжруулахад тусална уу. Энэ нь санхүүгийн ямар ч мэдээлэл ороогүй болно. Бид таны санхүүгийн нууцлалыг хүндэтгэдэг.</string>
+  <string name="ShareData.body">eMark Wallet-ийг сайжруулахад тусална уу. Энэ нь санхүүгийн ямар ч мэдээлэл ороогүй болно. Бид таны санхүүгийн нууцлалыг хүндэтгэдэг.</string>
   <!-- Share data header -->
   <string name="ShareData.header">Мэдээлэл хуваалцах уу?</string>
   <!-- Share data switch label. -->
@@ -580,14 +580,14 @@ DigiWallet-г та үздэг үү?</string>
   <!-- button label -->
   <string name="StartPaperPhrase.againButtonTitle">Өөрийн хувийн сэргээх түлхүүрийг дахин бичнэ үү</string>
   <!-- Paper key explanation text. -->
-  <string name="StartPaperPhrase.body">Таны Хувийн Сэргээх Түлхүүр бол таны утас алдагдсан, хулгайд алдсан, эвдэрч, эсвэл сайжруулагдсан бол DigiWallet-ийг сэргээх цорын ганц арга юм. \n\n Бид цаасан дээр бичиж тэмдэглэх үгсийн жагсаалтыг танд үзүүлэх болно.</string>
+  <string name="StartPaperPhrase.body">Таны Хувийн Сэргээх Түлхүүр бол таны утас алдагдсан, хулгайд алдсан, эвдэрч, эсвэл сайжруулагдсан бол eMark Wallet-ийг сэргээх цорын ганц арга юм. \n\n Бид цаасан дээр бичиж тэмдэглэх үгсийн жагсаалтыг танд үзүүлэх болно.</string>
   <!-- button label -->
   <string name="StartPaperPhrase.buttonTitle">
 Хувийн сэргээх түлхүүрийг бичих</string>
   <!-- Argument is date -->
   <string name="StartPaperPhrase.date">Та сүүлд өөрийн хувийн сэргээх түлхүүрийг бичсэн %1$s</string>
   <!-- Start view message -->
-  <string name="StartViewController.message">DigiByte-ийг ашиглах хамгийн найдвартай, хамгийн аюулгүй арга.</string>
+  <string name="StartViewController.message">eMark-ийг ашиглах хамгийн найдвартай, хамгийн аюулгүй арга.</string>
   <!-- Syncing view connectiong state header text -->
   <string name="SyncingView.connecting">Холбогдож байна</string>
   <!-- Syncing view header text -->
@@ -614,13 +614,13 @@ DigiWallet-г та үздэг үү?</string>
   <!-- Fingerprint Is Not Setup -->
   <string name="TouchIdSettings.disabledWarning.title.android">Хурууны хээгээр баталгаажуулах боломжгүй байна</string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">DigiWallet-г онгойлгохын тулд хурууны хээ ашиглан уу. DigiByte ийг тогтоосон хязгаар хүртэл явуулаарай.</string>
+  <string name="TouchIdSettings.label">eMark Wallet-г онгойлгохын тулд хурууны хээ ашиглан уу. eMark ийг тогтоосон хязгаар хүртэл явуулаарай.</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
   <string name="TouchIdSettings.linkText">Touch ID Хязгаарлах дэлгэцийг зарцуулах</string>
   <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">Хязгаар: %1$s (%2$s)</string>
   <!-- Touch id switch label. -->
-  <string name="TouchIdSettings.switchLabel">DigiWallet-д зориулж Touch ID-г идэвхжүүлэх</string>
+  <string name="TouchIdSettings.switchLabel">eMark Wallet-д зориулж Touch ID-г идэвхжүүлэх</string>
   <!-- Enable fingerprint for this wallet called Bread -->
   <string name="TouchIdSettings.switchLabel.android">Хурууны хээгийн баталгаажуулалтыг идэвхжүүлэх</string>
   <!-- Touch ID settings view title -->
@@ -704,7 +704,7 @@ Touch ID Тохируулаагүй байна</string>
   <!-- "Sent [$5] to [address]" => This is the "to [address]" part. -->
   <string name="TransactionDetails.to">лүү %1$s</string>
   <!-- Transaction ID header -->
-  <string name="TransactionDetails.txHashHeader">DigiByte гүйлгээний ID</string>
+  <string name="TransactionDetails.txHashHeader">eMark гүйлгээний ID</string>
   <!-- (this transaction was) Received at this address: -->
   <string name="TransactionDirection.address">Энэ хаягаар хүлээн авсан</string>
   <!-- (this transaction was) Sent to this address: -->
@@ -724,7 +724,7 @@ PIN оруулна уу</string>
   <string name="UnlockScreen.touchIdInstructions.android">Touch Sensor</string>
   <!-- TouchID prompt text -->
   <string name="UnlockScreen.touchIdPrompt">
-DigiWallet-г нээх.</string>
+eMark Wallet-г нээх.</string>
   <!-- Device authentication body -->
   <string name="UnlockScreen.touchIdPrompt.android">Үргэлжлүүлэхийн тулд Андройд төхөөрөмжийн түгжээг тайлна уу</string>
   <!-- Unlock with TouchID accessibility label -->
@@ -734,10 +734,10 @@ DigiWallet-г нээх.</string>
   <!-- Wallet unlocked message -->
   <string name="UnlockScreen.unlocked">Түрийвч Нээгдсэн</string>
   <!-- Update PIN caption text -->
-  <string name="UpdatePin.caption">Энэ PIN-г санаарай. Хэрэв та мартсан бол DigiByte-д хандаж чадахгүй.</string>
+  <string name="UpdatePin.caption">Энэ PIN-г санаарай. Хэрэв та мартсан бол eMark-д хандаж чадахгүй.</string>
   <!-- PIN creation info. -->
   <string name="UpdatePin.createInstruction">
-Таны PIN DigiWallet-г онгойлгож, DigiByte-г илгээхэд хэрэглэнэ.</string>
+Таны PIN eMark Wallet-г онгойлгож, eMark-г илгээхэд хэрэглэнэ.</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">PIN кодыг тохируулна уу</string>
   <!-- Update PIN title -->
@@ -773,7 +773,7 @@ PIN шаардлагатай байна</string>
   <!-- Authorize transaction with touch id message -->
   <string name="VerifyPin.touchIdMessage">Энэ гүйлгээг зөвшөөрөх</string>
   <!-- 'No wallet' warning for watch app -->
-  <string name="Watch.noWalletWarning">DigiWallet Андройд апп нээгээд түрийвчээ тохируулаарай.</string>
+  <string name="Watch.noWalletWarning">eMark Wallet Андройд апп нээгээд түрийвчээ тохируулаарай.</string>
   <!-- Dismiss button label -->
   <string name="Webview.dismiss">Дуусах</string>
   <!-- Webview loading error message -->
@@ -781,9 +781,9 @@ PIN шаардлагатай байна</string>
   <!-- Updating webview message -->
   <string name="Webview.updating">Шинэчлэж байна ...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">DigiWallet нь цоо шинэ харагдах байдал болон зарим шинэ боломжуудтай. \n\n Хэрэв танд тусламж хэрэгтэй бол олон дэлгэцийн баруун дээд хэсэгт (?) Хайх хэрэгтэй.</string>
+  <string name="Welcome.body">eMark Wallet нь цоо шинэ харагдах байдал болон зарим шинэ боломжуудтай. \n\n Хэрэв танд тусламж хэрэгтэй бол олон дэлгэцийн баруун дээд хэсэгт (?) Хайх хэрэгтэй.</string>
   <!-- Top title of welcome screen -->
-  <string name="Welcome.title">DigiWallet-д тавтай морилно уу!</string>
+  <string name="Welcome.title">eMark Wallet-д тавтай морилно уу!</string>
   <!-- Wipe wallet alert message -->
   <string name="WipeWallet.alertMessage">Та энэ түрийвчийг устгахдаа итгэлтэй байна уу?</string>
   <!-- Wipe wallet alert title -->
@@ -796,7 +796,7 @@ PIN шаардлагатай байна</string>
   <string name="WipeWallet.instruction">Шинэ хэтэвчийг эхлүүлэх эсвэл одоо байгаа түрийвчээ сэргээхийн тулд эхлээд түр сууж буй хэтэвчийг арилгах хэрэгтэй. Үргэлжлүүлэхийн тулд одоогийн түрийвчний хувийн сэргээх түлхүүр оруулах</string>
   <!-- Start wipe wallet view message -->
   <string name="WipeWallet.startMessage">
-Өөр нэг түрийвчийг эхлүүлэх буюу сэргээх бол энэ төхөөрөмжийн өөр DigiWallet-д хандах, удирдах боломжтой.</string>
+Өөр нэг түрийвчийг эхлүүлэх буюу сэргээх бол энэ төхөөрөмжийн өөр eMark Wallet-д хандах, удирдах боломжтой.</string>
   <!-- Start wipe wallet view warning -->
   <string name="WipeWallet.startWarning">Таны одоогийн түрийвч энэ төхөөрөмжөөс устах болно. Хэрэв та ирээдүйд үүнийг сэргээх хүсэлтэй байгаа бол хувийн сэргээх түлхүүрээ оруулах хэрэгтэй болно.</string>
   <!-- Wipe wallet navigation item title. -->
