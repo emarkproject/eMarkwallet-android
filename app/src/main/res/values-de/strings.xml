@@ -3,9 +3,9 @@
   <!-- App name -->
   <string name="About.appName.android">eMark Wallet</string>
   <!-- About screen blog label -->
-  <string name="About.blog">https://digibyte.io/</string>
+  <string name="About.blog">https://deutsche-emark.de/</string>
   <!-- About screen footer -->
-  <string name="About.footer">Vom globalen eMark Wallet Team erstellt. Version %1$s</string>
+  <string name="About.footer">Vom globalen Deutschen eMark Team erstellt. Version %1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">Datenschutzerklärung</string>
   <!-- About screen reddit label -->
@@ -16,7 +16,7 @@
   Terms of Use button label
   About screen title
   -->
-  <string name="About.title">Schnell, einfach und sicher: eMark Wallet für Android ist der einfachste Weg mit dem Senden und Empfangen von eMark zu beginnen. Entwickelt für neue als auch erfahrene Benutzer ist eMark Wallet für Android sowohl einfach genug für Anfänger als auch mächtig genug für Power-User.
+  <string name="About.title">Schnell, einfach und sicher: Die eMark Wallet für Android ist der einfachste Weg mit dem Senden und Empfangen von eMarks zu beginnen. Entwickelt für neue als auch erfahrene Benutzer ist die eMark Wallet für Android sowohl einfach genug für Anfänger als auch mächtig genug für Power-User.
 </string>
   <!-- About screen twitter label -->
   <string name="About.twitter">https://twitter.com/deutsche_emark</string>
@@ -33,7 +33,7 @@
   <!-- Error alert title -->
   <string name="Alert.error">Fehler</string>
   <!-- Keystore error -->
-  <string name="Alert.keystore.generic.android">Es gibt ein Problem mit Ihrem Android Keystore. Bitte kontaktieren Sie support@digibyte.io</string>
+  <string name="Alert.keystore.generic.android">Es gibt ein Problem mit Ihrem Android Keystore. Bitte kontaktieren Sie kontakt@deutsche-emark.de</string>
   <!-- KeyStore error, keys are invalidated -->
   <string name="Alert.keystore.invalidated.android">Deine eMark Wallet-verschlüsselten Daten wurden kürzlich ungültig gemacht, weil deine Android-Sperrbildschirm deaktiviert wurde.</string>
   <!-- Keystore error title -->
@@ -74,7 +74,7 @@
   <!-- Confirmation alert title -->
   <string name="BCH.confirmationTitle">Bestätigung</string>
   <!-- Generic bch erorr message -->
-  <string name="BCH.genericError">Ihr Konto enthält keine DEM, oder Sie haben DEM nach dem Fork erhalten.</string>
+  <string name="BCH.genericError">Ihr Konto enthält keine DEM.</string>
   <!-- Transaction ID copied message -->
   <string name="BCH.hashCopiedMessage">Transaktions-ID wurde kopiert</string>
   <!-- No address error message -->
@@ -224,12 +224,12 @@
   <!-- Ignore jailbreak warning button -->
   <string name="JailbreakWarnings.ignore">Ignorieren</string>
   <!-- Jailbreak warning message -->
-  <string name="JailbreakWarnings.messageWithBalance">SICHERHEITSHINWEIS\n Jede \"Jailbreak\" -App kann auf eMark Wallets Schlüsselbunddaten zugreifen und Ihre Digibyte stehlen! Löschen Sie dieses Wallet sofort und stellen Sie sie auf einem sicheren Gerät wieder her.</string>
+  <string name="JailbreakWarnings.messageWithBalance">SICHERHEITSHINWEIS\n Jede \"Jailbreak\" -App kann auf eMark Wallets Schlüsselbunddaten zugreifen und Ihre eMarks stehlen! Löschen Sie dieses Wallet sofort und stellen Sie sie auf einem sicheren Gerät wieder her.</string>
   <!--
   Ignore jailbreak warning button
   Jailbreak warning message
   -->
-  <string name="JailbreakWarnings.messageWithoutBalance">SICHERHEITSHINWEIS\n Jede \"Jailbreak\" -App kann auf eMark Wallets Schlüsselbunddaten zugreifen und Ihre Digibyte stehlen. Bitte verwenden Sie eMark nur auf einem nicht \"gejailbreakten\" Gerät.</string>
+  <string name="JailbreakWarnings.messageWithoutBalance">SICHERHEITSHINWEIS\n Jede \"Jailbreak\" -App kann auf eMark Wallets Schlüsselbunddaten zugreifen und Ihre eMarks stehlen. Bitte verwenden Sie eMark nur auf einem nicht \"gejailbreakten\" Gerät.</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">WARNUNG</string>
   <!-- Location services disabled error -->
@@ -318,7 +318,7 @@
   <!-- Transaction rejected prompt title -->
   <string name="Prompts.RecommendRescan.title">Transaktion abgelehnt</string>
   <!-- Share data prompt body -->
-  <string name="Prompts.ShareData.body">Hilf dabei eMark Wallet zu verbessern, indem du deine anonymen Daten mit uns teilst.</string>
+  <string name="Prompts.ShareData.body">Hilf dabei die eMark Wallet zu verbessern, indem du deine anonymen Daten mit uns teilst.</string>
   <!-- Share data prompt title -->
   <string name="Prompts.ShareData.title">Anonyme Daten teilen</string>
   <!-- Enable touch ID prompt body -->
@@ -496,7 +496,7 @@
   <string name="Send.UsedAddress.title">Adresse bereits verwendet</string>
   <string name="sent">GESENDET</string>
   <!-- About label -->
-  <string name="Settings.about">Über eMark</string>
+  <string name="Settings.about">Über Deutsche eMark</string>
   <!-- Advanced Settings title -->
   <string name="Settings.advancedTitle">Erweiterte Einstellungen</string>
   <!-- i.e. the currency which will be displayed -->
@@ -504,7 +504,7 @@
   <!-- Join Early access label -->
   <string name="Settings.earlyAccess">Early Access beitreten</string>
   <!-- Are you enjoying bread alert message body -->
-  <string name="Settings.enjoying">Gefällt Ihnen eMark Wallet?</string>
+  <string name="Settings.enjoying">Gefällt Ihnen die eMark Wallet?</string>
   <!-- Import wallet left message -->
   <string name="Settings.importLeftMessage">Wallet, die importiert werden soll</string>
   <!-- Import wallet right message -->
@@ -516,7 +516,7 @@
   <!-- Notifications label -->
   <string name="Settings.notifications">Benachrichtigungen</string>
   <!-- Restore screen lower label. -->
-  <string name="Settings.restore_label">Dein eMark Wallet auf diesem Gerät</string>
+  <string name="Settings.restore_label">Deine eMark Wallet auf diesem Gerät</string>
   <!-- Leave review button label -->
   <string name="Settings.review">Hinterlasse uns eine Rezension</string>
   <!-- Share anonymous data label -->
@@ -534,7 +534,7 @@
   <!-- Start or recover another wallet menu label. -->
   <string name="Settings.wipe">Weitere Wallet starten/wiederherstellen</string>
   <!-- Share data view body -->
-  <string name="ShareData.body">Hilf uns dabei eMark Wallet zu verbessern, indem du deine anonymen Daten mit uns teilst. Dies beinhaltet keine finanziellen Informationen. Wir respektieren deine finanzielle Privatsphäre.</string>
+  <string name="ShareData.body">Hilf uns dabei die eMark Wallet zu verbessern, indem du deine anonymen Daten mit uns teilst. Dies beinhaltet keine finanziellen Informationen. Wir respektieren deine finanzielle Privatsphäre.</string>
   <!-- Share data header -->
   <string name="ShareData.header">Daten teilen?</string>
   <!-- Share data switch label. -->
@@ -548,7 +548,7 @@
   <!-- Argument is date -->
   <string name="StartPaperPhrase.date">Du hast deinen Papierschlüssel zuletzt am %1$s aufgeschrieben</string>
   <!-- Start view message -->
-  <string name="StartViewController.message">Der einfache und sichere Weg, um eMark zu verwenden.</string>
+  <string name="StartViewController.message">Der einfache und sichere Weg, um eMarks zu verwenden.</string>
   <!-- Syncing view connectiong state header text -->
   <string name="SyncingView.connecting">Verbinde</string>
   <!-- Syncing view header text -->
@@ -580,7 +580,7 @@
   <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">Ausgabengrenze: %1$s (%2$s)</string>
   <!-- Touch id switch label. -->
-  <string name="TouchIdSettings.switchLabel">Aktiviere Touch ID für eMark Wallet</string>
+  <string name="TouchIdSettings.switchLabel">Aktiviere Touch ID für die eMark Wallet</string>
   <!-- Enable fingerprint for this wallet called Bread -->
   <string name="TouchIdSettings.switchLabel.android">Aktiviere Authentifizierung durch Fingerabdruck</string>
   <!-- Touch ID settings view title -->
@@ -689,7 +689,7 @@
   <!-- Wallet unlocked message -->
   <string name="UnlockScreen.unlocked">Wallet entsperrt</string>
   <!-- Update PIN caption text -->
-  <string name="UpdatePin.caption">Merke dir diese PIN. Wenn du sie vergisst, bist du nicht mehr in der Lage auf deine eMark zuzugreifen.</string>
+  <string name="UpdatePin.caption">Merke dir diese PIN. Wenn du sie vergisst, bist du nicht mehr in der Lage auf deine eMarks zuzugreifen.</string>
   <!-- PIN creation info. -->
   <string name="UpdatePin.createInstruction">Deine PIN wird verwendet, um deine eMark Wallet zu entsperren und Geld zu versenden.</string>
   <!-- Update PIN title -->
@@ -733,9 +733,9 @@
   <!-- Updating webview message -->
   <string name="Webview.updating">Aktualisiere...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">eMark Wallet hat ein brandneues Aussehen und bietet neue Funktionen.\n\nFalls Sie Hilfe benötigen, halten Sie Ausschau nach dem (?) im oberen rechten Bereich der meisten Seiten der App.</string>
+  <string name="Welcome.body">Die eMark Wallet hat ein brandneues Aussehen und bietet neue Funktionen.\n\nFalls Sie Hilfe benötigen, halten Sie Ausschau nach dem (?) im oberen rechten Bereich der meisten Seiten der App.</string>
   <!-- Top title of welcome screen -->
-  <string name="Welcome.title">Willkommen bei eMark Wallet!</string>
+  <string name="Welcome.title">Willkommen in deiner eMark Wallet!</string>
   <!-- Wipe wallet alert message -->
   <string name="WipeWallet.alertMessage">Bist du sicher, dass du diese Wallet löschen möchtest?</string>
   <!-- Wipe wallet alert title -->
