@@ -117,7 +117,7 @@ public class BRApiManager {
     }
 
     private static JSONArray fetchRates(Activity activity) {
-        String jsonString = urlGET(activity, "https://" + DigiByte.HOST + "/rates.php");
+        String jsonString = urlGET(activity, "https://api.deutsche-emark.org/rates.php");
         JSONArray jsonArray = null;
         if (jsonString == null) return null;
         try {
