@@ -1,19 +1,19 @@
-![ƀ](/images/icon.png) DigiWallet for Android
+![ƀ](/images/icon.png) eMark Wallet for Android
 ----------------------------------
 
 [![download](/images/icon-google-play.png)]
 (https://play.google.com/store/apps/details?id=de.eMark)
 
-###DigiByte done right
+###Deutsche eMark done right
 
 
-#####a completely standalone DigiByte wallet
+#####a completely standalone eMark wallet
 
-The DigiWallet is a rapidly developing mobile wallet for the Android platform. With extensive work done to enhance sync timing, and innovative features such Digi-ID, the DigiWallet is the premier mobile product of the DigiByte platform.
+The eMark Wallet is a rapidly developing mobile wallet for the Android platform. With extensive work done to enhance sync timing, and innovative features such eMark-ID, the eMark Wallet is the premier mobile product of the eMark platform.
 
 #####beautiful simplicity:
 
-DigiWallet is an extremely simple presenation of how to store, receive, and send DigiByte. As we progress the Beta, currently released on the Google Play Store, new innovative user interface components will breath life into the product, and truly make it stand out amongst the croud.
+eMark Wallet is an extremely simple presenation of how to store, receive, and send eMarks. As we progress the Beta, currently released on the Google Play Store, new innovative user interface components will breath life into the product, and truly make it stand out amongst the croud.
 
 ##How to set up the development environment:
 1. Download and install Java 7 or up

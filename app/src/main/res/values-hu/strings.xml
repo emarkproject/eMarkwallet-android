@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
   <!-- App name -->
-  <string name="About.appName.android">DigiWallet</string>
+  <string name="About.appName.android">eMark Wallet</string>
   <!-- About screen blog label -->
   <string name="About.blog">Blog</string>
   <!-- About screen footer -->
-  <string name="About.footer">Készítette a DigiWallet nemzetközi csapata. Verzió: %1$s</string>
+  <string name="About.footer">Készítette a eMark Wallet nemzetközi csapata. Verzió: %1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">Adatvédelmi Irányelvek</string>
   <!-- About screen reddit label -->
   <string name="About.reddit">Reddit</string>
   <!-- Terms of Use button label -->
   <string name="About.terms">Ez egy nyílt forráskódú projekt, a kód megtekinthető itt:
-https://github.com/Racecraft/digibytewallet-android
+https://github.com/emarkproject/eMarkwallet-android
 </string>
   <!--
   Terms of Use button label
   About screen title
   -->
-  <string name="About.title">DigiWallet Androinda a DigiByte mobil tárcája.</string>
+  <string name="About.title">eMark Wallet Androinda a eMark mobil tárcája.</string>
   <!-- About screen twitter label -->
   <string name="About.twitter">Twitter</string>
   <!-- Close modal button accessibility label -->
@@ -28,7 +28,7 @@ https://github.com/Racecraft/digibytewallet-android
   <!-- Loading Wallet Message -->
   <string name="Account.loadingMessage">Tárca betöltése</string>
   <!-- Default wallet name -->
-  <string name="AccountHeader.defaultWalletName">Az Én DigiWallet tárcám</string>
+  <string name="AccountHeader.defaultWalletName">Az Én eMark Wallet tárcám</string>
   <!-- Third party keyboard warning -->
   <string name="Alert.customKeyboard.android">"Úgy tűnik nem az operációs rendszer saját billentyűzetét használod, ez a billentyűzet mentheti amit gépelsz így ellophatja a Személyi Visszaállító Kulcsodat. A biztonság érdekében kérlek használd az Androind saját billentyűzetét. "</string>
   <!-- Error alert title -->
@@ -36,7 +36,7 @@ https://github.com/Racecraft/digibytewallet-android
   <!-- Keystore error -->
   <string name="Alert.keystore.generic.android">Probléma lépett fel az Android operációs rendszer keystore fájljával. Kérlek lépj kapcsolatba velünk a support@digibyte.io email címen.</string>
   <!-- KeyStore error, keys are invalidated -->
-  <string name="Alert.keystore.invalidated.android">A DigiWallet tárcád titkosított adatai az Android képernyőzárának kikapcsolása miatt érvénytelenítve lettek.</string>
+  <string name="Alert.keystore.invalidated.android">A eMark Wallet tárcád titkosított adatai az Android képernyőzárának kikapcsolása miatt érvénytelenítve lettek.</string>
   <!-- Keystore error title -->
   <string name="Alert.keystore.title.android">Android KeyStore Hiba</string>
   <!-- No internet alert message -->
@@ -58,7 +58,7 @@ https://github.com/Racecraft/digibytewallet-android
   <!-- Send success alert header label (confirmation that the send happened) -->
   <string name="Alerts.sendSuccess">Megerősítés küldése</string>
   <!-- Send success alert subheader label (e.g. the money was sent) -->
-  <string name="Alerts.sendSuccessSubheader">DigiByte elküldve!</string>
+  <string name="Alerts.sendSuccessSubheader">eMark elküldve!</string>
   <!-- Fingerprint was recognized by the scanner -->
   <string name="Alerts.touchIdSucceeded.android">Ujjlenyomat felismerve</string>
   <string name="all">MINDEN</string>
@@ -69,29 +69,29 @@ https://github.com/Racecraft/digibytewallet-android
   <!-- API Token error message -->
   <string name="ApiClient.tokenError">API token lekérése sikertelen</string>
   <!-- Send BCH view body. -->
-  <string name="BCH.body">Adj meg egy cél DigiByte címet alul. A szétválás idején (%1$s) a pénztárcádban található összes DigiByte  küldésre kerül.</string>
+  <string name="BCH.body">Adj meg egy cél eMark címet alul. A szétválás idején (%1$s) a pénztárcádban található összes eMark  küldésre kerül.</string>
   <!-- Confirm sending <$5.00> to <address>? -->
   <string name="BCH.confirmationMessage">Küldés megerősítése %1$s, %2$s címre.</string>
   <!-- Confirmation alert title -->
   <string name="BCH.confirmationTitle">Megerősítés</string>
   <!-- Generic bch erorr message -->
-  <string name="BCH.genericError">A számládon nincs DigiByte, vagy a szétválás után kaptad meg.</string>
+  <string name="BCH.genericError">A számládon nincs eMark, vagy a szétválás után kaptad meg.</string>
   <!-- Transaction ID copied message -->
   <string name="BCH.hashCopiedMessage">Tranzakcióazonosító másolva</string>
   <!-- No address error message -->
   <string name="BCH.noAddressError">Kérlek adj meg egy címet</string>
   <!-- Attempted to scan unsupported qr code error message. -->
-  <string name="BCH.paymentProtocolError">Fizetési protokollkérelmek nem támogatottak a DigiByte tranzakciókhoz</string>
+  <string name="BCH.paymentProtocolError">Fizetési protokollkérelmek nem támogatottak a eMark tranzakciókhoz</string>
   <!-- BCH successfully sent alert message -->
-  <string name="BCH.successMessage">DigiByte küldése sikeres volt.</string>
+  <string name="BCH.successMessage">eMark küldése sikeres volt.</string>
   <!-- Widthdraw BCH view title -->
-  <string name="BCH.title">DigiByte kiutalás</string>
+  <string name="BCH.title">eMark kiutalás</string>
   <!-- Tx Hash button header -->
-  <string name="BCH.txHashHeader">DigiByte tranzakcióazonosító</string>
+  <string name="BCH.txHashHeader">eMark tranzakcióazonosító</string>
   <!-- Approve button label -->
   <string name="BitID.approve">Jóváhagyás</string>
   <!-- <sitename> is requesting authentication using your bitcoin wallet -->
-  <string name="BitID.authenticationRequest">%1$s hitelesítést kér a DigiWallet használatához</string>
+  <string name="BitID.authenticationRequest">%1$s hitelesítést kér a eMark Wallet használatához</string>
   <!-- Deny button label -->
   <string name="BitID.deny">Megtagadás</string>
   <!-- BitID error alert title -->
@@ -101,7 +101,7 @@ https://github.com/Racecraft/digibytewallet-android
   <!-- BitID success alert title -->
   <string name="BitID.success">Sikeres hitelesítés</string>
   <!-- BitID Authentication Request alert view title -->
-  <string name="BitID.title">DigiID Hitelesítési Kérelem</string>
+  <string name="BitID.title">eMarkID Hitelesítési Kérelem</string>
   <!-- Cancel button label -->
   <string name="Button.cancel">Mégse</string>
   <!-- Ignore button label -->
@@ -146,7 +146,7 @@ https://github.com/Racecraft/digibytewallet-android
   <string name="current_amount">Jelenlegi érték: %s</string>
   <string name="date">Dátum</string>
   <!-- Bitcoin denomination picker label -->
-  <string name="DefaultCurrency.bitcoinLabel">DigiByte Kijelző Egység</string>
+  <string name="DefaultCurrency.bitcoinLabel">eMark Kijelző Egység</string>
   <!--
   Bitcoin denomination picker label
   Exchange rate label
@@ -157,7 +157,7 @@ https://github.com/Racecraft/digibytewallet-android
   <!-- Email unavailable alert title -->
   <string name="ErrorMessages.emailUnavailableTitle">Email nem elérhető</string>
   <!-- Message that gets shown when we've detected the user has encountered the looping lock-screen bug. (preserve [ ] characters) -->
-  <string name="ErrorMessages.loopingLockScreen.android">A DigiWallet hitelesítése nem lehetséges egy az általad használt Android verzió egy hibája miatt [További információért érintsd meg a képernyőt itt]</string>
+  <string name="ErrorMessages.loopingLockScreen.android">A eMark Wallet hitelesítése nem lehetséges egy az általad használt Android verzió egy hibája miatt [További információért érintsd meg a képernyőt itt]</string>
   <!-- Messaging unavailable alert title -->
   <string name="ErrorMessages.messagingUnavailableMessage">Ez az eszköz nincs beállítva üzenet küldésére.</string>
   <!-- Messaging unavailable alert title -->
@@ -181,7 +181,7 @@ https://github.com/Racecraft/digibytewallet-android
   <!-- Checking private key balance progress view text -->
   <string name="Import.checking">Személyi Kulcs egyenlegének ellenőrzése…</string>
   <!-- Sweep private key confirmation message -->
-  <string name="Import.confirm">%1$@ küldés  a Személyi Kulcsól a tárcádba? DigiByte hálózati díja %2$@.</string>
+  <string name="Import.confirm">%1$@ küldés  a Személyi Kulcsól a tárcádba? eMark hálózati díja %2$@.</string>
   <!-- Duplicate key error message -->
   <string name="Import.Error.duplicate">Ez a Személyi Kulcs már a tárcádban van.</string>
   <!-- empty private key error message -->
@@ -199,13 +199,13 @@ https://github.com/Racecraft/digibytewallet-android
   <!-- Caption for graphics -->
   <string name="Import.leftCaption">Importálandó tárca</string>
   <!-- Import wallet intro screen message -->
-  <string name="Import.message">Egy tárca importálása a tárcán található összes DigiByteot egyetlen tranzakcióval a DigiWallet tárcádra utalja.</string>
+  <string name="Import.message">Egy tárca importálása a tárcán található összes eMarkot egyetlen tranzakcióval a eMark Wallet tárcádra utalja.</string>
   <!-- Enter password alert view title -->
   <string name="Import.password">Ez a Személyi Kulcs jelszóval védett.</string>
   <!-- password textfield placeholder -->
   <string name="Import.passwordPlaceholder">Jelszó</string>
   <!-- Caption for graphics -->
-  <string name="Import.rightCaption">A te DigiWallet tárcád</string>
+  <string name="Import.rightCaption">A te eMark Wallet tárcád</string>
   <!-- Scan Private key button label -->
   <string name="Import.scan">Személyi Kulcs beolvasása</string>
   <!-- Import wallet success alert title -->
@@ -226,18 +226,18 @@ https://github.com/Racecraft/digibytewallet-android
   <!-- Ignore jailbreak warning button -->
   <string name="JailbreakWarnings.ignore">Mellőzés</string>
   <!-- Jailbreak warning message -->
-  <string name="JailbreakWarnings.messageWithBalance">A  KÉSZÜLÉK BIZTONSÁGA VESZÉLYEZTETETT\n Minden \'feltörő\' alkalmazás hozzáférhet a DigiWallet kulcstartó adataihoz és ellophatja DigiByte-jaidat! Töröld ezt a tárcát és állítsd helyre egy biztonságos eszközön.</string>
+  <string name="JailbreakWarnings.messageWithBalance">A  KÉSZÜLÉK BIZTONSÁGA VESZÉLYEZTETETT\n Minden \'feltörő\' alkalmazás hozzáférhet a eMark Wallet kulcstartó adataihoz és ellophatja eMark-jaidat! Töröld ezt a tárcát és állítsd helyre egy biztonságos eszközön.</string>
   <!--
   Ignore jailbreak warning button
   Jailbreak warning message
   -->
-  <string name="JailbreakWarnings.messageWithoutBalance">A  KÉSZÜLÉK BIZTONSÁGA VESZÉLYEZTETETTCOMPROMISED\n Minden \'feltörő\' alkalmazás hozzáférhet a DigiWallet kulcstartó adataihoz és ellophatja a DigiByte-jaidat. Kérlek csak nem feltört eszközön használd a DigiWalletet.</string>
+  <string name="JailbreakWarnings.messageWithoutBalance">A  KÉSZÜLÉK BIZTONSÁGA VESZÉLYEZTETETTCOMPROMISED\n Minden \'feltörő\' alkalmazás hozzáférhet a eMark Wallet kulcstartó adataihoz és ellophatja a eMark-jaidat. Kérlek csak nem feltört eszközön használd a eMark Walletet.</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">FIGYELMEZTETÉS</string>
   <!-- Location services disabled error -->
   <string name="LocationPlugin.disabled">A helymeghatározás le van tiltva.</string>
   <!-- No permissions for location services -->
-  <string name="LocationPlugin.notAuthorized">A DigiWalletnek nincs engedélye a helymeghatározási szolgáltatások eléréséhez.</string>
+  <string name="LocationPlugin.notAuthorized">A eMark Walletnek nincs engedélye a helymeghatározási szolgáltatások eléréséhez.</string>
   <!-- Wallet creation date prefix -->
   <string name="ManageWallet.creationDatePrefix">Tárca létrehozásának időpontja: %1$s</string>
   <!-- Manage wallet description text -->
@@ -281,7 +281,7 @@ https://github.com/Racecraft/digibytewallet-android
   <!-- Node status label -->
   <string name="NodeSelector.statusLabel">Csomópont csatlakozás állapota</string>
   <!-- Node Selector view title -->
-  <string name="NodeSelector.title">DigiByte Csomópontok</string>
+  <string name="NodeSelector.title">eMark Csomópontok</string>
   <string name="no_limit">Határ nélül</string>
   <string name="original_amount">Eredeti érték: %s</string>
   <!-- Bad Payment request alert title -->
@@ -295,9 +295,9 @@ https://github.com/Racecraft/digibytewallet-android
   <!-- Payment too small alert title -->
   <string name="PaymentProtocol.Errors.smallOutputError">Fizetés sikertelen</string>
   <!-- Amount too small error message -->
-  <string name="PaymentProtocol.Errors.smallPayment">DigiByte kifizetés nem lehet kevesebb mint %1$s.</string>
+  <string name="PaymentProtocol.Errors.smallPayment">eMark kifizetés nem lehet kevesebb mint %1$s.</string>
   <!-- Output too small error message. -->
-  <string name="PaymentProtocol.Errors.smallTransaction">DigiByte tranzakciós kimenetek nem lehetnek kevesebbek mint %1$s.</string>
+  <string name="PaymentProtocol.Errors.smallTransaction">eMark tranzakciós kimenetek nem lehetnek kevesebbek mint %1$s.</string>
   <!-- Unsupported signature type payment protocol error message -->
   <string name="PaymentProtocol.Errors.unsupportedSignatureType">Nem támogatott aláírás típus</string>
   <!-- Untrusted certificate payment protocol error message -->
@@ -320,7 +320,7 @@ https://github.com/Racecraft/digibytewallet-android
   <!-- Transaction rejected prompt title -->
   <string name="Prompts.RecommendRescan.title">Tranzakció elutasítva</string>
   <!-- Share data prompt body -->
-  <string name="Prompts.ShareData.body">Segíts a DigiWallet fejlesztésében anonim adatok megosztásával</string>
+  <string name="Prompts.ShareData.body">Segíts a eMark Wallet fejlesztésében anonim adatok megosztásával</string>
   <!-- Share data prompt title -->
   <string name="Prompts.ShareData.title">Anonim adatok megosztása</string>
   <!-- Enable touch ID prompt body -->
@@ -334,11 +334,11 @@ https://github.com/Racecraft/digibytewallet-android
   <!-- Button on fingerprint prompt so the user can enter their PIN instead -->
   <string name="Prompts.TouchId.usePin.android">PIN</string>
   <!-- Upgrade PIN prompt body. -->
-  <string name="Prompts.UpgradePin.body">A DigiWallet 6 számjegyű PIN kóddal bővült. Itt érintsd meg a frissítéshez.</string>
+  <string name="Prompts.UpgradePin.body">A eMark Wallet 6 számjegyű PIN kóddal bővült. Itt érintsd meg a frissítéshez.</string>
   <!-- Upgrade PIN prompt title. -->
   <string name="Prompts.UpgradePin.title">PIN kód frissítése</string>
   <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
-  <string name="PushNotifications.body">Kapcsold be az értesítéseket, hogy a jövőben speciális üzeneteket kaphass a DigiWallettől.</string>
+  <string name="PushNotifications.body">Kapcsold be az értesítéseket, hogy a jövőben speciális üzeneteket kaphass a eMark Wallettől.</string>
   <!-- Push notifications toggle switch label -->
   <string name="PushNotifications.label">Értesítések</string>
   <!-- Push notifications are off label -->
@@ -369,7 +369,7 @@ https://github.com/Racecraft/digibytewallet-android
   <!-- Enter paper key instruction -->
   <string name="RecoverWallet.instruction">Személyi Visszaállító Kulcs megadása</string>
   <!-- Recover wallet intro -->
-  <string name="RecoverWallet.intro">DigiWallet tárca visszaállítása Személyi Visszaállító Kulcs segítségével.</string>
+  <string name="RecoverWallet.intro">eMark Wallet tárca visszaállítása Személyi Visszaállító Kulcs segítségével.</string>
   <!-- Invalid paper key message -->
   <string name="RecoverWallet.invalid">A megadott Személyi Visszaállító Kuncs érvénytelen. Kérlek ellenőrizz minden szót és próbáld újra.</string>
   <!-- Previous button accessibility label -->
@@ -391,19 +391,19 @@ https://github.com/Racecraft/digibytewallet-android
   <!-- Alert action button label -->
   <string name="ReScan.alertAction">Szinkronizálás</string>
   <!-- Alert message body -->
-  <string name="ReScan.alertMessage">Szinkronizálás közben nem tudsz DigiByte-ot küldeni.</string>
+  <string name="ReScan.alertMessage">Szinkronizálás közben nem tudsz eMark-ot küldeni.</string>
   <!-- Alert message title -->
   <string name="ReScan.alertTitle">Szinkronizálás a Blokklánccal?</string>
   <!-- extimated time -->
   <string name="ReScan.body1">20-45 perc</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body2">Ha egy tranzakció befejezettnek látszik a DigiByte hálózaton, de nem látszik a DigiWallet tárcában.</string>
+  <string name="ReScan.body2">Ha egy tranzakció befejezettnek látszik a eMark hálózaton, de nem látszik a eMark Wallet tárcában.</string>
   <!-- Syncing explanation -->
   <string name="ReScan.body3">Ismételt hibaüzenetet kapsz azzal, hogy a tranzakciód elutasításra került.</string>
   <!-- Start Sync button label -->
   <string name="ReScan.buttonTitle">Szinkronizálás indítása</string>
   <!-- Sync blockchain view footer -->
-  <string name="ReScan.footer">Szinkronizálás közben nem tudsz DigiByte-ot küldeni.</string>
+  <string name="ReScan.footer">Szinkronizálás közben nem tudsz eMark-ot küldeni.</string>
   <!-- Sync Blockchain view header -->
   <string name="ReScan.header">Szinkronizálás a Blokklánccal</string>
   <!-- Subheader label -->
@@ -423,17 +423,17 @@ https://github.com/Racecraft/digibytewallet-android
   <!-- Security Center Info -->
   <string name="SecurityCenter.info">A nagyobb biztonság érdekében az összes biztonsági funkciót engedélyezd.</string>
   <!-- Paper Key button description -->
-  <string name="SecurityCenter.paperKeyDescription">"Az egyetlen módja hogy hozzáférj a DigiByte-jaidhoz, ha elhagyod vagy lecseréled a telefonod. "</string>
+  <string name="SecurityCenter.paperKeyDescription">"Az egyetlen módja hogy hozzáférj a eMark-jaidhoz, ha elhagyod vagy lecseréled a telefonod. "</string>
   <!-- Paper Key button title -->
   <string name="SecurityCenter.paperKeyTitle">Személyi Visszaállító Kulcs</string>
   <!-- PIN button description -->
-  <string name="SecurityCenter.pinDescription">Védd DigiWallet tárcád jogosulatlan felhasználóktól.</string>
+  <string name="SecurityCenter.pinDescription">Védd eMark Wallet tárcád jogosulatlan felhasználóktól.</string>
   <!-- PIN button title -->
   <string name="SecurityCenter.pinTitle">6 számjegyű PIN kód</string>
   <!-- Security Center Title -->
   <string name="SecurityCenter.title">Biztonsági Központ</string>
   <!-- Touch ID button description -->
-  <string name="SecurityCenter.touchIdDescription">Férj hozzá kényelmesen a DigiWallet tárcádhoz és küldj DigiByte-ot a beállított összeghatárig.</string>
+  <string name="SecurityCenter.touchIdDescription">Férj hozzá kényelmesen a eMark Wallet tárcádhoz és küldj eMark-ot a beállított összeghatárig.</string>
   <!-- Touch ID button title -->
   <string name="SecurityCenter.touchIdTitle">Touch ID</string>
   <!-- Security center fingerprint authentication button -->
@@ -443,13 +443,13 @@ https://github.com/Racecraft/digibytewallet-android
   <!-- Balance: $4.00 -->
   <string name="Send.balance">Egyenleg: %1$s</string>
   <!-- Instructions how to allow the camera access for the app -->
-  <string name="Send.cameraUnavailabeMessage.android">Engedélyezd a kamerahozzáférést a \"Beállítások\" &gt; \"Alkalmazások\" &gt; \"DigiWallet\" &gt; \"Jogosultságok\" menüpontban</string>
+  <string name="Send.cameraUnavailabeMessage.android">Engedélyezd a kamerahozzáférést a \"Beállítások\" &gt; \"Alkalmazások\" &gt; \"eMark Wallet\" &gt; \"Jogosultságok\" menüpontban</string>
   <!-- Permission required to access camera -->
-  <string name="Send.cameraUnavailabeTitle.android">A DigiWalletnek nincs engedélye a kamera hozzáféréséhez</string>
+  <string name="Send.cameraUnavailabeTitle.android">A eMark Walletnek nincs engedélye a kamera hozzáféréséhez</string>
   <!-- Camera not allowed message -->
   <string name="Send.cameraunavailableMessage">Engedélyezd a kamerahozzáférést a Beállításokban</string>
   <!-- Camera not allowed alert title -->
-  <string name="Send.cameraUnavailableTitle">A DigiWalletnek nincs engedélye a kamera hozzáféréséhez</string>
+  <string name="Send.cameraUnavailableTitle">A eMark Walletnek nincs engedélye a kamera hozzáféréséhez</string>
   <!-- Warning when sending to self. -->
   <string name="Send.containsAddress">A címzett a saját címed. Nem küldhetsz saját magadnak.</string>
   <!-- Could not create transaction alert title -->
@@ -463,9 +463,9 @@ https://github.com/Racecraft/digibytewallet-android
   <!-- Payee identity not certified alert title. -->
   <string name="Send.identityNotCertified">A kedvezményezett személyazonossága nincs igazolva.</string>
   <!-- Invalid address alert message -->
-  <string name="Send.invalidAddressMessage">A címzett cím nem egy érvényes DigiByte cím.</string>
+  <string name="Send.invalidAddressMessage">A címzett cím nem egy érvényes eMark cím.</string>
   <!-- Invalid address on pasteboard message -->
-  <string name="Send.invalidAddressOnPasteboard">Az vágólap nem tartalmaz érvényes DigiByte címet.</string>
+  <string name="Send.invalidAddressOnPasteboard">Az vágólap nem tartalmaz érvényes eMark címet.</string>
   <!-- Invalid address alert title -->
   <string name="Send.invalidAddressTitle">Érvénytelen cím</string>
   <!-- Is rescanning error message -->
@@ -491,7 +491,7 @@ https://github.com/Racecraft/digibytewallet-android
   <!-- Send money to label -->
   <string name="Send.toLabel">Címzett</string>
   <!-- Adress already used alert message - first part -->
-  <string name="Send.UsedAddress.firstLine">A DigiByte címek csak egyszer használatosak.</string>
+  <string name="Send.UsedAddress.firstLine">A eMark címek csak egyszer használatosak.</string>
   <!-- Adress already used alert message - second part -->
   <string name="Send.UsedAddress.secondLIne">A címek újbóli felhasználása csökkenti az adatvédelmet mind a címzett és saját magad számára ami veszteséget okozhat amennyiben a címzett nem cím közvetlen felügyelője.</string>
   <!-- Adress already used alert title -->
@@ -506,11 +506,11 @@ https://github.com/Racecraft/digibytewallet-android
   <!-- Join Early access label -->
   <string name="Settings.earlyAccess">Csatlakozz a korai hozzáféréshez</string>
   <!-- Are you enjoying bread alert message body -->
-  <string name="Settings.enjoying">Tetszik a DigiWallet alkalmazás?</string>
+  <string name="Settings.enjoying">Tetszik a eMark Wallet alkalmazás?</string>
   <!-- Import wallet left message -->
   <string name="Settings.importLeftMessage">Importálandó tárca</string>
   <!-- Import wallet right message -->
-  <string name="Settings.importRightMessage">A te DigiWallet tárcád</string>
+  <string name="Settings.importRightMessage">A te eMark Wallet tárcád</string>
   <!-- Import wallet label -->
   <string name="Settings.importTitle">Tárca importálása</string>
   <!-- Manage settings section header -->
@@ -518,7 +518,7 @@ https://github.com/Racecraft/digibytewallet-android
   <!-- Notifications label -->
   <string name="Settings.notifications">Értesítések</string>
   <!-- Restore screen lower label. -->
-  <string name="Settings.restore_label">A DigiWallet tárcád ezen az eszközön</string>
+  <string name="Settings.restore_label">A eMark Wallet tárcád ezen az eszközön</string>
   <!-- Leave review button label -->
   <string name="Settings.review">Hagyj visszajelyést</string>
   <!-- Share anonymous data label -->
@@ -536,7 +536,7 @@ https://github.com/Racecraft/digibytewallet-android
   <!-- Start or recover another wallet menu label. -->
   <string name="Settings.wipe">Másik tárca nyitása/visszaállítása</string>
   <!-- Share data view body -->
-  <string name="ShareData.body">Segíts a DigiWallet fejlesztésében anonim adatok megosztásával. Pénzügyi információk nem kerülnek megosztásra. Tiszteletben tartjuk a pénzügyi magánéleted.</string>
+  <string name="ShareData.body">Segíts a eMark Wallet fejlesztésében anonim adatok megosztásával. Pénzügyi információk nem kerülnek megosztásra. Tiszteletben tartjuk a pénzügyi magánéleted.</string>
   <!-- Share data header -->
   <string name="ShareData.header">Adat megosztás?</string>
   <!-- Share data switch label. -->
@@ -544,13 +544,13 @@ https://github.com/Racecraft/digibytewallet-android
   <!-- button label -->
   <string name="StartPaperPhrase.againButtonTitle">Írd le a Személyi Visszaállító Kulcsot újra</string>
   <!-- Paper key explanation text. -->
-  <string name="StartPaperPhrase.body">Személyi Visszaállító Kulcs az egyetlen módja, hogy visszaállítsd DigiWallet tárcád ha a elhagynád, ellopnák, tönkre menne vagy frissítenéd a telefonod\n\nMutatunk neked egy listát szavakkal, amiket írj le egy papírra és tedd el biztonságos helyre.</string>
+  <string name="StartPaperPhrase.body">Személyi Visszaállító Kulcs az egyetlen módja, hogy visszaállítsd eMark Wallet tárcád ha a elhagynád, ellopnák, tönkre menne vagy frissítenéd a telefonod\n\nMutatunk neked egy listát szavakkal, amiket írj le egy papírra és tedd el biztonságos helyre.</string>
   <!-- button label -->
   <string name="StartPaperPhrase.buttonTitle">Írd le a Személyi Visszaállító Kulcsot</string>
   <!-- Argument is date -->
   <string name="StartPaperPhrase.date">Utoljára ekkor írtad le a Személyi Visszaállító Kulcsod: %1$s</string>
   <!-- Start view message -->
-  <string name="StartViewController.message">A legbiztonságosabb mód a DigiByte használatára.</string>
+  <string name="StartViewController.message">A legbiztonságosabb mód a eMark használatára.</string>
   <!-- Syncing view connectiong state header text -->
   <string name="SyncingView.connecting">Csatlakozás</string>
   <!-- Syncing view header text -->
@@ -576,13 +576,13 @@ https://github.com/Racecraft/digibytewallet-android
   <!-- Fingerprint Is Not Setup -->
   <string name="TouchIdSettings.disabledWarning.title.android">Az ujjlenyomatolvasó nincs engedélyezve</string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">Használd az ujjlenyomatod DigiWallet tárcád feloldásához és DigiByte küldéséhez egy beállítható határértékig.</string>
+  <string name="TouchIdSettings.label">Használd az ujjlenyomatod eMark Wallet tárcád feloldásához és eMark küldéséhez egy beállítható határértékig.</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
   <string name="TouchIdSettings.linkText">Touch ID Költési Limit Képernyő</string>
   <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">Költési Limit: %1$s (%2$s)</string>
   <!-- Touch id switch label. -->
-  <string name="TouchIdSettings.switchLabel">Touch ID engedélyezése a DigiWallet számára</string>
+  <string name="TouchIdSettings.switchLabel">Touch ID engedélyezése a eMark Wallet számára</string>
   <!-- Enable fingerprint for this wallet called Bread -->
   <string name="TouchIdSettings.switchLabel.android">Ujjlenyomatolvasó engedélyezése</string>
   <!-- Touch ID settings view title -->
@@ -663,7 +663,7 @@ https://github.com/Racecraft/digibytewallet-android
   <!-- "Sent [$5] to [address]" => This is the "to [address]" part. -->
   <string name="TransactionDetails.to">%1$s címre</string>
   <!-- Transaction ID header -->
-  <string name="TransactionDetails.txHashHeader">DigiByte tranzakcióazonosító</string>
+  <string name="TransactionDetails.txHashHeader">eMark tranzakcióazonosító</string>
   <!-- (this transaction was) Received at this address: -->
   <string name="TransactionDirection.address">Erre a címre érkezett</string>
   <!-- (this transaction was) Sent to this address: -->
@@ -681,7 +681,7 @@ https://github.com/Racecraft/digibytewallet-android
   <!-- Instruction to touch the sensor for fingerprint authentication -->
   <string name="UnlockScreen.touchIdInstructions.android">Érintsd meg a szenzort</string>
   <!-- TouchID prompt text -->
-  <string name="UnlockScreen.touchIdPrompt">DigiWallet feloldása.</string>
+  <string name="UnlockScreen.touchIdPrompt">eMark Wallet feloldása.</string>
   <!-- Device authentication body -->
   <string name="UnlockScreen.touchIdPrompt.android">Old fel at Android készüléked a folytatáshoz</string>
   <!-- Unlock with TouchID accessibility label -->
@@ -691,9 +691,9 @@ https://github.com/Racecraft/digibytewallet-android
   <!-- Wallet unlocked message -->
   <string name="UnlockScreen.unlocked">Tárca feloldva</string>
   <!-- Update PIN caption text -->
-  <string name="UpdatePin.caption">Jegyezd meg ezt a PIN kódot. Nem fogsz tudni hozzáférni a DigiByte-jaidhoz ha elfelejted.</string>
+  <string name="UpdatePin.caption">Jegyezd meg ezt a PIN kódot. Nem fogsz tudni hozzáférni a eMark-jaidhoz ha elfelejted.</string>
   <!-- PIN creation info. -->
-  <string name="UpdatePin.createInstruction">A PIN kódod a DigiWallet tárcád feloldásához és DigiByte küldéséhez lesz használva</string>
+  <string name="UpdatePin.createInstruction">A PIN kódod a eMark Wallet tárcád feloldásához és eMark küldéséhez lesz használva</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">PIN kód beállítása</string>
   <!-- Update PIN title -->
@@ -727,7 +727,7 @@ https://github.com/Racecraft/digibytewallet-android
   <!-- Authorize transaction with touch id message -->
   <string name="VerifyPin.touchIdMessage">Engedélyezd a tranzakciót.</string>
   <!-- 'No wallet' warning for watch app -->
-  <string name="Watch.noWalletWarning">Új tárca létrehozásához nyitst meg a DigiWallet Android applikációt.</string>
+  <string name="Watch.noWalletWarning">Új tárca létrehozásához nyitst meg a eMark Wallet Android applikációt.</string>
   <!-- Dismiss button label -->
   <string name="Webview.dismiss">Elutasítás</string>
   <!-- Webview loading error message -->
@@ -735,9 +735,9 @@ https://github.com/Racecraft/digibytewallet-android
   <!-- Updating webview message -->
   <string name="Webview.updating">Frissítés...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">A DigiWallet megújult külsővel és számos új funkciót rendelkezik.\n\nHa segítségre lenne szükséged keresd a (?) jelet a képernyő jobb felső sarkában.</string>
+  <string name="Welcome.body">A eMark Wallet megújult külsővel és számos új funkciót rendelkezik.\n\nHa segítségre lenne szükséged keresd a (?) jelet a képernyő jobb felső sarkában.</string>
   <!-- Top title of welcome screen -->
-  <string name="Welcome.title">Üdvözöl a DigiWallet!</string>
+  <string name="Welcome.title">Üdvözöl a eMark Wallet!</string>
   <!-- Wipe wallet alert message -->
   <string name="WipeWallet.alertMessage">Biztos szeretnéd törölni ezt tárcát?</string>
   <!-- Wipe wallet alert title -->
@@ -749,7 +749,7 @@ https://github.com/Racecraft/digibytewallet-android
   <!-- Enter phrase to wipe wallet instruction. -->
   <string name="WipeWallet.instruction">Új tárca létrehozása vagy egy már létező tárca visszaállítása előtt törölnöd kell az éppen használatban lévő tárcát. A továbblepéshez add meg a használatban lévő tárca Személyi Visszaállító Kulcsát.</string>
   <!-- Start wipe wallet view message -->
-  <string name="WipeWallet.startMessage">Tárca létrehozása vagy visszaállítása segítségével hozzáférhetsz egy már létező DigiWallet tárcához ezen az eszközön.</string>
+  <string name="WipeWallet.startMessage">Tárca létrehozása vagy visszaállítása segítségével hozzáférhetsz egy már létező eMark Wallet tárcához ezen az eszközön.</string>
   <!-- Start wipe wallet view warning -->
   <string name="WipeWallet.startWarning">A tárcád el lesz távolítva erről az eszközről. Amennyiben később vissza szeretnéd állítani, szükséged lesz a Személyi Visszaállító Kulcsra.</string>
   <!-- Wipe wallet navigation item title. -->

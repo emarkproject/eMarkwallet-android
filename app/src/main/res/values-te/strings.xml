@@ -9,7 +9,7 @@
   <!-- Privay Policy button label -->
   <string name="About.privacy">వివరాలను గోప్యంగా ఉంచే విధానాలు</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/DeutscheeMark/</string>
   <!-- Terms of Use button label -->
   <string name="About.terms">ఉపయోగించేటప్పుడు పాటించాల్సిన నిబంధనలు</string>
   <!--
@@ -18,7 +18,7 @@
   -->
   <string name="About.title">విషయాన్ని గురించి</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/deutsche_emark</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">"మూసివేయండి "</string>
   <!-- Support center accessibiliy label -->
@@ -67,25 +67,25 @@
   <!-- API Token error message -->
   <string name="ApiClient.tokenError">API టోకెన్‌ను తిరిగి ఇవ్వలేకపోతున్నాము</string>
   <!-- Send BCH view body. -->
-  <string name="BCH.body">మీరు చేరుకోవలసిన DGB చిరునామాను క్రింద నమోదు చేయండి. అన్నిDGB విడిపోయే/fork (%1$s) సమయంలో మీ వాలెట్ లో వేయబడతాయి.</string>
+  <string name="BCH.body">మీరు చేరుకోవలసిన DEM చిరునామాను క్రింద నమోదు చేయండి. అన్నిDEM విడిపోయే/fork (%1$s) సమయంలో మీ వాలెట్ లో వేయబడతాయి.</string>
   <!-- Confirm sending <$5.00> to <address>? -->
   <string name="BCH.confirmationMessage">%1$s ను %2$s కి పంపడం నిర్ధారించబడింది</string>
   <!-- Confirmation alert title -->
   <string name="BCH.confirmationTitle">నిర్ధారణ</string>
   <!-- Generic bch erorr message -->
-  <string name="BCH.genericError">మీ అకౌంట్‌లో ఏమీ DGB,లు లేవు, లేదా ఫోర్క్ తరువాత మీకు DGBలు అందినవి.</string>
+  <string name="BCH.genericError">మీ అకౌంట్‌లో ఏమీ DEM,లు లేవు, లేదా ఫోర్క్ తరువాత మీకు DEMలు అందినవి.</string>
   <!-- Transaction ID copied message -->
   <string name="BCH.hashCopiedMessage">లావాదేవీల/ట్రాన్సాక్షన్ ఐడి కాపీ చేయబడింది.</string>
   <!-- No address error message -->
   <string name="BCH.noAddressError">"దయచేసి చిరునామాను నమోదు చేయండి "</string>
   <!-- Attempted to scan unsupported qr code error message. -->
-  <string name="BCH.paymentProtocolError">చెల్లింపుల నియమనిబంధనలకు సంబంధించిన అభ్యర్థనలు, DGB లావాదేవీలకు వర్తించవు.</string>
+  <string name="BCH.paymentProtocolError">చెల్లింపుల నియమనిబంధనలకు సంబంధించిన అభ్యర్థనలు, DEM లావాదేవీలకు వర్తించవు.</string>
   <!-- BCH successfully sent alert message -->
-  <string name="BCH.successMessage">DGB సమర్ధవంతంగా పంపించబడింది.</string>
+  <string name="BCH.successMessage">DEM సమర్ధవంతంగా పంపించబడింది.</string>
   <!-- Widthdraw BCH view title -->
-  <string name="BCH.title">DGBను వెనక్కి తీసుకోండి</string>
+  <string name="BCH.title">DEMను వెనక్కి తీసుకోండి</string>
   <!-- Tx Hash button header -->
-  <string name="BCH.txHashHeader">DGB  ట్రాన్సాక్షన్ ఐడి</string>
+  <string name="BCH.txHashHeader">DEM  ట్రాన్సాక్షన్ ఐడి</string>
   <!-- Approve button label -->
   <string name="BitID.approve">"ఆమోదించండి "</string>
   <!-- <sitename> is requesting authentication using your bitcoin wallet -->
@@ -441,7 +441,7 @@
   <!-- Balance: $4.00 -->
   <string name="Send.balance">మిగిలింది: %1$@</string>
   <!-- Instructions how to allow the camera access for the app -->
-  <string name="Send.cameraUnavailabeMessage.android">\"Settings\"&gt;\"Apps\"&gt;\"DigiByte\"&gt;\"Permissions\" లో కెమెరా ప్రాప్యతను అనుమతించండి</string>
+  <string name="Send.cameraUnavailabeMessage.android">\"Settings\"&gt;\"Apps\"&gt;\"eMark\"&gt;\"Permissions\" లో కెమెరా ప్రాప్యతను అనుమతించండి</string>
   <!-- Permission required to access camera -->
   <string name="Send.cameraUnavailabeTitle.android">డిజీబైట్‌కు కెమెరా వినియోగానికి అనుమతి లేదు.</string>
   <!-- Camera not allowed message -->

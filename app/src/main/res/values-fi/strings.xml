@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
   <!-- App name -->
-  <string name="About.appName.android">DigiWallet</string>
+  <string name="About.appName.android">eMark Wallet</string>
   <!-- About screen blog label -->
   <string name="About.blog">https://digibyte.io/</string>
   <!-- About screen footer -->
-  <string name="About.footer">Tämän on valmistanut globaali DigiWallet tiimi. Versio %1$s</string>
+  <string name="About.footer">Tämän on valmistanut globaali eMark Wallet tiimi. Versio %1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">Yksityisyyskäytäntö</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/DeutscheeMark/</string>
   <!-- Terms of Use button label -->
-  <string name="About.terms">Tämä on avoimen lähdekoodin projekti. Voit käydä läpi koodia täällä: https://github.com/Racecraft/digibytewallet-android</string>
+  <string name="About.terms">Tämä on avoimen lähdekoodin projekti. Voit käydä läpi koodia täällä: https://github.com/emarkproject/eMarkwallet-android</string>
   <!--
   Terms of Use button label
   About screen title
   -->
-  <string name="About.title">DigiWallet Androidille on DigiByten mobiili lompakko.</string>
+  <string name="About.title">eMark Wallet Androidille on eMarkn mobiili lompakko.</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/deutsche_emark</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">Sulje</string>
   <!-- Support center accessibiliy label -->
@@ -26,7 +26,7 @@
   <!-- Loading Wallet Message -->
   <string name="Account.loadingMessage">Ladataan Lompakkoa</string>
   <!-- Default wallet name -->
-  <string name="AccountHeader.defaultWalletName">Minun DigiWallet</string>
+  <string name="AccountHeader.defaultWalletName">Minun eMark Wallet</string>
   <!-- Third party keyboard warning -->
   <string name="Alert.customKeyboard.android">Näyttää siltä että käytät kolmannen osapuolen näppäimistöä mikä voi tallentaa kirjoitustasi ja varastaa sinun henkilökohtaisen palautusavaimen. Ole hyvä ja vaihda Androidin oletus näppäimistöön lisäturvaksi.</string>
   <!-- Error alert title -->
@@ -34,7 +34,7 @@
   <!-- Keystore error -->
   <string name="Alert.keystore.generic.android">Sinun Android OS keystoressa on ongelma, ole hyvä ja ota yhteyttä support@digibyte.io</string>
   <!-- KeyStore error, keys are invalidated -->
-  <string name="Alert.keystore.invalidated.android">Sinun DigiWalletin salatut tiedot ovat juuri mitätöity, koska sinun Androidin näytönlukitus on otettu pois käytöstä.</string>
+  <string name="Alert.keystore.invalidated.android">Sinun eMark Walletin salatut tiedot ovat juuri mitätöity, koska sinun Androidin näytönlukitus on otettu pois käytöstä.</string>
   <!-- Keystore error title -->
   <string name="Alert.keystore.title.android">Android KeyStore virhe</string>
   <!-- No internet alert message -->
@@ -56,7 +56,7 @@
   <!-- Send success alert header label (confirmation that the send happened) -->
   <string name="Alerts.sendSuccess">Lähetys vahvistettu</string>
   <!-- Send success alert subheader label (e.g. the money was sent) -->
-  <string name="Alerts.sendSuccessSubheader">DigiByte lähetetty!</string>
+  <string name="Alerts.sendSuccessSubheader">eMark lähetetty!</string>
   <!-- Fingerprint was recognized by the scanner -->
   <string name="Alerts.touchIdSucceeded.android">Sormenjälki tunnistettu</string>
   <string name="all">Kaikki</string>
@@ -67,29 +67,29 @@
   <!-- API Token error message -->
   <string name="ApiClient.tokenError">API merkkiä ei pystytty noutamaan</string>
   <!-- Send BCH view body. -->
-  <string name="BCH.body">Kirjoita tämän alle kohteen DigiByte-osoite. Kaikki DigiBytet jotka ovat lompakossasi haarautuman aikana (%1$s) tullaan lähettämään.</string>
+  <string name="BCH.body">Kirjoita tämän alle kohteen eMark-osoite. Kaikki eMarkt jotka ovat lompakossasi haarautuman aikana (%1$s) tullaan lähettämään.</string>
   <!-- Confirm sending <$5.00> to <address>? -->
   <string name="BCH.confirmationMessage">Vahvista %1$s lähetys osoitteeseen %2$s</string>
   <!-- Confirmation alert title -->
   <string name="BCH.confirmationTitle">Vahvistus</string>
   <!-- Generic bch erorr message -->
-  <string name="BCH.genericError">Sinun tililläsi ei ole yhtään DigiByteä, tai olet vastaanottanut DigiBytejä haarautumisen jälkeen.</string>
+  <string name="BCH.genericError">Sinun tililläsi ei ole yhtään eMarkä, tai olet vastaanottanut eMarkjä haarautumisen jälkeen.</string>
   <!-- Transaction ID copied message -->
   <string name="BCH.hashCopiedMessage">Transaktio-ID kopioitu</string>
   <!-- No address error message -->
   <string name="BCH.noAddressError">Ole hyvä ja kirjoita osoite</string>
   <!-- Attempted to scan unsupported qr code error message. -->
-  <string name="BCH.paymentProtocolError">Maksuprotokolla Pyynnöt eivät ole tuettuja DigiByte transaktioille</string>
+  <string name="BCH.paymentProtocolError">Maksuprotokolla Pyynnöt eivät ole tuettuja eMark transaktioille</string>
   <!-- BCH successfully sent alert message -->
-  <string name="BCH.successMessage">DigiByte lähetettiin onnistuneesti.</string>
+  <string name="BCH.successMessage">eMark lähetettiin onnistuneesti.</string>
   <!-- Widthdraw BCH view title -->
-  <string name="BCH.title">Nosta DigiBytejä</string>
+  <string name="BCH.title">Nosta eMarkjä</string>
   <!-- Tx Hash button header -->
-  <string name="BCH.txHashHeader">DGB Transaktion ID</string>
+  <string name="BCH.txHashHeader">DEM Transaktion ID</string>
   <!-- Approve button label -->
   <string name="BitID.approve">Hyväksy</string>
   <!-- <sitename> is requesting authentication using your bitcoin wallet -->
-  <string name="BitID.authenticationRequest">%1$s pyytää todennusta käyttäen sinun DigiByte lompakkoa.</string>
+  <string name="BitID.authenticationRequest">%1$s pyytää todennusta käyttäen sinun eMark lompakkoa.</string>
   <!-- Deny button label -->
   <string name="BitID.deny">Kiellä</string>
   <!-- BitID error alert title -->
@@ -99,7 +99,7 @@
   <!-- BitID success alert title -->
   <string name="BitID.success">"Todennettu onnistuneesti "</string>
   <!-- BitID Authentication Request alert view title -->
-  <string name="BitID.title">DigiID todennus pyyntö</string>
+  <string name="BitID.title">eMarkID todennus pyyntö</string>
   <!-- Cancel button label -->
   <string name="Button.cancel">Peruuta</string>
   <!-- Ignore button label -->
@@ -144,7 +144,7 @@
   <string name="current_amount">Nykyinen arvo: %s</string>
   <string name="date">Päivä</string>
   <!-- Bitcoin denomination picker label -->
-  <string name="DefaultCurrency.bitcoinLabel">DigiByte yksikkö näyttö</string>
+  <string name="DefaultCurrency.bitcoinLabel">eMark yksikkö näyttö</string>
   <!--
   Bitcoin denomination picker label
   Exchange rate label
@@ -155,7 +155,7 @@
   <!-- Email unavailable alert title -->
   <string name="ErrorMessages.emailUnavailableTitle">Sähköposti ei ole saatavilla</string>
   <!-- Message that gets shown when we've detected the user has encountered the looping lock-screen bug. (preserve [ ] characters) -->
-  <string name="ErrorMessages.loopingLockScreen.android">DigiWallettia ei voida todentaa sinun Android versiossa olevan bugin takia. [Napauta tähän saadaksesi lisää tietoa.]</string>
+  <string name="ErrorMessages.loopingLockScreen.android">eMark Wallettia ei voida todentaa sinun Android versiossa olevan bugin takia. [Napauta tähän saadaksesi lisää tietoa.]</string>
   <!-- Messaging unavailable alert title -->
   <string name="ErrorMessages.messagingUnavailableMessage">Tämä laite ei ole määritetty lähettämään viestejä.</string>
   <!-- Messaging unavailable alert title -->
@@ -179,7 +179,7 @@
   <!-- Checking private key balance progress view text -->
   <string name="Import.checking">Tarkistetaan yksityisen avaimen saldo...</string>
   <!-- Sweep private key confirmation message -->
-  <string name="Import.confirm">Lähetä %1$s tästä yksityisestä avaimesta lompakkoosi?  DigiByte-verkko tulee saamaan %2$s suuruisen palkkion.</string>
+  <string name="Import.confirm">Lähetä %1$s tästä yksityisestä avaimesta lompakkoosi?  eMark-verkko tulee saamaan %2$s suuruisen palkkion.</string>
   <!-- Duplicate key error message -->
   <string name="Import.Error.duplicate">Tämä yksityinen avain on jo lompakossasi.</string>
   <!-- empty private key error message -->
@@ -197,13 +197,13 @@
   <!-- Caption for graphics -->
   <string name="Import.leftCaption">Lompakko joka tuodaan</string>
   <!-- Import wallet intro screen message -->
-  <string name="Import.message">Lompakon tuonti siirtää kaikki rahat toisesta lompakostasi sinun DigiWallettiin käyttäen yhtä transaktiota.</string>
+  <string name="Import.message">Lompakon tuonti siirtää kaikki rahat toisesta lompakostasi sinun eMark Wallettiin käyttäen yhtä transaktiota.</string>
   <!-- Enter password alert view title -->
   <string name="Import.password">Tämä yksityinen avain on salasanasuojattu.</string>
   <!-- password textfield placeholder -->
   <string name="Import.passwordPlaceholder">salasana</string>
   <!-- Caption for graphics -->
-  <string name="Import.rightCaption">Sinun DigiWallet</string>
+  <string name="Import.rightCaption">Sinun eMark Wallet</string>
   <!-- Scan Private key button label -->
   <string name="Import.scan">Skannaa yksityinen avain</string>
   <!-- Import wallet success alert title -->
@@ -223,18 +223,18 @@
   <!-- Ignore jailbreak warning button -->
   <string name="JailbreakWarnings.ignore">Ohita</string>
   <!-- Jailbreak warning message -->
-  <string name="JailbreakWarnings.messageWithBalance">LAITTEEN TURVALLISUUS VAARANNETTU\nMikä tahansa \'jailbreak\' app voi päästä käsiksi DigiWalletin keychain tietoihin ja varastaa sinun DigiBytet! Pyyhi tämä lompakko välittömästi ja palauta se turvalliselle laitteelle.</string>
+  <string name="JailbreakWarnings.messageWithBalance">LAITTEEN TURVALLISUUS VAARANNETTU\nMikä tahansa \'jailbreak\' app voi päästä käsiksi eMark Walletin keychain tietoihin ja varastaa sinun eMarkt! Pyyhi tämä lompakko välittömästi ja palauta se turvalliselle laitteelle.</string>
   <!--
   Ignore jailbreak warning button
   Jailbreak warning message
   -->
-  <string name="JailbreakWarnings.messageWithoutBalance">LAITTEEN TURVALLISUUS VAARANNETTU\nMikä tahansa \'jailbreak\' app voi päästä käsiksi DigiWalletin keychain tietoihin ja varastaa sinun DigiBytet! Ole hyvä ja käytä DigiWallet:tia vain laitteeella joka ei ole jailbroken.</string>
+  <string name="JailbreakWarnings.messageWithoutBalance">LAITTEEN TURVALLISUUS VAARANNETTU\nMikä tahansa \'jailbreak\' app voi päästä käsiksi eMark Walletin keychain tietoihin ja varastaa sinun eMarkt! Ole hyvä ja käytä eMark Wallet:tia vain laitteeella joka ei ole jailbroken.</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">VAROITUS</string>
   <!-- Location services disabled error -->
   <string name="LocationPlugin.disabled">Sijaintipalvelut ovat poissa käytöstä.</string>
   <!-- No permissions for location services -->
-  <string name="LocationPlugin.notAuthorized">DigiWalletilla ei ole oikeutta päästä käsiksi sijaintipalveluihin.</string>
+  <string name="LocationPlugin.notAuthorized">eMark Walletilla ei ole oikeutta päästä käsiksi sijaintipalveluihin.</string>
   <!-- Wallet creation date prefix -->
   <string name="ManageWallet.creationDatePrefix">Olet luonut lompakkosi %1$s</string>
   <!-- Manage wallet description text -->
@@ -246,7 +246,7 @@
   <string name="max">enimmäismäärä</string>
   <string name="max_send_enabled">Näytä painike: Lähetä maksimi</string>
   <!-- Buy bitcoin title -->
-  <string name="MenuButton.buy">Osta DigiBytejä</string>
+  <string name="MenuButton.buy">Osta eMarkjä</string>
   <!-- Menu button title -->
   <string name="MenuButton.lock">Lukitse lompakko</string>
   <!-- Menu button title -->
@@ -278,7 +278,7 @@
   <!-- Node status label -->
   <string name="NodeSelector.statusLabel">Noden yhteyden tila</string>
   <!-- Node Selector view title -->
-  <string name="NodeSelector.title">DigiByte Nodet</string>
+  <string name="NodeSelector.title">eMark Nodet</string>
   <string name="no_limit">Ei rajoitusta</string>
   <string name="original_amount">Alkuperäinen arvo: %s</string>
   <!-- Bad Payment request alert title -->
@@ -292,9 +292,9 @@
   <!-- Payment too small alert title -->
   <string name="PaymentProtocol.Errors.smallOutputError">Maksua ei voitu suorittaa</string>
   <!-- Amount too small error message -->
-  <string name="PaymentProtocol.Errors.smallPayment">DigiByte-maksut eivät voi olla vähemmän kuin %1$s.</string>
+  <string name="PaymentProtocol.Errors.smallPayment">eMark-maksut eivät voi olla vähemmän kuin %1$s.</string>
   <!-- Output too small error message. -->
-  <string name="PaymentProtocol.Errors.smallTransaction">DigiByte-transaktion ulostulot eivät voi olla vähemmän kuin %1$s.</string>
+  <string name="PaymentProtocol.Errors.smallTransaction">eMark-transaktion ulostulot eivät voi olla vähemmän kuin %1$s.</string>
   <!-- Unsupported signature type payment protocol error message -->
   <string name="PaymentProtocol.Errors.unsupportedSignatureType">Tukematon allekirjoitustyyppi</string>
   <!-- Untrusted certificate payment protocol error message -->
@@ -317,7 +317,7 @@
   <!-- Transaction rejected prompt title -->
   <string name="Prompts.RecommendRescan.title">Transaktio hylätty</string>
   <!-- Share data prompt body -->
-  <string name="Prompts.ShareData.body">Auta parantamaan DigiWalletia jakamalla anonyymiä tietoa kanssamme</string>
+  <string name="Prompts.ShareData.body">Auta parantamaan eMark Walletia jakamalla anonyymiä tietoa kanssamme</string>
   <!-- Share data prompt title -->
   <string name="Prompts.ShareData.title">Jaa anonyymiä tietoa</string>
   <!-- Enable touch ID prompt body -->
@@ -331,11 +331,11 @@
   <!-- Button on fingerprint prompt so the user can enter their PIN instead -->
   <string name="Prompts.TouchId.usePin.android">PIN-koodi</string>
   <!-- Upgrade PIN prompt body. -->
-  <string name="Prompts.UpgradePin.body">DigiWallet on päivittynyt käyttämään 6 numeroista PIN-koodia. Napauta tähän päivittääksesi.</string>
+  <string name="Prompts.UpgradePin.body">eMark Wallet on päivittynyt käyttämään 6 numeroista PIN-koodia. Napauta tähän päivittääksesi.</string>
   <!-- Upgrade PIN prompt title. -->
   <string name="Prompts.UpgradePin.title">Päivitä PIN-koodi</string>
   <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
-  <string name="PushNotifications.body">Ota käyttöön ilmoitukset, että voit vastaanottaa tulevaisuudessa erikoisviestejä DigiWalletista.</string>
+  <string name="PushNotifications.body">Ota käyttöön ilmoitukset, että voit vastaanottaa tulevaisuudessa erikoisviestejä eMark Walletista.</string>
   <!-- Push notifications toggle switch label -->
   <string name="PushNotifications.label">Push ilmoitukset</string>
   <!-- Push notifications are off label -->
@@ -366,7 +366,7 @@
   <!-- Enter paper key instruction -->
   <string name="RecoverWallet.instruction">Syötä henkilökohtainen palautusavain</string>
   <!-- Recover wallet intro -->
-  <string name="RecoverWallet.intro">Palauta DigiWalletisi sinun henkilökohtaisella palautusavaimella.</string>
+  <string name="RecoverWallet.intro">Palauta eMark Walletisi sinun henkilökohtaisella palautusavaimella.</string>
   <!-- Invalid paper key message -->
   <string name="RecoverWallet.invalid">Syöttämäsi henkilökohtainen palautusavain ei ole kelvollinen. Ole hyvä ja tarkista jokainen sana ja yritä uudelleen.</string>
   <!-- Previous button accessibility label -->
@@ -378,7 +378,7 @@
   <!-- Next button accessibility label -->
   <string name="RecoverWallet.rightArrow">Oikea nuoli</string>
   <!-- Recover wallet sub-header -->
-  <string name="RecoverWallet.subheader">Syötä sen DigiWallet lompakon henkilökohtainen palautusavain jonka haluat palauttaa.</string>
+  <string name="RecoverWallet.subheader">Syötä sen eMark Wallet lompakon henkilökohtainen palautusavain jonka haluat palauttaa.</string>
   <!-- Reset PIN with paper key: sub-header -->
   <string name="RecoverWallet.subheader_reset_pin">Nollataksesi PIN-koodisi, kirjoita sanat henkilökohtaisesta palautusavaimesta allaoleviin laatikoihin.</string>
   <!-- No amount entered error message. -->
@@ -394,7 +394,7 @@
   <!-- extimated time -->
   <string name="ReScan.body1">20-45 minuuttia</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body2">Jos transaktio näkyy valmiina DigiByte verkossa, mutta ei sinun DigiWalletissa.</string>
+  <string name="ReScan.body2">Jos transaktio näkyy valmiina eMark verkossa, mutta ei sinun eMark Walletissa.</string>
   <!-- Syncing explanation -->
   <string name="ReScan.body3">Saat toistuvasti virheen, jossa sanotaan, että sinun transaktiosi on hylätty.</string>
   <!-- Start Sync button label -->
@@ -420,17 +420,17 @@
   <!-- Security Center Info -->
   <string name="SecurityCenter.info">Ota käyttöön kaikki turvaominaisuudet maksimoidaksesi suojan.</string>
   <!-- Paper Key button description -->
-  <string name="SecurityCenter.paperKeyDescription">Ainoa tapa päästä käsiksi sinun DigiByteihin jos kadotat tai vaihdat puhelinta.</string>
+  <string name="SecurityCenter.paperKeyDescription">Ainoa tapa päästä käsiksi sinun eMarkihin jos kadotat tai vaihdat puhelinta.</string>
   <!-- Paper Key button title -->
   <string name="SecurityCenter.paperKeyTitle">Henkilökohtainen palautusavain</string>
   <!-- PIN button description -->
-  <string name="SecurityCenter.pinDescription">Suojaa sinun DigiByte-lompakkoasi luvattomilta käyttäjiltä.</string>
+  <string name="SecurityCenter.pinDescription">Suojaa sinun eMark-lompakkoasi luvattomilta käyttäjiltä.</string>
   <!-- PIN button title -->
   <string name="SecurityCenter.pinTitle">6-numeroinen PIN-koodi</string>
   <!-- Security Center Title -->
   <string name="SecurityCenter.title">Turvakeskus</string>
   <!-- Touch ID button description -->
-  <string name="SecurityCenter.touchIdDescription">Poista helposti DigiWallet lukosta ja lähetä rahaa asetettuun rajaan asti.</string>
+  <string name="SecurityCenter.touchIdDescription">Poista helposti eMark Wallet lukosta ja lähetä rahaa asetettuun rajaan asti.</string>
   <!-- Touch ID button title -->
   <string name="SecurityCenter.touchIdTitle">Touch ID</string>
   <!-- Security center fingerprint authentication button -->
@@ -440,13 +440,13 @@
   <!-- Balance: $4.00 -->
   <string name="Send.balance">Saldo: %1$s</string>
   <!-- Instructions how to allow the camera access for the app -->
-  <string name="Send.cameraUnavailabeMessage.android">Salli kameralle pääsy \"Asetukset\" &gt; \"Sovellukset\" &gt; \"DigiWallet\" &gt; \"Oikeudet\"</string>
+  <string name="Send.cameraUnavailabeMessage.android">Salli kameralle pääsy \"Asetukset\" &gt; \"Sovellukset\" &gt; \"eMark Wallet\" &gt; \"Oikeudet\"</string>
   <!-- Permission required to access camera -->
-  <string name="Send.cameraUnavailabeTitle.android">DigiWallet ei ole sallittu käyttämään kameraa</string>
+  <string name="Send.cameraUnavailabeTitle.android">eMark Wallet ei ole sallittu käyttämään kameraa</string>
   <!-- Camera not allowed message -->
   <string name="Send.cameraunavailableMessage">Mene asetuksiin ja salli kameran käyttö.</string>
   <!-- Camera not allowed alert title -->
-  <string name="Send.cameraUnavailableTitle">DigiWallet ei ole sallittu käyttämään kameraa</string>
+  <string name="Send.cameraUnavailableTitle">eMark Wallet ei ole sallittu käyttämään kameraa</string>
   <!-- Warning when sending to self. -->
   <string name="Send.containsAddress">Kohde on oma osoitteesi. Et voi lähettää itsellesi.</string>
   <!-- Could not create transaction alert title -->
@@ -460,9 +460,9 @@
   <!-- Payee identity not certified alert title. -->
   <string name="Send.identityNotCertified">Maksunsaajan henkilöllisyys ei ole todistettu.</string>
   <!-- Invalid address alert message -->
-  <string name="Send.invalidAddressMessage">Kohde osoite ei ole kelvollinen DigiByte-osoite.</string>
+  <string name="Send.invalidAddressMessage">Kohde osoite ei ole kelvollinen eMark-osoite.</string>
   <!-- Invalid address on pasteboard message -->
-  <string name="Send.invalidAddressOnPasteboard">Pasteboard ei sisällä kelvollista DigiByte-osoitetta.</string>
+  <string name="Send.invalidAddressOnPasteboard">Pasteboard ei sisällä kelvollista eMark-osoitetta.</string>
   <!-- Invalid address alert title -->
   <string name="Send.invalidAddressTitle">Osoite on kelvoton</string>
   <!-- Is rescanning error message -->
@@ -488,7 +488,7 @@
   <!-- Send money to label -->
   <string name="Send.toLabel">Kenelle</string>
   <!-- Adress already used alert message - first part -->
-  <string name="Send.UsedAddress.firstLine">DigiByte-osoitteet ovat tarkoitettu vain kertakäyttöä varten.</string>
+  <string name="Send.UsedAddress.firstLine">eMark-osoitteet ovat tarkoitettu vain kertakäyttöä varten.</string>
   <!-- Adress already used alert message - second part -->
   <string name="Send.UsedAddress.secondLIne">Uudelleenkäyttäminen heikentää yksityisyyttä sinun ja myös vastaanottajan kohdalla ja voi johtaa tappioon jos vastaanottaja ei suoraan hallitse osoitetta.</string>
   <!-- Adress already used alert title -->
@@ -503,11 +503,11 @@
   <!-- Join Early access label -->
   <string name="Settings.earlyAccess">Liity Early Accessiin</string>
   <!-- Are you enjoying bread alert message body -->
-  <string name="Settings.enjoying">Pidätkö DigiWalletin käytöstä?</string>
+  <string name="Settings.enjoying">Pidätkö eMark Walletin käytöstä?</string>
   <!-- Import wallet left message -->
   <string name="Settings.importLeftMessage">Lompakko joka tuodaan</string>
   <!-- Import wallet right message -->
-  <string name="Settings.importRightMessage">Sinun DigiWallet</string>
+  <string name="Settings.importRightMessage">Sinun eMark Wallet</string>
   <!-- Import wallet label -->
   <string name="Settings.importTitle">Tuo lompakko</string>
   <!-- Manage settings section header -->
@@ -515,7 +515,7 @@
   <!-- Notifications label -->
   <string name="Settings.notifications">Ilmoitukset</string>
   <!-- Restore screen lower label. -->
-  <string name="Settings.restore_label">Sinun DigiWallettisi tällä laitteella</string>
+  <string name="Settings.restore_label">Sinun eMark Wallettisi tällä laitteella</string>
   <!-- Leave review button label -->
   <string name="Settings.review">Jätä meille Arvostelu</string>
   <!-- Share anonymous data label -->
@@ -533,7 +533,7 @@
   <!-- Start or recover another wallet menu label. -->
   <string name="Settings.wipe">Aloita/Palauta toinen lompakko</string>
   <!-- Share data view body -->
-  <string name="ShareData.body">Auta parantamaan DigiWalletia jakamalla anonyymiä tietoa kanssamme. Tämä ei sisällä mitään taloustietoja. Me kunnioitamme sinun taloudellista yksityisyyttäsi.</string>
+  <string name="ShareData.body">Auta parantamaan eMark Walletia jakamalla anonyymiä tietoa kanssamme. Tämä ei sisällä mitään taloustietoja. Me kunnioitamme sinun taloudellista yksityisyyttäsi.</string>
   <!-- Share data header -->
   <string name="ShareData.header">Jaa tietoja?</string>
   <!-- Share data switch label. -->
@@ -541,13 +541,13 @@
   <!-- button label -->
   <string name="StartPaperPhrase.againButtonTitle">Kirjoita henkilökohtainen palautusavain uudelleen</string>
   <!-- Paper key explanation text. -->
-  <string name="StartPaperPhrase.body">Sinun henkilökohtainen palautusavain on ainoa tapa palauttaa DigiWalletisi jos puhelimesi katoaa, varastetaan, menee rikki tai päivität sen.\n\nMe näytämme sinulle listan sanoja, jotka sinun tulee kirjoittaa paperille jonka pidät turvassa.</string>
+  <string name="StartPaperPhrase.body">Sinun henkilökohtainen palautusavain on ainoa tapa palauttaa eMark Walletisi jos puhelimesi katoaa, varastetaan, menee rikki tai päivität sen.\n\nMe näytämme sinulle listan sanoja, jotka sinun tulee kirjoittaa paperille jonka pidät turvassa.</string>
   <!-- button label -->
   <string name="StartPaperPhrase.buttonTitle">Kirjoita henkilökohtainen palautusavain talteen</string>
   <!-- Argument is date -->
   <string name="StartPaperPhrase.date">Kirjoitit henkilökohtaisen palautusavaimen talteen viimeksi %1$s</string>
   <!-- Start view message -->
-  <string name="StartViewController.message">Turvallisin ja nopein tapa käyttää DigiBytejä.</string>
+  <string name="StartViewController.message">Turvallisin ja nopein tapa käyttää eMarkjä.</string>
   <!-- Syncing view connectiong state header text -->
   <string name="SyncingView.connecting">Yhdistetään</string>
   <!-- Syncing view header text -->
@@ -573,13 +573,13 @@
   <!-- Fingerprint Is Not Setup -->
   <string name="TouchIdSettings.disabledWarning.title.android">Sormenjälkitunnistus ei ole käytössä</string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">Käytä sormenjälkeä avataksesi DigiWalletisi lukosta ja lähetä rahaa asetettuun rajaan asti.</string>
+  <string name="TouchIdSettings.label">Käytä sormenjälkeä avataksesi eMark Walletisi lukosta ja lähetä rahaa asetettuun rajaan asti.</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
   <string name="TouchIdSettings.linkText">Touch ID käyttöraja ruutu</string>
   <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">Käyttöraja: %1$s (%2$s)</string>
   <!-- Touch id switch label. -->
-  <string name="TouchIdSettings.switchLabel">Ota Touch ID käyttöön DigiWalletissa</string>
+  <string name="TouchIdSettings.switchLabel">Ota Touch ID käyttöön eMark Walletissa</string>
   <!-- Enable fingerprint for this wallet called Bread -->
   <string name="TouchIdSettings.switchLabel.android">Ota sormenjälkitunnistus käyttöön</string>
   <!-- Touch ID settings view title -->
@@ -660,7 +660,7 @@
   <!-- "Sent [$5] to [address]" => This is the "to [address]" part. -->
   <string name="TransactionDetails.to">- %1$s</string>
   <!-- Transaction ID header -->
-  <string name="TransactionDetails.txHashHeader">DigiByte transaktio-ID</string>
+  <string name="TransactionDetails.txHashHeader">eMark transaktio-ID</string>
   <!-- (this transaction was) Received at this address: -->
   <string name="TransactionDirection.address">Vastaanotettu tässä osoitteessa</string>
   <!-- (this transaction was) Sent to this address: -->
@@ -678,7 +678,7 @@
   <!-- Instruction to touch the sensor for fingerprint authentication -->
   <string name="UnlockScreen.touchIdInstructions.android">Kosketussensori</string>
   <!-- TouchID prompt text -->
-  <string name="UnlockScreen.touchIdPrompt">Avaa DigiWallet lukituksesi.</string>
+  <string name="UnlockScreen.touchIdPrompt">Avaa eMark Wallet lukituksesi.</string>
   <!-- Device authentication body -->
   <string name="UnlockScreen.touchIdPrompt.android">Ole hyvä ja avaa Android laitteesi lukosta jatkaaksesi.</string>
   <!-- Unlock with TouchID accessibility label -->
@@ -688,9 +688,9 @@
   <!-- Wallet unlocked message -->
   <string name="UnlockScreen.unlocked">Lompakko avattu lukosta</string>
   <!-- Update PIN caption text -->
-  <string name="UpdatePin.caption">Muista tämä PIN-koodi. Jos unohdat sen, et pysty pääsemään käsiksi sinun DigiByteihisi.</string>
+  <string name="UpdatePin.caption">Muista tämä PIN-koodi. Jos unohdat sen, et pysty pääsemään käsiksi sinun eMarkihisi.</string>
   <!-- PIN creation info. -->
-  <string name="UpdatePin.createInstruction">Sinun PIN-koodia käytetään avaamaan lukitus sinun DigiWalletista ja lähettämään rahaa.</string>
+  <string name="UpdatePin.createInstruction">Sinun PIN-koodia käytetään avaamaan lukitus sinun eMark Walletista ja lähettämään rahaa.</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">Aseta PIN-koodi</string>
   <!-- Update PIN title -->
@@ -724,7 +724,7 @@
   <!-- Authorize transaction with touch id message -->
   <string name="VerifyPin.touchIdMessage">Valtuuta tämä transaktio</string>
   <!-- 'No wallet' warning for watch app -->
-  <string name="Watch.noWalletWarning">Avaa DigiWallet Android sovellus määrittääksesi lompakkosi.</string>
+  <string name="Watch.noWalletWarning">Avaa eMark Wallet Android sovellus määrittääksesi lompakkosi.</string>
   <!-- Dismiss button label -->
   <string name="Webview.dismiss">Hylkää</string>
   <!-- Webview loading error message -->
@@ -732,9 +732,9 @@
   <!-- Updating webview message -->
   <string name="Webview.updating">Päivitetään...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">DigiWalletilla on uusi ulkoasu ja muutamia uusia ominaisuuksia.\n\nJos tarvitset apua etsi (?) merkki joka löytyy useilla sivuilla oikeasta ylänurkasta.</string>
+  <string name="Welcome.body">eMark Walletilla on uusi ulkoasu ja muutamia uusia ominaisuuksia.\n\nJos tarvitset apua etsi (?) merkki joka löytyy useilla sivuilla oikeasta ylänurkasta.</string>
   <!-- Top title of welcome screen -->
-  <string name="Welcome.title">Tervetuloa DigiWallettiin!</string>
+  <string name="Welcome.title">Tervetuloa eMark Wallettiin!</string>
   <!-- Wipe wallet alert message -->
   <string name="WipeWallet.alertMessage">Oletko varma, että haluat tuhota tämän lompakon?</string>
   <!-- Wipe wallet alert title -->
@@ -746,7 +746,7 @@
   <!-- Enter phrase to wipe wallet instruction. -->
   <string name="WipeWallet.instruction">Aloittaaksesi uuden lompakon tai palauttaaksesi vanhan sinun tulee ensin pyyhkiä lompakko joka on tällähetkellä asennettu. Jatkaaksesi syötä tämän hetkisen lompakkosi henkilökohtainen palautusavain.</string>
   <!-- Start wipe wallet view message -->
-  <string name="WipeWallet.startMessage">Toisen lompakon aloittaminen tai palauttaminen sallii sinulle pääsyn jollekin toiselle DigiWalletille tällä laitteella.</string>
+  <string name="WipeWallet.startMessage">Toisen lompakon aloittaminen tai palauttaminen sallii sinulle pääsyn jollekin toiselle eMark Walletille tällä laitteella.</string>
   <!-- Start wipe wallet view warning -->
   <string name="WipeWallet.startWarning">Sinun tämänhetkinen lompakko poistetaan tältä laitteelta. Jos haluat palauttaa sen tulevaisuudessa, sinun tarvitsee syöttää henkilökohtainen palautusavain.</string>
   <!-- Wipe wallet navigation item title. -->

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
   <!-- App name -->
-  <string name="About.appName.android">DigiWallet</string>
+  <string name="About.appName.android">eMark Wallet</string>
   <!-- About screen blog label -->
   <string name="About.blog">https://digibyte.io/</string>
   <!-- About screen footer -->
-  <string name="About.footer">Δημιουργήθηκε απο την παγκόσμια ομάδα DigiWallet. \'Εκδοση %1$s</string>
+  <string name="About.footer">Δημιουργήθηκε απο την παγκόσμια ομάδα eMark Wallet. \'Εκδοση %1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">Πολιτικό Απόρρητο</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/DeutscheeMark/</string>
   <!-- Terms of Use button label -->
-  <string name="About.terms">Όροι Χρήσης https://github.com/Racecraft/digibytewallet-android</string>
+  <string name="About.terms">Όροι Χρήσης https://github.com/emarkproject/eMarkwallet-android</string>
   <!--
   Terms of Use button label
   About screen title
   -->
-  <string name="About.title">Γρήγορο, απλό και ασφαλές !: Το DigiWallet για Android είναι ο ευκολότερος τρόπος για να ξεκινήσεις να στέλνεις και να λαμβάνεις DigiByte. Σχεδιασμένο για νέους και έμπειρους χρήστες, το DigiWallet για Android είναι αρκετά απλό για να το χρησιμοποιήσει για πρώτη φορά αρχάριος, αλλά αρκετά ισχυρό για τους έμπειρους χρήστες.</string>
+  <string name="About.title">Γρήγορο, απλό και ασφαλές !: Το eMark Wallet για Android είναι ο ευκολότερος τρόπος για να ξεκινήσεις να στέλνεις και να λαμβάνεις eMark. Σχεδιασμένο για νέους και έμπειρους χρήστες, το eMark Wallet για Android είναι αρκετά απλό για να το χρησιμοποιήσει για πρώτη φορά αρχάριος, αλλά αρκετά ισχυρό για τους έμπειρους χρήστες.</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/deutsche_emark</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">Κλείσιμο</string>
   <!-- Support center accessibiliy label -->
@@ -26,7 +26,7 @@
   <!-- Loading Wallet Message -->
   <string name="Account.loadingMessage">Φόρτωση πορτοφολιού</string>
   <!-- Default wallet name -->
-  <string name="AccountHeader.defaultWalletName">Το DigiWallet μου</string>
+  <string name="AccountHeader.defaultWalletName">Το eMark Wallet μου</string>
   <!-- Third party keyboard warning -->
   <string name="Alert.customKeyboard.android">Το πληκτρολόγιο που χρησιμοποιείτε ίσως δεν είναι ασφαλές. Είναι δυνατόν να καταγράψει ό,τι πληκτρολογείτε και να κλαπεί το κλειδί σας. Για την ασφάλειά σας. μεταβείτε στο προεπιλεγμένο πληκτρολόγιο Android.</string>
   <!-- Error alert title -->
@@ -34,7 +34,7 @@
   <!-- Keystore error -->
   <string name="Alert.keystore.generic.android">Υπάρχει κάποιο πρόβλημα με το Android OS keystore, παρακαλούμε επικοινωνήστε στο support@digibyte.io</string>
   <!-- KeyStore error, keys are invalidated -->
-  <string name="Alert.keystore.invalidated.android">Τα κρυπτογραφημένα δεδομένα του DigiWallet ακυρώθηκαν πρόσφατα επειδή η οθόνη κλειδώματος του Android σου απενεργοποιήθηκε.</string>
+  <string name="Alert.keystore.invalidated.android">Τα κρυπτογραφημένα δεδομένα του eMark Wallet ακυρώθηκαν πρόσφατα επειδή η οθόνη κλειδώματος του Android σου απενεργοποιήθηκε.</string>
   <!-- Keystore error title -->
   <string name="Alert.keystore.title.android">Λάθος Android KeyStore</string>
   <!-- No internet alert message -->
@@ -56,7 +56,7 @@
   <!-- Send success alert header label (confirmation that the send happened) -->
   <string name="Alerts.sendSuccess">Επιβεβαίωση Αποστολής</string>
   <!-- Send success alert subheader label (e.g. the money was sent) -->
-  <string name="Alerts.sendSuccessSubheader">Τα DigiByte εστάλησαν!</string>
+  <string name="Alerts.sendSuccessSubheader">Τα eMark εστάλησαν!</string>
   <!-- Fingerprint was recognized by the scanner -->
   <string name="Alerts.touchIdSucceeded.android">Το δαχτυλικό αποτύπωμα αναγνωρίστηκε</string>
   <string name="all">ΟΛΑ</string>
@@ -67,29 +67,29 @@
   <!-- API Token error message -->
   <string name="ApiClient.tokenError">Αδυναμία ανάκτησης API κέρματος</string>
   <!-- Send BCH view body. -->
-  <string name="BCH.body">Καταχώρησε μια DigiByte διεύθυνση. Όλα τα DigiByte στο πορτοφόλι σου κατα την εμφάνιση του fork (%1$s) θα αποσταλούν.</string>
+  <string name="BCH.body">Καταχώρησε μια eMark διεύθυνση. Όλα τα eMark στο πορτοφόλι σου κατα την εμφάνιση του fork (%1$s) θα αποσταλούν.</string>
   <!-- Confirm sending <$5.00> to <address>? -->
   <string name="BCH.confirmationMessage">Έγκριση αποστολής %1$s σε %2$s</string>
   <!-- Confirmation alert title -->
   <string name="BCH.confirmationTitle">Έγκριση</string>
   <!-- Generic bch erorr message -->
-  <string name="BCH.genericError">Ο λογαριασμός σου δεν περιέχει DigiByte, ή έλαβες DigiByte μετά το fork.</string>
+  <string name="BCH.genericError">Ο λογαριασμός σου δεν περιέχει eMark, ή έλαβες eMark μετά το fork.</string>
   <!-- Transaction ID copied message -->
   <string name="BCH.hashCopiedMessage">Ταυτότητα συναλλαγής αντιγράφηκε</string>
   <!-- No address error message -->
   <string name="BCH.noAddressError">Παρακαλώ βάλε μια διεύθυνση</string>
   <!-- Attempted to scan unsupported qr code error message. -->
-  <string name="BCH.paymentProtocolError">Τα αιτήματα του πρωτοκόλλου πληρωμής δεν υποστηρίζονται για συναλλαγές DigiByte</string>
+  <string name="BCH.paymentProtocolError">Τα αιτήματα του πρωτοκόλλου πληρωμής δεν υποστηρίζονται για συναλλαγές eMark</string>
   <!-- BCH successfully sent alert message -->
-  <string name="BCH.successMessage">Τα DigiByte απεστάλησαν επιτυχώς.</string>
+  <string name="BCH.successMessage">Τα eMark απεστάλησαν επιτυχώς.</string>
   <!-- Widthdraw BCH view title -->
-  <string name="BCH.title">Ανάληψη DigiByte</string>
+  <string name="BCH.title">Ανάληψη eMark</string>
   <!-- Tx Hash button header -->
-  <string name="BCH.txHashHeader">Ταυτότητα συναλλαγής DigiByte</string>
+  <string name="BCH.txHashHeader">Ταυτότητα συναλλαγής eMark</string>
   <!-- Approve button label -->
   <string name="BitID.approve">Έγκριση</string>
   <!-- <sitename> is requesting authentication using your bitcoin wallet -->
-  <string name="BitID.authenticationRequest">%1$s αναζητά έγκριση με το DigiByte πορτοφόλι σου</string>
+  <string name="BitID.authenticationRequest">%1$s αναζητά έγκριση με το eMark πορτοφόλι σου</string>
   <!-- Deny button label -->
   <string name="BitID.deny">Άρνηση</string>
   <!-- BitID error alert title -->
@@ -99,7 +99,7 @@
   <!-- BitID success alert title -->
   <string name="BitID.success">Επιτυχία πιστοποίησης</string>
   <!-- BitID Authentication Request alert view title -->
-  <string name="BitID.title">Αίτηση πιστοποίησης DigiID</string>
+  <string name="BitID.title">Αίτηση πιστοποίησης eMarkID</string>
   <!-- Cancel button label -->
   <string name="Button.cancel">Ακύρωση</string>
   <!-- Ignore button label -->
@@ -144,7 +144,7 @@
   <string name="current_amount">Παρούσα Αξία: %s</string>
   <string name="date">Ημερομηνία</string>
   <!-- Bitcoin denomination picker label -->
-  <string name="DefaultCurrency.bitcoinLabel">Μονάδα προβολής DigiByte</string>
+  <string name="DefaultCurrency.bitcoinLabel">Μονάδα προβολής eMark</string>
   <!--
   Bitcoin denomination picker label
   Exchange rate label
@@ -155,7 +155,7 @@
   <!-- Email unavailable alert title -->
   <string name="ErrorMessages.emailUnavailableTitle">Μη διαθέσιμο Email</string>
   <!-- Message that gets shown when we've detected the user has encountered the looping lock-screen bug. (preserve [ ] characters) -->
-  <string name="ErrorMessages.loopingLockScreen.android">Το DigiWallet δεν μπορεί να πιστοποιηθεί λόγο προβλήματος με την έκδοση του Android. [Άγγιξε εδώ για περισσότερες πληροφορίες.]</string>
+  <string name="ErrorMessages.loopingLockScreen.android">Το eMark Wallet δεν μπορεί να πιστοποιηθεί λόγο προβλήματος με την έκδοση του Android. [Άγγιξε εδώ για περισσότερες πληροφορίες.]</string>
   <!-- Messaging unavailable alert title -->
   <string name="ErrorMessages.messagingUnavailableMessage">Αυτή η συσκευή δεν έχει ρυθμιστεί για την αποστολή μηνυμάτων.</string>
   <!-- Messaging unavailable alert title -->
@@ -179,7 +179,7 @@
   <!-- Checking private key balance progress view text -->
   <string name="Import.checking">Έλεγχος ισοζυγίου ιδιωτικού κλειδιού...</string>
   <!-- Sweep private key confirmation message -->
-  <string name="Import.confirm">Να στείλω %1$s από αυτό το ιδιωτικό κλειδί στο πορτοφόλι σου; Το δίκτυο DigiByte θα λάβει αμοιβή %2$s.</string>
+  <string name="Import.confirm">Να στείλω %1$s από αυτό το ιδιωτικό κλειδί στο πορτοφόλι σου; Το δίκτυο eMark θα λάβει αμοιβή %2$s.</string>
   <!-- Duplicate key error message -->
   <string name="Import.Error.duplicate">Αυτό το ιδιωτικό κλειδί βρίσκεται ήδη στο πορτοφόλι σου.</string>
   <!-- empty private key error message -->
@@ -197,13 +197,13 @@
   <!-- Caption for graphics -->
   <string name="Import.leftCaption">Πορτοφόλι προς εισαγωγή</string>
   <!-- Import wallet intro screen message -->
-  <string name="Import.message">Η εισαγωγή πορτοφολιού μεταφέρει όλα τα DigiByte απο το άλλο πορτοφόλι, στο DigiWallet με μια συναλλαγή.</string>
+  <string name="Import.message">Η εισαγωγή πορτοφολιού μεταφέρει όλα τα eMark απο το άλλο πορτοφόλι, στο eMark Wallet με μια συναλλαγή.</string>
   <!-- Enter password alert view title -->
   <string name="Import.password">Αυτό το ιδιωτικό κλειδί προστατεύεται με κωδικό πρόσβασης.</string>
   <!-- password textfield placeholder -->
   <string name="Import.passwordPlaceholder">κωδικός</string>
   <!-- Caption for graphics -->
-  <string name="Import.rightCaption">Το DigiWallet σου</string>
+  <string name="Import.rightCaption">Το eMark Wallet σου</string>
   <!-- Scan Private key button label -->
   <string name="Import.scan">Σάρωση Ιδιωτικού Κλειδιού</string>
   <!-- Import wallet success alert title -->
@@ -224,19 +224,19 @@
   <string name="JailbreakWarnings.ignore">Αγνόησε</string>
   <!-- Jailbreak warning message -->
   <string name="JailbreakWarnings.messageWithBalance">ΠΑΡΑΒΙΑΣΗ ΑΣΦΑΛΕΙΑΣ ΣΥΣΚΕΥΗΣ
-Οποιαδήποτε εφαρμογή «jailbreak» μπορεί να έχει πρόσβαση στα δεδομένα keychain του DigiWallet και να κλέψει τα DigiByte σου! Διέγραψε αμέσως το πορτοφόλι και επανέφερέ το σε ασφαλές συσκευή.</string>
+Οποιαδήποτε εφαρμογή «jailbreak» μπορεί να έχει πρόσβαση στα δεδομένα keychain του eMark Wallet και να κλέψει τα eMark σου! Διέγραψε αμέσως το πορτοφόλι και επανέφερέ το σε ασφαλές συσκευή.</string>
   <!--
   Ignore jailbreak warning button
   Jailbreak warning message
   -->
   <string name="JailbreakWarnings.messageWithoutBalance">ΠΑΡΑΒΙΑΣΗ ΑΣΦΑΛΕΙΑΣ ΣΥΣΚΕΥΗΣ
-Οποιαδήποτε εφαρμογή «jailbreak» μπορεί να έχει πρόσβαση στα δεδομένα keychain του DigiWallet και να κλέψει τα DigiByte σου! Χρησιμοποίησε το DigiWallet μόνο σε συσκευή χωρίς jailbrake.</string>
+Οποιαδήποτε εφαρμογή «jailbreak» μπορεί να έχει πρόσβαση στα δεδομένα keychain του eMark Wallet και να κλέψει τα eMark σου! Χρησιμοποίησε το eMark Wallet μόνο σε συσκευή χωρίς jailbrake.</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">ΠΡΟΣΟΧΗ</string>
   <!-- Location services disabled error -->
   <string name="LocationPlugin.disabled">Οι υπηρεσίες τοποθεσίας είναι απενεργοποιημένες.</string>
   <!-- No permissions for location services -->
-  <string name="LocationPlugin.notAuthorized">Το DigiWallet δεν έχει άδεια πρόσβασης στις υπηρεσίες τοποθεσίας.</string>
+  <string name="LocationPlugin.notAuthorized">Το eMark Wallet δεν έχει άδεια πρόσβασης στις υπηρεσίες τοποθεσίας.</string>
   <!-- Wallet creation date prefix -->
   <string name="ManageWallet.creationDatePrefix">Δημιούργησες το πορτοφόλι σου στις %1$s</string>
   <!-- Manage wallet description text -->
@@ -248,7 +248,7 @@
   <string name="max">Μέγιστο</string>
   <string name="max_send_enabled">Εμφάνιση Κουμπιού: Αποστολή Μέγιστου</string>
   <!-- Buy bitcoin title -->
-  <string name="MenuButton.buy">Αγορά DigiByte</string>
+  <string name="MenuButton.buy">Αγορά eMark</string>
   <!-- Menu button title -->
   <string name="MenuButton.lock">Κλείδωμα πορτοφολιού</string>
   <!-- Menu button title -->
@@ -280,7 +280,7 @@
   <!-- Node status label -->
   <string name="NodeSelector.statusLabel">Κατάσταση σύνδεσης κόμβου</string>
   <!-- Node Selector view title -->
-  <string name="NodeSelector.title">Κόμβοι DigiByte</string>
+  <string name="NodeSelector.title">Κόμβοι eMark</string>
   <string name="no_limit">Χωρίς Όριο</string>
   <string name="original_amount">Αρχική Αξία: %s</string>
   <!-- Bad Payment request alert title -->
@@ -294,9 +294,9 @@
   <!-- Payment too small alert title -->
   <string name="PaymentProtocol.Errors.smallOutputError">Αδυναμία πληρωμής</string>
   <!-- Amount too small error message -->
-  <string name="PaymentProtocol.Errors.smallPayment">Οι πληρωμές σε DigiByte δεν μπορούν να είναι μικρότερες από %1$s.</string>
+  <string name="PaymentProtocol.Errors.smallPayment">Οι πληρωμές σε eMark δεν μπορούν να είναι μικρότερες από %1$s.</string>
   <!-- Output too small error message. -->
-  <string name="PaymentProtocol.Errors.smallTransaction">Οι συναλλαγές DigiByte δεν μπορούν να είναι μικρότερες από %1$s.</string>
+  <string name="PaymentProtocol.Errors.smallTransaction">Οι συναλλαγές eMark δεν μπορούν να είναι μικρότερες από %1$s.</string>
   <!-- Unsupported signature type payment protocol error message -->
   <string name="PaymentProtocol.Errors.unsupportedSignatureType">Μη υποστηριζόμενος τύπος υπογραφής</string>
   <!-- Untrusted certificate payment protocol error message -->
@@ -319,7 +319,7 @@
   <!-- Transaction rejected prompt title -->
   <string name="Prompts.RecommendRescan.title">Συναλλαγή Απορρίφθηκε</string>
   <!-- Share data prompt body -->
-  <string name="Prompts.ShareData.body">Βοήθησε στη βελτίωση του DigiWallet με την κοινοποίηση των ανώνυμων δεδομένων σου σε εμας</string>
+  <string name="Prompts.ShareData.body">Βοήθησε στη βελτίωση του eMark Wallet με την κοινοποίηση των ανώνυμων δεδομένων σου σε εμας</string>
   <!-- Share data prompt title -->
   <string name="Prompts.ShareData.title">Κοινοποίηση Ανώνυμων Δεδομένων</string>
   <!-- Enable touch ID prompt body -->
@@ -333,11 +333,11 @@
   <!-- Button on fingerprint prompt so the user can enter their PIN instead -->
   <string name="Prompts.TouchId.usePin.android">PIN</string>
   <!-- Upgrade PIN prompt body. -->
-  <string name="Prompts.UpgradePin.body">Το DigiWallet αναβαθμίστηκε σε PIN 6 ψηφίων. Άγγιξε εδώ για αναβάθμιση.</string>
+  <string name="Prompts.UpgradePin.body">Το eMark Wallet αναβαθμίστηκε σε PIN 6 ψηφίων. Άγγιξε εδώ για αναβάθμιση.</string>
   <!-- Upgrade PIN prompt title. -->
   <string name="Prompts.UpgradePin.title">Αναβάθμιση PIN</string>
   <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
-  <string name="PushNotifications.body">Ενεργοποίησε τις ειδοποιήσεις για να λαμβάνεις ειδικά μηνύματα από το DigiWallet στο μέλλον.</string>
+  <string name="PushNotifications.body">Ενεργοποίησε τις ειδοποιήσεις για να λαμβάνεις ειδικά μηνύματα από το eMark Wallet στο μέλλον.</string>
   <!-- Push notifications toggle switch label -->
   <string name="PushNotifications.label">Γνωστοποιήσεις</string>
   <!-- Push notifications are off label -->
@@ -368,7 +368,7 @@
   <!-- Enter paper key instruction -->
   <string name="RecoverWallet.instruction">Εισαγωγή χάρτινου κλειδιού</string>
   <!-- Recover wallet intro -->
-  <string name="RecoverWallet.intro">Ανάκτηση του DigiWallet με το κλειδί χαρτιού.</string>
+  <string name="RecoverWallet.intro">Ανάκτηση του eMark Wallet με το κλειδί χαρτιού.</string>
   <!-- Invalid paper key message -->
   <string name="RecoverWallet.invalid">Το χάρτινο κλειδί που πληκτρολόγησες είναι άκυρο. Έλεγξε ξανά κάθε λέξη και ξαναδοκίμασε.</string>
   <!-- Previous button accessibility label -->
@@ -396,7 +396,7 @@
   <!-- extimated time -->
   <string name="ReScan.body1">20-45 λεπτά</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body2">Εάν μια συναλλαγή εμφανίζεται ως ολοκληρωμένη στο DigiByte δίκτυο αλλά όχι στο DigiWallet σου.</string>
+  <string name="ReScan.body2">Εάν μια συναλλαγή εμφανίζεται ως ολοκληρωμένη στο eMark δίκτυο αλλά όχι στο eMark Wallet σου.</string>
   <!-- Syncing explanation -->
   <string name="ReScan.body3">Εμφανίζεται επανειλημμένα ένα σφάλμα λέγοντας ότι η συναλλαγή σου απορρίφθηκε.</string>
   <!-- Start Sync button label -->
@@ -423,17 +423,17 @@
   <!-- Security Center Info -->
   <string name="SecurityCenter.info">Ενεργοποίησε όλες τις λειτουργίες ασφαλείας για μέγιστη προστασία.</string>
   <!-- Paper Key button description -->
-  <string name="SecurityCenter.paperKeyDescription">Ο μόνος τρόπος να  αποκτήσεις πρόσβαση στα DigiByte σου, σε περίπτωση που χάσεις ή αναβαθμίσεις τη συσκευή σου.</string>
+  <string name="SecurityCenter.paperKeyDescription">Ο μόνος τρόπος να  αποκτήσεις πρόσβαση στα eMark σου, σε περίπτωση που χάσεις ή αναβαθμίσεις τη συσκευή σου.</string>
   <!-- Paper Key button title -->
   <string name="SecurityCenter.paperKeyTitle">Χάρτινο Κλειδί</string>
   <!-- PIN button description -->
-  <string name="SecurityCenter.pinDescription">Προστατεύει το DigiWallet απο μη εξουσιοδοτημένους χρήστες.</string>
+  <string name="SecurityCenter.pinDescription">Προστατεύει το eMark Wallet απο μη εξουσιοδοτημένους χρήστες.</string>
   <!-- PIN button title -->
   <string name="SecurityCenter.pinTitle">6-ψήφιο PIN</string>
   <!-- Security Center Title -->
   <string name="SecurityCenter.title">Κέντρο Ασφαλείας</string>
   <!-- Touch ID button description -->
-  <string name="SecurityCenter.touchIdDescription">Ξεκλείδωσε εύκολα το DigiWallet και στείλε χρήματα μέχρι ένα καθορισμένο όριο.</string>
+  <string name="SecurityCenter.touchIdDescription">Ξεκλείδωσε εύκολα το eMark Wallet και στείλε χρήματα μέχρι ένα καθορισμένο όριο.</string>
   <!-- Touch ID button title -->
   <string name="SecurityCenter.touchIdTitle">Δαχτυλικό Αποτύπωμα</string>
   <!-- Security center fingerprint authentication button -->
@@ -445,11 +445,11 @@
   <!-- Instructions how to allow the camera access for the app -->
   <string name="Send.cameraUnavailabeMessage.android">Πήγαινε στις Ρυθμίσεις για να επιτρέψεις πρόσβαση στην κάμερα.</string>
   <!-- Permission required to access camera -->
-  <string name="Send.cameraUnavailabeTitle.android">Το DigiWallet δεν έχει άδεια πρόσβασης στην κάμερα.</string>
+  <string name="Send.cameraUnavailabeTitle.android">Το eMark Wallet δεν έχει άδεια πρόσβασης στην κάμερα.</string>
   <!-- Camera not allowed message -->
   <string name="Send.cameraunavailableMessage">Πήγαινε στις Ρυθμίσεις για να επιτρέψεις πρόσβαση στην κάμερα.</string>
   <!-- Camera not allowed alert title -->
-  <string name="Send.cameraUnavailableTitle">Το DigiWallet δέν έχει πρόσβαση στην κάμερα</string>
+  <string name="Send.cameraUnavailableTitle">Το eMark Wallet δέν έχει πρόσβαση στην κάμερα</string>
   <!-- Warning when sending to self. -->
   <string name="Send.containsAddress">Ο προορισμός είναι η διεύθυνσή σου. Δεν μπορείςνα στείλεις στον εαυτό σου.</string>
   <!-- Could not create transaction alert title -->
@@ -463,9 +463,9 @@
   <!-- Payee identity not certified alert title. -->
   <string name="Send.identityNotCertified">Ταυτότητα δικαιούχου χωρίς πιστοποίηση.</string>
   <!-- Invalid address alert message -->
-  <string name="Send.invalidAddressMessage">Η διεύθυνση προορισμού δεν είναι έγκυρη διεύθυνση DigiByte.</string>
+  <string name="Send.invalidAddressMessage">Η διεύθυνση προορισμού δεν είναι έγκυρη διεύθυνση eMark.</string>
   <!-- Invalid address on pasteboard message -->
-  <string name="Send.invalidAddressOnPasteboard">"Το πρόχειρο δεν περιέχει έγκυρη διεύθυνση DigiByte. "</string>
+  <string name="Send.invalidAddressOnPasteboard">"Το πρόχειρο δεν περιέχει έγκυρη διεύθυνση eMark. "</string>
   <!-- Invalid address alert title -->
   <string name="Send.invalidAddressTitle">Άκυρη Διεύθυνση</string>
   <!-- Is rescanning error message -->
@@ -491,7 +491,7 @@
   <!-- Send money to label -->
   <string name="Send.toLabel">Προς</string>
   <!-- Adress already used alert message - first part -->
-  <string name="Send.UsedAddress.firstLine">Οι διευθύνσεις DigiByte προορίζονται μόνο για μία χρήση.</string>
+  <string name="Send.UsedAddress.firstLine">Οι διευθύνσεις eMark προορίζονται μόνο για μία χρήση.</string>
   <!-- Adress already used alert message - second part -->
   <string name="Send.UsedAddress.secondLIne">Η επαναχρησιμοποίηση μειώνει το απόρρητο τόσο για εσάς όσο και για τον παραλήπτη και μπορεί να έχει ως αποτέλεσμα απώλεια εάν ο παραλήπτης δεν ελέγχει απευθείας τη διεύθυνση.</string>
   <!-- Adress already used alert title -->
@@ -506,11 +506,11 @@
   <!-- Join Early access label -->
   <string name="Settings.earlyAccess">Συμμετοχή σε πρόωρη πρόσβαση</string>
   <!-- Are you enjoying bread alert message body -->
-  <string name="Settings.enjoying">Σου αρέσει το DigiWallet;</string>
+  <string name="Settings.enjoying">Σου αρέσει το eMark Wallet;</string>
   <!-- Import wallet left message -->
   <string name="Settings.importLeftMessage">Πορτοφόλι προς εισαγωγή</string>
   <!-- Import wallet right message -->
-  <string name="Settings.importRightMessage">Το DigiWallet Σου</string>
+  <string name="Settings.importRightMessage">Το eMark Wallet Σου</string>
   <!-- Import wallet label -->
   <string name="Settings.importTitle">Εισαγωγή Πορτοφολιού</string>
   <!-- Manage settings section header -->
@@ -518,7 +518,7 @@
   <!-- Notifications label -->
   <string name="Settings.notifications">Ειδοποιήσεις</string>
   <!-- Restore screen lower label. -->
-  <string name="Settings.restore_label">Το DigiWallet αυτής της συσκευής</string>
+  <string name="Settings.restore_label">Το eMark Wallet αυτής της συσκευής</string>
   <!-- Leave review button label -->
   <string name="Settings.review">Άφησε μία κριτική</string>
   <!-- Share anonymous data label -->
@@ -536,7 +536,7 @@
   <!-- Start or recover another wallet menu label. -->
   <string name="Settings.wipe">"Έναρξη/Ανάκτηση άλλου πορτοφολιού. "</string>
   <!-- Share data view body -->
-  <string name="ShareData.body">Βοήθησε στη βελτίωση του DigiWallet με την κοινοποίηση των ανώνυμων δεδομένων σου μαζί μας. Δεν περιλαμβάνει καμία οικονομική πληροφορία σου. Σεβόμαστε το οικονομικό σου απόρρητο.</string>
+  <string name="ShareData.body">Βοήθησε στη βελτίωση του eMark Wallet με την κοινοποίηση των ανώνυμων δεδομένων σου μαζί μας. Δεν περιλαμβάνει καμία οικονομική πληροφορία σου. Σεβόμαστε το οικονομικό σου απόρρητο.</string>
   <!-- Share data header -->
   <string name="ShareData.header">Κοινοποίηση δεδομένων;</string>
   <!-- Share data switch label. -->
@@ -544,13 +544,13 @@
   <!-- button label -->
   <string name="StartPaperPhrase.againButtonTitle">Γράψε Ξανά Το Χάρτινο Κλειδί</string>
   <!-- Paper key explanation text. -->
-  <string name="StartPaperPhrase.body">Το χάρτινο κλειδί σου είναι ο μόνος τρόπος για να επαναφέρεις το DigiWallet σου, εάν το τηλέφωνο σου χαθεί, κλαπεί, σπάσει ή αναβαθμιστεί. Θα δείς μια λίστα με λέξεις για να γράψεις σε χαρτί και να το κρατήσεις σε ασφαλές μέρος.</string>
+  <string name="StartPaperPhrase.body">Το χάρτινο κλειδί σου είναι ο μόνος τρόπος για να επαναφέρεις το eMark Wallet σου, εάν το τηλέφωνο σου χαθεί, κλαπεί, σπάσει ή αναβαθμιστεί. Θα δείς μια λίστα με λέξεις για να γράψεις σε χαρτί και να το κρατήσεις σε ασφαλές μέρος.</string>
   <!-- button label -->
   <string name="StartPaperPhrase.buttonTitle">Γράψε Το Χάρτινο Κλειδί</string>
   <!-- Argument is date -->
   <string name="StartPaperPhrase.date">Τελευταία έγραψες το κλειδί χαρτιού στις %1$s</string>
   <!-- Start view message -->
-  <string name="StartViewController.message">Ο ασφαλέστερος τρόπος χρήσης του DigiByte.</string>
+  <string name="StartViewController.message">Ο ασφαλέστερος τρόπος χρήσης του eMark.</string>
   <!-- Syncing view connectiong state header text -->
   <string name="SyncingView.connecting">Σύνδεση</string>
   <!-- Syncing view header text -->
@@ -576,13 +576,13 @@
   <!-- Fingerprint Is Not Setup -->
   <string name="TouchIdSettings.disabledWarning.title.android">Το Δακτυλικό Αποτύπωμα Δεν Είναι Ενεργοποιημένο</string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">Χρησιμοποίησε το δακτυλικό σου αποτύπωμα για να ξεκλειδώσεις το DigiWallet και να στείλεις χρήματα μέχρι ένα καθορισμένο όριο.</string>
+  <string name="TouchIdSettings.label">Χρησιμοποίησε το δακτυλικό σου αποτύπωμα για να ξεκλειδώσεις το eMark Wallet και να στείλεις χρήματα μέχρι ένα καθορισμένο όριο.</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
   <string name="TouchIdSettings.linkText">"Οθόνη Ορίου Δαπανών Με Δαχτυλικό Αποτύπωμα "</string>
   <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">Όριο δαπανών: %1$s (%2$s)</string>
   <!-- Touch id switch label. -->
-  <string name="TouchIdSettings.switchLabel">Ενεργοποίηση του δαχτυλικού αποτυπώματος για το DigiWallet</string>
+  <string name="TouchIdSettings.switchLabel">Ενεργοποίηση του δαχτυλικού αποτυπώματος για το eMark Wallet</string>
   <!-- Enable fingerprint for this wallet called Bread -->
   <string name="TouchIdSettings.switchLabel.android">Ενεργοποίηση Πιστοποίησης Δαχτυλικού Αποτυπώματος</string>
   <!-- Touch ID settings view title -->
@@ -664,7 +664,7 @@
   <!-- "Sent [$5] to [address]" => This is the "to [address]" part. -->
   <string name="TransactionDetails.to">Προς %1$s</string>
   <!-- Transaction ID header -->
-  <string name="TransactionDetails.txHashHeader">Ταυτότητα Συναλλαγής DigiByte</string>
+  <string name="TransactionDetails.txHashHeader">Ταυτότητα Συναλλαγής eMark</string>
   <!-- (this transaction was) Received at this address: -->
   <string name="TransactionDirection.address">Ελήφθη σε αυτή τη Διεύθυνση</string>
   <!-- (this transaction was) Sent to this address: -->
@@ -692,9 +692,9 @@
   <!-- Wallet unlocked message -->
   <string name="UnlockScreen.unlocked">Το Πορτοφόλι Ξεκλειδώθηκε</string>
   <!-- Update PIN caption text -->
-  <string name="UpdatePin.caption">Να θυμάσαι το PIN. Εάν το ξεχάσεις, δεν θα έχεις πρόσβαση στα DigiByte σου.</string>
+  <string name="UpdatePin.caption">Να θυμάσαι το PIN. Εάν το ξεχάσεις, δεν θα έχεις πρόσβαση στα eMark σου.</string>
   <!-- PIN creation info. -->
-  <string name="UpdatePin.createInstruction">Το PIN θα χρησιμοποιηθεί για το ξεκλείδωμα του DigiWallet και την αποστολή DigiByte.</string>
+  <string name="UpdatePin.createInstruction">Το PIN θα χρησιμοποιηθεί για το ξεκλείδωμα του eMark Wallet και την αποστολή eMark.</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">Ορισμός PIN</string>
   <!-- Update PIN title -->
@@ -728,7 +728,7 @@
   <!-- Authorize transaction with touch id message -->
   <string name="VerifyPin.touchIdMessage">Έγκριση της συναλλαγής</string>
   <!-- 'No wallet' warning for watch app -->
-  <string name="Watch.noWalletWarning">Άνοιξε την εφαρμογή DigiWallet για Android για να δημιουργήσεις το πορτοφόλι σου</string>
+  <string name="Watch.noWalletWarning">Άνοιξε την εφαρμογή eMark Wallet για Android για να δημιουργήσεις το πορτοφόλι σου</string>
   <!-- Dismiss button label -->
   <string name="Webview.dismiss">Απόρριψη</string>
   <!-- Webview loading error message -->
@@ -736,9 +736,9 @@
   <!-- Updating webview message -->
   <string name="Webview.updating">Ενημέρωση...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">Το DigiWallet έχει ολοκαίνουρια εμφάνιση και χαρακτηριστικά.\n\nΕάν χρειάζεσαι βοήθεια, αναζήτησε το (?) στην πάνω δεξιά γωνία των περισσότερων οθονών.</string>
+  <string name="Welcome.body">Το eMark Wallet έχει ολοκαίνουρια εμφάνιση και χαρακτηριστικά.\n\nΕάν χρειάζεσαι βοήθεια, αναζήτησε το (?) στην πάνω δεξιά γωνία των περισσότερων οθονών.</string>
   <!-- Top title of welcome screen -->
-  <string name="Welcome.title">Καλώς ήρθες στο DigiWallet!</string>
+  <string name="Welcome.title">Καλώς ήρθες στο eMark Wallet!</string>
   <!-- Wipe wallet alert message -->
   <string name="WipeWallet.alertMessage">Διαγραφή πορτοφολιού. Είσαι σίγουρος;</string>
   <!-- Wipe wallet alert title -->
@@ -750,9 +750,9 @@
   <!-- Enter phrase to wipe wallet instruction. -->
   <string name="WipeWallet.instruction">Για να δημιουργήσεις ένα νέο ή να ανακτήσεις, ένα πορτοφόλι, πρέπει πρώτα να σβήσεις το υπάρχον. Για συνέχεια πρέπει να εισάγεις το κλειδί το πορτοφολιού.</string>
   <!-- Start wipe wallet view message -->
-  <string name="WipeWallet.startMessage">Η εκκίνηση ή η ανάκτηση ενός άλλου πορτοφολιού, σου επιτρέπει την πρόσβαση και διαχείρηση ενός διαφορετικού DigiWallet σε αυτή τη συσκευή.</string>
+  <string name="WipeWallet.startMessage">Η εκκίνηση ή η ανάκτηση ενός άλλου πορτοφολιού, σου επιτρέπει την πρόσβαση και διαχείρηση ενός διαφορετικού eMark Wallet σε αυτή τη συσκευή.</string>
   <!-- Start wipe wallet view warning -->
-  <string name="WipeWallet.startWarning">Δεν θα έχεις πλέον πρόσβαση στο τρέχον DigiWallet από αυτή τη συσκευή. Αν στο μέλλον θέλεις να το ανακτήσεις, θα πρέπει να εισάγεις το κλειδί σου.</string>
+  <string name="WipeWallet.startWarning">Δεν θα έχεις πλέον πρόσβαση στο τρέχον eMark Wallet από αυτή τη συσκευή. Αν στο μέλλον θέλεις να το ανακτήσεις, θα πρέπει να εισάγεις το κλειδί σου.</string>
   <!-- Wipe wallet navigation item title. -->
   <string name="WipeWallet.title">Δημιουργία ή Ανάκτηση Άλλου Πορτοφολιού</string>
   <!-- Wipe wallet button title -->

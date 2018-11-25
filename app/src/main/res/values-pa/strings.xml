@@ -9,9 +9,9 @@
   <!-- Privay Policy button label -->
   <string name="About.privacy">ਪਰਅਈਵਸੀ ਪੋਲਸੀ</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/DeutscheeMark/</string>
   <!-- Terms of Use button label -->
-  <string name="About.terms">ਇਹ ਓਪਨ ਸੋਰਸ ਪ੍ਰਾਜੈਕਟ ਹੈ। ਇਸ ਦਾ ਕੋਡ ਇਥੇ ਦੇਖ ਸਕਦੇ ਹੋ। https://github.com/Racecraft/digibytewallet-android</string>
+  <string name="About.terms">ਇਹ ਓਪਨ ਸੋਰਸ ਪ੍ਰਾਜੈਕਟ ਹੈ। ਇਸ ਦਾ ਕੋਡ ਇਥੇ ਦੇਖ ਸਕਦੇ ਹੋ। https://github.com/emarkproject/eMarkwallet-android</string>
   <!--
   Terms of Use button label
   About screen title
@@ -19,7 +19,7 @@
   <string name="About.title">"ਸ਼ੇਤੀ, ਸੌਖਾ ਅਤੇ ਸੁਰੱਖਿਅਤ। 
 ਆਨਡਰੋਈਡ ਦਾ ਡੀਜੀ ਵਾਲਿਟ ਆਸਾਨ ਤਰੀਕਾ ਹੈ ਡੀਜੀ ਬਾਈਟ ਭੇਜਣ ਅਤੇ ਲੈਣ ਲਈ। ਇਹ  ਨਵੇਂ ਅਤੇ ਤਜਰਬੇਕਾਰ ਉਪਭੋਗਤਾਵਾਂ ਦੇ ਦਿਮਾਗ ਨਾਲ ਤਿਆਰ ਕੀਤਾ ਗਿਆ ਹੈ। "</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/deutsche_emark</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">ਬੰਦ</string>
   <!-- Support center accessibiliy label -->
@@ -69,7 +69,7 @@
   <string name="ApiClient.tokenError">
 API ਟੋਕਨ ਮੁੜ ਪ੍ਰਾਪਤ ਕਰਨ ਵਿੱਚ ਅਸਮਰੱਥ</string>
   <!-- Send BCH view body. -->
-  <string name="BCH.body">ਹੇਠਾਂ ਇੱਕ ਮੰਜ਼ਿਲ DGB ਪਤਾ ਦਾਖਲ ਕਰੋ. ਫੋਰਕ (%1$s) ਦੇ ਸਮੇਂ ਤੁਹਾਡੇ ਵਾਲਿਟ ਵਿੱਚ ਸਾਰੇ ਡੀ ਜੀਬੀ ਭੇਜੇ ਜਾਣਗੇ</string>
+  <string name="BCH.body">ਹੇਠਾਂ ਇੱਕ ਮੰਜ਼ਿਲ DEM ਪਤਾ ਦਾਖਲ ਕਰੋ. ਫੋਰਕ (%1$s) ਦੇ ਸਮੇਂ ਤੁਹਾਡੇ ਵਾਲਿਟ ਵਿੱਚ ਸਾਰੇ ਡੀ ਜੀਬੀ ਭੇਜੇ ਜਾਣਗੇ</string>
   <!-- Confirm sending <$5.00> to <address>? -->
   <string name="BCH.confirmationMessage">%1$s  ਤੌਂ %2$s ਭੇਜਣ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ</string>
   <!-- Confirmation alert title -->

@@ -9,17 +9,17 @@
   <!-- Privay Policy button label -->
   <string name="About.privacy">गोपनीयता  धोरण</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/DeutscheeMark/</string>
   <!-- Terms of Use button label -->
   <string name="About.terms">हा प्रकल्प मुक्त स्रोत आहे. आपण येथे कोडचे पुनरावलोकन करू शकता.
-https://github.com/Racecraft/digibytewallet-android</string>
+https://github.com/emarkproject/eMarkwallet-android</string>
   <!--
   Terms of Use button label
   About screen title
   -->
   <string name="About.title">जलद, सोपे, सुरक्षित!: डिजिपॅकेट हे अँड्रॉइड साठी डिजिबाईट पाठवणे आणि स्वीकारणे यासाठी अत्यंत सोपा मार्ग आहे.  डिजिपॅकेट हे अँड्रॉइड वापरणाऱ्या नवीन व अनुभवी लोकांसाठी तयार करण्यात आलेले आहे , तसेच पहिल्यांदाच उपयोग करणाऱ्या लोकांसाठी खूप सोपे आहे आणि नेहमी  वापर करणाऱ्यांसाठी  सुद्धा तितकेच उपयुक्त आहे.</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/deutsche_emark</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">बंद</string>
   <!-- Support center accessibiliy label -->
@@ -151,7 +151,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <string name="current_amount">वर्तमान शुल्क: %s</string>
   <string name="date">दिनांक</string>
   <!-- Bitcoin denomination picker label -->
-  <string name="DefaultCurrency.bitcoinLabel">DigiByte डिस्प्ले यूनिट</string>
+  <string name="DefaultCurrency.bitcoinLabel">eMark डिस्प्ले यूनिट</string>
   <!--
   Bitcoin denomination picker label
   Exchange rate label

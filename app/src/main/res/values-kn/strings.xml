@@ -9,16 +9,16 @@
   <!-- Privay Policy button label -->
   <string name="About.privacy">"ಗೌಪ್ಯತಾ ನೀತಿಗಳು ಬಟನ್ ಲೇಬಲ್  "</string>
   <!-- About screen reddit label -->
-  <string name="About.reddit">https://www.reddit.com/r/Digibyte/</string>
+  <string name="About.reddit">https://www.reddit.com/r/DeutscheeMark/</string>
   <!-- Terms of Use button label -->
   <string name="About.terms">"ಬಳಸುವ ನಿಯಮಗಳು ಬಟನ್ ಲೇಬಲ್ "</string>
   <!--
   Terms of Use button label
   About screen title
   -->
-  <string name="About.title">ವೇಗವಾದ, ಸರಳ ಮತ್ತು ಸುರಕ್ಷಿತ !: ಡಿಜಿಬಿಟ್ಗೆ ಕಳುಹಿಸುವ ಮತ್ತು ಸ್ವೀಕರಿಸುವಿಕೆಯನ್ನು ಪ್ರಾರಂಭಿಸಲು Android ಗಾಗಿ DigiWallet ಸುಲಭ ಮಾರ್ಗವಾಗಿದೆ. ಹೊಸ ಮತ್ತು ಅನುಭವಿ ಬಳಕೆದಾರರ ಮನಸ್ಸಿನಲ್ಲಿ ವಿನ್ಯಾಸಗೊಳಿಸಿದರೆ, ಆಂಡ್ರಾಯ್ಡ್ಗಾಗಿ ಡಿಜಿ ವಾಲೆಟ್ ಬಳಸಲು ಮೊದಲ ಬಾರಿಗೆ ಅನನುಭವಿಯಾಗಿದ್ದು, ಸಾಮಾನ್ಯ ವಿದ್ಯುತ್ ಬಳಕೆದಾರರಿಗೆ ಸಾಕಷ್ಟು ಶಕ್ತಿಯುತವಾಗಿದೆ.</string>
+  <string name="About.title">ವೇಗವಾದ, ಸರಳ ಮತ್ತು ಸುರಕ್ಷಿತ !: ಡಿಜಿಬಿಟ್ಗೆ ಕಳುಹಿಸುವ ಮತ್ತು ಸ್ವೀಕರಿಸುವಿಕೆಯನ್ನು ಪ್ರಾರಂಭಿಸಲು Android ಗಾಗಿ eMark Wallet ಸುಲಭ ಮಾರ್ಗವಾಗಿದೆ. ಹೊಸ ಮತ್ತು ಅನುಭವಿ ಬಳಕೆದಾರರ ಮನಸ್ಸಿನಲ್ಲಿ ವಿನ್ಯಾಸಗೊಳಿಸಿದರೆ, ಆಂಡ್ರಾಯ್ಡ್ಗಾಗಿ ಡಿಜಿ ವಾಲೆಟ್ ಬಳಸಲು ಮೊದಲ ಬಾರಿಗೆ ಅನನುಭವಿಯಾಗಿದ್ದು, ಸಾಮಾನ್ಯ ವಿದ್ಯುತ್ ಬಳಕೆದಾರರಿಗೆ ಸಾಕಷ್ಟು ಶಕ್ತಿಯುತವಾಗಿದೆ.</string>
   <!-- About screen twitter label -->
-  <string name="About.twitter">https://twitter.com/digibytecoin</string>
+  <string name="About.twitter">https://twitter.com/deutsche_emark</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">"ಮೋಡಲ್ ಬಟನ್ ಪ್ರವೇಶವನ್ನು ಬಂದ್ ಮಾಡು ಲೇಬಲ್ "</string>
   <!-- Support center accessibiliy label -->
@@ -226,7 +226,7 @@
   <!-- Ignore jailbreak warning button -->
   <string name="JailbreakWarnings.ignore">"ಜೈಲ್ ಬ್ರೇಕ್ ಎಚ್ಚರಿಕೆಯ ಬಟನ್ ಅನ್ನು ನಿರ್ಲಕ್ಷಿಸು "</string>
   <!-- Jailbreak warning message -->
-  <string name="JailbreakWarnings.messageWithBalance">ಜೈಲ್ ಬ್ರೇಕ್ ಎಚ್ಚರಿಕೆಯ ಸಂದೇಶ. ಸಾಧನ ಸುರಕ್ಷತೆ ಹೊಂದಾಣಿಕೆಯಾಗಿದೆ\nಯಾವುದೇ \'ಜೈಲ್ ಬ್ರೇಕ್\' ಅಪ್ಲಿಕೇಶನ್ ಡಿಜಿ ವಾಲೆಟ್ನ ಕೀಚೈನ್ನ ಡೇಟಾವನ್ನು ಪ್ರವೇಶಿಸಬಹುದು ಮತ್ತು ನಿಮ್ಮ DigiByte ಅನ್ನು ಕದಿಯಬಹುದು! ಈ Wallet ಅನ್ನು ತಕ್ಷಣವೇ ಅಳಿಸಿ ಮತ್ತು ಸುರಕ್ಷಿತ ಸಾಧನದಲ್ಲಿ ಮರುಸ್ಥಾಪಿಸಿ.</string>
+  <string name="JailbreakWarnings.messageWithBalance">ಜೈಲ್ ಬ್ರೇಕ್ ಎಚ್ಚರಿಕೆಯ ಸಂದೇಶ. ಸಾಧನ ಸುರಕ್ಷತೆ ಹೊಂದಾಣಿಕೆಯಾಗಿದೆ\nಯಾವುದೇ \'ಜೈಲ್ ಬ್ರೇಕ್\' ಅಪ್ಲಿಕೇಶನ್ ಡಿಜಿ ವಾಲೆಟ್ನ ಕೀಚೈನ್ನ ಡೇಟಾವನ್ನು ಪ್ರವೇಶಿಸಬಹುದು ಮತ್ತು ನಿಮ್ಮ eMark ಅನ್ನು ಕದಿಯಬಹುದು! ಈ Wallet ಅನ್ನು ತಕ್ಷಣವೇ ಅಳಿಸಿ ಮತ್ತು ಸುರಕ್ಷಿತ ಸಾಧನದಲ್ಲಿ ಮರುಸ್ಥಾಪಿಸಿ.</string>
   <!--
   Ignore jailbreak warning button
   Jailbreak warning message

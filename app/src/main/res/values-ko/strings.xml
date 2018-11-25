@@ -5,19 +5,19 @@
   <!-- About screen blog label -->
   <string name="About.blog">블로그</string>
   <!-- About screen footer -->
-  <string name="About.footer">글로벌 DigiWallet 팀에 의해 만들어지다. Version%1$s</string>
+  <string name="About.footer">글로벌 eMark Wallet 팀에 의해 만들어지다. Version%1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">개인정보 보호정책</string>
   <!-- About screen reddit label -->
   <string name="About.reddit">레딧</string>
   <!-- Terms of Use button label -->
   <string name="About.terms">이 프로젝트는 공개출처이니, 코드를 보시려면 여기를  검토하세요:
-https://github.com/Racecraft/digibytewallet-android</string>
+https://github.com/emarkproject/eMarkwallet-android</string>
   <!--
   Terms of Use button label
   About screen title
   -->
-  <string name="About.title">빠르고, 간단하고 안전합니다!: 안드로이드용 DigiWallet은 DigiByte를 전송하고 전달 받을 수 있는 가장 편리한 지갑입니다. 새로운 사용자와 경험 있는 사용자들 모두를 위해 디자인 되었기 때문에 안드로이드용 DigiWallet은 처음 사용하는 초보자들도 간단히 사용할 수 있으며, 파워 유저들 또한 사용할 수 있을 정도로 강력합니다.</string>
+  <string name="About.title">빠르고, 간단하고 안전합니다!: 안드로이드용 eMark Wallet은 eMark를 전송하고 전달 받을 수 있는 가장 편리한 지갑입니다. 새로운 사용자와 경험 있는 사용자들 모두를 위해 디자인 되었기 때문에 안드로이드용 eMark Wallet은 처음 사용하는 초보자들도 간단히 사용할 수 있으며, 파워 유저들 또한 사용할 수 있을 정도로 강력합니다.</string>
   <!-- About screen twitter label -->
   <string name="About.twitter">트위터</string>
   <!-- Close modal button accessibility label -->
@@ -68,7 +68,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- API Token error message -->
   <string name="ApiClient.tokenError">API토큰을 불러올 수 없습니다.</string>
   <!-- Send BCH view body. -->
-  <string name="BCH.body">DigiByte주소를 알에 입력하세요. 현 포크 (%1$s) 기준으로 전자지갑안의 모든 DigiByte이 송금됩니다.</string>
+  <string name="BCH.body">eMark주소를 알에 입력하세요. 현 포크 (%1$s) 기준으로 전자지갑안의 모든 eMark이 송금됩니다.</string>
   <!-- Confirm sending <$5.00> to <address>? -->
   <string name="BCH.confirmationMessage">%1$s에서 %2$s로 보내는것을 확인하세요.</string>
   <!-- Confirmation alert title -->
@@ -80,13 +80,13 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- No address error message -->
   <string name="BCH.noAddressError">"주소를 입력해주세요 "</string>
   <!-- Attempted to scan unsupported qr code error message. -->
-  <string name="BCH.paymentProtocolError">DigiByte 트랜잭션에는 지급 프로토콜 요청이 지원되지 않습니다.</string>
+  <string name="BCH.paymentProtocolError">eMark 트랜잭션에는 지급 프로토콜 요청이 지원되지 않습니다.</string>
   <!-- BCH successfully sent alert message -->
-  <string name="BCH.successMessage">DGB가 성공적으로 보내졌습니다</string>
+  <string name="BCH.successMessage">DEM가 성공적으로 보내졌습니다</string>
   <!-- Widthdraw BCH view title -->
-  <string name="BCH.title">DGB 출금</string>
+  <string name="BCH.title">DEM 출금</string>
   <!-- Tx Hash button header -->
-  <string name="BCH.txHashHeader">DGB 거래 아이디</string>
+  <string name="BCH.txHashHeader">DEM 거래 아이디</string>
   <!-- Approve button label -->
   <string name="BitID.approve">승인</string>
   <!-- <sitename> is requesting authentication using your bitcoin wallet -->
@@ -204,7 +204,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- password textfield placeholder -->
   <string name="Import.passwordPlaceholder">암호</string>
   <!-- Caption for graphics -->
-  <string name="Import.rightCaption">당신의 DigiWallet</string>
+  <string name="Import.rightCaption">당신의 eMark Wallet</string>
   <!-- Scan Private key button label -->
   <string name="Import.scan">개인 키를 스캔하세요.</string>
   <!-- Import wallet success alert title -->
@@ -225,19 +225,19 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <string name="JailbreakWarnings.ignore">무시</string>
   <!-- Jailbreak warning message -->
   <string name="JailbreakWarnings.messageWithBalance">장치 보안 완료됨 
-\'탈옥\'앱은 DigiWallet의 키체인 데이터에 액세스 할 수 있으며 당신의 디지바이트를 훔칩니다! 이 지갑을 즉시 삭제하고 안전한 기기에 복원하세요</string>
+\'탈옥\'앱은 eMark Wallet의 키체인 데이터에 액세스 할 수 있으며 당신의 디지바이트를 훔칩니다! 이 지갑을 즉시 삭제하고 안전한 기기에 복원하세요</string>
   <!--
   Ignore jailbreak warning button
   Jailbreak warning message
   -->
   <string name="JailbreakWarnings.messageWithoutBalance">장치 보안 완료됨 
-\'탈옥\'앱은 DigiWallet의 키체인 데이터에 액세스 할 수 있으며 당신의 디지바이트를 훔칩니다. \'탈옥\'하지않은 기기에서만 DigiWallet을 사용하십시오.</string>
+\'탈옥\'앱은 eMark Wallet의 키체인 데이터에 액세스 할 수 있으며 당신의 디지바이트를 훔칩니다. \'탈옥\'하지않은 기기에서만 eMark Wallet을 사용하십시오.</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">경고!</string>
   <!-- Location services disabled error -->
   <string name="LocationPlugin.disabled">위치기반 서비스가 비활성화 되었습니다.</string>
   <!-- No permissions for location services -->
-  <string name="LocationPlugin.notAuthorized">DigiWallet이 위치기반 서비스에 대한 권한이 없습니다.</string>
+  <string name="LocationPlugin.notAuthorized">eMark Wallet이 위치기반 서비스에 대한 권한이 없습니다.</string>
   <!-- Wallet creation date prefix -->
   <string name="ManageWallet.creationDatePrefix">귀하의 전자지갑은 %1$s 에 생성되었습니다</string>
   <!-- Manage wallet description text -->
@@ -433,7 +433,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Security Center Title -->
   <string name="SecurityCenter.title">보안 센터</string>
   <!-- Touch ID button description -->
-  <string name="SecurityCenter.touchIdDescription">DigiWallet의 잠금을 편리하게 해제하고 정해진 한도까지 돈을 보냅니다.</string>
+  <string name="SecurityCenter.touchIdDescription">eMark Wallet의 잠금을 편리하게 해제하고 정해진 한도까지 돈을 보냅니다.</string>
   <!-- Touch ID button title -->
   <string name="SecurityCenter.touchIdTitle">터치 ID</string>
   <!-- Security center fingerprint authentication button -->
@@ -506,11 +506,11 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Join Early access label -->
   <string name="Settings.earlyAccess">초기 액세스 가입</string>
   <!-- Are you enjoying bread alert message body -->
-  <string name="Settings.enjoying">DigiWallet에서 즐거운 시간을 보내고 있나요?</string>
+  <string name="Settings.enjoying">eMark Wallet에서 즐거운 시간을 보내고 있나요?</string>
   <!-- Import wallet left message -->
   <string name="Settings.importLeftMessage">불러올 전자지갑</string>
   <!-- Import wallet right message -->
-  <string name="Settings.importRightMessage">당신의 DigiWallet</string>
+  <string name="Settings.importRightMessage">당신의 eMark Wallet</string>
   <!-- Import wallet label -->
   <string name="Settings.importTitle">지갑 수입</string>
   <!-- Manage settings section header -->
@@ -536,7 +536,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Start or recover another wallet menu label. -->
   <string name="Settings.wipe">다른 지갑 시작/복구하기</string>
   <!-- Share data view body -->
-  <string name="ShareData.body">귀하의 익명 데이터를 저희와 공유함으로써 DigiWallet이 향상되도록 도와 주십시오. 이것은 어떠한 재정적인 정보도 포함하고 있지 않습니다. 우리는 당신의 재정적 사생활을 존중합니다.</string>
+  <string name="ShareData.body">귀하의 익명 데이터를 저희와 공유함으로써 eMark Wallet이 향상되도록 도와 주십시오. 이것은 어떠한 재정적인 정보도 포함하고 있지 않습니다. 우리는 당신의 재정적 사생활을 존중합니다.</string>
   <!-- Share data header -->
   <string name="ShareData.header">데이터를 공유하시겠습니까?</string>
   <!-- Share data switch label. -->
@@ -663,7 +663,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- "Sent [$5] to [address]" => This is the "to [address]" part. -->
   <string name="TransactionDetails.to">%1$s 로</string>
   <!-- Transaction ID header -->
-  <string name="TransactionDetails.txHashHeader">DigiByte 거래 ID</string>
+  <string name="TransactionDetails.txHashHeader">eMark 거래 ID</string>
   <!-- (this transaction was) Received at this address: -->
   <string name="TransactionDirection.address">이 주소로 받았습니다.</string>
   <!-- (this transaction was) Sent to this address: -->
@@ -693,7 +693,7 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Update PIN caption text -->
   <string name="UpdatePin.caption">이 PIN을 기억하세요. 잊어 버리시면, 당신은 당신의 디지바이트에 접속하실 수 없습니다.</string>
   <!-- PIN creation info. -->
-  <string name="UpdatePin.createInstruction">비밀 번호는 DigiWallet의 잠금을 해제하고 돈을 보내는 데 사용됩니다.</string>
+  <string name="UpdatePin.createInstruction">비밀 번호는 eMark Wallet의 잠금을 해제하고 돈을 보내는 데 사용됩니다.</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">핀 설정</string>
   <!-- Update PIN title -->
@@ -749,9 +749,9 @@ https://github.com/Racecraft/digibytewallet-android</string>
   <!-- Enter phrase to wipe wallet instruction. -->
   <string name="WipeWallet.instruction">이 지갑을 지우고 다른 지갑을 열거나 복구하려면 복구 문구를 입력합니다. 당신의 현재 잔고는 이 문구에 남아 있습니다.</string>
   <!-- Start wipe wallet view message -->
-  <string name="WipeWallet.startMessage">다른 지갑을 열거나 복구하면 이 장치의 다른 DigiWallet에 액세스하고 관리할 수 있습니다.</string>
+  <string name="WipeWallet.startMessage">다른 지갑을 열거나 복구하면 이 장치의 다른 eMark Wallet에 액세스하고 관리할 수 있습니다.</string>
   <!-- Start wipe wallet view warning -->
-  <string name="WipeWallet.startWarning">더 이상 이 기기에서 현재 DigiWallet에 액세스 할 수 없습니다. 잔액은 문구에 남아있을 것입니다.</string>
+  <string name="WipeWallet.startWarning">더 이상 이 기기에서 현재 eMark Wallet에 액세스 할 수 없습니다. 잔액은 문구에 남아있을 것입니다.</string>
   <!-- Wipe wallet navigation item title. -->
   <string name="WipeWallet.title">다른 월렛 시작 또는 복구</string>
   <!-- Wipe wallet button title -->
