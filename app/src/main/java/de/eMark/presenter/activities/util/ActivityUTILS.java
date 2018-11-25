@@ -107,7 +107,7 @@ public class ActivityUTILS {
                     secondary.setText(BRCurrency.getFormattedCurrencyString(
                             context, iso, new BigDecimal(fiatIntervals[0])));
                     primary.setText(BRCurrency.getFormattedCurrencyString(
-                            context, "DGB", new BigDecimal(btcIntervals[0])));
+                            context, "DEM", new BigDecimal(btcIntervals[0])));
                     return;
                 }
 
@@ -115,7 +115,7 @@ public class ActivityUTILS {
                 btcAnimator.addUpdateListener(animation -> {
                     float value = (float) animation.getAnimatedValue();
                     primary.setText(BRCurrency.getFormattedCurrencyString(
-                            context, "DGB", new BigDecimal(value)));
+                            context, "DEM", new BigDecimal(value)));
                 });
                 btcAnimator.setDuration(1500);
                 btcAnimator.setInterpolator(new DecelerateInterpolator());

@@ -94,8 +94,8 @@ import de.eMark.tools.util.Utils;
 
 public class BRWalletManager {
     private static final String TAG = BRWalletManager.class.getName();
-    private static String DIGIEXPLORER_URL = "https://explorer-1.us.digibyteservers.io";
-    private static final String DIGIEXPLORER_URL_FALLBACK = "https://explorer-2.us.digibyteservers.io";
+    private static String DIGIEXPLORER_URL = "https://blockexplorer.deutsche-emark.org";
+    private static final String DIGIEXPLORER_URL_FALLBACK = "https://blockchain.deutsche-emark.org";
 
     private static BRWalletManager instance;
     public List<OnBalanceChanged> balanceListeners;
@@ -427,7 +427,7 @@ public class BRWalletManager {
         final Context ctx = DigiByte.getContext();
         if (amount > 0) {
             BRExecutor.getInstance().forMainThreadTasks().execute(() -> {
-                String am = BRCurrency.getFormattedCurrencyString(ctx, "DGB",
+                String am = BRCurrency.getFormattedCurrencyString(ctx, "DEM",
                         BRExchange.getBitcoinForSatoshis(ctx, new BigDecimal(amount)));
                 String amCur = BRCurrency.getFormattedCurrencyString(ctx,
                         BRSharedPrefs.getIso(ctx),

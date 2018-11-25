@@ -21,7 +21,7 @@ import de.eMark.wallet.BRWalletManager;
 public class SendFragmentModel extends BaseObservable implements Parcelable {
 
     private StringBuilder amountBuilder = new StringBuilder("");
-    private String selectedIso = BRSharedPrefs.getPreferredBTC(DigiByte.getContext()) ? "DGB"
+    private String selectedIso = BRSharedPrefs.getPreferredBTC(DigiByte.getContext()) ? "DEM"
             : BRSharedPrefs.getIso(DigiByte.getContext());
     private String enteredAddress = "";
     private String memo = "";
@@ -212,7 +212,7 @@ public class SendFragmentModel extends BaseObservable implements Parcelable {
         if (!validAmount()) {
             return 0;
         }
-        long satoshis = selectedIso.equalsIgnoreCase("dgb") ? BRExchange.getSatoshisForBitcoin(
+        long satoshis = selectedIso.equalsIgnoreCase("dem") ? BRExchange.getSatoshisForBitcoin(
                 DigiByte.getContext(), new BigDecimal(getAmount())).longValue()
                 : BRExchange.getSatoshisFromAmount(DigiByte.getContext(), getSelectedIso(),
                         new BigDecimal(getAmount())).longValue();

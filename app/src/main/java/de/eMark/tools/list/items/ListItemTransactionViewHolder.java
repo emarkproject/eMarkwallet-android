@@ -50,7 +50,7 @@ public class ListItemTransactionViewHolder extends ListItemViewHolder {
         TxItem item = listItemTransactionData.transactionItem;
         boolean isBTCPreferred = BRSharedPrefs.getPreferredBTC(textView.getContext());
         boolean received = item.getSent() == 0;
-        String iso = isBTCPreferred ? "DGB" : BRSharedPrefs.getIso(textView.getContext());
+        String iso = isBTCPreferred ? "DEM" : BRSharedPrefs.getIso(textView.getContext());
         long satoshisAmount = received ? item.getReceived() : (item.getSent() - item.getReceived());
         textView.setTextColor(received ? Color.parseColor("#3fe77b") : Color.parseColor("#ff7416"));
         String transactionText;

@@ -155,7 +155,7 @@ public class FragmentSend extends Fragment implements OnBackPressListener {
         public void onIsoButtonClickListener() {
             if (sendFragmentModel.getSelectedIso().equalsIgnoreCase(
                     BRSharedPrefs.getIso(getContext()))) {
-                sendFragmentModel.setSelectedIso("DGB");
+                sendFragmentModel.setSelectedIso("DEM");
             } else {
                 sendFragmentModel.setSelectedIso(BRSharedPrefs.getIso(getContext()));
             }

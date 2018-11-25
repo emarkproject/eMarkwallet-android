@@ -88,13 +88,13 @@ public class FingerprintActivity extends BRActivity {
         BigDecimal digibyte = new BigDecimal(BRKeyStore.getSpendLimit(this));
         if (digibyte.equals(BigDecimal.ZERO)) {
             return String.format(getString(R.string.TouchIdSettings_spendingLimit),
-                    BRCurrency.getFormattedCurrencyString(this, "DGB", digibyte),
+                    BRCurrency.getFormattedCurrencyString(this, "DEM", digibyte),
                     DigiByte.getContext().getString(R.string.no_limit));
         }
         BigDecimal curAmount = BRExchange.getAmountFromSatoshis(this, iso, digibyte.multiply(new BigDecimal(100000000)));
         //formatted string for the label
         return String.format(getString(R.string.TouchIdSettings_spendingLimit),
-                BRCurrency.getFormattedCurrencyString(this, "DGB", digibyte),
+                BRCurrency.getFormattedCurrencyString(this, "DEM", digibyte),
                 BRCurrency.getFormattedCurrencyString(this, iso, curAmount));
     }
 
