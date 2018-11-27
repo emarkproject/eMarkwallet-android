@@ -14,8 +14,8 @@
           android:endY="51.46504"
           android:endX="52.16904"
           android:type="linear">
-        <item android:offset="0" android:color="#FF0066CC"/>
-        <item android:offset="1" android:color="#FF002352"/>
+        <item android:offset="0" android:color="@color/emark_gold"/>
+        <item android:offset="1" android:color="@color/emark_dark_gold"/>
       </gradient>
     </aapt:attr>
   </path>

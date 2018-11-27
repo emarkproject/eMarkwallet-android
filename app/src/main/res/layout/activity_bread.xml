@@ -214,7 +214,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="start"
-            android:background="#191a2a">
+            android:background="@color/emark_black">
 
             <ScrollView android:layout_width="match_parent"
                         android:layout_height="match_parent">
@@ -251,7 +251,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="@string/MenuButton.security"
-                            android:textColor="#8b8ca7"
+                            android:textColor="@color/emark_grey"
                             android:textSize="20sp"/>
                     </LinearLayout>
 
@@ -279,7 +279,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="@string/MenuButton.settings"
-                            android:textColor="#8b8ca7"
+                            android:textColor="@color/emark_grey"
                             android:textSize="20sp"/>
                     </LinearLayout>
 
@@ -306,7 +306,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="@string/MenuButton.lock"
-                            android:textColor="#8b8ca7"
+                            android:textColor="@color/emark_grey"
                             android:textSize="20sp"/>
                     </LinearLayout>
 
@@ -320,11 +320,11 @@
                          android:paddingTop="36dp">
 
                 <android.support.v7.widget.AppCompatImageView
-                    android:layout_width="100dp"
-                    android:layout_height="150dp"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
                     android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="50dp"
-                    app:srcCompat="@drawable/digi_byte_symbol"/>
+                    android:layout_marginTop="25dp"
+                    app:srcCompat="@drawable/emark_logo"/>
 
             </FrameLayout>
 
