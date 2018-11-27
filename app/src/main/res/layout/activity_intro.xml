@@ -60,14 +60,14 @@
 
         <ImageView
             android:id="@+id/introImage"
-            android:layout_width="250dp"
+            android:layout_width="300dp"
             android:layout_height="300dp"
             android:layout_above="@id/bottom_container"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="48dp"
             android:layout_marginTop="125dp"
+            android:layout_marginBottom="48dp"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/emark_white"/>
+            app:srcCompat="@drawable/emark_white" />
 
     </de.eMark.presenter.customviews.BRRelativeLayout>
 
