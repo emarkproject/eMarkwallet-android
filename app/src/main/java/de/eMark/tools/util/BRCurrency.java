@@ -125,7 +125,7 @@ public class BRCurrency {
                     case BRConstants.CURRENT_UNIT_MBITS:
                         return "MBits";
                     case BRConstants.CURRENT_UNIT_BITCOINS:
-                        return "DGB";
+                        return "DEM";
                 }
             }
         }
