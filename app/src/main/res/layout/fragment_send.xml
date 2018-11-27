@@ -164,11 +164,11 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="12dp"
-                        app:backgroundTint="#0066cc"
                         android:foreground="?android:attr/selectableItemBackground"
                         android:onClick="@{() -> callback.onIsoButtonClickListener()}"
                         android:text="@{data.isoButtonText}"
-                        android:textColor="@color/white"/>
+                        android:textColor="@color/emark_black"
+                        app:backgroundTint="@color/emark_gold" />
 
                 </LinearLayout>
 
@@ -210,14 +210,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="end|center_vertical"
-                    android:layout_marginEnd="12dp"
                     android:layout_marginStart="12dp"
-                    app:backgroundTint="#0066cc"
+                    android:layout_marginEnd="12dp"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:onClick="@{() -> callback.onMaxSendButtonClickListener()}"
                     android:text="@string/max"
-                    android:textColor="@color/white"
-                    android:visibility="@{data.maxSendVisibility ? View.VISIBLE : View.GONE}"/>
+                    android:textColor="@color/emark_black"
+                    android:visibility="@{data.maxSendVisibility ? View.VISIBLE : View.GONE}"
+                    app:backgroundTint="@color/emark_gold" />
             </LinearLayout>
 
             <LinearLayout
@@ -257,13 +257,13 @@
                         android:id="@+id/send_button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginEnd="12dp"
                         android:layout_marginStart="12dp"
+                        android:layout_marginEnd="12dp"
                         android:background="@drawable/intro_create_button"
                         android:foreground="?android:attr/selectableItemBackground"
                         android:onClick="@{() -> callback.onSendClickListener()}"
                         android:text="@string/Send.sendLabel"
-                        android:textColor="@color/white"/>
+                        android:textColor="@color/emark_black" />
 
                     <ProgressBar
                         android:id="@+id/sending_progress"

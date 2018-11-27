@@ -176,12 +176,12 @@
                             android:id="@+id/share_button"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            app:backgroundTint="#0066cc"
                             android:foreground="?android:attr/selectableItemBackground"
                             android:onClick="@{() -> callback.shareButtonClick()}"
                             android:text="@string/Receive.share"
-                            android:textColor="@color/white"
-                            android:textSize="14sp"/>
+                            android:textColor="@color/emark_black"
+                            android:textSize="14sp"
+                            app:backgroundTint="@color/emark_gold" />
 
                         <LinearLayout
                             android:id="@+id/share_buttons_layout"
@@ -231,16 +231,16 @@
                 android:id="@+id/request_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="12dp"
-                android:layout_marginEnd="12dp"
                 android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginBottom="12dp"
                 android:background="@drawable/intro_create_button"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:onClick="@{() -> callback.requestButtonClick()}"
                 android:text="@string/Receive.request"
-                android:textColor="@color/white"
+                android:textColor="@color/emark_black"
                 android:textSize="14sp"
-                android:visibility="@{data.requestButtonVisibility ? View.VISIBLE : View.GONE}"/>
+                android:visibility="@{data.requestButtonVisibility ? View.VISIBLE : View.GONE}" />
 
         </LinearLayout>
 
