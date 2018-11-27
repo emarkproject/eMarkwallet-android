@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <item name="emark_gold" type="color">#E8BE74</item>
+    <item name="emark_dark_gold" type="color">#CBA35A</item>
+    <item name="emark_black" type="color">#36393E</item>
+    <item name="emark_grey" type="color">#D9DCDE</item>
+
+    <item name="emark_background" type="color">#202225</item>
+
     <item name="background" type="color">#191a2a</item>
     <item name="white" type="color">#ffffff</item>
     <item name="blue" type="color">#FF33B5E5</item>

@@ -26,10 +26,11 @@
                 android:gravity="center_horizontal"
                 android:orientation="vertical">
 
-                <android.support.design.widget.AppBarLayout android:id="@+id/toolbar_layout"
-                                                            android:layout_width="match_parent"
-                                                            android:layout_height="wrap_content"
-                                                            android:background="@color/background">
+                <android.support.design.widget.AppBarLayout
+                    android:id="@+id/toolbar_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/emark_black">
 
                     <android.support.design.widget.CollapsingToolbarLayout
                         android:layout_width="match_parent"
@@ -37,25 +38,26 @@
                         android:animateLayoutChanges="true"
                         app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
-                        <LinearLayout android:id="@+id/toolbar_layout_container"
-                                      android:layout_width="match_parent"
-                                      android:layout_height="wrap_content"
-                                      android:gravity="center_horizontal"
-                                      android:orientation="vertical"
-                                      app:layout_collapseMode="parallax">
+                        <LinearLayout
+                            android:id="@+id/toolbar_layout_container"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical"
+                            app:layout_collapseMode="parallax">
 
                             <TextView
                                 android:id="@+id/primary_price"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginBottom="4dp"
                                 android:layout_marginTop="8dp"
+                                android:layout_marginBottom="4dp"
                                 android:ellipsize="end"
                                 android:foreground="?android:attr/selectableItemBackground"
                                 android:singleLine="true"
                                 android:textColor="@color/white"
                                 android:textSize="40sp"
-                                android:textStyle="bold"/>
+                                android:textStyle="bold" />
 
                             <TextView
                                 android:id="@+id/secondary_price"
@@ -66,7 +68,7 @@
                                 android:foreground="?android:attr/selectableItemBackground"
                                 android:singleLine="true"
                                 android:textColor="#66688f"
-                                android:textSize="26sp"/>
+                                android:textSize="26sp" />
 
                         </LinearLayout>
 
