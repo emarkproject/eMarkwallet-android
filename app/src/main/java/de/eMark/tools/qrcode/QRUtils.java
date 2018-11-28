@@ -141,7 +141,7 @@ public class QRUtils {
             app.startActivity(intent);
         } else {
             intent.setAction(android.content.Intent.ACTION_SEND);
-            intent.putExtra(Intent.EXTRA_SUBJECT, "DigiByte Address");
+            intent.putExtra(Intent.EXTRA_SUBJECT, "Deutsche eMark Address");
             intent.putExtra(Intent.EXTRA_STREAM,qrImageUri);
             intent.setType("image/*");
             app.startActivity(Intent.createChooser(intent, app.getString(R.string.Receive_share)));
