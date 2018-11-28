@@ -17,8 +17,8 @@
           android:endY="157.1604"
           android:endX="157.87149"
           android:type="linear">
-        <item android:offset="0" android:color="#FF0066CC"/>
-        <item android:offset="1" android:color="#FF002352"/>
+        <item android:offset="0" android:color="@color/emark_gold"/>
+        <item android:offset="1" android:color="@color/emark_dark_gold"/>
       </gradient>
     </aapt:attr>
   </path>
@@ -35,8 +35,8 @@
           android:endY="148.55412"
           android:endX="83.09882"
           android:type="linear">
-        <item android:offset="0" android:color="#FF0066CC"/>
-        <item android:offset="1" android:color="#FF002352"/>
+        <item android:offset="0" android:color="@color/emark_gold"/>
+        <item android:offset="1" android:color="@color/emark_dark_gold"/>
       </gradient>
     </aapt:attr>
   </path>
@@ -53,8 +53,8 @@
           android:endY="150.57501"
           android:endX="95.859955"
           android:type="linear">
-        <item android:offset="0" android:color="#FF0066CC"/>
-        <item android:offset="1" android:color="#FF002352"/>
+        <item android:offset="0" android:color="@color/emark_gold"/>
+        <item android:offset="1" android:color="@color/emark_dark_gold"/>
       </gradient>
     </aapt:attr>
   </path>
@@ -71,8 +71,8 @@
           android:endY="150.70102"
           android:endX="108.49988"
           android:type="linear">
-        <item android:offset="0" android:color="#FF0066CC"/>
-        <item android:offset="1" android:color="#FF002352"/>
+        <item android:offset="0" android:color="@color/emark_gold"/>
+        <item android:offset="1" android:color="@color/emark_dark_gold"/>
       </gradient>
     </aapt:attr>
   </path>
@@ -89,8 +89,8 @@
           android:endY="148.51797"
           android:endX="119.07048"
           android:type="linear">
-        <item android:offset="0" android:color="#FF0066CC"/>
-        <item android:offset="1" android:color="#FF002352"/>
+        <item android:offset="0" android:color="@color/emark_gold"/>
+        <item android:offset="1" android:color="@color/emark_dark_gold"/>
       </gradient>
     </aapt:attr>
   </path>
@@ -107,8 +107,8 @@
           android:endY="142.99232"
           android:endX="127.18317"
           android:type="linear">
-        <item android:offset="0" android:color="#FF0066CC"/>
-        <item android:offset="1" android:color="#FF002352"/>
+        <item android:offset="0" android:color="@color/emark_gold"/>
+        <item android:offset="1" android:color="@color/emark_dark_gold"/>
       </gradient>
     </aapt:attr>
   </path>
@@ -125,8 +125,8 @@
           android:endY="133.84734"
           android:endX="138.1813"
           android:type="linear">
-        <item android:offset="0" android:color="#FF0066CC"/>
-        <item android:offset="1" android:color="#FF002352"/>
+        <item android:offset="0" android:color="@color/emark_gold"/>
+        <item android:offset="1" android:color="@color/emark_dark_gold"/>
       </gradient>
     </aapt:attr>
   </path>
@@ -143,8 +143,8 @@
           android:endY="116.8685"
           android:endX="148.01863"
           android:type="linear">
-        <item android:offset="0" android:color="#FF0066CC"/>
-        <item android:offset="1" android:color="#FF002352"/>
+        <item android:offset="0" android:color="@color/emark_gold"/>
+        <item android:offset="1" android:color="@color/emark_dark_gold"/>
       </gradient>
     </aapt:attr>
   </path>
