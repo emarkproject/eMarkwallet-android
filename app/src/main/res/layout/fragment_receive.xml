@@ -99,13 +99,13 @@
                     android:layout_gravity="end|center_vertical"
                     android:layout_marginEnd="14dp"
                     android:layout_marginStart="12dp"
-                    app:backgroundTint="#0066cc"
+                    app:backgroundTint="@color/emark_gold"
                     android:ellipsize="end"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:onClick="@{() -> callback.onIsoButtonClick()}"
                     android:singleLine="true"
                     android:text="@{data.isoButtonText}"
-                    android:textColor="@color/white"
+                    android:textColor="@color/emark_black"
                     android:textSize="14sp"/>
             </LinearLayout>
 
