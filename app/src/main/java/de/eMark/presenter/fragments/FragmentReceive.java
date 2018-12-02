@@ -232,7 +232,7 @@ public class FragmentReceive extends Fragment implements OnBackPressListener {
     }
 
     protected void updateQRImage() {
-        qrUrl = "digibyte:" + address;
+        qrUrl = "eMark:" + address;
         QRUtils.generateQR(getContext(), qrUrl, fragmentReceiveBinding.qrImage);
     }
 

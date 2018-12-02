@@ -18,8 +18,8 @@
                 <corners
                     android:radius="@dimen/radius"/>
                 <gradient
-                    android:endColor="@color/logo_gradient_end"
-                    android:startColor="@color/logo_gradient_start"/>
+                    android:endColor="@color/emark_gold"
+                    android:startColor="@color/emark_background"/>
             </shape>
         </clip>
     </item>
