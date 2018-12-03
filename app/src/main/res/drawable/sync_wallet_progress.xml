@@ -19,7 +19,7 @@
                     android:radius="@dimen/radius"/>
                 <gradient
                     android:endColor="@color/emark_gold"
-                    android:startColor="@color/emark_background"/>
+                    android:startColor="@color/emark_black"/>
             </shape>
         </clip>
     </item>
