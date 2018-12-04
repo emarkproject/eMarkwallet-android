@@ -22,7 +22,7 @@
             android:adapter="@{adapter}"
             android:focusable="false"
             android:orientation="horizontal"
-            app:setCurrentItem="@{transactionNumber}"
+            app:setCurrentItem="@{safeUnbox(transactionNumber)}"
             app:setOffscreenPageLimit="@{5}"
             app:setPageMargin="@{-42}"/>
 
