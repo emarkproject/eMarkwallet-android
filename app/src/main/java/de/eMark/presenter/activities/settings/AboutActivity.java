@@ -48,25 +48,25 @@ public class AboutActivity extends BRActivity {
 
         redditShare.setOnClickListener(v -> {
             Intent browserIntent = new Intent(Intent.ACTION_VIEW,
-                    Uri.parse("https://reddit.com/r/digibyte/"));
+                    Uri.parse("https://reddit.com/r/DeutscheeMark/"));
             startActivity(browserIntent);
             overridePendingTransition(R.anim.enter_from_bottom, R.anim.empty_300);
         });
 
         twitterShare.setOnClickListener(v -> {
             Intent browserIntent = new Intent(Intent.ACTION_VIEW,
-                    Uri.parse("https://twitter.com/digibytecoin"));
+                    Uri.parse("https://twitter.com/deutsche_emark"));
             startActivity(browserIntent);
             overridePendingTransition(R.anim.enter_from_bottom, R.anim.empty_300);
         });
         blogShare.setOnClickListener(v -> {
-            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://digibyte.io"));
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://deutsche-emark.de"));
             startActivity(browserIntent);
             overridePendingTransition(R.anim.enter_from_bottom, R.anim.empty_300);
         });
         policyText.setOnClickListener(v -> {
             Intent browserIntent = new Intent(Intent.ACTION_VIEW,
-                    Uri.parse("https://digibyte.de/eMark-privacy-policy"));
+                    Uri.parse("https://github.com/emarkproject/eMarkwallet-android"));
             startActivity(browserIntent);
             overridePendingTransition(R.anim.enter_from_bottom, R.anim.empty_300);
         });
