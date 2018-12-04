@@ -41,9 +41,7 @@ public class SendFragmentModel extends BaseObservable implements Parcelable {
 
     @Bindable
     public String getIsoButtonText() {
-        return String.format("%s(%s)",
-                BRCurrency.getCurrencyName(DigiByte.getContext(), getSelectedIso()),
-                BRCurrency.getSymbolByIso(DigiByte.getContext(), getSelectedIso()));
+        return BRCurrency.getCurrencyName(DigiByte.getContext(), getSelectedIso());
     }
 
     @Bindable
