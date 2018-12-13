@@ -72,7 +72,7 @@
                             android:singleLine="true"
                             android:text="@{data.fiatAmount}"
                             android:textColor="@color/white"
-                            android:textSize="24sp"/>
+                            android:textSize="18sp"/>
                         <TextView
                             android:id="@+id/original_fiat_amount_text"
                             android:layout_width="match_parent"
@@ -85,7 +85,7 @@
                             android:singleLine="true"
                             android:text="@{data.originalFiatAmount}"
                             android:textColor="@color/white"
-                            android:textSize="24sp"/>
+                            android:textSize="18sp"/>
 
                     </LinearLayout>
 
@@ -113,6 +113,18 @@
                     android:text="@{data.address}"
                     android:textColor="@color/white"
                     android:textSize="18sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="middle"
+                    android:gravity="center_horizontal"
+                    android:paddingEnd="24dp"
+                    android:paddingStart="24dp"
+                    android:singleLine="true"
+                    android:text="Verwendungszweck - demnächst"
+                    android:textColor="@color/emark_grey"
+                    android:textSize="14sp"/>
 
                 <TextView android:id="@+id/fee" android:layout_width="match_parent"
                           android:layout_height="wrap_content"

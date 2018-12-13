@@ -41,7 +41,7 @@ import okhttp3.ResponseBody;
  */
 public class APIClient {
 
-    private static final String FEE_PER_KB_URL = "https://go.digibyte.co/bws/api/v2/feelevels";
+    private static final String FEE_PER_KB_URL = "https://api.deutsche-emark.org/fee-kb.php";
     private final OkHttpClient client = new OkHttpClient.Builder().followRedirects(
             false).writeTimeout(60, TimeUnit.SECONDS).readTimeout(60,
             TimeUnit.SECONDS).connectTimeout(60, TimeUnit.SECONDS).retryOnConnectionFailure(

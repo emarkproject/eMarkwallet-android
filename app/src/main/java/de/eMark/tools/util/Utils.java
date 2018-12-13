@@ -156,7 +156,7 @@ public class Utils {
         }
         if (satoshiAmount != 0) {
             builder = builder.appendQueryParameter("amount", new BigDecimal(satoshiAmount).
-                    divide(new BigDecimal(1000000), 8,
+                    divide(new BigDecimal(1000000), 6,
                             BRConstants.ROUNDING_MODE).toPlainString());
         }
         if (label != null && !label.isEmpty()) {

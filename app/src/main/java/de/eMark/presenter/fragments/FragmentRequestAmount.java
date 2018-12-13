@@ -207,9 +207,7 @@ public class FragmentRequestAmount extends FragmentReceive implements OnBackPres
     private void updateText() {
         receiveFragmentModel.setAmount(amountBuilder.toString());
         receiveFragmentModel.setIsoText(BRCurrency.getSymbolByIso(getActivity(), selectedIso));
-        receiveFragmentModel.setIsoButtonText(
-                String.format("%s(%s)", BRCurrency.getCurrencyName(getActivity(), selectedIso),
-                        BRCurrency.getSymbolByIso(getActivity(), selectedIso)));
+        receiveFragmentModel.setIsoButtonText(BRCurrency.getCurrencyName(getActivity(), selectedIso));
     }
 
     private void showKeyboard(boolean show) {
