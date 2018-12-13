@@ -58,7 +58,7 @@ import io.fabric.sdk.android.Fabric;
 public class DigiByte extends MultiDexApplication implements
         Application.ActivityLifecycleCallbacks {
     public static final String HOST = "deutsche-emark.org";
-    public static final String FEE_URL = "https://api.deutsche-emark.org/fee-kb.php";
+    public static final String FEE_URL = "https://api.deutsche-emark.org/fee-kb-v2.php";
     private static final long SYNC_PERIOD = TimeUnit.HOURS.toMillis(24);
 
     private static DigiByte application;
