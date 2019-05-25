@@ -94,8 +94,8 @@ import de.eMark.tools.util.Utils;
 
 public class BRWalletManager {
     private static final String TAG = BRWalletManager.class.getName();
-    private static String DIGIEXPLORER_URL = "https://blockexplorer.deutsche-emark.org";
-    private static final String DIGIEXPLORER_URL_FALLBACK = "https://blockchain.deutsche-emark.org";
+    private static String DIGIEXPLORER_URL = "http://185.194.142.165:3001/";
+    private static final String DIGIEXPLORER_URL_FALLBACK = "http://blockchain.deutsche-emark.org";
 
     private static BRWalletManager instance;
     public List<OnBalanceChanged> balanceListeners;
@@ -660,8 +660,8 @@ public class BRWalletManager {
             for (String address : addresses) {
                 JSONObject transactionsData = new JSONObject(
                         BRApiManager.getInstance().getBlockInfo(
-                                DigiByte.getContext(), DIGIEXPLORER_URL + "/api/addr/" + address));
-                JSONArray transactionsJson = transactionsData.getJSONArray("transactions");
+                                DigiByte.getContext(), DIGIEXPLORER_URL + "/ext/getaddress/" + address));
+                JSONArray transactionsJson = transactionsData.getJSONArray("last_txs");
                 for (int i = 0; i < transactionsJson.length(); i++) {
                     transactions.add(transactionsJson.getString(i));
                 }
