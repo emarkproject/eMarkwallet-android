@@ -3,7 +3,7 @@
   <!-- App name -->
   <string name="About.appName.android">eMark Wallet</string>
   <!-- About screen blog label -->
-  <string name="About.blog">https://deutsche-emark.de/</string>
+  <string name="About.blog">https://deutsche-emark.org/</string>
   <!-- About screen footer -->
   <string name="About.footer">Vom globalen Deutschen eMark Team erstellt. Version %1$s</string>
   <!-- Privay Policy button label -->
