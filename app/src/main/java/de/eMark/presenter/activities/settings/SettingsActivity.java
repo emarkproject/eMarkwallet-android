@@ -170,13 +170,13 @@ public class SettingsActivity extends BRActivity {
         items.add(new BRSettingsItem(getString(R.string.Settings_wallet), "", null,
                 BRSettingsItem.Type.SECTION));
 
+        // TODO
         //No support currently in BRActivity for the concept of import wallet from QR
-        /*items.add(new BRSettingsItem(getString(R.string.Settings_importTitle), "", v -> {
-            Intent intent = new Intent(SettingsActivity.this, ImportActivity.class);
-            startActivity(intent);
-            overridePendingTransition(R.anim.enter_from_bottom, R.anim.empty_300);
-
-        }, false));*/
+//        items.add(new BRSettingsItem(getString(R.string.Settings_importTitle), "", v -> {
+//            Intent intent = new Intent(SettingsActivity.this, ImportActivity.class);
+//            startActivity(intent);
+//            overridePendingTransition(R.anim.enter_from_bottom, R.anim.empty_300);
+//        }, BRSettingsItem.Type.ITEM));
 
         items.add(new BRSettingsItem(getString(R.string.Settings_wipe), "", v -> {
             WipeActivity.show(SettingsActivity.this);
@@ -203,6 +203,11 @@ public class SettingsActivity extends BRActivity {
         items.add(new BRSettingsItem(getString(R.string.Settings_sync), "", v -> {
             startActivity(new Intent(SettingsActivity.this,
                     SyncBlockchainActivity.class));
+        }, BRSettingsItem.Type.ITEM));
+
+        items.add(new BRSettingsItem(getString(R.string.NodeSelector_title), "", v -> {
+            startActivity(new Intent(SettingsActivity.this,
+                    NodesActivity.class));
         }, BRSettingsItem.Type.ITEM));
 
         items.add(new BRSettingsItem(getString(R.string.Settings_about), "", v -> {
