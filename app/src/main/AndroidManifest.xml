@@ -58,7 +58,7 @@
 
         <meta-data
             android:name="io.fabric.ApiKey"
-            android:value="108511e9bca59555cc48f2d13514c03dd5ca0035"/>
+            android:value="8b382738de1fcc812f984d387456d3d13aafeeed"/>
 
         <activity
             android:name=".presenter.activities.intro.LauncherActivity"
@@ -227,7 +227,7 @@
         </provider>
         <meta-data
             android:name="io.fabric.ApiKey"
-            android:value="108511e9bca59555cc48f2d13514c03dd5ca0035"/>
+            android:value="8b382738de1fcc812f984d387456d3d13aafeeed"/>
     </application>
 
 </manifest>
