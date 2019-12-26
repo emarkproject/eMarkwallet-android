@@ -94,7 +94,7 @@ import de.eMark.tools.util.Utils;
 
 public class BRWalletManager {
     private static final String TAG = BRWalletManager.class.getName();
-    private static String DIGIEXPLORER_URL = "http://185.194.142.165:3001/";
+    private static String DIGIEXPLORER_URL = "http://blockexplorer.deutsche-emark.org";
     private static final String DIGIEXPLORER_URL_FALLBACK = "http://blockchain.deutsche-emark.org";
 
     private static BRWalletManager instance;
