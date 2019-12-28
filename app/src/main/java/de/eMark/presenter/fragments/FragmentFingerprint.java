@@ -32,7 +32,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import de.eMark.DigiByte;
+import de.eMark.eMark;
 import de.eMark.R;
 import de.eMark.databinding.FingerprintDialogContainerBinding;
 import de.eMark.presenter.fragments.interfaces.FingerprintFragmentCallback;
@@ -61,7 +61,7 @@ public class FragmentFingerprint extends Fragment implements FingerprintUiHelper
     private boolean authComplete = false;
 
     private final FingerprintManager mFingerprintManager =
-            (FingerprintManager) DigiByte.getContext().getSystemService(
+            (FingerprintManager) eMark.getContext().getSystemService(
                     Activity.FINGERPRINT_SERVICE);
 
     FingerprintDialogContainerBinding binding;

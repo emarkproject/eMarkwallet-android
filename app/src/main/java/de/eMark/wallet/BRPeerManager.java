@@ -6,7 +6,7 @@ import android.util.Log;
 import java.util.ArrayList;
 import java.util.List;
 
-import de.eMark.DigiByte;
+import de.eMark.eMark;
 import de.eMark.presenter.entities.BlockEntity;
 import de.eMark.presenter.entities.PeerEntity;
 import de.eMark.tools.manager.BRSharedPrefs;
@@ -71,7 +71,7 @@ public class BRPeerManager {
 
     public static void syncStarted() {
         Log.d(TAG, "syncStarted: " + Thread.currentThread().getName());
-        Context ctx = DigiByte.getContext();
+        Context ctx = eMark.getContext();
         int startHeight = BRSharedPrefs.getStartHeight(ctx);
         int lastHeight = BRSharedPrefs.getLastBlockHeight(ctx);
         if (startHeight > lastHeight) BRSharedPrefs.putStartHeight(ctx, lastHeight);
@@ -79,7 +79,7 @@ public class BRPeerManager {
 
     public static void syncSucceeded() {
         Log.d(TAG, "syncSucceeded");
-        final Context app = DigiByte.getContext();
+        final Context app = eMark.getContext();
         if (app == null) return;
         BRSharedPrefs.putLastSyncTime(app, System.currentTimeMillis());
         BRSharedPrefs.putAllowSpend(app, true);
@@ -90,7 +90,7 @@ public class BRPeerManager {
     public static void syncFailed() {
         Log.d(TAG, "syncFailed");
         SyncManager.getInstance().syncFailed();
-        Context ctx = DigiByte.getContext();
+        Context ctx = eMark.getContext();
         if (ctx == null) return;
     }
 
@@ -107,7 +107,7 @@ public class BRPeerManager {
     public static void saveBlocks(final BlockEntity[] blockEntities, final boolean replace) {
         Log.d(TAG, "saveBlocks: " + blockEntities.length);
 
-        final Context ctx = DigiByte.getContext();
+        final Context ctx = eMark.getContext();
         if (ctx == null) return;
         BRExecutor.getInstance().forLightWeightBackgroundTasks().execute(() -> {
             if (replace) MerkleBlockDataSource.getInstance(ctx).deleteAllBlocks();
@@ -117,7 +117,7 @@ public class BRPeerManager {
 
     public static void savePeers(final PeerEntity[] peerEntities, final boolean replace) {
         Log.d(TAG, "savePeers: " + peerEntities.length);
-        final Context ctx = DigiByte.getContext();
+        final Context ctx = eMark.getContext();
         if (ctx == null) return;
         BRExecutor.getInstance().forLightWeightBackgroundTasks().execute(() -> {
             if (replace) PeerDataSource.getInstance(ctx).deleteAllPeers();
@@ -127,12 +127,12 @@ public class BRPeerManager {
 
     public static boolean networkIsReachable() {
         Log.d(TAG, "networkIsReachable");
-        return BRWalletManager.getInstance().isNetworkAvailable(DigiByte.getContext());
+        return BRWalletManager.getInstance().isNetworkAvailable(eMark.getContext());
     }
 
     public static void deleteBlocks() {
         Log.d(TAG, "deleteBlocks");
-        final Context ctx = DigiByte.getContext();
+        final Context ctx = eMark.getContext();
         if (ctx == null) return;
         BRExecutor.getInstance().forLightWeightBackgroundTasks().execute(
                 () -> MerkleBlockDataSource.getInstance(ctx).deleteAllBlocks());
@@ -140,7 +140,7 @@ public class BRPeerManager {
 
     public static void deletePeers() {
         Log.d(TAG, "deletePeers");
-        final Context ctx = DigiByte.getContext();
+        final Context ctx = eMark.getContext();
         if (ctx == null) return;
         BRExecutor.getInstance().forLightWeightBackgroundTasks().execute(
                 () -> PeerDataSource.getInstance(ctx).deleteAllPeers());
@@ -186,7 +186,7 @@ public class BRPeerManager {
     }
 
     public static void updateLastBlockHeight(int blockHeight) {
-        final Context ctx = DigiByte.getContext();
+        final Context ctx = eMark.getContext();
         if (ctx == null) return;
         BRSharedPrefs.putLastBlockHeight(ctx, blockHeight);
     }

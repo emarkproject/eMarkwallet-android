@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 
-import de.eMark.DigiByte;
+import de.eMark.eMark;
 import de.eMark.wallet.BRPeerManager;
 import de.eMark.wallet.BRWalletManager;
 
@@ -127,7 +127,7 @@ public class SyncManager {
         public void run() {
             SystemClock.sleep(250);
             theProgress = BRPeerManager.syncProgress(
-                    BRSharedPrefs.getStartHeight(DigiByte.getContext()));
+                    BRSharedPrefs.getStartHeight(eMark.getContext()));
             theLastBlockTimestamp = BRPeerManager.getInstance().getLastBlockTimestamp();
             handler.post(() -> {
                 for (onStatusListener listener : theListeners) {

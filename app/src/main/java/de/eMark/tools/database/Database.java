@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 
-import de.eMark.DigiByte;
+import de.eMark.eMark;
 
 public class Database {
     public static Database instance = new Database();
@@ -24,7 +24,7 @@ public class Database {
     }
 
     public Database() {
-        AppDatabase database = Room.databaseBuilder(DigiByte.getContext(),
+        AppDatabase database = Room.databaseBuilder(eMark.getContext(),
                 AppDatabase.class, "transaction_database")
                 .fallbackToDestructiveMigration().build();
         db = database.transactionDao();

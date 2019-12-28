@@ -21,7 +21,7 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Set;
 
-import de.eMark.DigiByte;
+import de.eMark.eMark;
 import de.eMark.presenter.entities.CurrencyEntity;
 import de.eMark.tools.sqlite.CurrencyDataSource;
 import de.eMark.tools.threads.BRExecutor;
@@ -129,7 +129,7 @@ public class BRApiManager {
     }
 
     public static boolean updateFeePerKb(Context app) {
-        String jsonString = urlGET(app, DigiByte.FEE_URL);
+        String jsonString = urlGET(app, eMark.FEE_URL);
         long fee = 0;
         long economyFee = 0;
         try {

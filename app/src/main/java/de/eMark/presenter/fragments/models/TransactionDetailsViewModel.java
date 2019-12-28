@@ -13,7 +13,7 @@ import java.text.DateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-import de.eMark.DigiByte;
+import de.eMark.eMark;
 import de.eMark.R;
 import de.eMark.presenter.entities.TxItem;
 import de.eMark.tools.database.Database;
@@ -34,13 +34,13 @@ public class TransactionDetailsViewModel extends BaseObservable {
 
     @Bindable
     public String getCryptoAmount() {
-        if (!BRSharedPrefs.getPreferredBTC(DigiByte.getContext()) && currentFiatAmountEqualsOriginalFiatAmount()) {
+        if (!BRSharedPrefs.getPreferredBTC(eMark.getContext()) && currentFiatAmountEqualsOriginalFiatAmount()) {
             return getRawFiatAmount(item);
         } else {
             boolean received = item.getSent() == 0;
             long satoshisAmount = received ? item.getReceived() : (item.getSent() - item.getReceived());
-            return BRCurrency.getFormattedCurrencyString(DigiByte.getContext(), "DEM",
-                    BRExchange.getAmountFromSatoshis(DigiByte.getContext(), "DEM",
+            return BRCurrency.getFormattedCurrencyString(eMark.getContext(), "DEM",
+                    BRExchange.getAmountFromSatoshis(eMark.getContext(), "DEM",
                             new BigDecimal(satoshisAmount)));
         }
     }
@@ -48,26 +48,26 @@ public class TransactionDetailsViewModel extends BaseObservable {
     public static String getRawFiatAmount(TxItem txItem) {
         boolean received = txItem.getSent() == 0;
         long satoshisAmount = received ? txItem.getReceived() : (txItem.getSent() - txItem.getReceived());
-        return BRCurrency.getFormattedCurrencyString(DigiByte.getContext(),
-                BRSharedPrefs.getIso(DigiByte.getContext()),
-                BRExchange.getAmountFromSatoshis(DigiByte.getContext(),
-                        BRSharedPrefs.getIso(DigiByte.getContext()),
+        return BRCurrency.getFormattedCurrencyString(eMark.getContext(),
+                BRSharedPrefs.getIso(eMark.getContext()),
+                BRExchange.getAmountFromSatoshis(eMark.getContext(),
+                        BRSharedPrefs.getIso(eMark.getContext()),
                         new BigDecimal(satoshisAmount)));
     }
 
     @SuppressLint("StringFormatInvalid")
     @Bindable
     public String getFiatAmount() {
-        return String.format(DigiByte.getContext().getString(R.string.current_amount), getRawFiatAmount(item));
+        return String.format(eMark.getContext().getString(R.string.current_amount), getRawFiatAmount(item));
     }
 
     @SuppressLint("StringFormatInvalid")
     public String getOriginalFiatAmount() {
         DigiTransaction transaction = Database.instance.findTransaction(item.getTxHash());
         if (transaction == null) {
-            return String.format(DigiByte.getContext().getString(R.string.original_amount), "");
+            return String.format(eMark.getContext().getString(R.string.original_amount), "");
         } else {
-            return String.format(DigiByte.getContext().getString(R.string.original_amount),
+            return String.format(eMark.getContext().getString(R.string.original_amount),
                     transaction.getTxAmount());
         }
     }
@@ -79,17 +79,17 @@ public class TransactionDetailsViewModel extends BaseObservable {
         }
         boolean received = item.getSent() == 0;
         long satoshisAmount = received ? item.getReceived() : (item.getSent() - item.getReceived());
-        return transaction.getTxAmount().equals(BRCurrency.getFormattedCurrencyString(DigiByte.getContext(),
-                BRSharedPrefs.getIso(DigiByte.getContext()),
-                BRExchange.getAmountFromSatoshis(DigiByte.getContext(),
-                        BRSharedPrefs.getIso(DigiByte.getContext()),
+        return transaction.getTxAmount().equals(BRCurrency.getFormattedCurrencyString(eMark.getContext(),
+                BRSharedPrefs.getIso(eMark.getContext()),
+                BRExchange.getAmountFromSatoshis(eMark.getContext(),
+                        BRSharedPrefs.getIso(eMark.getContext()),
                         new BigDecimal(satoshisAmount))));
     }
 
     @Bindable
     public String getToFrom() {
-        return item.getReceived() - item.getSent() < 0 ? DigiByte.getContext().getString(
-                R.string.sent) : DigiByte.getContext().getString(R.string.received);
+        return item.getReceived() - item.getSent() < 0 ? eMark.getContext().getString(
+                R.string.sent) : eMark.getContext().getString(R.string.received);
     }
 
     @Bindable
@@ -123,7 +123,7 @@ public class TransactionDetailsViewModel extends BaseObservable {
 
     @Bindable
     public boolean getCompleted() {
-        return BRSharedPrefs.getLastBlockHeight(DigiByte.getContext()) - item.getBlockHeight() + 1
+        return BRSharedPrefs.getLastBlockHeight(eMark.getContext()) - item.getBlockHeight() + 1
                 >= 6;
     }
 
@@ -132,13 +132,13 @@ public class TransactionDetailsViewModel extends BaseObservable {
         if (item.getSent() == 0) {
             return "";
         }
-        String approximateFee = BRCurrency.getFormattedCurrencyString(DigiByte.getContext(), "DEM",
-                BRExchange.getAmountFromSatoshis(DigiByte.getContext(), "DEM",
+        String approximateFee = BRCurrency.getFormattedCurrencyString(eMark.getContext(), "DEM",
+                BRExchange.getAmountFromSatoshis(eMark.getContext(), "DEM",
                         new BigDecimal(item.getFee())));
         if (TextUtils.isEmpty(approximateFee)) {
             approximateFee = "";
         }
-        return DigiByte.getContext().getString(R.string.Send_fee).replace("%1$s", approximateFee);
+        return eMark.getContext().getString(R.string.Send_fee).replace("%1$s", approximateFee);
     }
 
     @Bindable
@@ -153,7 +153,7 @@ public class TransactionDetailsViewModel extends BaseObservable {
         }
         item.metaData.comment = memo;
         BRExecutor.getInstance().forLightWeightBackgroundTasks().execute(() -> {
-            KVStoreManager.getInstance().putTxMetaData(DigiByte.getContext(), item.metaData, item.getTxHash());
+            KVStoreManager.getInstance().putTxMetaData(eMark.getContext(), item.metaData, item.getTxHash());
             TxManager.getInstance().updateTxList();
         });
     }
@@ -161,14 +161,14 @@ public class TransactionDetailsViewModel extends BaseObservable {
     private String getFormattedDate(long timeStamp) {
         Date currentLocalTime = new Date(
                 timeStamp == 0 ? System.currentTimeMillis() : timeStamp * 1000);
-        Locale current = DigiByte.getContext().getResources().getConfiguration().locale;
+        Locale current = eMark.getContext().getResources().getConfiguration().locale;
         return DateFormat.getDateInstance(DateFormat.SHORT, current).format(currentLocalTime);
     }
 
     private String getFormattedTime(long timeStamp) {
         Date currentLocalTime = new Date(
                 timeStamp == 0 ? System.currentTimeMillis() : timeStamp * 1000);
-        Locale current = DigiByte.getContext().getResources().getConfiguration().locale;
+        Locale current = eMark.getContext().getResources().getConfiguration().locale;
         return DateFormat.getTimeInstance(DateFormat.MEDIUM, current).format(currentLocalTime);
     }
 }

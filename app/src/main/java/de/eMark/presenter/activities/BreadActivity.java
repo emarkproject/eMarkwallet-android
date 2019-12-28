@@ -30,7 +30,7 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import butterknife.OnLongClick;
 import butterknife.Unbinder;
-import de.eMark.DigiByte;
+import de.eMark.eMark;
 import de.eMark.R;
 import de.eMark.databinding.ActivityBreadBinding;
 import de.eMark.presenter.activities.adapters.TxAdapter;
@@ -177,8 +177,8 @@ public class BreadActivity extends BRActivity implements BRWalletManager.OnBalan
         df.setRoundingMode(RoundingMode.CEILING);
 
         bindings.syncText.setText(SyncManager.getInstance().getLastBlockTimestamp() == 0
-                ? DigiByte.getContext().getString(R.string.NodeSelector_statusLabel) + ": "
-                + DigiByte.getContext().getString(R.string.SyncingView_connecting)
+                ? eMark.getContext().getString(R.string.NodeSelector_statusLabel) + ": "
+                + eMark.getContext().getString(R.string.SyncingView_connecting)
                 : df.format(Double.valueOf(SyncManager.getInstance().getProgress() * 100d)) + "%"
                         + " - " + DateFormat.getDateInstance(DateFormat.SHORT, current).format(time)
                         + ", " + DateFormat.getTimeInstance(DateFormat.SHORT, current).format(
@@ -187,7 +187,7 @@ public class BreadActivity extends BRActivity implements BRWalletManager.OnBalan
 
     @Override
     public void onTxManagerUpdate(TxItem[] newTxItems) {
-        BRWalletManager.getInstance().refreshBalance(DigiByte.getContext());
+        BRWalletManager.getInstance().refreshBalance(eMark.getContext());
         if (newTxItems == null || newTxItems.length == 0) {
             return;
         }
@@ -376,7 +376,7 @@ public class BreadActivity extends BRActivity implements BRWalletManager.OnBalan
         TxManager.getInstance().addListener(this);
         SyncManager.getInstance().addListener(this);
         BRWalletManager.getInstance().refreshBalance(this);
-        DigiByte.SyncBlockchainJob.scheduleJob();
+        eMark.SyncBlockchainJob.scheduleJob();
         TxManager.getInstance().updateTxList();
         BRApiManager.getInstance().asyncUpdateCurrencyData(this);
         BRApiManager.getInstance().asyncUpdateFeeData(this);

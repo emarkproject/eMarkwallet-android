@@ -12,7 +12,7 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import de.eMark.DigiByte;
+import de.eMark.eMark;
 import de.eMark.R;
 import de.eMark.databinding.ActivityInputWordsBinding;
 import de.eMark.presenter.activities.callbacks.ActivityInputWordsCallback;
@@ -224,10 +224,10 @@ public class InputWordsActivity extends BRActivity implements TextView.OnEditorA
 
         private void validateWord(EditText view) {
             String word = view.getText().toString();
-            boolean valid = SmartValidator.isWordValid(DigiByte.getContext(), word);
+            boolean valid = SmartValidator.isWordValid(eMark.getContext(), word);
             view.setTextColor(ContextCompat.getColor(view.getContext(), valid ? R.color.white : R.color.red_text));
             if (!valid)
-                SpringAnimator.failShakeAnimation(DigiByte.getContext(), view);
+                SpringAnimator.failShakeAnimation(eMark.getContext(), view);
         }
     }
 

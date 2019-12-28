@@ -9,7 +9,7 @@ import com.platform.tools.KVStoreManager;
 
 import java.util.Arrays;
 
-import de.eMark.DigiByte;
+import de.eMark.eMark;
 
 /**
  * BreadWallet
@@ -72,7 +72,7 @@ public class TxItem implements Parcelable {
         this.outAmounts = outAmounts;
         this.isValid = isValid;
         this.txSize = txSize;
-        this.metaData = KVStoreManager.getInstance().getTxMetaData(DigiByte.getContext(), txHash);
+        this.metaData = KVStoreManager.getInstance().getTxMetaData(eMark.getContext(), txHash);
 
     }
 

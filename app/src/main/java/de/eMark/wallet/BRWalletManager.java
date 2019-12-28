@@ -39,7 +39,7 @@ import java.util.List;
 import java.util.Locale;
 
 import de.eMark.BuildConfig;
-import de.eMark.DigiByte;
+import de.eMark.eMark;
 import de.eMark.R;
 import de.eMark.presenter.activities.BreadActivity;
 import de.eMark.presenter.customviews.BRToast;
@@ -413,7 +413,7 @@ public class BRWalletManager {
 
     public static void onBalanceChanged(final long balance) {
         Log.d(TAG, "onBalanceChanged:  " + balance);
-        Context app = DigiByte.getContext();
+        Context app = eMark.getContext();
         BRWalletManager.getInstance().setBalance(app, balance);
 
     }
@@ -424,7 +424,7 @@ public class BRWalletManager {
                 "tx.length: %d, blockHeight: %d, timestamp: %d, amount: %d, hash: %s", tx.length,
                 blockHeight, timestamp, amount, hash));
 
-        final Context ctx = DigiByte.getContext();
+        final Context ctx = eMark.getContext();
         if (amount > 0) {
             BRExecutor.getInstance().forMainThreadTasks().execute(() -> {
                 String am = BRCurrency.getFormattedCurrencyString(ctx, "DEM",
@@ -449,7 +449,7 @@ public class BRWalletManager {
 
     private static void showToastWithMessage(Context ctx, final String message) {
         if (ctx == null) {
-            ctx = DigiByte.getContext();
+            ctx = eMark.getContext();
         }
         if (ctx != null) {
             final Context finalCtx = ctx;
@@ -471,9 +471,9 @@ public class BRWalletManager {
                         }
                     }
 
-                    // TODO: Double check if this should work via DigiByte.getContext()
+                    // TODO: Double check if this should work via eMark.getContext()
                     // .isSuspended()
-                    final Activity activity = DigiByte.getContext().getActivity();
+                    final Activity activity = eMark.getContext().getActivity();
                     if (null == activity || !(activity instanceof BreadActivity)
                             && BRSharedPrefs.getShowNotification(finalCtx)) {
                         BRNotificationManager.sendNotification(finalCtx,
@@ -492,7 +492,7 @@ public class BRWalletManager {
     public static void onTxUpdated(String hash, int blockHeight, int timeStamp) {
         Log.d(TAG, "onTxUpdated: " + String.format("hash: %s, blockHeight: %d, timestamp: %d", hash,
                 blockHeight, timeStamp));
-        Context ctx = DigiByte.getContext();
+        Context ctx = eMark.getContext();
         if (ctx != null) {
             TransactionDataSource.getInstance(ctx).updateTxBlockHeight(hash, blockHeight,
                     timeStamp);
@@ -505,7 +505,7 @@ public class BRWalletManager {
     public static void onTxDeleted(String hash, int notifyUser, final int recommendRescan) {
         Log.e(TAG, "onTxDeleted: " + String.format("hash: %s, notifyUser: %d, recommendRescan: %d",
                 hash, notifyUser, recommendRescan));
-        final Context ctx = DigiByte.getContext();
+        final Context ctx = eMark.getContext();
         if (ctx != null) {
             BRSharedPrefs.putScanRecommended(ctx, true);
         } else {
@@ -555,7 +555,7 @@ public class BRWalletManager {
         }
         initingWallet = true;
         List<BRTransactionEntity> transactions = TransactionDataSource.getInstance(
-                DigiByte.getContext()).getAllTransactions();
+                eMark.getContext()).getAllTransactions();
         int transactionsCount = transactions.size();
         if (transactionsCount > 0) {
             createTxArrayWithCount(transactionsCount);
@@ -564,7 +564,7 @@ public class BRWalletManager {
             }
         }
 
-        byte[] pubkeyEncoded = BRKeyStore.getMasterPublicKey(DigiByte.getContext());
+        byte[] pubkeyEncoded = BRKeyStore.getMasterPublicKey(eMark.getContext());
         if (Utils.isNullOrEmpty(pubkeyEncoded)) {
             Log.e(TAG, "initWallet: pubkey is missing");
             return;
@@ -572,8 +572,8 @@ public class BRWalletManager {
         //Save the first address for future check
         createWallet(transactionsCount, pubkeyEncoded);
         String firstAddress = getFirstAddress(pubkeyEncoded);
-        BRSharedPrefs.putFirstAddress(DigiByte.getContext(), firstAddress);
-        long fee = BRSharedPrefs.getFeePerKb(DigiByte.getContext());
+        BRSharedPrefs.putFirstAddress(eMark.getContext(), firstAddress);
+        long fee = BRSharedPrefs.getFeePerKb(eMark.getContext());
         if (fee == 0) {
             fee = defaultFee();
         }
@@ -587,8 +587,8 @@ public class BRWalletManager {
         }
         initingPeerManager = true;
         List<BRMerkleBlockEntity> blocks = MerkleBlockDataSource.getInstance(
-                DigiByte.getContext()).getAllMerkleBlocks();
-        List<BRPeerEntity> peers = PeerDataSource.getInstance(DigiByte.getContext()).getAllPeers();
+                eMark.getContext()).getAllMerkleBlocks();
+        List<BRPeerEntity> peers = PeerDataSource.getInstance(eMark.getContext()).getAllPeers();
         final int blocksCount = blocks.size();
         final int peersCount = peers.size();
         if (blocksCount > 0) {
@@ -607,7 +607,7 @@ public class BRWalletManager {
         Log.d(TAG, "blocksCount before connecting: " + blocksCount);
         Log.d(TAG, "peersCount before connecting: " + peersCount);
 
-        int walletTime = BRKeyStore.getWalletCreationTime(DigiByte.getContext());
+        int walletTime = BRKeyStore.getWalletCreationTime(eMark.getContext());
 
         Log.e(TAG, "initWallet: walletTime: " + walletTime);
 
@@ -616,7 +616,7 @@ public class BRWalletManager {
         // If there's no stored blocks query public keys for transactions
         // and if there's no transactions sync from the head of the DigiByte blockchain
         // otherwise sync from the oldest block associated with the transactions
-        if (MerkleBlockDataSource.getInstance(DigiByte.getContext()).getAllMerkleBlocks().size() == 0) {
+        if (MerkleBlockDataSource.getInstance(eMark.getContext()).getAllMerkleBlocks().size() == 0) {
             pingToUpdateExplorerDomain();
             LinkedList<String> transactionsData = getAllTransactions();
             if (transactionsData == null) {
@@ -632,10 +632,10 @@ public class BRWalletManager {
         } else {
             BRPeerManager.getInstance().create(walletTime, blocksCount, peersCount);
         }
-        BRPeerManager.getInstance().updateFixedPeer(DigiByte.getContext());
-        if (BRSharedPrefs.getStartHeight(DigiByte.getContext()) == 0) {
+        BRPeerManager.getInstance().updateFixedPeer(eMark.getContext());
+        if (BRSharedPrefs.getStartHeight(eMark.getContext()) == 0) {
             BRExecutor.getInstance().forLightWeightBackgroundTasks().execute(
-                    () -> BRSharedPrefs.putStartHeight(DigiByte.getContext(),
+                    () -> BRSharedPrefs.putStartHeight(eMark.getContext(),
                             BRPeerManager.getCurrentBlockHeight()));
         }
         initingPeerManager = false;
@@ -644,7 +644,7 @@ public class BRWalletManager {
     private void pingToUpdateExplorerDomain() {
         try {
             BRApiManager.getInstance().getBlockInfo(
-                    DigiByte.getContext(), DIGIEXPLORER_URL);
+                    eMark.getContext(), DIGIEXPLORER_URL);
         } catch(Exception e) {
             DIGIEXPLORER_URL = DIGIEXPLORER_URL_FALLBACK;
         }
@@ -656,17 +656,19 @@ public class BRWalletManager {
         if (BuildConfig.DEBUG) {
             Log.d(BRWalletManager.class.getSimpleName(), Arrays.toString(addresses));
         }
+// TODO check blockexplorer connection
         try {
             for (String address : addresses) {
                 JSONObject transactionsData = new JSONObject(
                         BRApiManager.getInstance().getBlockInfo(
-                                DigiByte.getContext(), DIGIEXPLORER_URL + "/ext/getaddress/" + address));
+                                eMark.getContext(), DIGIEXPLORER_URL + "/ext/getaddress/" + address));
                 JSONArray transactionsJson = transactionsData.getJSONArray("last_txs");
                 for (int i = 0; i < transactionsJson.length(); i++) {
                     transactions.add(transactionsJson.getString(i));
                 }
             }
-        } catch (Exception e) {
+        }
+        catch (Exception e) {
             e.printStackTrace();
             return null;
             //Returning 0 transactions should just use the last snapshot
@@ -679,11 +681,11 @@ public class BRWalletManager {
             int peersCount) throws JSONException {
         JSONObject latestBlockHashJson = new JSONObject(
                 BRApiManager.getInstance().getBlockInfo(
-                        DigiByte.getContext(),
+                        eMark.getContext(),
                         DIGIEXPLORER_URL + "/api/status?q=getLastBlockHash"));
         String lastBlockHash = latestBlockHashJson.getString("lastblockhash");
         JSONObject latestBlockData = new JSONObject(BRApiManager.getInstance().getBlockInfo(
-                DigiByte.getContext(),
+                eMark.getContext(),
                 DIGIEXPLORER_URL + "/api/block/" + lastBlockHash));
         BRPeerManager.getInstance().createNew(walletTime, blocksCount, peersCount,
                 latestBlockData.getString("hash"),
@@ -696,7 +698,7 @@ public class BRWalletManager {
         Date oldestBlockTime = new Date(System.currentTimeMillis());
         for (String transaction : transactions) {
             String transactionData = BRApiManager.getInstance().getBlockInfo(
-                    DigiByte.getContext(), DIGIEXPLORER_URL + "/api/tx/" + transaction);
+                    eMark.getContext(), DIGIEXPLORER_URL + "/api/tx/" + transaction);
             JSONObject transactionDataJson = new JSONObject(transactionData);
             Date blockTime = new Date(transactionDataJson.getLong("blocktime") * 1000L);
             if (blockTime.before(oldestBlockTime)) {
@@ -714,11 +716,11 @@ public class BRWalletManager {
 
     private JSONObject goBack5Blocks(String oldestBlockHash) throws JSONException {
         JSONObject blockJson = new JSONObject(BRApiManager.getInstance().getBlockInfo(
-                DigiByte.getContext(), DIGIEXPLORER_URL + "/api/block/" + oldestBlockHash));
+                eMark.getContext(), DIGIEXPLORER_URL + "/api/block/" + oldestBlockHash));
         for (int i = 0; i < 5; i++) {
             oldestBlockHash = blockJson.getString("previousblockhash");
             blockJson = new JSONObject(BRApiManager.getInstance().getBlockInfo(
-                    DigiByte.getContext(), DIGIEXPLORER_URL + "/api/block/" + oldestBlockHash));
+                    eMark.getContext(), DIGIEXPLORER_URL + "/api/block/" + oldestBlockHash));
         }
         return blockJson;
     }

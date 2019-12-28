@@ -13,7 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import de.eMark.DigiByte;
+import de.eMark.eMark;
 import de.eMark.R;
 import de.eMark.databinding.FragmentReceiveBinding;
 import de.eMark.presenter.activities.QRCodeActivity;
@@ -184,7 +184,7 @@ public class FragmentReceive extends Fragment implements OnBackPressListener {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         BRWalletManager.refreshAddress(getContext());
-        address = BRSharedPrefs.getReceiveAddress(DigiByte.getContext());
+        address = BRSharedPrefs.getReceiveAddress(eMark.getContext());
     }
 
     @Override

@@ -22,7 +22,7 @@ import android.view.animation.Animation;
 import android.view.animation.ScaleAnimation;
 import android.widget.Button;
 
-import de.eMark.DigiByte;
+import de.eMark.eMark;
 import de.eMark.R;
 import de.eMark.tools.manager.FontManager;
 import de.eMark.tools.util.Utils;
@@ -114,7 +114,7 @@ public class BRButton extends Button {
 
         if (isBreadButton) {
             setBackground(
-                    ContextCompat.getDrawable(DigiByte.getContext(), R.drawable.shadow_trans));
+                    ContextCompat.getDrawable(eMark.getContext(), R.drawable.shadow_trans));
         }
 
         setPadding(paddingLeft, paddingTop, paddingRight, paddingBottom);

@@ -7,7 +7,7 @@ import static de.eMark.tools.manager.PromptManager.PromptItem.UPGRADE_PIN;
 
 import android.content.Context;
 
-import de.eMark.DigiByte;
+import de.eMark.eMark;
 import de.eMark.tools.security.BRKeyStore;
 import de.eMark.tools.util.Utils;
 
@@ -74,22 +74,22 @@ public class PromptManager {
         switch (promptItem) {
             default:
             case RECOMMEND_RESCAN:
-                return BRSharedPrefs.hasPromptDismissed(DigiByte.getContext(),
+                return BRSharedPrefs.hasPromptDismissed(eMark.getContext(),
                         getPromptName(RECOMMEND_RESCAN));
             case UPGRADE_PIN:
-                return BRSharedPrefs.hasPromptDismissed(DigiByte.getContext(),
+                return BRSharedPrefs.hasPromptDismissed(eMark.getContext(),
                         getPromptName(UPGRADE_PIN));
             case PAPER_KEY:
-                return BRSharedPrefs.hasPromptDismissed(DigiByte.getContext(),
+                return BRSharedPrefs.hasPromptDismissed(eMark.getContext(),
                         getPromptName(PAPER_KEY));
             case FINGER_PRINT:
-                return BRSharedPrefs.hasPromptDismissed(DigiByte.getContext(),
+                return BRSharedPrefs.hasPromptDismissed(eMark.getContext(),
                         getPromptName(FINGER_PRINT));
         }
     }
 
     private boolean shouldPrompt(PromptItem item) {
-        final Context context = DigiByte.getContext();
+        final Context context = eMark.getContext();
         switch (item) {
             case FINGER_PRINT:
                 return !BRSharedPrefs.getUseFingerprint(context) && Utils.isFingerprintAvailable(

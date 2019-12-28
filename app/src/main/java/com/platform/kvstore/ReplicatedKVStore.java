@@ -46,7 +46,7 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import de.eMark.DigiByte;
+import de.eMark.eMark;
 import de.eMark.tools.security.BRKeyStore;
 import de.eMark.tools.threads.BRExecutor;
 import de.eMark.tools.util.BRConstants;
@@ -110,7 +110,7 @@ public class ReplicatedKVStore {
             Log.e(TAG, "encrypt: data is null");
             return null;
         }
-        if (app == null) app = DigiByte.getContext();
+        if (app == null) app = eMark.getContext();
         if (app == null) {
             Log.e(TAG, "encrypt: app is null");
             return null;
@@ -148,7 +148,7 @@ public class ReplicatedKVStore {
             Log.e(TAG, "decrypt: failed to decrypt: " + (data == null ? null : data.length));
             return null;
         }
-        if (app == null) app = DigiByte.getContext();
+        if (app == null) app = eMark.getContext();
         if (app == null) return null;
         if (tempAuthKey == null) {
             retrieveAuthKey(app);

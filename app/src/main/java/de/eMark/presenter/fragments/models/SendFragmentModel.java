@@ -10,7 +10,7 @@ import android.text.TextUtils;
 import java.math.BigDecimal;
 
 import de.eMark.BR;
-import de.eMark.DigiByte;
+import de.eMark.eMark;
 import de.eMark.R;
 import de.eMark.presenter.activities.util.ActivityUTILS;
 import de.eMark.tools.manager.BRSharedPrefs;
@@ -21,8 +21,8 @@ import de.eMark.wallet.BRWalletManager;
 public class SendFragmentModel extends BaseObservable implements Parcelable {
 
     private StringBuilder amountBuilder = new StringBuilder("");
-    private String selectedIso = BRSharedPrefs.getPreferredBTC(DigiByte.getContext()) ? "DEM"
-            : BRSharedPrefs.getIso(DigiByte.getContext());
+    private String selectedIso = BRSharedPrefs.getPreferredBTC(eMark.getContext()) ? "DEM"
+            : BRSharedPrefs.getIso(eMark.getContext());
     private String enteredAddress = "";
     private String memo = "";
     private boolean showSendWaiting = false;
@@ -36,12 +36,12 @@ public class SendFragmentModel extends BaseObservable implements Parcelable {
 
     @Bindable
     public String getIsoText() {
-        return BRCurrency.getSymbolByIso(DigiByte.getContext(), getSelectedIso());
+        return BRCurrency.getSymbolByIso(eMark.getContext(), getSelectedIso());
     }
 
     @Bindable
     public String getIsoButtonText() {
-        return BRCurrency.getCurrencyName(DigiByte.getContext(), getSelectedIso());
+        return BRCurrency.getCurrencyName(eMark.getContext(), getSelectedIso());
     }
 
     @Bindable
@@ -59,9 +59,9 @@ public class SendFragmentModel extends BaseObservable implements Parcelable {
     public int getBalanceTextColor() {
         if (validAmount() && new BigDecimal(getAmount()).doubleValue()
                 > getBalanceForISO().doubleValue()) {
-            return ContextCompat.getColor(DigiByte.getContext(), R.color.warning_color);
+            return ContextCompat.getColor(eMark.getContext(), R.color.warning_color);
         } else {
-            return ContextCompat.getColor(DigiByte.getContext(),R.color.white);
+            return ContextCompat.getColor(eMark.getContext(),R.color.white);
         }
     }
 
@@ -69,9 +69,9 @@ public class SendFragmentModel extends BaseObservable implements Parcelable {
     public int getFeeTextColor() {
         if (validAmount() && new BigDecimal(getAmount()).doubleValue()
                 > getBalanceForISO().doubleValue()) {
-            return ContextCompat.getColor(DigiByte.getContext(),R.color.warning_color);
+            return ContextCompat.getColor(eMark.getContext(),R.color.warning_color);
         } else {
-            return ContextCompat.getColor(DigiByte.getContext(),R.color.white);
+            return ContextCompat.getColor(eMark.getContext(),R.color.white);
         }
     }
 
@@ -79,9 +79,9 @@ public class SendFragmentModel extends BaseObservable implements Parcelable {
     public int getAmountEditTextColor() {
         if (validAmount() && new BigDecimal(getAmount()).doubleValue()
                 > getBalanceForISO().doubleValue()) {
-            return ContextCompat.getColor(DigiByte.getContext(),R.color.warning_color);
+            return ContextCompat.getColor(eMark.getContext(),R.color.warning_color);
         } else {
-            return ContextCompat.getColor(DigiByte.getContext(),R.color.white);
+            return ContextCompat.getColor(eMark.getContext(),R.color.white);
         }
     }
 
@@ -89,9 +89,9 @@ public class SendFragmentModel extends BaseObservable implements Parcelable {
     public int getISOTextColor() {
         if (validAmount() && new BigDecimal(getAmount()).doubleValue()
                 > getBalanceForISO().doubleValue()) {
-            return ContextCompat.getColor(DigiByte.getContext(),R.color.warning_color);
+            return ContextCompat.getColor(eMark.getContext(),R.color.warning_color);
         } else {
-            return ContextCompat.getColor(DigiByte.getContext(),R.color.white);
+            return ContextCompat.getColor(eMark.getContext(),R.color.white);
         }
     }
 
@@ -106,7 +106,7 @@ public class SendFragmentModel extends BaseObservable implements Parcelable {
         if (TextUtils.isEmpty(approximateFee)) {
             approximateFee = "";
         }
-        return DigiByte.getContext().getString(R.string.Send_fee).replace("%1$s", approximateFee);
+        return eMark.getContext().getString(R.string.Send_fee).replace("%1$s", approximateFee);
     }
 
     public String getAmount() {
@@ -131,7 +131,7 @@ public class SendFragmentModel extends BaseObservable implements Parcelable {
 
     @Bindable
     public boolean getMaxSendVisibility() {
-        return BRSharedPrefs.getGenericSettingsSwitch(DigiByte.getContext(), "max_send_enabled");
+        return BRSharedPrefs.getGenericSettingsSwitch(eMark.getContext(), "max_send_enabled");
     }
 
     public void showSendWaiting(boolean show) {
@@ -197,12 +197,12 @@ public class SendFragmentModel extends BaseObservable implements Parcelable {
     }
 
     private BigDecimal getFeeForISO() {
-        return BRExchange.getAmountFromSatoshis(DigiByte.getContext(), getSelectedIso(),
+        return BRExchange.getAmountFromSatoshis(eMark.getContext(), getSelectedIso(),
                 new BigDecimal(getFee()));
     }
 
     private String getApproximateFee() {
-        return BRCurrency.getFormattedCurrencyString(DigiByte.getContext(), getSelectedIso(),
+        return BRCurrency.getFormattedCurrencyString(eMark.getContext(), getSelectedIso(),
                 getFeeForISO());
     }
 
@@ -211,8 +211,8 @@ public class SendFragmentModel extends BaseObservable implements Parcelable {
             return 0;
         }
         long satoshis = selectedIso.equalsIgnoreCase("dem") ? BRExchange.getSatoshisForBitcoin(
-                DigiByte.getContext(), new BigDecimal(getAmount())).longValue()
-                : BRExchange.getSatoshisFromAmount(DigiByte.getContext(), getSelectedIso(),
+                eMark.getContext(), new BigDecimal(getAmount())).longValue()
+                : BRExchange.getSatoshisFromAmount(eMark.getContext(), getSelectedIso(),
                         new BigDecimal(getAmount())).longValue();
         return satoshis;
     }
@@ -231,12 +231,12 @@ public class SendFragmentModel extends BaseObservable implements Parcelable {
     }
 
     private BigDecimal getBalanceForISO() {
-        return BRExchange.getAmountFromSatoshis(DigiByte.getContext(), getSelectedIso(),
-                new BigDecimal(BRWalletManager.getInstance().getBalance(DigiByte.getContext())));
+        return BRExchange.getAmountFromSatoshis(eMark.getContext(), getSelectedIso(),
+                new BigDecimal(BRWalletManager.getInstance().getBalance(eMark.getContext())));
     }
 
     private String getFormattedBalance() {
-        return BRCurrency.getFormattedCurrencyString(DigiByte.getContext(), getSelectedIso(),
+        return BRCurrency.getFormattedCurrencyString(eMark.getContext(), getSelectedIso(),
                 getBalanceForISO());
     }
 

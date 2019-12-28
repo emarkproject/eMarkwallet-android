@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import de.eMark.DigiByte;
+import de.eMark.eMark;
 import de.eMark.R;
 import de.eMark.databinding.TransactionDetailsItemBinding;
 import de.eMark.presenter.entities.TxItem;
@@ -82,9 +82,9 @@ public class FragmentTransactionItem extends Fragment {
         binding.currentFiatAmountText.setSelected(true);
         binding.cryptoAmountText.setSelected(true);
         binding.amountSwitcher.setDisplayedChild(
-                (BRSharedPrefs.getPreferredBTC(DigiByte.getContext())
+                (BRSharedPrefs.getPreferredBTC(eMark.getContext())
                         || viewModel.currentFiatAmountEqualsOriginalFiatAmount() && !BRSharedPrefs.getPreferredBTC(
-                        DigiByte.getContext())) ? 0 : 1);
+                        eMark.getContext())) ? 0 : 1);
         return binding.getRoot();
     }
 }

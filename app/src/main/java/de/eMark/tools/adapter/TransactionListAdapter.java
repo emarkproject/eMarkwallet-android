@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 
-import de.eMark.DigiByte;
+import de.eMark.eMark;
 import de.eMark.databinding.ListItemTransactionBinding;
 import de.eMark.presenter.entities.TxItem;
 import de.eMark.presenter.fragments.models.TransactionDetailsViewModel;
@@ -90,11 +90,11 @@ public class TransactionListAdapter extends RecyclerView.Adapter<ListItemTransac
             boolean commentUpdated = !currentComment.equals(newComment);
             boolean timeChange = !currentTime.equals(newTime);
 
-            int confirms = BRSharedPrefs.getLastBlockHeight(DigiByte.getContext())
+            int confirms = BRSharedPrefs.getLastBlockHeight(eMark.getContext())
                     - listItemTransactionData.getTransactionItem().getBlockHeight() + 1;
             if ((confirms <= 8 || commentUpdated || timeChange) && isPositionOnscreen(
                     listItemData.indexOf(listItemTransactionData))) {
-                BRWalletManager.getInstance().refreshBalance(DigiByte.getContext());
+                BRWalletManager.getInstance().refreshBalance(eMark.getContext());
                 ListItemTransactionViewHolder listItemTransactionViewHolder =
                         (ListItemTransactionViewHolder) recyclerView
                                 .findViewHolderForAdapterPosition(

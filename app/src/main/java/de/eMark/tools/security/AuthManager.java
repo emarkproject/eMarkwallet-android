@@ -14,7 +14,7 @@ import android.view.View;
 
 import com.appolica.flubber.Flubber;
 
-import de.eMark.DigiByte;
+import de.eMark.eMark;
 import de.eMark.R;
 import de.eMark.presenter.activities.DisabledActivity;
 import de.eMark.presenter.activities.util.ActivityUTILS;
@@ -54,9 +54,9 @@ public class AuthManager {
     public static final String TAG = AuthManager.class.getName();
     private static AuthManager instance;
     private String previousTry;
-    private static Drawable pinSelected = ContextCompat.getDrawable(DigiByte.getContext(),
+    private static Drawable pinSelected = ContextCompat.getDrawable(eMark.getContext(),
             R.drawable.pin_selected);
-    private static Drawable pinUnselected = ContextCompat.getDrawable(DigiByte.getContext(),
+    private static Drawable pinUnselected = ContextCompat.getDrawable(eMark.getContext(),
             R.drawable.pin_unselected);
 
     private AuthManager() {

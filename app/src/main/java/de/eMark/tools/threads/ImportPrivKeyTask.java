@@ -3,7 +3,7 @@ package de.eMark.tools.threads;
 import android.app.Activity;
 import android.os.AsyncTask;
 
-import de.eMark.DigiByte;
+import de.eMark.eMark;
 import de.eMark.BuildConfig;
 import de.eMark.R;
 import de.eMark.presenter.customviews.BRDialogView;
@@ -59,7 +59,7 @@ public class ImportPrivKeyTask extends AsyncTask<String, String, String> {
 
     public ImportPrivKeyTask(Activity activity) {
         app = activity;
-        UNSPENT_URL = BuildConfig.BITCOIN_TESTNET ? "https://test-insight.bitpay.com/api/addrs/" : "https://" + DigiByte.HOST + "/q/addr/";
+        UNSPENT_URL = BuildConfig.BITCOIN_TESTNET ? "https://test-insight.bitpay.com/api/addrs/" : "https://" + eMark.HOST + "/q/addr/";
     }
 
     @Override

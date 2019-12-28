@@ -15,7 +15,7 @@ import android.view.View;
 
 import java.math.BigDecimal;
 
-import de.eMark.DigiByte;
+import de.eMark.eMark;
 import de.eMark.R;
 import de.eMark.databinding.ActivityFingerprintBinding;
 import de.eMark.presenter.activities.util.BRActivity;
@@ -89,7 +89,7 @@ public class FingerprintActivity extends BRActivity {
         if (digibyte.equals(BigDecimal.ZERO)) {
             return String.format(getString(R.string.TouchIdSettings_spendingLimit),
                     BRCurrency.getFormattedCurrencyString(this, "DEM", digibyte),
-                    DigiByte.getContext().getString(R.string.no_limit));
+                    eMark.getContext().getString(R.string.no_limit));
         }
         BigDecimal curAmount = BRExchange.getAmountFromSatoshis(this, iso, digibyte.multiply(new BigDecimal(1000000)));
         //formatted string for the label

@@ -25,7 +25,7 @@ import android.view.ViewGroup;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.TextView;
 
-import de.eMark.DigiByte;
+import de.eMark.eMark;
 import de.eMark.R;
 import de.eMark.databinding.FragmentBreadPinBinding;
 import de.eMark.presenter.fragments.interfaces.OnBackPressListener;
@@ -199,7 +199,7 @@ public class FragmentPin extends Fragment implements OnBackPressListener {
     private void fadeOutRemove(boolean authenticated) {
         ObjectAnimator colorFade = BRAnimator.animateBackgroundDim(binding.mainLayout, true, null);
         colorFade.setDuration(500);
-        Animator downToBottom = AnimatorInflater.loadAnimator(DigiByte.getContext(), R.animator.to_bottom);
+        Animator downToBottom = AnimatorInflater.loadAnimator(eMark.getContext(), R.animator.to_bottom);
         downToBottom.setTarget(binding.brkeyboard);
         downToBottom.setDuration(500);
         downToBottom.setInterpolator(new DecelerateInterpolator());
