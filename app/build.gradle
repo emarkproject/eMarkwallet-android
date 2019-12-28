@@ -28,8 +28,8 @@ android {
         applicationId = 'de.eMark'
         minSdkVersion 17
         targetSdkVersion 27
-        versionCode 201
-        versionName "2.0.1"
+        versionCode 203
+        versionName "2.0.3"
         multiDexEnabled true
         // Similar to other properties in the defaultConfig block,
         // you can configure the ndk block for each product flavor
@@ -68,7 +68,7 @@ android {
     flavorDimensions "mode"
 
     productFlavors {
-        digibyte {
+        emark {
             applicationId "de.eMark"
             dimension "mode"
             resValue "string", "app_name", "eMark"
@@ -85,7 +85,7 @@ android {
             }
         }
 
-        digibyteTestnet {
+        emarkTestnet {
             applicationId "de.eMarktestnet"
             dimension "mode"
             resValue "string", "app_name", "eMark-testnet"
