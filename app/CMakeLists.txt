@@ -64,42 +64,6 @@ add_library( # Specifies the name of the library.
              src/main/jni/eMarkwallet-core/BRTransaction.h
              src/main/jni/eMarkwallet-core/BRWallet.c
              src/main/jni/eMarkwallet-core/BRWallet.h
-             src/main/jni/eMarkwallet-core/crypto/sha256.h
-             src/main/jni/eMarkwallet-core/crypto/groestl.c
-             src/main/jni/eMarkwallet-core/crypto/groestl.h
-             src/main/jni/eMarkwallet-core/crypto/qubit.c
-             src/main/jni/eMarkwallet-core/crypto/qubit.h
-             src/main/jni/eMarkwallet-core/crypto/skein.c
-             src/main/jni/eMarkwallet-core/crypto/skein.h
-             src/main/jni/eMarkwallet-core/crypto/sha3/aes_helper.c
-             src/main/jni/eMarkwallet-core/crypto/sha3/blake.c
-             src/main/jni/eMarkwallet-core/crypto/sha3/bmw.c
-             src/main/jni/eMarkwallet-core/crypto/sha3/cubehash.c
-             src/main/jni/eMarkwallet-core/crypto/sha3/groestl.c
-             src/main/jni/eMarkwallet-core/crypto/sha3/hashblock.h
-             src/main/jni/eMarkwallet-core/crypto/sha3/keccak.c
-             src/main/jni/eMarkwallet-core/crypto/sha3/skein.c
-             src/main/jni/eMarkwallet-core/crypto/sha3/sph_types.h
-             src/main/jni/eMarkwallet-core/crypto/sha3/sph_blake.h
-             src/main/jni/eMarkwallet-core/crypto/sha3/sph_bmw.h
-             src/main/jni/eMarkwallet-core/crypto/sha3/sph_cubehash.h
-             src/main/jni/eMarkwallet-core/crypto/sha3/sph_groestl.h
-             src/main/jni/eMarkwallet-core/crypto/sha3/sph_keccak.h
-             src/main/jni/eMarkwallet-core/crypto/sha3/sph_skein.h
-             src/main/jni/eMarkwallet-core/crypto/sha3/sph_luffa.c
-             src/main/jni/eMarkwallet-core/crypto/sha3/sph_luffa.h
-             src/main/jni/eMarkwallet-core/crypto/sha3/sph_shavite.c
-             src/main/jni/eMarkwallet-core/crypto/sha3/sph_shavite.h
-             src/main/jni/eMarkwallet-core/crypto/sha3/sph_simd.c
-             src/main/jni/eMarkwallet-core/crypto/sha3/sph_simd.h
-             src/main/jni/eMarkwallet-core/crypto/sha3/sph_echo.c
-             src/main/jni/eMarkwallet-core/crypto/sha3/sph_echo.h
-
-             #include "sha3/sph_luffa.h"
-             #include "sha3/sph_shavite.h"
-             #include "sha3/sph_simd.h"
-             #include "sha3/sph_echo.h"
-
              src/main/jni/transition/core.c
              src/main/jni/transition/core.h
              src/main/jni/transition/JNIBase58.c
